@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "item": "contenttweaker:time"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "contenttweaker:time"
+  }
+}
