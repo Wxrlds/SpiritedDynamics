@@ -1,0 +1,6 @@
+execute at @a[scores={sinceDeath=..6000},nbt={SelectedItem:{id:"bloodmagic:sacrificialdagger"}}] run summon item ~ ~ ~ {PickupDelay:100,Item:{id:"bloodmagic:sacrificialdagger",Count:1b}}
+execute at @a[scores={sinceDeath=..6000},nbt={Inventory:[{id:"bloodmagic:sacrificialdagger",Count:1b,Slot:-106b}]}] run summon item ~ ~ ~ {PickupDelay:100,Item:{id:"bloodmagic:sacrificialdagger",Count:1b}}
+execute as @a[scores={sinceDeath=..6000},nbt={SelectedItem:{id:"bloodmagic:sacrificialdagger"}}] run tellraw @s {"text":"Your hands are still shaking from your most recent death causing you to drop the dagger instantly."}
+execute as @a[scores={sinceDeath=..6000},nbt={Inventory:[{id:"bloodmagic:sacrificialdagger",Count:1b,Slot:-106b}]}] run tellraw @s {"text":"Your hands are still shaking from your most recent death causing you to drop the dagger instantly."}
+execute as @a[scores={sinceDeath=..6000},nbt={Inventory:[{id:"bloodmagic:sacrificialdagger",Count:1b,Slot:-106b}]}] run clear @s bloodmagic:sacrificialdagger 1
+execute as @a[scores={sinceDeath=..6000},nbt={SelectedItem:{id:"bloodmagic:sacrificialdagger"}}] run clear @s bloodmagic:sacrificialdagger 1

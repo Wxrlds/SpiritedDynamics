@@ -1,0 +1,31 @@
+//Disable Eidolon Sulfur
+
+//Give new Material Saturium a recipe
+
+//Polished Wood Planks need Lesser Soul Gem
+
+//Lesser Soul Gem needs additionally Essence of Death + Certus Quartz (instead of Quartz)
+
+//Arcane Gold is 2 Gold + 2 Redstone + Essence of Death
+
+//Unholy Symbol needs Demonic Slate instead of Gold Inlay
+
+//Gravel, Flint Loophole Alchemistry check if author fixes 													https://github.com/al132mc/alchemistry/issues/162
+
+//Apotheosis Spawner spawn conditions & nearby player
+
+//Check if Eidolon is possible with daylight manipulation
+
+//Certus from Skystone
+
+//Flügel Tiara needs Elytra/Something else to not make Magic Feather useless
+
+//Vicio Mantle needs Flügel Tiara
+
+//FTBQuests team rewards
+
+//Move sooty marble quest out of the way
+
+//Fel Pumpkin needs Sheared face
+
+//Glass bottle Quest on Witch -> Water bucket

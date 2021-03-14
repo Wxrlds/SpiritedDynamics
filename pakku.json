@@ -1,0 +1,14 @@
+{
+  "name": "Spirited Dynamics",
+  "version": "0.0.02",
+  "description": "Spirited Dynamics - A light 1.16.5 expert Skyblock Modpack",
+  "author": "wxrlds_",
+  "overrides": [
+    "config",
+    "defaultconfigs",
+    "openloader",
+    "scripts",
+    "!config/ftbquests",
+    "!config/jei/bookmarks.ini"
+  ]
+}
