@@ -36,3 +36,37 @@
 	},
 	"time": 600
 });
+
+//Ancient Sapling
+<recipetype:naturesaura:tree_ritual>.removeRecipe(<item:naturesaura:ancient_sapling>);
+<recipetype:naturesaura:tree_ritual>.addJSONRecipe("naturesaura/treeritual/ancient_sapling",{
+	"type": "naturesaura:tree_ritual",
+	"ingredients": [
+		{
+			"item": "minecraft:birch_sapling"
+		},
+		{
+			"item": "minecraft:dandelion"
+		},
+		{
+			"item": "minecraft:poppy"
+		},
+		{
+			"item": "minecraft:wheat_seeds"
+		},
+		{
+			"item": "minecraft:sugar_cane"
+		},
+		{
+			"item": "naturesaura:gold_leaf"
+		}
+	],
+	"sapling": {
+		"item": "minecraft:birch_sapling"
+	},
+	"output": {
+		"item": "naturesaura:ancient_sapling",
+		"count": 2
+	},
+	"time": 200
+});

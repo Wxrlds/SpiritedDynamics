@@ -4,7 +4,7 @@
         "1.16.5"
     ],
     "loaders": {
-        "forge": "36.0.58"
+        "forge": "36.1.0"
     },
     "projects": [
         {
@@ -299,7 +299,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "architectury-1.8.131-forge.jar",
+                    "file_name": "architectury-1.9.132-forge.jar",
                     "mc_versions": [
                         "1.16.5",
                         "1.16.4"
@@ -308,16 +308,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/3229/582/architectury-1.8.131-forge.jar",
-                    "id": "3229582",
+                    "url": "https://edge.forgecdn.net/files/3241/426/architectury-1.9.132-forge.jar",
+                    "id": "3241426",
                     "parent_id": "419699",
                     "hashes": {
-                        "sha1": "b4ce3f4123f520e659867244dcb34b61fe5896a1",
-                        "md5": "052671e139737e9b7f28e2076e2deb02"
+                        "sha1": "1416a244095173b6c1d2919e80bb4a882aba80f1",
+                        "md5": "ab68e62c41f03212af0912b8c5a94a3f"
                     },
                     "required_dependencies": [],
-                    "size": 304598,
-                    "date_published": "2021-03-07T17:22:23.167Z"
+                    "size": 304577,
+                    "date_published": "2021-03-16T16:07:02.300Z"
                 }
             ]
         },
@@ -1051,9 +1051,10 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "constructionwand-1.16.2-1.7.jar",
+                    "file_name": "constructionwand-1.16.5-2.0.jar",
                     "mc_versions": [
                         "1.16.3",
+                        "1.16.5",
                         "1.16.4",
                         "1.16.2"
                     ],
@@ -1061,16 +1062,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/3132/410/constructionwand-1.16.2-1.7.jar",
-                    "id": "3132410",
+                    "url": "https://edge.forgecdn.net/files/3239/912/constructionwand-1.16.5-2.0.jar",
+                    "id": "3239912",
                     "parent_id": "399558",
                     "hashes": {
-                        "sha1": "97df12964c0aa5b52550cb19c64fd666664bb0d4",
-                        "md5": "37d8b02e7113bda2ff042f1197a5e23e"
+                        "sha1": "c3b2010d6dc9da1c9b6f910265b4db669a4ebd87",
+                        "md5": "d7e873111e30b4f0955f31c51642cc39"
                     },
                     "required_dependencies": [],
-                    "size": 157329,
-                    "date_published": "2020-12-06T19:22:41.707Z"
+                    "size": 194908,
+                    "date_published": "2021-03-15T06:50:44.320Z"
                 }
             ]
         },
@@ -1236,7 +1237,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "CraftTweaker-1.16.5-7.1.0.151.jar",
+                    "file_name": "CraftTweaker-1.16.5-7.1.0.157.jar",
                     "mc_versions": [
                         "1.16.5",
                         "1.16.4"
@@ -1245,18 +1246,18 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/3238/584/CraftTweaker-1.16.5-7.1.0.151.jar",
-                    "id": "3238584",
+                    "url": "https://edge.forgecdn.net/files/3242/557/CraftTweaker-1.16.5-7.1.0.157.jar",
+                    "id": "3242557",
                     "parent_id": "239197",
                     "hashes": {
-                        "sha1": "b9a7e804402d6779ca8186a186ef77a2dacfd0d0",
-                        "md5": "71c77da59f05e38025a3706923d7cf13"
+                        "sha1": "1dda27a4c67071f72de56a4db80d59d3bfb7225a",
+                        "md5": "f7959305d492b4c48a2a003000fbd850"
                     },
                     "required_dependencies": [
                         "368718"
                     ],
                     "size": 1882066,
-                    "date_published": "2021-03-13T22:56:05.600Z"
+                    "date_published": "2021-03-17T13:00:18.623Z"
                 }
             ]
         },
@@ -1586,6 +1587,42 @@
             ]
         },
         {
+            "pakku_id": "kvEy9Y5GqSRd6BAL",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "edit-sign"
+            },
+            "name": {
+                "curseforge": "EditSign"
+            },
+            "id": {
+                "curseforge": "344996"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "EditSign-Forge-1.16.5-2.2.0.jar",
+                    "mc_versions": [
+                        "1.16.5"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/3169/739/EditSign-Forge-1.16.5-2.2.0.jar",
+                    "id": "3169739",
+                    "parent_id": "344996",
+                    "hashes": {
+                        "sha1": "e19ea230fbd5d14ec168cbbe00be23648e349a45",
+                        "md5": "7fc7d176ae4882eeb789d71783801fbe"
+                    },
+                    "required_dependencies": [],
+                    "size": 48752,
+                    "date_published": "2021-01-15T20:55:53.080Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "zcMXMDEm3RlnMIe5",
             "type": "MOD",
             "slug": {
@@ -1800,7 +1837,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ftb-quests-1605.2.0-build.33-forge.jar",
+                    "file_name": "ftb-quests-1605.2.1-build.34-forge.jar",
                     "mc_versions": [
                         "1.16.5",
                         "1.16.4"
@@ -1809,20 +1846,20 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/3231/868/ftb-quests-1605.2.0-build.33-forge.jar",
-                    "id": "3231868",
+                    "url": "https://edge.forgecdn.net/files/3242/959/ftb-quests-1605.2.1-build.34-forge.jar",
+                    "id": "3242959",
                     "parent_id": "289412",
                     "hashes": {
-                        "sha1": "0139b5128fcf2ff6b61e21ad1a68b2ccb0771eba",
-                        "md5": "44fcb38d95865d42175aef6db3a4678c"
+                        "sha1": "2e4a1baf518ec5b61ee1234de49876e6166fa339",
+                        "md5": "76f111bd1b9319b10acfe35873a8e504"
                     },
                     "required_dependencies": [
                         "404465",
                         "309674",
                         "419699"
                     ],
-                    "size": 869683,
-                    "date_published": "2021-03-08T19:29:10.997Z"
+                    "size": 882165,
+                    "date_published": "2021-03-17T19:03:21.997Z"
                 }
             ]
         },
@@ -2196,7 +2233,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "IntegratedDynamics-1.16.5-1.6.0.jar",
+                    "file_name": "IntegratedDynamics-1.16.5-1.6.1.jar",
                     "mc_versions": [
                         "1.16.5"
                     ],
@@ -2204,19 +2241,19 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/3231/823/IntegratedDynamics-1.16.5-1.6.0.jar",
-                    "id": "3231823",
+                    "url": "https://edge.forgecdn.net/files/3239/115/IntegratedDynamics-1.16.5-1.6.1.jar",
+                    "id": "3239115",
                     "parent_id": "236307",
                     "hashes": {
-                        "sha1": "da8dcc7f0ace291ef011fadf686acd1ac083f4d4",
-                        "md5": "8fc37324232880971254fbf11f49e2b2"
+                        "sha1": "f7190d07bdc1f31a3b39a49a6430d998f6af9c3c",
+                        "md5": "83ee7a4335b560129a5ae57d433671eb"
                     },
                     "required_dependencies": [
                         "247007",
                         "232758"
                     ],
-                    "size": 3135852,
-                    "date_published": "2021-03-08T18:54:30.657Z"
+                    "size": 3136631,
+                    "date_published": "2021-03-14T12:54:06.150Z"
                 }
             ]
         },
@@ -2318,7 +2355,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "IntegratedTunnels-1.16.5-1.6.17.jar",
+                    "file_name": "IntegratedTunnels-1.16.5-1.7.0.jar",
                     "mc_versions": [
                         "1.16.5"
                     ],
@@ -2326,19 +2363,19 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/3225/375/IntegratedTunnels-1.16.5-1.6.17.jar",
-                    "id": "3225375",
+                    "url": "https://edge.forgecdn.net/files/3239/110/IntegratedTunnels-1.16.5-1.7.0.jar",
+                    "id": "3239110",
                     "parent_id": "251389",
                     "hashes": {
-                        "sha1": "9494adf033fa6e28cc044844390b2a41b8e01819",
-                        "md5": "77539c0c00e0ce931a3e7366e282fbc3"
+                        "sha1": "336fe9876b0b3509bfba5ce60987ce7ae6605514",
+                        "md5": "ac14de9d162facd9546ad131bb8428a9"
                     },
                     "required_dependencies": [
                         "236307",
                         "232758"
                     ],
-                    "size": 490124,
-                    "date_published": "2021-03-03T18:46:28.240Z"
+                    "size": 545981,
+                    "date_published": "2021-03-14T12:53:32.737Z"
                 }
             ]
         },
@@ -3235,7 +3272,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "MythicBotany-1.16.3-1.2.7.jar",
+                    "file_name": "MythicBotany-1.16.3-1.2.8.jar",
                     "mc_versions": [
                         "1.16.5",
                         "1.16.4"
@@ -3244,19 +3281,19 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/3233/393/MythicBotany-1.16.3-1.2.7.jar",
-                    "id": "3233393",
+                    "url": "https://edge.forgecdn.net/files/3241/113/MythicBotany-1.16.3-1.2.8.jar",
+                    "id": "3241113",
                     "parent_id": "400058",
                     "hashes": {
-                        "sha1": "14cf2d42f14e474ce7fc47a0ff19a62f33b2b4aa",
-                        "md5": "2b829d230bdb658dee83737317b0d200"
+                        "sha1": "45f4e1a89296eaf5f2cbe319ef185896d38c2855",
+                        "md5": "71c3bfcfb9556d9a59841c27c296d6ac"
                     },
                     "required_dependencies": [
                         "225643",
                         "412525"
                     ],
-                    "size": 410693,
-                    "date_published": "2021-03-09T20:01:09.177Z"
+                    "size": 411100,
+                    "date_published": "2021-03-16T08:02:35.600Z"
                 }
             ]
         },
@@ -3733,7 +3770,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "skyblockbuilder-1.16.4-1.0.14.jar",
+                    "file_name": "skyblockbuilder-1.16.4-1.0.15.jar",
                     "mc_versions": [
                         "1.16.5",
                         "1.16.4"
@@ -3742,16 +3779,16 @@
                         "forge"
                     ],
                     "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/3238/819/skyblockbuilder-1.16.4-1.0.14.jar",
-                    "id": "3238819",
+                    "url": "https://edge.forgecdn.net/files/3243/48/skyblockbuilder-1.16.4-1.0.15.jar",
+                    "id": "3243048",
                     "parent_id": "446691",
                     "hashes": {
-                        "sha1": "b37d27517e465d37ab03d1f0f984e9713422ebea",
-                        "md5": "7d3398369ad4067bd3c83b1b819bc589"
+                        "sha1": "b2fbfb5b4dd5bb36b4711df238d8a7dfc269a1b3",
+                        "md5": "697aaa56b2e3a20ae00d67a02d268d18"
                     },
                     "required_dependencies": [],
-                    "size": 91819,
-                    "date_published": "2021-03-14T04:41:53.340Z"
+                    "size": 105648,
+                    "date_published": "2021-03-17T20:08:28.127Z"
                 }
             ]
         },

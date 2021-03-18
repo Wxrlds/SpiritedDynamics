@@ -3,7 +3,7 @@
 	group: "",
 	order_index: 0,
 	filename: "guided_mode",
-	title: "Guided Mode",
+	title: "Progression Help",
 	icon: "botania:pure_daisy",
 	default_quest_shape: "",
 	quests: [
@@ -248,7 +248,7 @@
 			}]
 		},
 		{
-			x: 7.0d,
+			x: 8.5d,
 			y: 3.0d,
 			dependencies: ["0C3127A614BC3B0E"],
 			id: "6EDE6DA8587B5C05",
@@ -819,9 +819,9 @@
 		},
 		{
 			icon: "minecraft:water_bucket",
-			x: 14.5d,
-			y: -4.5d,
-			dependencies: ["35C02F4E8068906F"],
+			x: 2.5d,
+			y: 4.5d,
+			dependencies: ["6F4D43A8CC76E45F"],
 			id: "25BE516CC20A1489",
 			tasks: [
 				{

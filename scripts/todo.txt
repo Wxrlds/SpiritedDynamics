@@ -14,18 +14,4 @@
 
 //Apotheosis Spawner spawn conditions & nearby player
 
-//Check if Eidolon is possible with daylight manipulation
-
-//Certus from Skystone
-
-//Flügel Tiara needs Elytra/Something else to not make Magic Feather useless
-
-//Vicio Mantle needs Flügel Tiara
-
-//FTBQuests team rewards
-
-//Move sooty marble quest out of the way
-
-//Fel Pumpkin needs Sheared face
-
-//Glass bottle Quest on Witch -> Water bucket
+//Stone Altar recipe

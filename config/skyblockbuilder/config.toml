@@ -33,6 +33,9 @@
 		stronhold-only = true
 
 [spawn]
+	#The radius to find a valid spawn if no given spawn is valid
+	#Range: > 0
+	radius = 50
 	#Direction the player should look at initial spawn
 	#Allowed Values: NORTH, EAST, SOUTH, WEST
 	direction = "SOUTH"
@@ -51,8 +54,14 @@
 [utility]
 	#Should players be able to create their own team? [default: false]
 	create-own-team = false
-	#Should players be able to teleport to their home island? [default: true]
-	home = true
+
+	[utility.teleports]
+		#Should players be able to teleport to spawn? [default: true]
+		spawn = true
+		#Should players be able to visit other island? [default: true]
+		allow-visits = true
+		#Should players be able to teleport to their home island? [default: true]
+		home = true
 
 	[utility.spawns]
 		#The range from island center for possible spawns to add. [default: 50]
@@ -60,4 +69,20 @@
 		range = 50
 		#Should players be able to modify their spawn positions? [default: false]
 		modify-spawns = false
+
+[world]
+	#Should a surface be generated in overworld? [default: false]
+	surface = false
+	#The block settings for generating the surface.
+	#Same format as flat world generation settings (blocks only)
+	surface-settings = "minecraft:bedrock,2*minecraft:dirt,minecraft:grass_block"
+	#Sea level in world [default: 63]
+	#Range: 0 ~ 256
+	sea-level = 63
+
+	[world.single-biome]
+		#Specifies the biome for the whole world
+		biome = "minecraft:plains"
+		#Should only one biome be generated? [default: false]
+		enabled = false
 

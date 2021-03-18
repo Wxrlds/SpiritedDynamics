@@ -1,5 +1,5 @@
 //Certus Quartz Crystal
-<recipetype:interactio:item_lightning>.addJSONRecipe("appliedenergistics2/item_lightning/charged_certus_quartz",{
+<recipetype:interactio:item_lightning>.addJSONRecipe("appliedenergistics2/itemlightning/charged_certus_quartz",{
 	"type": "interactio:item_lightning",
 	"inputs": [
 		{
@@ -21,7 +21,7 @@
 });
 
 //Certus Quartz Ore
-<recipetype:interactio:item_lightning>.addJSONRecipe("appliedenergistics2/item_lightning/charged_certus_quartz_ore",{
+<recipetype:interactio:item_lightning>.addJSONRecipe("appliedenergistics2/itemlightning/charged_certus_quartz_ore",{
 	"type": "interactio:item_lightning",
 	"inputs": [
 		{
