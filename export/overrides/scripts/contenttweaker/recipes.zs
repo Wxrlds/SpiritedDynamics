@@ -94,8 +94,8 @@
   }
 });
 
-//Lightning
-<recipetype:bloodmagic:array>.addJSONRecipe("contenttweaker/recipes/lightning",{
+//Lightning Block
+<recipetype:bloodmagic:array>.addJSONRecipe("contenttweaker/recipes/lightningblock",{
 	"type": "bloodmagic:array",
 	"texture": "bloodmagic:textures/models/alchemyarrays/sunarray.png",
 	"baseinput": {
@@ -106,22 +106,14 @@
 	},
 	"output": {
 		"item": "contenttweaker:lightning",
-		"count": 16
+		"count": 1
 	}
 });
 
-//Time
-<recipetype:bloodmagic:array>.addJSONRecipe("contenttweaker/recipes/time",{
-	"type": "bloodmagic:array",
-	"texture": "bloodmagic:textures/models/alchemyarrays/sunarray.png",
-	"baseinput": {
-		"item": "minecraft:clock"
-	},
-	"addedinput": {
-		"item": "minecraft:coal"
-	},
-	"output": {
-		"item": "contenttweaker:time",
-		"count": 64
-	}
-});
+//Time Block
+craftingTable.removeRecipe(<item:contenttweaker:time>);
+craftingTable.addShaped("contenttweaker/recipes/timeblock", <item:contenttweaker:time>, [
+	[<item:eidolon:soul_shard>, <item:botania:quartz_dark>, <item:eidolon:soul_shard>],
+    [<item:botania:quartz_dark>, <item:minecraft:clock>, <item:botania:quartz_dark>],
+    [<item:eidolon:soul_shard>, <item:botania:quartz_dark>, <item:eidolon:soul_shard>]
+]);

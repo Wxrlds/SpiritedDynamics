@@ -7,9 +7,9 @@ craftingTable.removeRecipe(<item:extendedcrafting:advanced_table>);
 	"starlight": 200,
 	"pattern": [
 		"_____",
-		"_GLG_",
+		"_GLB_",
 		"_RSR_",
-		"_GFG_",
+		"_BFG_",
 		"_____"
 	],
 	"key": {
@@ -20,13 +20,16 @@ craftingTable.removeRecipe(<item:extendedcrafting:advanced_table>);
 			"item": "extendedcrafting:luminessence_block"
 		},
 		"R": {
-			"item": "chemlib:element_rhenium"
+			"item": "chemlib:element_fluorine"
 		},
 		"S": {
 			"item": "contenttweaker:venuium_ingot"
 		},
 		"F": {
 			"item": "bloodmagic:blankrune"
+		},
+		"B": {
+			"item": "minecraft:magma_block"
 		}
 	},
 	"output": [
@@ -42,7 +45,7 @@ craftingTable.removeRecipe(<item:extendedcrafting:advanced_table>);
 
 //Tier 2 Advanced Auto Crafting Table
 craftingTable.removeRecipe(<item:extendedcrafting:advanced_auto_table>);
-<recipetype:astralsorcery:simple_altar>.addJSONRecipe("extendedcrafting/luminous/advanced_auto_crafting_table",{
+<recipetype:astralsorcery:simple_altar>.addJSONRecipe("extendedcrafting/luminous/advancedautocraftingtable",{
 	"type": "astralsorcery:altar",
 	"altar_type": 0,
 	"duration": 100,
@@ -65,7 +68,7 @@ craftingTable.removeRecipe(<item:extendedcrafting:advanced_auto_table>);
 			"item": "minecraft:magma_block"
 		},
 		"R": {
-			"item": "chemlib:element_rhenium"
+			"item": "chemlib:element_fluorine"
 		},
 		"S": {
 			"item": "extendedcrafting:advanced_table"

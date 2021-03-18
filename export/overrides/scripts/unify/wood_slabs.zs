@@ -19,7 +19,8 @@ val log_to_plank as string[string][IItemStack]= {
   <item:minecraft:spruce_log>			: { item: "minecraft:spruce_planks",			name : "spruce" },
   <item:minecraft:warped_stem>			: { item: "minecraft:warped_planks",			name : "warped" },
   <item:architects_palette:twisted_log> : { item: "architects_palette:twisted_planks",	name : "twisted" },
-  <item:integrateddynamics:menril_log>	: { item: "integrateddynamics:menril_planks",	name : "menril" }
+  <item:integrateddynamics:menril_log>	: { item: "integrateddynamics:menril_planks",	name : "menril" },
+  <item:botania:livingwood>				: { item: "botania:livingwood_planks",			name : "livingwood"}
 };
 
 for log, data in log_to_plank {

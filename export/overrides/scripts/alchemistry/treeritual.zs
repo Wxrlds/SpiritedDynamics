@@ -7,7 +7,7 @@ craftingTable.removeRecipe(<item:alchemistry:chemical_combiner>);
 			"item": "minecraft:diamond_block"
 		},
 		{
-			"item": "minecraft:sticky_piston"
+			"item": "integrateddynamics:facade"
 		},
 		{
 			"item": "botania:mana_powder"

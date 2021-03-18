@@ -1,6 +1,9 @@
 //Digital Miner
 craftingTable.removeRecipe(<item:mekanism:digital_miner>);
 
+//Heat Generator
+craftingTable.removeRecipe(<item:mekanismgenerators:heat_generator>);
+
 //Basic Fluid Tank
 craftingTable.removeRecipe(<item:mekanism:basic_fluid_tank>);
 craftingTable.addShaped("mekanism/craftingtable/basicfluidtank", <item:mekanism:basic_fluid_tank>, [

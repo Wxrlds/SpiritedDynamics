@@ -19,7 +19,7 @@ craftingTable.addShaped("alchemistry/crafting/liquifier", <item:alchemistry:liqu
 //Chemical Dissolver
 craftingTable.removeRecipe(<item:alchemistry:chemical_dissolver>);
 craftingTable.addShaped("alchemistry/crafting/chemical_dissolver", <item:alchemistry:chemical_dissolver>, [
-    [<item:immersiveengineering:coil_lv>, <item:botania:livingrock_bricks_slab>, <item:immersiveengineering:coil_lv>],
+    [<tag:items:forge:plates/gold>, <item:botania:livingrock_bricks_slab>, <tag:items:forge:plates/gold>],
     [<item:minecraft:fire_charge>, <item:minecraft:orange_terracotta>, <item:minecraft:fire_charge>],
     [<item:minecraft:diamond>, <item:minecraft:magma_block>, <item:minecraft:diamond>]
 ]);

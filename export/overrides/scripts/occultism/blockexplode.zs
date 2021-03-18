@@ -1,4 +1,4 @@
-<recipetype:interactio:block_explode>.addJSONRecipe("occultism/block_explode/otherworld/stone",{
+<recipetype:interactio:block_explode>.addJSONRecipe("occultism/blockexplode/otherworld/stone",{
 	"type": "interactio:block_explode",
 	"input": {
 		"block": "bloodmagic:largebloodstonebrick"
@@ -22,7 +22,7 @@
 	}
 });
 
-<recipetype:interactio:block_explode>.addJSONRecipe("occultism/block_explode/ore/iesnium",{
+<recipetype:interactio:block_explode>.addJSONRecipe("occultism/blockexplode/ore/iesnium",{
 	"type": "interactio:block_explode",
 	"input": {
 		"block": "astralsorcery:starmetal_ore"

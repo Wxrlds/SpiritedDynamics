@@ -1,0 +1,31 @@
+{
+	"type": "interactio:item_fluid_transform",
+	"inputs": [
+		{
+			"item": "minecraft:red_mushroom",
+			"count": 1
+		},
+		{
+			"item": "minecraft:honey_bottle",
+			"count": 1,
+			"return_chance": 0.85
+		}
+	],
+	"fluid": {
+		"fluid": "bloodmagic:life_essence_fluid"
+	},
+	"output": {
+		"entries": [
+			{
+				"result": {
+					"item": "minecraft:crimson_fungus",
+					"count": 1
+				},
+				"weight": 1
+			}
+		],
+		"empty_weight": 49,
+		"rolls": 10
+	},
+	"consume_fluid": 0.08
+}
