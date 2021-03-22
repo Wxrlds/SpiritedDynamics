@@ -1,11 +1,28 @@
 =====================================================
+Spirited Dynamics 0.0.3 -> Spirited Dynamics 0.0.4
+=====================================================
+[Clich here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/commit/ee3079c8206f5bfd55eb71818cc3f9abb449312c)
+
+### Changed
+- Moved Nature's Aura aura bar to the bottom left
+
+### Recipes
+- Hellfire Forge
+- Smooth Stone Brick
+- Advanced Crafting Table
+- Infused Wood Planks
+- Living Wood Planks
+- Crimson Stem
+
+=====================================================
 Spirited Dynamics 0.0.2 -> Spirited Dynamics 0.0.3
 =====================================================
 [Clich here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/commit/dae3a3ed26af4dab8093c00a8835a4dd91dac8eb)
 
 ### Changed
-- The way the Time Block and Lightning Block are removed once placed
+- Changed the way the Time Block and Lightning Block are removed once placed
 - Quest Layout
+- Moved the default overlay location of TOP
 
 ### Recipes
 - Advanced Crafting Table
