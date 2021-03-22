@@ -52,6 +52,8 @@
 	clear = false
 
 [utility]
+	#Should players be able to leave their team or invite others? [default: true]
+	self-manage = true
 	#Should players be able to create their own team? [default: false]
 	create-own-team = false
 

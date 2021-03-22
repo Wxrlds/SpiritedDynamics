@@ -112,7 +112,7 @@
 
 //Time Block
 craftingTable.removeRecipe(<item:contenttweaker:time>);
-craftingTable.addShaped("contenttweaker/recipes/timeblock", <item:contenttweaker:time>, [
+craftingTable.addShaped("contenttweaker/recipes/timeblock", <item:contenttweaker:time> * 16, [
 	[<item:eidolon:soul_shard>, <item:botania:quartz_dark>, <item:eidolon:soul_shard>],
     [<item:botania:quartz_dark>, <item:minecraft:clock>, <item:botania:quartz_dark>],
     [<item:eidolon:soul_shard>, <item:botania:quartz_dark>, <item:eidolon:soul_shard>]
