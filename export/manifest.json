@@ -11,12 +11,12 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Spirited Dynamics",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "wxrlds_",
   "files": [
     {
       "projectID": 228525,
-      "fileID": 3170154,
+      "fileID": 3241077,
       "required": true
     },
     {
@@ -26,7 +26,7 @@
     },
     {
       "projectID": 238222,
-      "fileID": 3192904,
+      "fileID": 3245079,
       "required": true
     },
     {
@@ -95,13 +95,13 @@
       "required": true
     },
     {
-      "projectID": 272335,
-      "fileID": 3216456,
+      "projectID": 419699,
+      "fileID": 3247096,
       "required": true
     },
     {
-      "projectID": 419699,
-      "fileID": 3241426,
+      "projectID": 272335,
+      "fileID": 3216456,
       "required": true
     },
     {
@@ -146,7 +146,7 @@
     },
     {
       "projectID": 412525,
-      "fileID": 3235946,
+      "fileID": 3244944,
       "required": true
     },
     {
@@ -195,8 +195,18 @@
       "required": true
     },
     {
+      "projectID": 394535,
+      "fileID": 3207442,
+      "required": true
+    },
+    {
       "projectID": 324177,
       "fileID": 3189806,
+      "required": true
+    },
+    {
+      "projectID": 319194,
+      "fileID": 3216634,
       "required": true
     },
     {
@@ -296,7 +306,12 @@
     },
     {
       "projectID": 239197,
-      "fileID": 3242557,
+      "fileID": 3246320,
+      "required": true
+    },
+    {
+      "projectID": 250832,
+      "fileID": 3238352,
       "required": true
     },
     {
@@ -336,7 +351,7 @@
     },
     {
       "projectID": 446691,
-      "fileID": 3243048,
+      "fileID": 3246959,
       "required": true
     },
     {
@@ -406,7 +421,7 @@
     },
     {
       "projectID": 289412,
-      "fileID": 3242959,
+      "fileID": 3248025,
       "required": true
     },
     {
@@ -450,6 +465,11 @@
       "required": true
     },
     {
+      "projectID": 446207,
+      "fileID": 3247907,
+      "required": true
+    },
+    {
       "projectID": 309927,
       "fileID": 3231111,
       "required": true
@@ -471,7 +491,7 @@
     },
     {
       "projectID": 288885,
-      "fileID": 3171218,
+      "fileID": 3245271,
       "required": true
     },
     {
@@ -521,7 +541,7 @@
     },
     {
       "projectID": 306626,
-      "fileID": 3186734,
+      "fileID": 3246921,
       "required": true
     },
     {

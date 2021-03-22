@@ -12,16 +12,6 @@ craftingTable.addShaped("bloodmagic/crafting/blood_altar", <item:bloodmagic:alta
 craftingTable.removeRecipe(<item:bloodmagic:soulforge>);
 craftingTable.addShaped("bloodmagic/crafting/hellfire_forge", <item:bloodmagic:soulforge>, [
     [<tag:items:forge:ingots/steel>, air, <tag:items:forge:ingots/steel>],
-    [<item:bloodmagic:stonetilepath>, <item:bloodmagic:reinforcedslate>, <item:bloodmagic:stonetilepath>],
-    [<item:bloodmagic:stonetilepath>, <tag:items:forge:storage_blocks/steel>, <item:bloodmagic:stonetilepath>]
+    [<item:bloodmagic:infusedslate>, <item:eidolon:crucible>, <item:bloodmagic:reinforcedslate>],
+    [<item:bloodmagic:reinforcedslate>, <tag:items:forge:storage_blocks/steel>, <item:bloodmagic:infusedslate>]
 ]);
-
-//Alchemical Reaction Chamber
-/*
-craftingTable.removeRecipe(<item:bloodmagic:alchemicalreactionchamber>);
-craftingTable.addShaped("bloodmagic/crafting/alchemicalreactionchamber", <item:bloodmagic:alchemicalreactionchamber>, [
-    [<tag:items:forge:ingots/steel>, air, <tag:items:forge:ingots/steel>],
-    [<item:bloodmagic:stonetilepath>, <item:bloodmagic:reinforcedslate>, <item:bloodmagic:stonetilepath>],
-    [<item:bloodmagic:stonetilepath>, <tag:items:forge:storage_blocks/steel>, <item:bloodmagic:stonetilepath>]
-]);
-*/
