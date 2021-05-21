@@ -1,0 +1,15 @@
+{
+	"type": "eidolon:crucible",
+	"steps": [
+		{
+			"items": [
+				{
+					"item": "minecraft:air"
+				}
+			]
+		}
+	],
+	"result": {
+		"item": "minecraft:air"
+	}
+}

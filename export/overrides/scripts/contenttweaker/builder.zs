@@ -17,7 +17,8 @@ new ItemBuilder().build("jupitum_ingot");
 new ItemBuilder().build("saturium_ingot");
 
 //Enriched Iron Bock
-new BlockBuilder().build("enriched_iron_block");
+new BlockBuilder().withHardnessAndResistance(5.0f).withHarvestLevel(2).withHarvestTool(<tooltype:pickaxe>).build("enriched_iron_block");
+
 
 //Lightning
 new BlockBuilder().build("lightning");

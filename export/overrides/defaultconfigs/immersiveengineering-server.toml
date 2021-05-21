@@ -95,7 +95,7 @@
 	charger_consumption = 256
 	#The base Flux that is output by the dynamo. This will be modified by the rotation modifier of the attached water- or windmill
 	#Range: 0.0 ~ 2.147483647E9
-	dynamo_output = 3.0
+	dynamo_output = 0.0
 	#The Flux that will be output by the lightning rod when it is struck
 	#Range: > 0
 	lightning_output = 16000000

@@ -1,20 +1,20 @@
 {
-  "type": "bloodmagic:soulforge",
-  "input0": {
-    "item": "minecraft:cauldron"
-  },
-  "input1": {
-    "item": "botania:livingrock_bricks"
-  },
-  "input2": {
-    "item": "botania:manasteel_ingot"
-  },
-  "input3": {
-    "item": "chemlib:compound_ammonium_chloride"
-  },
-  "output": {
-    "item": "bloodmagic:demoncrucible"
-  },
-  "minimumDrain": 400.0,
-  "drain": 100.0
+	"type": "bloodmagic:soulforge",
+	"input0": {
+		"item": "minecraft:cauldron"
+	},
+	"input1": {
+		"item": "botania:livingrock_bricks"
+	},
+	"input2": {
+		"item": "botania:manasteel_ingot"
+	},
+	"input3": {
+		"item": "chemlib:compound_ammonium_chloride"
+	},
+	"output": {
+		"item": "bloodmagic:demoncrucible"
+	},
+	"minimumDrain": 400.0,
+	"drain": 100.0
 }

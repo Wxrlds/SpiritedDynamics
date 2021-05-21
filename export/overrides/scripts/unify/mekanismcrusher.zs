@@ -67,3 +67,18 @@
 		"count": 1
 	}
 });
+
+//Certus Quartz Dust
+<recipetype:mekanism:crushing>.removeByName("mekanism:compat/appliedenergistics2/certus_crystal_to_dust");
+<recipetype:mekanism:crushing>.addJSONRecipe("appliedenergistics2/mekanismcrusher/certusquartz/dust",{
+	"type": "mekanism:crushing",
+	"input": {
+		"ingredient": {
+			"item": "appliedenergistics2:certus_quartz_crystal"
+		}
+	},
+	"output": {
+		"item": "appliedenergistics2:certus_quartz_dust",
+		"count": 1
+	}
+});

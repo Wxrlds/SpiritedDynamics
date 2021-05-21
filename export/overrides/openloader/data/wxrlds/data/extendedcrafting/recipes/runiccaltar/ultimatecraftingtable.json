@@ -1,0 +1,48 @@
+{
+	"type": "botania:runic_altar",
+	"output": {
+		"item": "extendedcrafting:ultimate_table"
+	},
+	"mana": 500000,
+	"ingredients": [
+		{
+			"item": "occultism:crushed_end_stone"
+		},
+		{
+			"item": "occultism:crushed_end_stone"
+		},
+		{
+			"item": "occultism:crushed_end_stone"
+		},
+		{
+			"item": "occultism:crushed_end_stone"
+		},
+		{
+			"item": "mekanism:dust_netherite"
+		},
+		{
+			"item": "mekanism:dust_netherite"
+		},
+		{
+			"item": "botania:mana_pearl"
+		},
+		{
+			"item": "extendedcrafting:luminessence"
+		},
+		{
+			"item": "extendedcrafting:luminessence"
+		},
+		{
+			"item": "extendedcrafting:luminessence"
+		},
+		{
+			"item": "mekanism:alloy_atomic"
+		},
+		{
+			"item": "botania:lens_damage"
+		},
+		{
+			"item": "botania:lens_explosive"
+		}
+	]
+}

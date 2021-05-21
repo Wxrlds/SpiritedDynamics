@@ -1,0 +1,23 @@
+{
+	"type": "eidolon:worktable",
+	"pattern": [
+		"rir",
+		"iri",
+		"rir"
+	],
+	"reagents": "s   ",
+	"key": {
+		"r": {
+			"item": "extendedcrafting:redstone_nugget"
+		},
+		"i": {
+			"item": "astralsorcery:illumination_powder"
+		},
+		"s": {
+			"item": "minecraft:sea_lantern"
+		}
+	},
+	"result": {
+		"item": "extendedcrafting:luminessence"
+	}
+}

@@ -23,7 +23,6 @@
 			"item": "eidolon:gold_inlay"
 		}
 	},
-	"recipe_class": "astralsorcery:crystal_count",
 	"output": [
 		{
 			"item": "astralsorcery:chisel",
@@ -37,6 +36,7 @@
 });
 
 //Crystal Lens
+<recipetype:astralsorcery:simple_altar>.removeByName("astralsorcery:altar/lens");
 <recipetype:astralsorcery:simple_altar>.addJSONRecipe("astralsorcery/starlightcraftingalter/crystallens",{
   "type": "astralsorcery:altar",
   "altar_type": 1,
@@ -54,7 +54,7 @@
       "item": "astralsorcery:infused_wood_engraved"
     },
     "B": {
-      "tag": "forge:ingots/gold"
+      "item": "eidolon:lesser_soul_gem"
     },
     "C": {
       "item": "astralsorcery:marble_runed"

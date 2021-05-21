@@ -1,0 +1,24 @@
+{
+	"type": "eidolon:worktable",
+	"pattern": [
+		"lsl",
+		"   ",
+		"   "
+	],
+	"reagents": " t t",
+	"key": {
+		"l": {
+			"item": "mekanism:ingot_lead"
+		},
+		"s": {
+			"item": "mekanism:ingot_steel"
+		},
+		"t": {
+			"item": "eidolon:soul_shard"
+		}
+	},
+	"result": {
+		"item": "eidolon:pewter_blend",
+		"count": 2
+	}
+}

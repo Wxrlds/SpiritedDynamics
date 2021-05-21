@@ -1,20 +1,20 @@
 {
-  "type": "bloodmagic:soulforge",
-  "input0": {
-    "item": "bloodmagic:soulforge"
-  },
-  "input1": {
-    "item": "botania:livingrock_bricks"
-  },
-  "input2": {
-    "item": "botania:manasteel_ingot"
-  },
-  "input3": {
-    "item": "botania:mana_glass"
-  },
-  "output": {
-    "item": "bloodmagic:demoncrystallizer"
-  },
-  "minimumDrain": 500.0,
-  "drain": 100.0
+	"type": "bloodmagic:soulforge",
+	"input0": {
+		"item": "bloodmagic:soulforge"
+	},
+	"input1": {
+		"item": "botania:livingrock_bricks"
+	},
+	"input2": {
+		"item": "botania:manasteel_ingot"
+	},
+	"input3": {
+		"item": "botania:mana_glass"
+	},
+	"output": {
+		"item": "bloodmagic:demoncrystallizer"
+	},
+	"minimumDrain": 500.0,
+	"drain": 100.0
 }

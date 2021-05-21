@@ -36,3 +36,40 @@
 
 //Black Dye
 <recipetype:alchemistry:combiner>.removeByName("alchemistry:combiner/black_dye");
+
+//Flint
+<recipetype:alchemistry:combiner>.removeByName("alchemistry:combiner/flint");
+<recipetype:alchemistry:combiner>.addJSONRecipe("alchemistry/chemicalcimbiner/flint",{
+	"type": "alchemistry:combiner",
+	"group": "minecraft:misc",
+	"input": [
+		{
+			"item": "minecraft:air"
+		},
+		{
+			"item": "minecraft:air"
+		},
+		{
+			"item": "minecraft:air"
+		},
+		{
+			"item": "minecraft:air"
+		},
+		{
+			"item": "minecraft:air"
+		},
+		{
+			"item": "minecraft:air"
+		},
+		{
+			"item": "minecraft:air"
+		},
+		{
+			"item": "chemlib:compound_silicon_dioxide",
+			"count": 1
+		}
+	],
+	"result": {
+		"item": "minecraft:flint"
+	}
+});
