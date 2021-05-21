@@ -1,7 +1,7 @@
 =====================================================
 Spirited Dynamics 0.0.4 -> Spirited Dynamics 0.0.5
 =====================================================
-[Clich here for a more detailed changelog]()
+[Clich here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/commit/2cf97182156414bdd006d5d5ad464f690d0ba9c1)
 
 ### Added
 - JEI info page to Dagger of Sacrifice
