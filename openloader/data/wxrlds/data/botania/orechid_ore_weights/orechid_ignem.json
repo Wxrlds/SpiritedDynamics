@@ -1,0 +1,19 @@
+{
+	"values": [
+		{
+			"type": "block",
+			"block": "minecraft:nether_quartz_ore",
+			"weight": 19600
+		},
+		{
+			"type": "block",
+			"block": "minecraft:nether_gold_ore",
+			"weight": 3635
+		},
+		{
+			"type": "block",
+			"block": "minecraft:ancient_debris",
+			"weight": 148
+		}
+	]
+}

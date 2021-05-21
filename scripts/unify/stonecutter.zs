@@ -25,7 +25,9 @@ stoneCutter.addRecipe("unify/stonecutter/steel/block/to_mekanism", <item:mekanis
 stoneCutter.addRecipe("unify/stonecutter/steel/block/to_immersiveengineering", <item:immersiveengineering:storage_steel>, <item:mekanism:block_steel>);
 
 //Silver
-stoneCutter.addRecipe("unify/stonecutter/silver/block/to_immersiveengineering", <item:immersiveengineering:storage_silver>, <item:occultism:silver_block>);
-stoneCutter.addRecipe("unify/stonecutter/silver/block/to_occultism", <item:occultism:silver_block>, <item:immersiveengineering:storage_silver>);
-stoneCutter.addRecipe("unify/stonecutter/silver/ore/to_immersiveengineering", <item:immersiveengineering:ore_silver>, <item:occultism:silver_ore>);
-stoneCutter.addRecipe("unify/stonecutter/silver/ore/to_occultism", <item:occultism:silver_ore>, <item:immersiveengineering:ore_silver>);
+stoneCutter.addRecipe("unify/stonecutter/silver/block/to_immersiveengineering", <item:immersiveengineering:storage_silver>, <item:occultism:silver_block>|<item:eidolon:silver_block>);
+stoneCutter.addRecipe("unify/stonecutter/silver/block/to_occultism", <item:occultism:silver_block>, <item:immersiveengineering:storage_silver>|<item:eidolon:silver_block>);
+stoneCutter.addRecipe("unify/stonecutter/silver/block/to_eidolon", <item:eidolon:silver_block>, <item:immersiveengineering:storage_silver>|<item:occultism:silver_block>);
+stoneCutter.addRecipe("unify/stonecutter/silver/ore/to_immersiveengineering", <item:immersiveengineering:ore_silver>, <item:occultism:silver_ore>|<item:eidolon:silver_ore>);
+stoneCutter.addRecipe("unify/stonecutter/silver/ore/to_occultism", <item:occultism:silver_ore>, <item:immersiveengineering:ore_silver>|<item:eidolon:silver_ore>);
+stoneCutter.addRecipe("unify/stonecutter/silver/ore/to_eidolon", <item:eidolon:silver_ore>, <item:immersiveengineering:ore_silver>|<item:occultism:silver_ore>);

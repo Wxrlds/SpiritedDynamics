@@ -120,3 +120,6 @@ craftingTable.addShaped("immersiveengineering/crafting/highvoltagecoilblock", <i
 	[<tag:items:forge:wires/steel>, <tag:items:forge:ingots/aluminum>, <tag:items:forge:wires/steel>],
 	[<tag:items:forge:wires/steel>, <tag:items:forge:wires/steel>, <tag:items:forge:wires/steel>]
 ]);
+
+//Thermoelectric Generator
+craftingTable.removeRecipe(<item:immersiveengineering:thermoelectric_generator>);

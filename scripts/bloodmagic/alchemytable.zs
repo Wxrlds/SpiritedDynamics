@@ -1,5 +1,5 @@
 <recipetype:bloodmagic:alchemytable>.removeByName("bloodmagic:alchemytable/arcane_ash");
-<recipetype:bloodmagic:alchemytable>.addJSONRecipe("",{
+<recipetype:bloodmagic:alchemytable>.addJSONRecipe("bloodmagic/alchemytable/arcaneashes",{
 	"type": "bloodmagic:alchemytable",
 	"input": [
 		{
@@ -16,8 +16,7 @@
 		}
 	],
 	"output": {
-		"item": "bloodmagic:arcaneashes",
-		"nbt": "{Damage:0}"
+		"item": "bloodmagic:arcaneashes"
 	},
 	"syphon": 750,
 	"ticks": 200,

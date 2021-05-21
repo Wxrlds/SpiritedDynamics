@@ -19,7 +19,7 @@ craftingTable.addShaped("eidolon/crafting/stone_hand", <item:eidolon:stone_hand>
 //Magic Workbench
 craftingTable.removeRecipe(<item:eidolon:worktable>);
 craftingTable.addShaped("eidolon/crafting/magic_workbench", <item:eidolon:worktable>, [
-    [<item:minecraft:red_carpet>, <item:minecraft:red_carpet>, <item:minecraft:red_carpet>],
+    [<item:minecraft:purple_carpet>, <item:minecraft:purple_carpet>, <item:minecraft:purple_carpet>],
     [<tag:items:forge:ingots/steel>, <tag:items:minecraft:planks>, <tag:items:forge:ingots/steel>],
     [<tag:items:minecraft:planks>, <tag:items:minecraft:planks>, <tag:items:minecraft:planks>]
 ]);

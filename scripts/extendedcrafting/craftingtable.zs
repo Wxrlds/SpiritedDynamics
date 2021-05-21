@@ -1,33 +1,65 @@
-import crafttweaker.api.item.IItemStack;
+//Advanced Catalyst
+craftingTable.removeRecipe(<item:extendedcrafting:advanced_catalyst>);
 
-//Remove by item id and hide
-val remRecipeHide as IItemStack[]=[
-<item:extendedcrafting:advanced_catalyst>,
-<item:extendedcrafting:advanced_component>,
-<item:extendedcrafting:basic_catalyst>,
-<item:extendedcrafting:basic_component>,
-<item:extendedcrafting:black_iron_slate>,
-<item:extendedcrafting:crystaltine_catalyst>,
-<item:extendedcrafting:crystaltine_component>,
-<item:extendedcrafting:elite_catalyst>,
-<item:extendedcrafting:elite_component>,
-<item:extendedcrafting:ender_catalyst>,
-<item:extendedcrafting:ender_component>,
-<item:extendedcrafting:enhanced_ender_catalyst>,
-<item:extendedcrafting:enhanced_ender_component>,
-<item:extendedcrafting:frame>,
-<item:extendedcrafting:nether_star_block>,
-<item:extendedcrafting:redstone_catalyst>,
-<item:extendedcrafting:redstone_component>,
-<item:extendedcrafting:the_ultimate_catalyst>,
-<item:extendedcrafting:the_ultimate_component>,
-<item:extendedcrafting:ultimate_catalyst>,
-<item:extendedcrafting:ultimate_component>
-];
-for item in remRecipeHide {
-craftingTable.removeRecipe(item);
-mods.jei.JEI.hideItem(item);
-}
+//Advanced Component
+craftingTable.removeRecipe(<item:extendedcrafting:advanced_component>);
+
+//Basic Catalyst
+craftingTable.removeRecipe(<item:extendedcrafting:basic_catalyst>);
+
+//Basic Component
+craftingTable.removeRecipe(<item:extendedcrafting:basic_component>);
+
+//Black Iron Slate
+craftingTable.removeRecipe(<item:extendedcrafting:black_iron_slate>);
+
+//Crystaltine Catalyst
+craftingTable.removeRecipe(<item:extendedcrafting:crystaltine_catalyst>);
+
+//Crystaltine Component
+craftingTable.removeRecipe(<item:extendedcrafting:crystaltine_component>);
+
+//Elite Catalyst
+craftingTable.removeRecipe(<item:extendedcrafting:elite_catalyst>);
+
+//Elite Component
+craftingTable.removeRecipe(<item:extendedcrafting:elite_component>);
+
+//Ender Catalyst
+craftingTable.removeRecipe(<item:extendedcrafting:ender_catalyst>);
+
+//Ender Component
+craftingTable.removeRecipe(<item:extendedcrafting:ender_component>);
+
+//Enhanced Ender Catalyst
+craftingTable.removeRecipe(<item:extendedcrafting:enhanced_ender_catalyst>);
+
+//Enhanced Ender Component
+craftingTable.removeRecipe(<item:extendedcrafting:enhanced_ender_component>);
+
+//Redstone Catalyst
+craftingTable.removeRecipe(<item:extendedcrafting:redstone_catalyst>);
+
+//Redstone Component
+craftingTable.removeRecipe(<item:extendedcrafting:redstone_component>);
+
+//The Ultimate Catalyst
+craftingTable.removeRecipe(<item:extendedcrafting:the_ultimate_catalyst>);
+
+//The Ultimate Component
+craftingTable.removeRecipe(<item:extendedcrafting:the_ultimate_component>);
+
+//Ultimate Catalyst
+craftingTable.removeRecipe(<item:extendedcrafting:ultimate_catalyst>);
+
+//Ultimate Component
+craftingTable.removeRecipe(<item:extendedcrafting:ultimate_component>);
+
+//Black Iron Frame
+craftingTable.removeRecipe(<item:extendedcrafting:frame>);
+
+//Nether Star Block
+craftingTable.removeRecipe(<item:extendedcrafting:nether_star_block>);
 
 //Tier 1 Basic Crafting Table
 craftingTable.removeRecipe(<item:extendedcrafting:basic_table>);

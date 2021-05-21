@@ -1,0 +1,29 @@
+{
+	"type": "eidolon:worktable",
+	"pattern": [
+		"sms",
+		"iri",
+		"sbs"
+	],
+	"reagents": "ssss",
+	"key": {
+		"s": {
+			"item": "bloodmagic:infusedslate"
+		},
+		"m": {
+			"item": "bloodmagic:basemonstersoul"
+		},
+		"i": {
+			"item": "mekanism:dust_iron"
+		},
+		"r": {
+			"item": "immersiveengineering:rs_engineering"
+		},
+		"b": {
+			"item": "bloodmagic:masterbloodorb"
+		}
+	},
+	"result": {
+		"item": "bloodmagic:alchemicalreactionchamber"
+	}
+}

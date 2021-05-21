@@ -4,12 +4,30 @@
 	"group": "minecraft:misc",
 	"input": [
 		{
-			"item": "minecraft:nether_quartz_ore",
-			"count": 2
-		},{
-			"item": "occultism:otherstone",
-			"count": 4
-		},{
+			"item": "mekanism:yellow_cake_uranium",
+			"count": 64
+		},
+		{
+			"item": "mekanism:yellow_cake_uranium",
+			"count": 64
+		},
+		{
+			"item": "mekanismgenerators:tritium_bucket",
+			"count": 1
+		},
+		{
+			"item": "mekanismgenerators:tritium_bucket",
+			"count": 1
+		},
+		{
+			"item": "mekanismgenerators:tritium_bucket",
+			"count": 1
+		},
+		{
+			"item": "mekanismgenerators:tritium_bucket",
+			"count": 1
+		},
+		{
 			"item": "chemlib:element_lithium",
 			"count": 64
 		}

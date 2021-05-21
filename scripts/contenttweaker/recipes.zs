@@ -38,7 +38,7 @@
 	"type": "interactio:item_explode",
 	"inputs": [
 		{
-			"item": "chemlib:ingot_indium",
+			"item": "bloodmagic:infusedslate",
 			"count": 1
 		},
 		{
@@ -64,34 +64,33 @@
 });
 
 //Jupitum Ingot
-<recipetype:interactio:item_lightning>.addJSONRecipe("contenttweaker/recipes/jupitum",
-{
-  "type": "interactio:item_lightning",
-  "inputs": [
-    {
-      "item": "astralsorcery:starmetal_ingot",
-      "count": 1
-    },
-    {
-      "item": "chemlib:ingot_darmstadtium",
-      "count": 3
-    },
-    {
-      "item": "chemlib:ingot_dubnium",
-      "count": 4
-    }
-  ],
-  "output": {
-    "entries": [
-      {
-        "result": {
-          "item": "contenttweaker:jupitum_ingot",
-          "count": 4
-        },
-        "weight": 1
-      }
-    ]
-  }
+<recipetype:interactio:item_lightning>.addJSONRecipe("contenttweaker/recipes/jupitum",{
+	"type": "interactio:item_lightning",
+	"inputs": [
+		{
+			"item": "astralsorcery:starmetal_ingot",
+			"count": 1
+		},
+		{
+			"item": "chemlib:ingot_darmstadtium",
+			"count": 3
+		},
+		{
+			"item": "chemlib:ingot_dubnium",
+			"count": 4
+		}
+	],
+	"output": {
+		"entries": [
+			{
+				"result": {
+					"item": "contenttweaker:jupitum_ingot",
+					"count": 4
+				},
+				"weight": 1
+			}
+		]
+	}
 });
 
 //Lightning Block
@@ -109,11 +108,12 @@
 		"count": 1
 	}
 });
+<item:contenttweaker:lightning>.addTooltip("Place down to summon a lightning bolt at your current location");
 
 //Time Block
-craftingTable.removeRecipe(<item:contenttweaker:time>);
-craftingTable.addShaped("contenttweaker/recipes/timeblock", <item:contenttweaker:time> * 16, [
+craftingTable.addShaped("contenttweaker/recipes/timeblock", <item:contenttweaker:time> * 8, [
 	[<item:eidolon:soul_shard>, <item:botania:quartz_dark>, <item:eidolon:soul_shard>],
     [<item:botania:quartz_dark>, <item:minecraft:clock>, <item:botania:quartz_dark>],
     [<item:eidolon:soul_shard>, <item:botania:quartz_dark>, <item:eidolon:soul_shard>]
 ]);
+<item:contenttweaker:time>.addTooltip("Place down to advance time by 1500 ticks");

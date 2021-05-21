@@ -10,16 +10,16 @@
 
 //Mana Pearl
 <recipetype:botania:mana_infusion>.removeRecipe(<item:botania:mana_pearl>);
-<recipetype:botania:mana_infusion>.addRecipe("botania/manainfusion/mana_pearl", <item:botania:mana_pearl>, <item:appliedenergistics2:fluix_pearl>, 9000);
+<recipetype:botania:mana_infusion>.addRecipe("botania/manainfusion/manapearl", <item:botania:mana_pearl>, <item:appliedenergistics2:fluix_pearl>, 9000);
 
 //Mana Diamond
 <recipetype:botania:mana_infusion>.removeRecipe(<item:botania:mana_diamond>);
 <recipetype:botania:mana_infusion>.removeRecipe(<item:botania:mana_diamond_block>);
-<recipetype:botania:mana_infusion>.addRecipe("botania/manainfusion/mana_diamond", <item:botania:mana_diamond>, <item:rftoolsbase:infused_diamond>, 15000);
+<recipetype:botania:mana_infusion>.addRecipe("botania/manainfusion/manadiamond", <item:botania:mana_diamond>, <item:rftoolsbase:infused_diamond>, 15000);
 
 //Mana Powder
-<recipetype:botania:mana_infusion>.removeByName("botania:manainfusion/mana_powder_dye");
+<recipetype:botania:mana_infusion>.removeByName("botania:mana_infusion/mana_powder_dye");
 
 //Mana Glass
 <recipetype:botania:mana_infusion>.removeRecipe(<item:botania:mana_glass>);
-<recipetype:botania:mana_infusion>.addRecipe("botania/manainfusion/mana_glass", <item:botania:mana_glass>, <item:immersiveengineering:insulating_glass>, 225);
+<recipetype:botania:mana_infusion>.addRecipe("botania/manainfusion/managlass", <item:botania:mana_glass>, <item:immersiveengineering:insulating_glass>, 225);

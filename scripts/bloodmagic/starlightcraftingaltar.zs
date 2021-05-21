@@ -29,7 +29,6 @@ craftingTable.removeRecipe(<item:bloodmagic:speedrune>);
 			"item": "bloodmagic:blankrune"
 		}
 	},
-	"recipe_class": "astralsorcery:crystal_count",
 	"output": [
 		{
 			"item": "bloodmagic:speedrune",
@@ -73,7 +72,6 @@ craftingTable.removeRecipe(<item:bloodmagic:chargingrune>);
 			"item": "bloodmagic:blankrune"
 		}
 	},
-	"recipe_class": "astralsorcery:crystal_count",
 	"output": [
 		{
 			"item": "bloodmagic:chargingrune",
@@ -117,7 +115,6 @@ craftingTable.removeRecipe(<item:bloodmagic:accelerationrune>);
 			"item": "bloodmagic:speedrune"
 		}
 	},
-	"recipe_class": "astralsorcery:crystal_count",
 	"output": [
 		{
 			"item": "bloodmagic:accelerationrune",
@@ -161,7 +158,6 @@ craftingTable.removeRecipe(<item:bloodmagic:altarcapacityrune>);
 			"item": "bloodmagic:blankrune"
 		}
 	},
-	"recipe_class": "astralsorcery:crystal_count",
 	"output": [
 		{
 			"item": "bloodmagic:altarcapacityrune",
@@ -205,7 +201,6 @@ craftingTable.removeRecipe(<item:bloodmagic:bettercapacityrune>);
 			"item": "bloodmagic:altarcapacityrune"
 		}
 	},
-	"recipe_class": "astralsorcery:crystal_count",
 	"output": [
 		{
 			"item": "bloodmagic:bettercapacityrune",
@@ -246,7 +241,6 @@ craftingTable.removeRecipe(<item:bloodmagic:orbcapacityrune>);
 			"item": "bloodmagic:blankrune"
 		}
 	},
-	"recipe_class": "astralsorcery:crystal_count",
 	"output": [
 		{
 			"item": "bloodmagic:orbcapacityrune",
@@ -290,7 +284,6 @@ craftingTable.removeRecipe(<item:bloodmagic:sacrificerune>);
 			"item": "bloodmagic:blankrune"
 		}
 	},
-	"recipe_class": "astralsorcery:crystal_count",
 	"output": [
 		{
 			"item": "bloodmagic:sacrificerune",
@@ -334,7 +327,6 @@ craftingTable.removeRecipe(<item:bloodmagic:selfsacrificerune>);
 			"item": "bloodmagic:blankrune"
 		}
 	},
-	"recipe_class": "astralsorcery:crystal_count",
 	"output": [
 		{
 			"item": "bloodmagic:selfsacrificerune",
@@ -378,7 +370,6 @@ craftingTable.removeRecipe(<item:bloodmagic:dislocationrune>);
 			"item": "bloodmagic:blankrune"
 		}
 	},
-	"recipe_class": "astralsorcery:crystal_count",
 	"output": [
 		{
 			"item": "bloodmagic:dislocationrune",
@@ -410,7 +401,7 @@ craftingTable.removeRecipe(<item:bloodmagic:incensealtar>);
 			"item": "naturesaura:gold_fiber"
 		},
 		"S": {
-			"item": "bloodmagic:etherealslate"
+			"item": "eidolon:unholy_symbol"
 		},
 		"P": {
 			"item": "immersiveengineering:plate_gold"
@@ -425,7 +416,6 @@ craftingTable.removeRecipe(<item:bloodmagic:incensealtar>);
 			"item": "occultism:candle_white"
 		}
 	},
-	"recipe_class": "astralsorcery:crystal_count",
 	"output": [
 		{
 			"item": "bloodmagic:incensealtar",
