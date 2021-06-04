@@ -1,6 +1,6 @@
 //Starmetal Cutting Tool
-<recipetype:astralsorcery:simple_altar>.removeByName("astralsorcery:altar/chisel");
-<recipetype:astralsorcery:simple_altar>.addJSONRecipe("astralsorcery/starlightcraftingaltar/chisel",{
+<recipetype:astralsorcery:altar>.removeByName("astralsorcery:altar/chisel");
+<recipetype:astralsorcery:altar>.addJSONRecipe("astralsorcery/starlightcraftingaltar/starmetalcuttingtool",{
 	"type": "astralsorcery:altar",
 	"altar_type": 1,
 	"duration": 200,
@@ -36,59 +36,59 @@
 });
 
 //Crystal Lens
-<recipetype:astralsorcery:simple_altar>.removeByName("astralsorcery:altar/lens");
-<recipetype:astralsorcery:simple_altar>.addJSONRecipe("astralsorcery/starlightcraftingalter/crystallens",{
-  "type": "astralsorcery:altar",
-  "altar_type": 1,
-  "duration": 200,
-  "starlight": 600,
-  "pattern": [
-    "_____",
-    "_DED_",
-    "_EFE_",
-    "_ABA_",
-    "C___C"
-  ],
-  "key": {
-    "A": {
-      "item": "astralsorcery:infused_wood_engraved"
-    },
-    "B": {
-      "item": "eidolon:lesser_soul_gem"
-    },
-    "C": {
-      "item": "astralsorcery:marble_runed"
-    },
-    "D": {
-      "item": "astralsorcery:stardust"
-    },
-    "E": {
-      "item": "astralsorcery:glass_lens"
-    },
-    "F": {
-      "type": "astralsorcery:crystal",
-      "hasToBeAttuned": false,
-      "hasToBeCelestial": false,
-      "canBeAttuned": true,
-      "canBeCelestialCrystal": true
-    }
-  },
-  "recipe_class": "astralsorcery:crystal_count",
-  "output": [
-    {
-      "item": "astralsorcery:lens",
-      "count": 1
-    }
-  ],
-  "effects": [
-    "astralsorcery:built_in_effect_discovery_central_beam",
-    "astralsorcery:built_in_effect_attunement_sparkle"
-  ]
+<recipetype:astralsorcery:altar>.removeByName("astralsorcery:altar/lens");
+<recipetype:astralsorcery:altar>.addJSONRecipe("astralsorcery/starlightcraftingalter/crystallens",{
+	"type": "astralsorcery:altar",
+	"altar_type": 1,
+	"duration": 200,
+	"starlight": 600,
+	"pattern": [
+		"_____",
+		"_DED_",
+		"_EFE_",
+		"_ABA_",
+		"C___C"
+	],
+	"key": {
+		"A": {
+			"item": "astralsorcery:infused_wood_engraved"
+		},
+		"B": {
+			"item": "eidolon:lesser_soul_gem"
+		},
+		"C": {
+			"item": "astralsorcery:marble_runed"
+		},
+		"D": {
+			"item": "astralsorcery:stardust"
+		},
+		"E": {
+			"item": "astralsorcery:glass_lens"
+		},
+		"F": {
+			"type": "astralsorcery:crystal",
+			"hasToBeAttuned": false,
+			"hasToBeCelestial": false,
+			"canBeAttuned": true,
+			"canBeCelestialCrystal": true
+		}
+	},
+	"recipe_class": "astralsorcery:crystal_count",
+	"output": [
+		{
+			"item": "astralsorcery:lens",
+			"count": 1
+		}
+	],
+	"effects": [
+		"astralsorcery:built_in_effect_discovery_central_beam",
+		"astralsorcery:built_in_effect_attunement_sparkle"
+	]
 });
 
 //Celestial Altar
-<recipetype:astralsorcery:simple_altar>.removeByName("astralsorcery:altar/altar_constellation");
-<recipetype:astralsorcery:simple_altar>.addJSONRecipe("astralsorcery/starlightcraftingaltar/celestialaltar",{
+<recipetype:astralsorcery:altar>.removeByName("astralsorcery:altar/altar_constellation");
+<recipetype:astralsorcery:altar>.addJSONRecipe("astralsorcery/starlightcraftingaltar/celestialaltar",{
 	"type": "astralsorcery:altar",
 	"altar_type": 1,
 	"duration": 200,

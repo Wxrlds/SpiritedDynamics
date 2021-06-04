@@ -1,7 +1,7 @@
 import crafttweaker.api.item.IItemStack;
 
-//Hide Items in JEI
-val hideJEI as IItemStack[] = [
+//Hide by item id
+val hideJEI as IItemStack[]=[
 <item:appliedenergistics2:crank>,
 <item:appliedenergistics2:gold_dust>,
 <item:appliedenergistics2:grindstone>,
@@ -31,15 +31,22 @@ val hideJEI as IItemStack[] = [
 <item:eidolon:silver_ingot>,
 <item:eidolon:silver_nugget>,
 <item:eidolon:sulfur>,
-<item:ftbquests:banner>,
-<item:ftbquests:custom_icon>,
-<item:ftbquests:missing_item>,
+<item:excompressum:wood_chippings>,
+<item:exnihilosequentia:ingot_aluminum>,
+<item:exnihilosequentia:ingot_copper>,
+<item:exnihilosequentia:ingot_lead>,
+<item:exnihilosequentia:ingot_nickel>,
+<item:exnihilosequentia:ingot_silver>,
+<item:exnihilosequentia:ingot_tin>,
+<item:exnihilosequentia:ingot_uranium>,
+<item:exnihilosequentia:item_stick_stone>,
 <item:immersiveengineering:dust_copper>,
 <item:immersiveengineering:dust_gold>,
 <item:immersiveengineering:dust_iron>,
 <item:immersiveengineering:dust_lead>,
 <item:immersiveengineering:dust_sulfur>,
 <item:immersiveengineering:dust_uranium>,
+<item:immersiveengineering:dust_wood>,
 <item:immersiveengineering:ingot_copper>,
 <item:immersiveengineering:ingot_lead>,
 <item:immersiveengineering:ingot_steel>,
@@ -81,14 +88,19 @@ val hideJEI as IItemStack[] = [
 <item:occultism:silver_block>,
 <item:occultism:silver_dust>,
 <item:occultism:silver_ingot>,
-<item:occultism:silver_nugget>,
-<item:occultism:silver_ore>
+<item:occultism:silver_nugget>
 ];
+
 for item in hideJEI {
 mods.jei.JEI.hideItem(item);
 }
 
+//Hide Categories
 mods.jei.JEI.hideCategory("appliedenergistics2:grinder");
+mods.jei.JEI.hideCategory("exnihilosequentia:crook");
+mods.jei.JEI.hideCategory("exnihilosequentia:crucible_fired");
+mods.jei.JEI.hideCategory("exnihilosequentia:crucible_wood");
+mods.jei.JEI.hideCategory("exnihilosequentia:heat");
 mods.jei.JEI.hideCategory("jeresources:enchantment");
 mods.jei.JEI.hideCategory("jeresources:plant");
 mods.jei.JEI.hideCategory("jeresources:worldgen");

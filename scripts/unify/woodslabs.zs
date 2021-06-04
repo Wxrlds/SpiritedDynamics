@@ -117,7 +117,8 @@ craftingTable.addShaped("unify/woodslabs/ancient/wood", <item:naturesaura:ancien
    [<item:naturesaura:ancient_log>, <item:naturesaura:ancient_log>, <item:naturesaura:ancient_log>]
 ]);
 
-//Slabs to Block NOTE TO SELF, DO NOT SORT THIS! Edit from myself on 2021.05.01 (a few months later) I have no idea why I shouldn't sort this but I'm sure I had a reason (:
+//Slabs to Block NOTE TO SELF, DO NOT SORT THIS!
+//Edit from myself on 2021.05.01 (a few months later) I have no idea why I shouldn't sort this but I'm sure I had a reason (:
 val slab_to_block as string[string][IItemStack]= {
 	<item:minecraft:oak_slab>									: { item: "minecraft:oak_planks",							name: "oakplanks" },
 	<item:minecraft:spruce_slab>								: { item: "minecraft:spruce_planks",						name: "spruceplanks" },

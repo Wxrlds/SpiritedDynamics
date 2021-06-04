@@ -28,7 +28,6 @@
 		"item": "astralsorcery:aquamarine"
 	}
 });
-
 <recipetype:alchemistry:combiner>.addJSONRecipe("astralsorcery/combiner/aquamarine/from_beryl",{
 	"type": "alchemistry:combiner",
 	"group": "minecraft:misc",

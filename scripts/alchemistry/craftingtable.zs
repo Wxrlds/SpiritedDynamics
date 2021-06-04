@@ -1,5 +1,3 @@
-var air = <item:minecraft:air>;
-
 //Atomizer
 craftingTable.removeRecipe(<item:alchemistry:atomizer>);
 craftingTable.addShaped("alchemistry/crafting/atomizer", <item:alchemistry:atomizer>, [

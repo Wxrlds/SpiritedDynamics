@@ -1,6 +1,10 @@
-//Enchanted Ash
-blastFurnace.removeRecipe(<item:eidolon:enchanted_ash>);
+import crafttweaker.api.item.IItemStack;
 
-//Tallow
-mods.jei.JEI.hideItem(<item:eidolon:tallow>);
-blastFurnace.removeRecipe(<item:eidolon:tallow>);
+//Remove by item ID
+val removeBlastfurnace as IItemStack[]=[
+<item:eidolon:tallow>
+];
+
+for item in removeBlastfurnace {
+blastFurnace.removeRecipe(item);
+}

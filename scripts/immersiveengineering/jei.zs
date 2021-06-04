@@ -1,11 +1,13 @@
-//Garden Cloche
-mods.jei.JEI.hideItem(<item:immersiveengineering:cloche>);
+import crafttweaker.api.item.IItemStack;
 
-//Capacitor Backpack
-mods.jei.JEI.hideItem(<item:immersiveengineering:powerpack>);
+//Hide by item id
+val hideJEI as IItemStack[]=[
+<item:immersiveengineering:capacitor_creative>,
+<item:immersiveengineering:cloche>,
+<item:immersiveengineering:powerpack>,
+<item:immersiveengineering:thermoelectric_generator>
+];
 
-//Thermoelectric Generator
-mods.jei.JEI.hideItem(<item:immersiveengineering:thermoelectric_generator>);
-
-//Creative Capacitor
-mods.jei.JEI.hideItem(<item:immersiveengineering:capacitor_creative>);
+for item in hideJEI {
+mods.jei.JEI.hideItem(item);
+}

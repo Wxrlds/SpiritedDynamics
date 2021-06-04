@@ -1,5 +1,14 @@
-//Quest Barrier
-mods.jei.JEI.hideItem(<item:ftbquests:barrier>);
+import crafttweaker.api.item.IItemStack;
 
-//Missing Item
-mods.jei.JEI.hideItem(<item:ftbquests:missing_item>);
+//Hide by item id
+val hideJEI as IItemStack[]=[
+<item:ftbquests:barrier>,
+<item:ftbquests:custom_icon>,
+<item:ftbquests:detector>,
+<item:ftbquests:missing_item>,
+<item:ftbquests:stage_barrier>
+];
+
+for item in hideJEI {
+mods.jei.JEI.hideItem(item);
+}

@@ -1,8 +1,22 @@
-//Digital Miner
-craftingTable.removeRecipe(<item:mekanism:digital_miner>);
+import crafttweaker.api.item.IItemStack;
 
-//Heat Generator
-craftingTable.removeRecipe(<item:mekanismgenerators:heat_generator>);
+//Remove by item id
+val removeID as IItemStack[]=[
+<item:mekanism:digital_miner>,
+<item:mekanism:module_gravitational_modulating_unit>,
+<item:mekanism:module_magnetic_attraction_unit>,
+<item:mekanism:module_solar_recharging_unit>,
+<item:mekanism:module_vein_mining_unit>,
+<item:mekanismgenerators:advanced_solar_generator>,
+<item:mekanismgenerators:heat_generator>,
+<item:mekanismgenerators:solar_generator>,
+<item:mekanismgenerators:solar_panel>,
+<item:mekanismgenerators:wind_generator>
+];
+
+for item in removeID {
+craftingTable.removeRecipe(item);
+}
 
 //Basic Fluid Tank
 craftingTable.removeRecipe(<item:mekanism:basic_fluid_tank>);
@@ -20,9 +34,6 @@ craftingTable.addShaped("mekanism/crafting/steelcasing", <item:mekanism:steel_ca
    [<item:botania:mana_glass>, <item:immersiveengineering:wirecoil_structure_steel>, <item:botania:mana_glass>]
 ]);
 
-//Gravitational Modulating Unit
-craftingTable.removeRecipe(<item:mekanism:module_gravitational_modulating_unit>);
-
 //Metallrugic Infuser
 craftingTable.removeRecipe(<item:mekanism:metallurgic_infuser>);
 craftingTable.addShaped("mekanism/crafting/metallurgicinfuser", <item:mekanism:metallurgic_infuser>, [
@@ -30,21 +41,6 @@ craftingTable.addShaped("mekanism/crafting/metallurgicinfuser", <item:mekanism:m
    [<item:botania:redstone_root>, <item:mekanism:steel_casing>, <item:botania:redstone_root>],
    [<tag:items:forge:ingots/pewter>, <item:eidolon:fungus_sprouts>, <tag:items:forge:ingots/pewter>]
 ]);
-
-//Solar Recharging Unit
-craftingTable.removeRecipe(<item:mekanism:module_solar_recharging_unit>);
-
-//Solar Panel
-craftingTable.removeRecipe(<item:mekanismgenerators:solar_panel>);
-
-//Solar Generator
-craftingTable.removeRecipe(<item:mekanismgenerators:solar_generator>);
-
-//Advanced Solar Generator
-craftingTable.removeRecipe(<item:mekanismgenerators:advanced_solar_generator>);
-
-//Wind Generator
-craftingTable.removeRecipe(<item:mekanismgenerators:wind_generator>);
 
 //Metallrugic Infuser
 craftingTable.removeRecipe(<item:mekanismgenerators:fission_reactor_casing>);

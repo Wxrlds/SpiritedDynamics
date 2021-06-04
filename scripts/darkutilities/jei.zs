@@ -1,5 +1,11 @@
-//Sleep Charm
-mods.jei.JEI.hideItem(<item:darkutils:charm_sleep>);
+import crafttweaker.api.item.IItemStack;
 
-//Dark Glass
-mods.jei.JEI.hideItem(<item:darkutils:dark_glass>);
+//Hide by item id
+val hideJEI as IItemStack[]=[
+<item:darkutils:charm_sleep>,
+<item:darkutils:dark_glass>
+];
+
+for item in hideJEI {
+mods.jei.JEI.hideItem(item);
+}

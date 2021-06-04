@@ -39,7 +39,7 @@
 
 //Ancient Sapling
 <recipetype:naturesaura:tree_ritual>.removeRecipe(<item:naturesaura:ancient_sapling>);
-<recipetype:naturesaura:tree_ritual>.addJSONRecipe("naturesaura/treeritual/ancient_sapling",{
+<recipetype:naturesaura:tree_ritual>.addJSONRecipe("naturesaura/treeritual/ancientsapling",{
 	"type": "naturesaura:tree_ritual",
 	"ingredients": [
 		{

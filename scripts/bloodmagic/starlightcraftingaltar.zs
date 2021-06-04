@@ -1,6 +1,6 @@
 //Speed Rune
 craftingTable.removeRecipe(<item:bloodmagic:speedrune>);
-<recipetype:astralsorcery:simple_altar>.addJSONRecipe("bloodmagic/starlightcraftingaltar/rune/speed",{
+<recipetype:astralsorcery:altar>.addJSONRecipe("bloodmagic/starlightcraftingaltar/bloodrune/speed",{
 	"type": "astralsorcery:altar",
 	"altar_type": 1,
 	"duration": 200,
@@ -43,7 +43,7 @@ craftingTable.removeRecipe(<item:bloodmagic:speedrune>);
 
 //Charging Rune
 craftingTable.removeRecipe(<item:bloodmagic:chargingrune>);
-<recipetype:astralsorcery:simple_altar>.addJSONRecipe("bloodmagic/starlightcraftingaltar/rune/charging",{
+<recipetype:astralsorcery:altar>.addJSONRecipe("bloodmagic/starlightcraftingaltar/bloodrune/charging",{
 	"type": "astralsorcery:altar",
 	"altar_type": 1,
 	"duration": 200,
@@ -86,7 +86,7 @@ craftingTable.removeRecipe(<item:bloodmagic:chargingrune>);
 
 //Acceleration Rune
 craftingTable.removeRecipe(<item:bloodmagic:accelerationrune>);
-<recipetype:astralsorcery:simple_altar>.addJSONRecipe("bloodmagic/starlightcraftingaltar/rune/acceleration",{
+<recipetype:astralsorcery:altar>.addJSONRecipe("bloodmagic/starlightcraftingaltar/bloodrune/acceleration",{
 	"type": "astralsorcery:altar",
 	"altar_type": 1,
 	"duration": 200,
@@ -129,7 +129,7 @@ craftingTable.removeRecipe(<item:bloodmagic:accelerationrune>);
 
 //Rune of Capacity
 craftingTable.removeRecipe(<item:bloodmagic:altarcapacityrune>);
-<recipetype:astralsorcery:simple_altar>.addJSONRecipe("bloodmagic/starlightcraftingaltar/rune/capacity",{
+<recipetype:astralsorcery:altar>.addJSONRecipe("bloodmagic/starlightcraftingaltar/bloodrune/capacity",{
 	"type": "astralsorcery:altar",
 	"altar_type": 1,
 	"duration": 200,
@@ -172,7 +172,7 @@ craftingTable.removeRecipe(<item:bloodmagic:altarcapacityrune>);
 
 //Rune of Augmented Capacity
 craftingTable.removeRecipe(<item:bloodmagic:bettercapacityrune>);
-<recipetype:astralsorcery:simple_altar>.addJSONRecipe("bloodmagic/starlightcraftingaltar/rune/augmentedcapacity",{
+<recipetype:astralsorcery:altar>.addJSONRecipe("bloodmagic/starlightcraftingaltar/bloodrune/augmentedcapacity",{
 	"type": "astralsorcery:altar",
 	"altar_type": 1,
 	"duration": 200,
@@ -215,7 +215,7 @@ craftingTable.removeRecipe(<item:bloodmagic:bettercapacityrune>);
 
 //Rune of the Orb
 craftingTable.removeRecipe(<item:bloodmagic:orbcapacityrune>);
-<recipetype:astralsorcery:simple_altar>.addJSONRecipe("bloodmagic/starlightcraftingaltar/rune/orbcapacity",{
+<recipetype:astralsorcery:altar>.addJSONRecipe("bloodmagic/starlightcraftingaltar/bloodrune/orbcapacity",{
 	"type": "astralsorcery:altar",
 	"altar_type": 1,
 	"duration": 200,
@@ -255,7 +255,7 @@ craftingTable.removeRecipe(<item:bloodmagic:orbcapacityrune>);
 
 //Rune of Sacrifice
 craftingTable.removeRecipe(<item:bloodmagic:sacrificerune>);
-<recipetype:astralsorcery:simple_altar>.addJSONRecipe("bloodmagic/starlightcraftingaltar/rune/sacrifice",{
+<recipetype:astralsorcery:altar>.addJSONRecipe("bloodmagic/starlightcraftingaltar/bloodrune/sacrifice",{
 	"type": "astralsorcery:altar",
 	"altar_type": 1,
 	"duration": 200,
@@ -298,7 +298,7 @@ craftingTable.removeRecipe(<item:bloodmagic:sacrificerune>);
 
 //Rune of Self Sacrifice
 craftingTable.removeRecipe(<item:bloodmagic:selfsacrificerune>);
-<recipetype:astralsorcery:simple_altar>.addJSONRecipe("bloodmagic/starlightcraftingaltar/rune/selfsacrifice",{
+<recipetype:astralsorcery:altar>.addJSONRecipe("bloodmagic/starlightcraftingaltar/bloodrune/selfsacrifice",{
 	"type": "astralsorcery:altar",
 	"altar_type": 1,
 	"duration": 200,
@@ -341,7 +341,7 @@ craftingTable.removeRecipe(<item:bloodmagic:selfsacrificerune>);
 
 //Displacement Rune
 craftingTable.removeRecipe(<item:bloodmagic:dislocationrune>);
-<recipetype:astralsorcery:simple_altar>.addJSONRecipe("bloodmagic/starlightcraftingaltar/rune/displacement",{
+<recipetype:astralsorcery:altar>.addJSONRecipe("bloodmagic/starlightcraftingaltar/bloodrune/displacement",{
 	"type": "astralsorcery:altar",
 	"altar_type": 1,
 	"duration": 200,
@@ -384,7 +384,7 @@ craftingTable.removeRecipe(<item:bloodmagic:dislocationrune>);
 
 //Incensealtar
 craftingTable.removeRecipe(<item:bloodmagic:incensealtar>);
-<recipetype:astralsorcery:simple_altar>.addJSONRecipe("bloodmagic/starlightcraftingaltar/incensealtar",{
+<recipetype:astralsorcery:altar>.addJSONRecipe("bloodmagic/starlightcraftingaltar/incensealtar",{
 	"type": "astralsorcery:altar",
 	"altar_type": 1,
 	"duration": 200,

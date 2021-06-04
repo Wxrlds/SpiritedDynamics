@@ -1,0 +1,205 @@
+{
+	"type": "eidolon:crucible",
+	"steps": [
+		{
+			"items": [
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"tag": "forge:ender_pearls"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				},
+				{
+					"item": "eidolon:enchanted_ash"
+				}
+			]
+		}
+	],
+	"result": {
+		"item": "eidolon:ender_calx",
+		"count": 64
+	}
+}

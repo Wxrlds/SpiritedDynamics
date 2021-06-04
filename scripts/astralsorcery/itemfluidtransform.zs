@@ -1,5 +1,5 @@
 //Infused Wood
-<recipetype:interactio:item_fluid_transform>.addJSONRecipe("astralsorcery/item_fluid_transform/infused_wood",{
+<recipetype:interactio:item_fluid_transform>.addJSONRecipe("astralsorcery/itemfluidtransform/infused_wood",{
 	"type": "interactio:item_fluid_transform",
 	"inputs": [
 		{

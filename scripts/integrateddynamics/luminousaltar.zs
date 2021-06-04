@@ -1,5 +1,5 @@
 //Menril Sapling
-<recipetype:astralsorcery:simple_altar>.addJSONRecipe("integrateddynamics/luminousaltar/menrilsapling",{
+<recipetype:astralsorcery:altar>.addJSONRecipe("integrateddynamics/luminousaltar/menrilsapling",{
 	"type": "astralsorcery:altar",
 	"altar_type": 0,
 	"duration": 100,

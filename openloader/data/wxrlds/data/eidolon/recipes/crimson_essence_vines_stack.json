@@ -1,0 +1,306 @@
+{
+	"type": "eidolon:crucible",
+	"steps": [
+		{
+			"items": [
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:weeping_vines"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				},
+				{
+					"item": "minecraft:nether_wart"
+				}
+			]
+		},
+		{
+			"stirs": 1,
+			"items": [
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				},
+				{
+					"tag": "forge:dusts/sulfur"
+				}
+			]
+		}
+	],
+	"result": {
+		"item": "eidolon:crimson_essence",
+		"count": 64
+	}
+}

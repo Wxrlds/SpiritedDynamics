@@ -1,62 +1,36 @@
-//Advanced Catalyst
-mods.jei.JEI.hideItem(<item:extendedcrafting:advanced_catalyst>);
+import crafttweaker.api.item.IItemStack;
 
-//Advanced Component
-mods.jei.JEI.hideItem(<item:extendedcrafting:advanced_component>);
 
-//Basic Catalyst
-mods.jei.JEI.hideItem(<item:extendedcrafting:basic_catalyst>);
+val hideJEI as IItemStack[]=[
+<item:extendedcrafting:advanced_catalyst>,
+<item:extendedcrafting:advanced_component>,
+<item:extendedcrafting:basic_catalyst>,
+<item:extendedcrafting:basic_component>,
+<item:extendedcrafting:black_iron_slate>,
+<item:extendedcrafting:crystaltine_catalyst>,
+<item:extendedcrafting:crystaltine_component>,
+<item:extendedcrafting:elite_catalyst>,
+<item:extendedcrafting:elite_component>,
+<item:extendedcrafting:ender_catalyst>,
+<item:extendedcrafting:ender_component>,
+<item:extendedcrafting:enhanced_ender_catalyst>,
+<item:extendedcrafting:enhanced_ender_component>,
+<item:extendedcrafting:frame>,
+<item:extendedcrafting:nether_star_block>,
+<item:extendedcrafting:redstone_catalyst>,
+<item:extendedcrafting:redstone_component>,
+<item:extendedcrafting:the_ultimate_catalyst>,
+<item:extendedcrafting:the_ultimate_component>,
+<item:extendedcrafting:ultimate_catalyst>,
+<item:extendedcrafting:ultimate_component>
+];
 
-//Basic Component
-mods.jei.JEI.hideItem(<item:extendedcrafting:basic_component>);
+for item in hideJEI {
+mods.jei.JEI.hideItem(item);
+}
 
-//Black Iron Slate
-mods.jei.JEI.hideItem(<item:extendedcrafting:black_iron_slate>);
+//Ultimate Crafting Table
+mods.jei.JEI.addInfo(<item:extendedcrafting:ultimate_table>, ["Takes 5.000.000 Mana to craft (1 Mana Pool = 1.000.000 Mana)"]);
 
-//Crystaltine Catalyst
-mods.jei.JEI.hideItem(<item:extendedcrafting:crystaltine_catalyst>);
-
-//Crystaltine Component
-mods.jei.JEI.hideItem(<item:extendedcrafting:crystaltine_component>);
-
-//Elite Catalyst
-mods.jei.JEI.hideItem(<item:extendedcrafting:elite_catalyst>);
-
-//Elite Component
-mods.jei.JEI.hideItem(<item:extendedcrafting:elite_component>);
-
-//Ender Catalyst
-mods.jei.JEI.hideItem(<item:extendedcrafting:ender_catalyst>);
-
-//Ender Component
-mods.jei.JEI.hideItem(<item:extendedcrafting:ender_component>);
-
-//Enhanced Ender Catalyst
-mods.jei.JEI.hideItem(<item:extendedcrafting:enhanced_ender_catalyst>);
-
-//Enhanced Ender Component
-mods.jei.JEI.hideItem(<item:extendedcrafting:enhanced_ender_component>);
-
-//Redstone Catalyst
-mods.jei.JEI.hideItem(<item:extendedcrafting:redstone_catalyst>);
-
-//Redstone Component
-mods.jei.JEI.hideItem(<item:extendedcrafting:redstone_component>);
-
-//The Ultimate Catalyst
-mods.jei.JEI.hideItem(<item:extendedcrafting:the_ultimate_catalyst>);
-
-//The Ultimate Component
-mods.jei.JEI.hideItem(<item:extendedcrafting:the_ultimate_component>);
-
-//Ultimate Catalyst
-mods.jei.JEI.hideItem(<item:extendedcrafting:ultimate_catalyst>);
-
-//Ultimate Component
-mods.jei.JEI.hideItem(<item:extendedcrafting:ultimate_component>);
-
-//Black Iron Frame
-mods.jei.JEI.hideItem(<item:extendedcrafting:frame>);
-
-//Nether Star Block
-mods.jei.JEI.hideItem(<item:extendedcrafting:nether_star_block>);
+//Ultimate Auto Crafting Table
+mods.jei.JEI.addInfo(<item:extendedcrafting:ultimate_auto_table>, ["Takes 5.000.000 Mana to craft (1 Mana Pool = 1.000.000 Mana)"]);

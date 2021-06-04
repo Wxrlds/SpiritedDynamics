@@ -1,5 +1,11 @@
-//Sleep Charm
-craftingTable.removeRecipe(<item:darkutils:charm_sleep>);
+import crafttweaker.api.item.IItemStack;
 
-//Dark Glass
-craftingTable.removeRecipe(<item:darkutils:dark_glass>);
+//Remove by item ID
+val removeID as IItemStack[]=[
+<item:darkutils:charm_sleep>,
+<item:darkutils:dark_glass>
+];
+
+for item in removeID {
+craftingTable.removeRecipe(item);
+}

@@ -1,8 +1,12 @@
-//Hide all Facades
-mods.jei.JEI.hideItem(<item:appliedenergistics2:facade>);
+import crafttweaker.api.item.IItemStack;
 
-//Creative ME Storage Cell
-mods.jei.JEI.hideItem(<item:appliedenergistics2:creative_storage_cell>);
+//Hide by item id
+val hideJEI as IItemStack[]=[
+<item:appliedenergistics2:creative_energy_cell>,
+<item:appliedenergistics2:creative_storage_cell>,
+<item:appliedenergistics2:facade>
+];
 
-//Creative Energy Cell
-mods.jei.JEI.hideItem(<item:appliedenergistics2:creative_energy_cell>);
+for item in hideJEI {
+mods.jei.JEI.hideItem(item);
+}
