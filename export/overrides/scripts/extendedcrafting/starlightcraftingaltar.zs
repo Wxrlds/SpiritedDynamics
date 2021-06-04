@@ -1,6 +1,6 @@
 //Tier 3 Table Elite Crafting Table
 craftingTable.removeRecipe(<item:extendedcrafting:elite_table>);
-<recipetype:astralsorcery:simple_altar>.addJSONRecipe("extendedcrafting/starlightcraftingaltar/elitecraftingtable",{
+<recipetype:astralsorcery:altar>.addJSONRecipe("extendedcrafting/starlightcraftingaltar/elitecraftingtable",{
 	"type": "astralsorcery:altar",
 	"altar_type": 1,
 	"duration": 200,
@@ -46,7 +46,7 @@ craftingTable.removeRecipe(<item:extendedcrafting:elite_table>);
 
 //Tier 3 Table Elite Auto Crafting Table
 craftingTable.removeRecipe(<item:extendedcrafting:elite_auto_table>);
-<recipetype:astralsorcery:simple_altar>.addJSONRecipe("extendedcrafting/starlightcraftingaltar/eliteautocraftingtable",{
+<recipetype:astralsorcery:altar>.addJSONRecipe("extendedcrafting/starlightcraftingaltar/eliteautocraftingtable",{
 	"type": "astralsorcery:altar",
 	"altar_type": 1,
 	"duration": 200,

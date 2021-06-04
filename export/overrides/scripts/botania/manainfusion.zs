@@ -1,5 +1,3 @@
-//<recipetype:botania:mana_infusion>.addRecipe(String name, IItemStack output, IIngredient input, int mana, @Optional BlockState catalystState)
-
 //Manasteel Ingot
 <recipetype:botania:mana_infusion>.removeRecipe(<item:botania:manasteel_ingot>);
 <recipetype:botania:mana_infusion>.addRecipe("botania/manainfusion/manasteel/ingot", <item:botania:manasteel_ingot>, <item:eidolon:pewter_ingot>, 4500);
@@ -18,7 +16,8 @@
 <recipetype:botania:mana_infusion>.addRecipe("botania/manainfusion/manadiamond", <item:botania:mana_diamond>, <item:rftoolsbase:infused_diamond>, 15000);
 
 //Mana Powder
-<recipetype:botania:mana_infusion>.removeByName("botania:mana_infusion/mana_powder_dye");
+<recipetype:botania:mana_infusion>.removeRecipe(<item:botania:mana_powder>);
+<recipetype:botania:mana_infusion>.addRecipe("botania/manainfusion/manapowder", <item:botania:mana_powder>, <item:naturesaura:gold_powder>, 600);
 
 //Mana Glass
 <recipetype:botania:mana_infusion>.removeRecipe(<item:botania:mana_glass>);

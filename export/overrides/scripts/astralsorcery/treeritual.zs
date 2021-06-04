@@ -1,5 +1,5 @@
 //Aquamarine Shale
-<recipetype:naturesaura:tree_ritual>.addJSONRecipe("astralsorcery/ritualforest/aquamarine_shale",{
+<recipetype:naturesaura:tree_ritual>.addJSONRecipe("astralsorcery/ritualforest/aquamarineshale",{
 	"type": "naturesaura:tree_ritual",
 	"ingredients": [
 		{

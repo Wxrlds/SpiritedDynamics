@@ -1,3 +1,4 @@
+//Arcane Ashes
 <recipetype:bloodmagic:alchemytable>.removeByName("bloodmagic:alchemytable/arcane_ash");
 <recipetype:bloodmagic:alchemytable>.addJSONRecipe("bloodmagic/alchemytable/arcaneashes",{
 	"type": "bloodmagic:alchemytable",

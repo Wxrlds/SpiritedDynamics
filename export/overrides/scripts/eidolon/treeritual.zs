@@ -33,7 +33,7 @@ craftingTable.removeRecipe(<item:eidolon:wooden_altar>);
 	},
 	"output": {
 		"item": "eidolon:wooden_altar",
-        "count": 2
+		"count": 2
 	},
 	"time": 600
 });

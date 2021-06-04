@@ -1,6 +1,6 @@
 //Tier 2 Advanced Table Crafting Table
 craftingTable.removeRecipe(<item:extendedcrafting:advanced_table>);
-<recipetype:astralsorcery:simple_altar>.addJSONRecipe("extendedcrafting/luminousaltar/advancedcraftingtable",{
+<recipetype:astralsorcery:altar>.addJSONRecipe("extendedcrafting/luminousaltar/advancedcraftingtable",{
 	"type": "astralsorcery:altar",
 	"altar_type": 0,
 	"duration": 100,
@@ -45,7 +45,7 @@ craftingTable.removeRecipe(<item:extendedcrafting:advanced_table>);
 
 //Tier 2 Advanced Auto Crafting Table
 craftingTable.removeRecipe(<item:extendedcrafting:advanced_auto_table>);
-<recipetype:astralsorcery:simple_altar>.addJSONRecipe("extendedcrafting/luminous/advancedautocraftingtable",{
+<recipetype:astralsorcery:altar>.addJSONRecipe("extendedcrafting/luminous/advancedautocraftingtable",{
 	"type": "astralsorcery:altar",
 	"altar_type": 0,
 	"duration": 100,

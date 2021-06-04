@@ -1,29 +1,28 @@
 import crafttweaker.api.item.IItemStack;
 
-var air = <item:minecraft:air>;
-
 //Remove by item id
-val remRecipe as IItemStack[]=[
+val removeID as IItemStack[]=[
+<item:immersiveengineering:cloche>,
 <item:immersiveengineering:plate_aluminum>,
 <item:immersiveengineering:plate_steel>,
+<item:immersiveengineering:powerpack>,
+<item:immersiveengineering:thermoelectric_generator>,
 <item:immersiveengineering:wire_aluminum>,
 <item:immersiveengineering:wire_copper>,
 <item:immersiveengineering:wire_electrum>,
 <item:immersiveengineering:wire_steel>
 ];
-for item in remRecipe {
+
+for item in removeID {
 craftingTable.removeRecipe(item);
 }
-
-//Garden Cloche
-craftingTable.removeRecipe(<item:immersiveengineering:cloche>);
 
 //Engineers Hammer
 craftingTable.removeRecipe(<item:immersiveengineering:hammer>);
 craftingTable.addShaped("immersiveengineering/crafting/engineershammer", <item:immersiveengineering:hammer>, [
-    [air, <item:immersiveengineering:hempcrete>, <tag:items:forge:ingots/iron>],
-    [air, <item:minecraft:stick>, <item:immersiveengineering:hempcrete>],
-    [<item:minecraft:stick>, air , air]
+    [<item:minecraft:air>, <item:immersiveengineering:hempcrete>, <tag:items:forge:ingots/iron>],
+    [<item:minecraft:air>, <item:minecraft:stick>, <item:immersiveengineering:hempcrete>],
+    [<item:minecraft:stick>, <item:minecraft:air> , <item:minecraft:air>]
 ]);
 
 //Treated Stick
@@ -59,16 +58,16 @@ craftingTable.addShaped("immersiveengineering/crafting/aluminiumrod", <item:imme
 craftingTable.removeRecipe(<item:immersiveengineering:steel_scaffolding_standard>);
 craftingTable.addShaped("immersiveengineering/crafting/steelscaffolding", <item:immersiveengineering:steel_scaffolding_standard> * 3, [
     [<tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>, <tag:items:forge:plates/steel>],
-    [air, <tag:items:forge:rods/steel>, air],
-	[<tag:items:forge:rods/steel>, air, <tag:items:forge:rods/steel>]
+    [<item:minecraft:air>, <tag:items:forge:rods/steel>, <item:minecraft:air>],
+	[<tag:items:forge:rods/steel>, <item:minecraft:air>, <tag:items:forge:rods/steel>]
 ]);
 
 //Aluminium Scaffolding
 craftingTable.removeRecipe(<item:immersiveengineering:alu_scaffolding_standard>);
 craftingTable.addShaped("immersiveengineering/crafting/aluminiumscaffolding", <item:immersiveengineering:alu_scaffolding_standard> * 3, [
     [<tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>, <tag:items:forge:plates/aluminum>],
-    [air, <tag:items:forge:rods/aluminum>, air],
-	[<tag:items:forge:rods/aluminum>, air, <tag:items:forge:rods/aluminum>]
+    [<item:minecraft:air>, <tag:items:forge:rods/aluminum>, <item:minecraft:air>],
+	[<tag:items:forge:rods/aluminum>, <item:minecraft:air>, <tag:items:forge:rods/aluminum>]
 ]);
 
 //Steel Mechanical Component
@@ -94,9 +93,6 @@ craftingTable.addShaped("immersiveengineering/crafting/conveyorbelt", <item:imme
 	[<tag:items:forge:ingots/iron>, <item:extendedcrafting:redstone_ingot>, <tag:items:forge:ingots/iron>]
 ]);
 
-//Capacitor Backpack
-craftingTable.removeRecipe(<item:immersiveengineering:powerpack>);
-
 //Copper Coil Block
 craftingTable.removeRecipe(<item:immersiveengineering:coil_lv>);
 craftingTable.addShaped("immersiveengineering/crafting/coppercoilblock", <item:immersiveengineering:coil_lv>, [
@@ -120,6 +116,3 @@ craftingTable.addShaped("immersiveengineering/crafting/highvoltagecoilblock", <i
 	[<tag:items:forge:wires/steel>, <tag:items:forge:ingots/aluminum>, <tag:items:forge:wires/steel>],
 	[<tag:items:forge:wires/steel>, <tag:items:forge:wires/steel>, <tag:items:forge:wires/steel>]
 ]);
-
-//Thermoelectric Generator
-craftingTable.removeRecipe(<item:immersiveengineering:thermoelectric_generator>);

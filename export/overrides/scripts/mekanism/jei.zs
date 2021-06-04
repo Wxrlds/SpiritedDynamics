@@ -1,32 +1,22 @@
-//Digital Miner
-mods.jei.JEI.hideItem(<item:mekanism:digital_miner>);
+import crafttweaker.api.item.IItemStack;
 
-//Gravitational Modulating Unit
-mods.jei.JEI.hideItem(<item:mekanism:module_gravitational_modulating_unit>);
+//Hide by item id
+val hideJEI as IItemStack[]=[
+<item:mekanism:creative_bin>,
+<item:mekanism:creative_chemical_tank>,
+<item:mekanism:creative_fluid_tank>,
+<item:mekanism:digital_miner>,
+<item:mekanism:module_gravitational_modulating_unit>,
+<item:mekanism:module_magnetic_attraction_unit>,
+<item:mekanism:module_solar_recharging_unit>,
+<item:mekanism:module_vein_mining_unit>,
+<item:mekanismgenerators:advanced_solar_generator>,
+<item:mekanismgenerators:heat_generator>,
+<item:mekanismgenerators:solar_generator>,
+<item:mekanismgenerators:solar_panel>,
+<item:mekanismgenerators:wind_generator>
+];
 
-//Heat Generator
-mods.jei.JEI.hideItem(<item:mekanismgenerators:heat_generator>);
-
-//Solar Recharging Unit
-mods.jei.JEI.hideItem(<item:mekanism:module_solar_recharging_unit>);
-
-//Solar Panel
-mods.jei.JEI.hideItem(<item:mekanismgenerators:solar_panel>);
-
-//Solar Generator
-mods.jei.JEI.hideItem(<item:mekanismgenerators:solar_generator>);
-
-//Advanced Solar Generator
-mods.jei.JEI.hideItem(<item:mekanismgenerators:advanced_solar_generator>);
-
-//Wind Generator
-mods.jei.JEI.hideItem(<item:mekanismgenerators:wind_generator>);
-
-//Creative Bin
-mods.jei.JEI.hideItem(<item:mekanism:creative_bin>);
-
-//Creative Chemical Tank
-mods.jei.JEI.hideItem(<item:mekanism:creative_chemical_tank>);
-
-//Creative Fluid Tank
-mods.jei.JEI.hideItem(<item:mekanism:creative_fluid_tank>);
+for item in hideJEI {
+mods.jei.JEI.hideItem(item);
+}

@@ -1,5 +1,3 @@
-var air = <item:minecraft:air>;
-
 //Blood Altar
 craftingTable.removeRecipe(<item:bloodmagic:altar>);
 craftingTable.addShaped("bloodmagic/crafting/blood_altar", <item:bloodmagic:altar>, [
@@ -11,7 +9,7 @@ craftingTable.addShaped("bloodmagic/crafting/blood_altar", <item:bloodmagic:alta
 //Hellfire Forge
 craftingTable.removeRecipe(<item:bloodmagic:soulforge>);
 craftingTable.addShaped("bloodmagic/crafting/hellfire_forge", <item:bloodmagic:soulforge>, [
-    [<tag:items:forge:ingots/steel>, air, <tag:items:forge:ingots/steel>],
+    [<tag:items:forge:ingots/steel>, <item:minecraft:air>, <tag:items:forge:ingots/steel>],
     [<item:bloodmagic:infusedslate>, <item:eidolon:crucible>, <item:bloodmagic:reinforcedslate>],
     [<item:bloodmagic:reinforcedslate>, <tag:items:forge:storage_blocks/steel>, <item:bloodmagic:infusedslate>]
 ]);

@@ -1,21 +1,15 @@
-//Netherite 
-<recipetype:astralsorcery:infusion>.removeByName("astralsorcery:infuser/ancient_debris");
+//Remove by recipe name
+val removeName=[
+"astralsorcery:infuser/ancient_debris",
+"astralsorcery:infuser/diamond_ore",
+"astralsorcery:infuser/emerald_ore",
+"astralsorcery:infuser/gold_ore",
+"astralsorcery:infuser/iron_ore",
+"astralsorcery:infuser/lapis_ore",
+"astralsorcery:infuser/nether_gold_ore",
+"astralsorcery:infuser/redstone_ore"
+];
 
-//Diamond
-<recipetype:astralsorcery:infusion>.removeByName("astralsorcery:infuser/diamond_ore");
-
-//Emerald
-<recipetype:astralsorcery:infusion>.removeByName("astralsorcery:infuser/emerald_ore");
-
-//Gold
-<recipetype:astralsorcery:infusion>.removeByName("astralsorcery:infuser/gold_ore");
-<recipetype:astralsorcery:infusion>.removeByName("astralsorcery:infuser/nether_gold_ore");
-
-//Iron
-<recipetype:astralsorcery:infusion>.removeByName("astralsorcery:infuser/iron_ore");
-
-//Lapis Lazuli
-<recipetype:astralsorcery:infusion>.removeByName("astralsorcery:infuser/lapis_ore");
-
-//Redstone
-<recipetype:astralsorcery:infusion>.removeByName("astralsorcery:infuser/redstone_ore");
+for item in removeName {
+<recipetype:astralsorcery:infusion>.removeByName(item);
+}

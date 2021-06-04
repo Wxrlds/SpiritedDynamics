@@ -1,6 +1,6 @@
 //Golden Stone Bricks
 craftingTable.removeRecipe(<item:naturesaura:gold_brick>);
-<recipetype:astralsorcery:simple_altar>.addJSONRecipe("naturesaura/luminous/golden_stone_bricks",{
+<recipetype:astralsorcery:altar>.addJSONRecipe("naturesaura/luminous/golden_stone_bricks",{
 	"type": "astralsorcery:altar",
 	"altar_type": 0,
 	"duration": 100,

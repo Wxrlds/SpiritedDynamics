@@ -1,5 +1,5 @@
-//Remove recipes
-val remName as string[]=[
+//Remove by recipe name
+val removeName=[
 "mekanism:processing/coal/to_ore",
 "mekanism:processing/copper/ore/from_dust",
 "mekanism:processing/diamond/to_ore",
@@ -17,6 +17,7 @@ val remName as string[]=[
 "mekanism:processing/tin/ore/from_dust",
 "mekanism:processing/uranium/ore/from_dust"
 ];
-for item in remName {
+
+for item in removeName {
 <recipetype:mekanism:combining>.removeByName(item);
 }

@@ -35,7 +35,7 @@ biomeBlendRadius:2
 renderClouds:true
 resourcePacks:["vanilla","mod_resources","openloader/resources/contenttweaker","openloader/resources/minecraft"]
 incompatibleResourcePacks:[]
-lastServer:moldiy:
+lastServer:
 lang:en_us
 chatVisibility:0
 chatOpacity:1.0

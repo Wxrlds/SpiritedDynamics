@@ -1,0 +1,56 @@
+{
+	"type": "eidolon:crucible",
+	"steps": [
+		{
+			"items": [
+				{
+					"tag": "forge:storage_blocks/redstone"
+				},
+				{
+					"tag": "forge:storage_blocks/redstone"
+				},
+				{
+					"item": "eidolon:death_essence"
+				},
+				{
+					"item": "eidolon:death_essence"
+				},
+				{
+					"item": "eidolon:death_essence"
+				},
+				{
+					"item": "eidolon:death_essence"
+				},
+				{
+					"item": "eidolon:death_essence"
+				},
+				{
+					"item": "eidolon:death_essence"
+				},
+				{
+					"item": "eidolon:death_essence"
+				},
+				{
+					"item": "eidolon:death_essence"
+				},
+				{
+					"item": "eidolon:death_essence"
+				}
+			]
+		},
+		{
+			"items": [
+				{
+					"tag": "forge:storage_blocks/gold"
+				},
+				{
+					"tag": "forge:storage_blocks/gold"
+				}
+			]
+		}
+	],
+	"result": {
+		"item": "eidolon:arcane_gold_block",
+		"count": 2
+	}
+}

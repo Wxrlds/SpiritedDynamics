@@ -1,9 +1,7 @@
 import crafttweaker.api.item.IItemStack;
 
-var air = <item:minecraft:air>;
-
 //Remove by item id
-val remRecipe as IItemStack[]=[
+val removeID as IItemStack[]=[
 <item:appliedenergistics2:crank>,
 <item:appliedenergistics2:grindstone>,
 <item:botania:chiseled_blaze_quartz>,
@@ -16,6 +14,7 @@ val remRecipe as IItemStack[]=[
 <item:eidolon:lead_block>,
 <item:eidolon:lead_ingot>,
 <item:eidolon:lead_nugget>,
+<item:eidolon:silver_ingot>,
 <item:immersiveengineering:dust_aluminum>,
 <item:immersiveengineering:dust_nickel>,
 <item:immersiveengineering:dust_silver>,
@@ -76,21 +75,20 @@ val remRecipe as IItemStack[]=[
 <item:occultism:silver_nugget>
 ];
 
-for item in remRecipe {
+for item in removeID {
 craftingTable.removeRecipe(item);
 }
 
-
 //Remove by recipe name
-val remRecipeName as string[]=[
+val removeName=[
+"dwarfcoal:charcoal2",
 "immersiveengineering:crafting/ingot_copper_to_storage_copper",
 "immersiveengineering:crafting/ingot_lead_to_storage_lead",
-"immersiveengineering:crafting/ingot_uranium_to_storage_uranium",
 "immersiveengineering:crafting/ingot_steel_to_storage_steel",
-"dwarfcoal:charcoal2",
+"immersiveengineering:crafting/ingot_uranium_to_storage_uranium",
 "mekanism:paper"
 ];
 
-for item in remRecipeName {
+for item in removeName {
 craftingTable.removeByName(item);
 }

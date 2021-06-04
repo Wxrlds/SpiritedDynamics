@@ -1,18 +1,16 @@
-//Copper
-<recipetype:occultism:crushing>.removeByName("occultism:crushing/copper_dust");
-<recipetype:occultism:crushing>.removeByName("occultism:crushing/copper_dust_from_ingot");
+//Remove by recipe name
+val removeName=[
+"occultism:crushing/copper_dust",
+"occultism:crushing/copper_dust_from_ingot",
+"occultism:crushing/gold_dust",
+"occultism:crushing/gold_dust_from_ingot",
+"occultism:crushing/iron_dust",
+"occultism:crushing/iron_dust_from_ingot",
+"occultism:crushing/obsidian_dust",
+"occultism:crushing/silver_dust",
+"occultism:crushing/silver_dust_from_ingot"
+];
 
-//Iron
-<recipetype:occultism:crushing>.removeByName("occultism:crushing/iron_dust");
-<recipetype:occultism:crushing>.removeByName("occultism:crushing/iron_dust_from_ingot");
-
-//Obsidian
-<recipetype:occultism:crushing>.removeByName("occultism:crushing/obsidian_dust");
-
-//Gold
-<recipetype:occultism:crushing>.removeByName("occultism:crushing/gold_dust");
-<recipetype:occultism:crushing>.removeByName("occultism:crushing/gold_dust_from_ingot");
-
-//Silver
-<recipetype:occultism:crushing>.removeByName("occultism:crushing/silver_dust");
-<recipetype:occultism:crushing>.removeByName("occultism:crushing/silver_dust_from_ingot");
+for item in removeName {
+<recipetype:occultism:crushing>.removeByName(item);
+}

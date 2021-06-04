@@ -1,5 +1,5 @@
-//Remove recipes
-val removeName as string[] = [
+//Remove by recipe name
+val removeName=[
 "bloodmagic:arc/dustsfrom_gravel_gold",
 "bloodmagic:arc/dustsfrom_gravel_iron",
 "bloodmagic:arc/dustsfrom_gravel_netherite_scrap",

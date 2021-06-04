@@ -1,6 +1,6 @@
 //Infused Wood Planks
-<recipetype:astralsorcery:simple_altar>.removeByName("astralsorcery:altar/infused_wood_planks");
-<recipetype:astralsorcery:simple_altar>.addJSONRecipe("unify/luminousaltar/infusedwoodplanks",{
+<recipetype:astralsorcery:altar>.removeByName("astralsorcery:altar/infused_wood_planks");
+<recipetype:astralsorcery:altar>.addJSONRecipe("unify/luminousaltar/infusedwoodplanks",{
 	"type": "astralsorcery:altar",
 	"altar_type": 0,
 	"duration": 40,

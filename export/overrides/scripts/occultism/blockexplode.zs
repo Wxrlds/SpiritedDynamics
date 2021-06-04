@@ -1,3 +1,5 @@
+//Otherstone
+<recipetype:occultism:spirit_fire>.removeByName("occultism:spirit_fire/otherstone");
 <recipetype:interactio:block_explode>.addJSONRecipe("occultism/blockexplode/otherworld/stone",{
 	"type": "interactio:block_explode",
 	"input": {
@@ -22,6 +24,7 @@
 	}
 });
 
+//Iesnium Ore
 <recipetype:interactio:block_explode>.addJSONRecipe("occultism/blockexplode/ore/iesnium",{
 	"type": "interactio:block_explode",
 	"input": {
