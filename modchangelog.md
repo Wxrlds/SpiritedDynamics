@@ -1,4 +1,1093 @@
 ===================================================
+Spirited Dynamics 0.0.5 --> Spirited Dynamics 0.0.6
+===================================================
+
+Added:
+
+- Entity Culling Fabric/Forge
+- Ex Compressum
+- Ex Naturae
+- Ex Nihilo: Sequentia
+- Ex Nihilo: Sequentia - AE2 Addon
+- Ex Nihilo: Sequentia - Mekanism Addon
+
+Updated:
+
+	Apotheosis (Apotheosis-1.16.4-4.6.0.jar --> Apotheosis-1.16.4-4.6.1.jar):
+		Apotheosis-1.16.4-4.6.1.jar:
+			[https://github.com/Shadows-of-Fire/Apotheosis/blob/1.16/changelog.md](https://github.com/Shadows-of-Fire/Apotheosis/blob/1.16/changelog.md)
+
+	Architectury API (Forge) ([Forge 1.16.4/5] v1.15.13 --> [Forge 1.16.4/5] v1.17.20):
+		[Forge 1.16.4/5] v1.17.20:
+			Architectury v1.17.20 for 1.16.4/5
+			Updated at 2021-05-31 11:55.
+			[Click here for changelog](https://www.github.com/architectury/architectury/commits/1.16)
+			* Fix BiomeModifications phases on fabric
+
+		[Forge 1.16.4/5] v1.17.19:
+			Architectury v1.17.19 for 1.16.4/5
+			Updated at 2021-05-31 10:11.
+			[Click here for changelog](https://www.github.com/architectury/architectury/commits/1.16)
+
+		[Forge 1.16.4/5] v1.17.18:
+			Architectury v1.17.18 for 1.16.4/5
+			Updated at 2021-05-30 11:11.
+			[Click here for changelog](https://www.github.com/architectury/architectury/commits/1.16)
+			* Add Deprecated and ScheduledForRemoval while appropriate
+
+		[Forge 1.16.4/5] v1.17.17:
+			Architectury v1.17.17 for 1.16.4/5
+			Updated at 2021-05-28 15:18.
+			[Click here for changelog](https://www.github.com/architectury/architectury/commits/1.16)
+			* Add Javadocs for all events (#91)
+
+		[Forge 1.16.4/5] v1.17.16:
+			Architectury v1.17.16 for 1.16.4/5
+			Updated at 2021-05-27 17:38.
+			[Click here for changelog](https://www.github.com/architectury/architectury/commits/1.16)
+			* Add NetworkManager hook for Entity spawn packets (#88)
+
+		[Forge 1.16.4/5] v1.16.15:
+			Architectury v1.16.15 for 1.16.4/5
+			Updated at 2021-05-26 23:07.
+			[Click here for changelog](https://www.github.com/architectury/architectury/commits/1.16)
+			* Add Chunk data save and load events, closes #89 (#92)
+
+		[Forge 1.16.4/5] v1.15.14:
+			Architectury v1.15.14 for 1.16.4/5
+			Updated at 2021-05-26 06:57.
+			[Click here for changelog](https://www.github.com/architectury/architectury/commits/1.16)
+			* Fix #94
+
+	Astral Sorcery (AstralSorcery-1.16.4-1.13.9.jar --> AstralSorcery-1.16.5-1.13.12.jar):
+		AstralSorcery-1.16.5-1.13.12.jar:
+			Built with:
+			* Forge: 36.1.23
+			* ObserverLib: 1.16.5-1.5.2 (Requires 1.5+)
+			* Curios: 1.16.5-4.0.5.1 (Requires 4.0.5+)
+			* CraftTweaker: 7.1.0.294
+			Fixes:
+			* Fixed altars and infusers not saving data correctly, causing crashes or related when crafting
+
+		AstralSorcery-1.16.5-1.13.11.jar:
+			Built with:
+			* Forge: 36.1.23
+			* ObserverLib: 1.16.5-1.5.2 (Requires 1.5+)
+			* Curios: 1.16.5-4.0.5.1 (Requires 4.0.5+)
+			* CraftTweaker: 7.1.0.294
+			Changes:
+			* Blast resistance of marble-variant blocks has been adjusted
+			* Scorching heat now correctly drops exp when mining blocks with a smelting recipe
+			* Improved performance of resplendent prism comparing itemstacks
+			Fixes:
+			* Fixed incorrect JEI render offset for entity-spawning chalice reactions
+			* Fixed crash with incorrect blockstate deserialization for starmetal ore revert state configuration
+			* Fixed event priority for spatial manipulation key perk pulling drops
+			* Fixed /give giving 2 items on starmetal ingots, constellation paper and crystals
+
+		AstralSorcery-1.16.5-1.13.10.jar:
+			Built with:
+			* Forge: 36.1.23
+			* ObserverLib: 1.16.5-1.5.2 (Requires 1.5+)
+			* Curios: 1.16.5-4.0.5.1 (Requires 4.0.5+)
+			* CraftTweaker: 7.1.0.294
+			Additions:
+			* Added new player custom patreon effects
+			* Localization for AS' ignore sky-check gamerule (Credit to ChloeDawn)
+			* Added correct compatibility with Lootr (Credit noobanidus)
+			* Added correct subtitles for AS' sounds
+			* Added config option 'starmetalRevertState' to define what block the starmetal ore will revert into
+			* Added CraftTweaker support (Credit Jared)
+			Changes:
+			* Increased effect of dash-mode travel wand
+			* Increased liquid starlight generation of crystals in lightwell
+			* Crystal properties that aren't used in the current usage won't show on the item anymore
+			* The altar recipe type is now correctly "astralsorcery:altar" instead of "astralsorcery:simple_altar"
+			Fixes:
+			* Fixed crystals using item-position instead of the block position for consuming liquid starlight
+			* Fixed owner UUID not being saved on ritual pedestal
+			* Fixed several sounds being disproportionately loud
+			* Fixed perk-ability setting not being sync'd to client
+			* Fixed incorrect merging of NBT on NBT-sensitive output recipes
+			* Fixed multiple items being insertable into lightwell
+			* Fixed several typos in the tome
+			* Fixed incorrect ritual lens position offsets
+			* Fixed altar recipe fluid consumption
+			* Fixed attunement camera flight 'hiccup' (Credit BlueAgent)
+			* Fixed observatory showing constellations that aren't present anymore (Credit BlueAgent)
+			* Fixed crystal axe and shovel not having correct rightclick interactions
+			* Fixed some rendering issues with the tome and perk statistics
+
+	AutoRegLib (AutoRegLib-1.6-47.jar --> AutoRegLib-1.6-49.jar):
+		AutoRegLib-1.6-49.jar:
+			WARNING: This update WILL break mods that use the drop-in API. Unfortunately this had to be done. If you're using Quark, make sure you're also updating it to the latest version alongside this, or you'll crash.
+			* Updated the API for drop-in to be slot sensitive.
+
+	Bookshelf (Bookshelf-1.16.5-10.0.8.jar --> Bookshelf-1.16.5-10.1.11.jar):
+		Bookshelf-1.16.5-10.1.11.jar:
+			* Fix Russian localization file format. [(988433d)](https://github.com/Darkhax-Minecraft/Bookshelf/commit/988433d)
+
+		Bookshelf-1.16.5-10.1.9.jar:
+			* Migrate to new build pipeline. [(769cb80)](https://github.com/Darkhax-Minecraft/Bookshelf/commit/769cb80)
+
+	Chiseled (Chiseled 0.4.1 --> Chiseled 0.4.3):
+		Chiseled 0.4.3:
+			-Fixed Chisel station GUI (the chisel icon decal didnt show up)
+
+		Chiseled 0.4.2:
+			-Added Emerald Trophy to celebrate the long-ago-milestone of 200K downloads
+			-Added Brick variants for all vanilla wood planks (the textures are a bit wonky but if you wanna help remake them join the discord)
+
+	Clumps (Clumps-6.0.0.22.jar --> Clumps-6.0.0.24.jar):
+		Clumps-6.0.0.24.jar:
+			Current version: 6.0.0.24
+			* [Fix published maven libs](https://github.com/jaredlll08/Clumps/commit/352a559e979c6a403f38cb9cc326229f432359d8) - Jared - Wed May 26 11:48:11 2021
+
+		Clumps-6.0.0.23.jar:
+			Current version: 6.0.0.23
+
+	ContentTweaker (ContentTweaker-1.16-1.0.0.develop.12.jar --> ContentTweaker-1.16-1.0.0.develop.19.jar):
+		ContentTweaker-1.16-1.0.0.develop.19.jar:
+			Current version: 1.0.0.19
+			* [Enabled discord webhook](https://github.com/CraftTweaker/ContentTweaker/commit/553469c12f207e7c0f75a02e1830037560c14673) - Jared - Thu May 27 01:50:41 2021
+
+		ContentTweaker-1.16-1.0.0.develop.18.jar:
+			Current version: 1.0.0.18
+			* [Disable webhook for now](https://github.com/CraftTweaker/ContentTweaker/commit/02d67d47e7bc8472831492b48f727e0fd1602139) - Jared - Fri May 21 22:27:04 2021
+
+		ContentTweaker-1.16-1.0.0.develop.17.jar:
+			Current version: 1.0.0.17
+			* [Fix discord webhook](https://github.com/CraftTweaker/ContentTweaker/commit/4b083dc437911a5a5c8484dfe785b8a40d13556e) - Jared - Fri May 21 22:21:40 2021
+
+		ContentTweaker-1.16-1.0.0.develop.jar:
+			Current version: 1.0.0.15
+
+		ContentTweaker-1.16-1.0.0.develop.15.jar:
+			Current version: 1.0.0.15
+
+		ContentTweaker-1.16-1.0.0.develop.14.jar:
+			Current version: 1.0.0.14
+
+		ContentTweaker-1.16-1.0.0.develop.13.jar:
+			Current version: 1.0.0.13
+			* [Remove OnlyIn again](https://github.com/CraftTweaker/ContentTweaker/commit/7904ef20139039a50aba8357dc9e36b389c8667e) - kindlich - Fri May 21 21:26:01 2021
+			* [remove unused allowTinted stuff](https://github.com/CraftTweaker/ContentTweaker/commit/90ad5010e2ad6b4e5df4ed9da2bb0dcf6e9c0d10) - youyihj - Fri May 21 17:34:32 2021
+			* [Update src/main/java/com/blamejared/contenttweaker/items/types/advance/CoTItemAdvanced.java](https://github.com/CraftTweaker/ContentTweaker/commit/28499b14c3a61219bf0e8fdd1612634b726b0eab) - youyihj - Fri May 21 17:31:09 2021
+			* [remove allowTinted doc, I removed the method before](https://github.com/CraftTweaker/ContentTweaker/commit/16359986ca434f18f61884f92590137da14d1434) - youyihj - Fri May 21 17:27:56 2021
+			* [Apply suggestions from code review](https://github.com/CraftTweaker/ContentTweaker/commit/821aeb5d36e04dfbcef2763901910badf0c97acb) - youyihj - Fri May 21 17:26:08 2021
+			* [fix format](https://github.com/CraftTweaker/ContentTweaker/commit/0a0c963c3abb3345eed78f82b7ed85f65a4a5485) - youyihj - Fri May 21 09:55:28 2021
+			* [ActionQueueFluidForRegistration#validate](https://github.com/CraftTweaker/ContentTweaker/commit/1ccb36ccd0e824584b15891c78188817246697c5) - youyihj - Fri May 21 09:54:38 2021
+			* [client only registerAllRenderTypeRules](https://github.com/CraftTweaker/ContentTweaker/commit/e43b5466941c0fcb2a8682e204121bffb9b034c4) - youyihj - Fri May 21 09:38:04 2021
+			* [fix example](https://github.com/CraftTweaker/ContentTweaker/commit/44b05137a5cdfd7df8a503847675490c03f067c5) - youyihj - Thu May 20 15:10:30 2021
+			* [update CrT and move native expansions](https://github.com/CraftTweaker/ContentTweaker/commit/265b18fd80b5873435c3790ad38d43254d71ed83) - youyihj - Thu May 20 15:01:53 2021
+			* [use EnumMap instead](https://github.com/CraftTweaker/ContentTweaker/commit/55cbd921f1a6f6093a3a0816174bcfa604d41dc6) - youyihj - Thu May 20 06:05:32 2021
+			* [block builder document](https://github.com/CraftTweaker/ContentTweaker/commit/4ed7df772dd56e595d65e1fc79f511e9aacd8531) - youyihj - Thu May 20 01:43:27 2021
+			* [fix function setter](https://github.com/CraftTweaker/ContentTweaker/commit/c0441ed9737057dc99f1f789d63bb19e6153fe16) - youyihj - Thu May 20 01:40:24 2021
+			* [render type](https://github.com/CraftTweaker/ContentTweaker/commit/58df11714c01f1a0b0a35ac82b58c9f3994fec5e) - youyihj - Wed May 19 11:44:23 2021
+			* [getTileData -> getTileEntity](https://github.com/CraftTweaker/ContentTweaker/commit/b890b26f72d1307cef3abeae3982f45318e6c72b) - youyihj - Wed May 19 09:06:36 2021
+			* [move item use context to native](https://github.com/CraftTweaker/ContentTweaker/commit/9c52085417c3886235afce11c871bc67bcfe25b8) - youyihj - Wed May 19 09:00:54 2021
+			* [changes](https://github.com/CraftTweaker/ContentTweaker/commit/7248cf63b201e10e7705c87cb8fba0393d1875e9) - youyihj - Wed May 19 08:50:49 2021
+			* [fix advanced builder docParm](https://github.com/CraftTweaker/ContentTweaker/commit/d4a5eca05f6824a12897857f5ff7c1679c9af480) - youyihj - Wed May 19 08:47:05 2021
+
+	Controlling (Controlling-7.0.0.16.jar --> Controlling-7.0.0.20.jar):
+		Controlling-7.0.0.20.jar:
+			Current version: 7.0.0.20
+			* [Add Ukrainian thanks to ProSplash1 on CurseForge](https://github.com/jaredlll08/Controlling/commit/7e007fae5deb0c765304f47bef697ebcd14cab9d) - Jared - Fri May 28 13:37:52 2021
+
+		Controlling-7.0.0.19.jar:
+			Current version: 7.0.0.19
+			
+		Controlling-7.0.0.18.jar:
+			Current version: 7.0.0.18
+
+		Controlling-7.0.0.17.jar:
+			Current version: 7.0.0.17
+			* [Move to modtemplate](https://github.com/jaredlll08/Controlling/commit/e8b23de90f40c17ad360b84a7d7230b0fa37d1c7) - Jared - Wed May 26 12:23:28 2021
+
+	Cooking for Blockheads (CookingForBlockheads_1.16.5-9.3.1.jar --> CookingForBlockheads_1.16.5-9.3.2.jar):
+		CookingForBlockheads_1.16.5-9.3.2.jar:
+			Fixes
+			Fixed ovenRequiresCookingOil option not actually working
+			Fixed IMC API not actually working
+			Fixed error log message of "cow/cow.png" not being found
+			Other
+			Updated Spanish Translation ([by FrannDzs](https://github.com/blay09/CookingForBlockheads/pull/534))
+
+	CraftTweaker (CraftTweaker-1.16.5-7.1.0.292.jar --> CraftTweaker-1.16.5-7.1.0.313.jar):
+		CraftTweaker-1.16.5-7.1.0.313.jar:
+			Current version: 7.1.0.313
+			* [Fix optionals being on the same line. Close #1277](https://github.com/CraftTweaker/CraftTweaker/commit/fd21954305db51f31513f1881f31a564b46020ec) - Jared - Thu Jun 3 00:46:14 2021
+			* [fix build [skip deploy]](https://github.com/CraftTweaker/CraftTweaker/commit/88e1312190cf358565e22ab470cfb5cad85850a2) - Jared - Mon May 31 02:52:07 2021
+			* [Update license year. Just needed a commit for [skip deploy]](https://github.com/CraftTweaker/CraftTweaker/commit/7c43dfd67f6e663882cdc91698220de6b5826187) - Jared - Mon May 31 02:50:56 2021
+			* [Add Attribute Modifiers](https://github.com/CraftTweaker/CraftTweaker/commit/84d73c90242c1b0cc794bd65fe7bf3f7c068fb8a) - Jared - Mon May 31 02:46:59 2021
+
+		CraftTweaker-1.16.5-7.1.0.307.jar:
+			Current version: 7.1.0.307
+			* [Shape check (#1290)](https://github.com/CraftTweaker/CraftTweaker/commit/f72d586a71c646bacc54e61e6a483e9f1e757b7d) - youyihj - Sat May 29 20:35:47 2021
+
+		CraftTweaker-1.16.5-7.1.0.306.jar:
+			Current version: 7.1.0.306
+			* [Provide recipe to IReplacementRules for more complex behavior](https://github.com/CraftTweaker/CraftTweaker/commit/03e5dcb47faebd01f53c610976d89f579a4ff897) - TheSilkMiner - Sat May 29 11:04:35 2021
+
+		CraftTweaker-1.16.5-7.1.0.305.jar:
+			Current version: 7.1.0.305
+			* [Fix blast resistance setter](https://github.com/CraftTweaker/CraftTweaker/commit/75eb97a077062ff67fc0ed6e8f312b5f7f2a1321) - Jared - Fri May 28 16:02:01 2021
+
+		CraftTweaker-1.16.5-7.1.0.304.jar:
+			Current version: 7.1.0.304
+
+		CraftTweaker-1.16.5-7.1.0.303.jar:
+			Current version: 7.1.0.303
+
+		CraftTweaker-1.16.5-7.1.0.302.jar:
+			Current version: 7.1.0.302
+
+		CraftTweaker-1.16.5-7.1.0.301.jar:
+			Current version: 7.1.0.301
+
+		CraftTweaker-1.16.5-7.1.0.300.jar:
+			Current version: 7.1.0.300
+
+		CraftTweaker-1.16.5-7.1.0.299.jar:
+			Current version: 7.1.0.299
+
+		CraftTweaker-1.16.5-7.1.0.298.jar:
+			Current version: 7.1.0.298
+			* [Replace exclusion list with set](https://github.com/CraftTweaker/CraftTweaker/commit/f6c18bbea6a2cb113b10802d5a3117b0745a0e36) - TheSilkMiner - Tue May 25 17:51:13 2021
+			* [Add Block Tag loot condition](https://github.com/CraftTweaker/CraftTweaker/commit/15f45c5b87d36e673b445cb64b4b2ad02b6d5330) - TheSilkMiner - Tue May 25 17:50:47 2021
+			* [Add fake players dump command](https://github.com/CraftTweaker/CraftTweaker/commit/c34d485529ed07165557ecf837e48210777a10dc) - TheSilkMiner - Tue May 25 17:50:46 2021
+
+		CraftTweaker-1.16.5-7.1.0.297.jar:
+			Current version: 7.1.0.297
+			* [Move from checking dynamicity of the recipe rather than classes](https://github.com/CraftTweaker/CraftTweaker/commit/01a6bad207b0e5a52cc072fb6aa5b5e6b25bc2a4) - TheSilkMiner - Mon May 24 09:28:25 2021
+
+		CraftTweaker-1.16.5-7.1.0.296.jar:
+			Current version: 7.1.0.296
+			* [fix copy paste error](https://github.com/CraftTweaker/CraftTweaker/commit/f207b11a86a30c2e772cec48b3f88b97d981e570) - Jared - Mon May 24 02:44:22 2021
+
+		CraftTweaker-1.16.5-7.1.0.295.jar:
+			Current version: 7.1.0.295
+			* [add max damage setter. Close #1287](https://github.com/CraftTweaker/CraftTweaker/commit/a76ff7fa8c5154a455ad9f06727732ea8d04c25c) - Jared - Mon May 24 02:13:50 2021
+
+		CraftTweaker-1.16.5-7.1.0.294.jar:
+			Current version: 7.1.0.294
+
+		CraftTweaker-1.16.5-7.1.0.293.jar:
+			Current version: 7.1.0.293
+			* [update ZC](https://github.com/CraftTweaker/CraftTweaker/commit/ae4b605ded354bc7555fa81a715a3bd3940bedef) - Jared - Fri May 21 23:02:45 2021
+
+	Default Options (DefaultOptions_1.16.3-12.2.0.jar --> DefaultOptions_1.16.5-12.2.1.jar):
+		DefaultOptions_1.16.5-12.2.1.jar:
+			Fixes
+			Fixed resource packs and language option not being applied from default options
+			Fixed default difficulty option overriding the selection made in world creation screen
+
+	DimStorage (DimStorage-1.16.5-4.4.0 --> DimStorage-1.16.5-4.4.1):
+		DimStorage-1.16.5-4.4.1:
+			* Removed the Collect button from DimChest, as it caused quite a bit of trouble
+
+	FTB Chunks (Forge) (ftb-chunks-1605.2.3-build.75.jar --> ftb-chunks-forge-1605.3.1-build.12.jar):
+		ftb-chunks-forge-1605.3.1-build.12.jar:
+			* Fixed waystones compat again - LatvianModder
+
+		ftb-chunks-forge-1605.3.1-build.10.jar:
+			* Updated FTB Library - LatvianModder
+			* Updated settings.gradle - LatvianModder
+
+		ftb-chunks-forge-1605.3.1-build.7.jar:
+			* Bumped version - LatvianModder
+			* Fixed waystones compat crashing if no WS is present - LatvianModder
+
+		ftb-chunks-forge-1605.3.0-build.4.jar:
+			* Fixed saps upload - LatvianModder
+
+		ftb-chunks-1605.3.0-build.87-forge.jar:
+			* Added check for source entity in explosions. This should fix mekanism reactors imploding - LatvianModder
+			* Added cloth config to deps - LatvianModder
+
+		ftb-chunks-1605.3.0-build.86-forge.jar:
+			MAJOR UPDATE! Will break old worlds!
+
+	FTB Essentials (Forge) (ftb-essentials-1604.1.0.13.jar --> ftb-essentials-1605.1.2-build.20.jar):
+		ftb-essentials-1605.1.2-build.20.jar:
+			MAJOR UPDATE! Will break old worlds!
+
+		ftb-essentials-1605.1.2-build.19-dev.jar:
+			* Changed file format to SNBT - LatvianModder
+
+		ftb-essentials-1605.1.2-build.18-dev.jar:
+			* Added cursegradle plugin - LatvianModder
+
+	FTB Library (Forge) (ftb-gui-library-1605.2.1.41-forge.jar --> ftb-library-forge-1605.3.1-build.18.jar):
+		ftb-library-forge-1605.3.1-build.18.jar:
+			* Moved client side methods into ClientTextComponentUtils - LatvianModder
+
+		ftb-library-forge-1605.3.1-build.16.jar:
+			* Updated arch version - LatvianModder
+
+		ftb-library-forge-1605.3.1-build.14.jar:
+			* Added icons in large enum selectors - LatvianModder
+
+		ftb-library-forge-1605.3.1-build.12.jar:
+			* Updated maven, added TextComponentUtils, some server registry syncing to clients - LatvianModder
+
+		ftb-library-forge-1605.3.1-build.10.jar:
+			* Fixed a bug in teams - LatvianModder
+			* SNBT now uses the new format - no commas at end of lines, better error handling - LatvianModder
+			* Merge branch 'main' into dev - LatvianModder
+			* Updated settings.gradle - LatvianModder
+
+		ftb-library-forge-1605.3.1-build.6.jar:
+			* Added experimental SNBTParser - LatvianModder
+
+		ftb-library-forge-1605.3.1-build.5.jar:
+			* Fixed saps upload again - LatvianModder
+			* Removed javax Nullable annotations - LatvianModder
+			* Fixed saps auth - LatvianModder
+			* Updated version - LatvianModder
+			* Added CI - LatvianModder
+
+		ftb-library-1605.3.0-build.67-forge.jar:
+			MAJOR UPDATE! Will most likely break old worlds
+
+	FTB Quests (Forge) (ftb-quests-1605.2.1-build.39-forge.jar --> ftb-quests-forge-1605.3.2-build.14.jar):
+		ftb-quests-forge-1605.3.2-build.14.jar:
+			* Updated FTB Library - LatvianModder
+
+		ftb-quests-forge-1605.3.2-build.12.jar:
+			* Fixed crash on Fabric, fixed potential loot crate issues - LatvianModder
+
+		ftb-quests-forge-1605.3.2-build.10.jar:
+			* Possibly fixed team related bugs. Moved coremod stuff to library, improved advancement tasks and rewards and dimension tasks - LatvianModder
+			* Teams sync seems to work better now, fixed some errors by previous PR - LatvianModder
+			* Merge branch 'main' into dev - LatvianModder
+			* Only clear task cache on server side - LatvianModder
+			* Fixed a crash maybe - LatvianModder
+
+		ftb-quests-forge-1605.3.1-build.8.jar:
+			* Merge pull request #588 from andj/main - Max
+			* Fix/workaround for syncing of quests when in a team - Adriaan de Jong
+
+		ftb-quests-forge-1605.3.1-build.5.jar:
+			* Updated FTB Library - LatvianModder
+			* Added chapter group, chapter and quest counter after file loading, fixed maven upload - LatvianModder
+
+		ftb-quests-1605.3.0-build.57-forge.jar:
+			* Updated some mods, changed kubejs and rhino to use regular maven - LatvianModder
+
+		ftb-quests-1605.3.0-build.56-forge.jar:
+			* Rewrote all packets to use SimpleNetworkManager - LatvianModder
+
+		ftb-quests-1605.3.0-build.55-forge.jar:
+			MAJOR UPDATE! Will break old worlds!
+
+	FTB Teams (Forge) (ftb-teams-1604.1.0.16-forge.jar --> ftb-teams-forge-1605.2.1-build.10.jar):
+		ftb-teams-forge-1605.2.1-build.10.jar:
+			* Merge branch 'dev' into main - LatvianModder
+			* Fixed curseforge links - LatvianModder
+
+		ftb-teams-forge-1605.2.1-build.8.jar:
+			* Merge branch 'dev' into main - LatvianModder
+			* Fixed link color from GUI messages - LatvianModder
+			* Updated FTB Library - LatvianModder
+
+		ftb-teams-forge-1605.2.1-build.6.jar:
+			* Merge dev branch into main - Max
+			* Update build.gradle - Max
+			* Update build.gradle - Max
+			* Fixed maven uploads - LatvianModder
+
+		ftb-teams-1605.2.0-build.56-forge.jar:
+			MAJOR UPDATE! Will most likely break old worlds
+
+	FTB Ultimine (Forge) (ftb-ultimine-1605.2.0-build.26-forge.jar --> ftb-ultimine-forge-1605.2.2-build.4.jar):
+		ftb-ultimine-forge-1605.2.2-build.4.jar:
+			* Oops. Fixed build number - LatvianModder
+
+		ftb-ultimine-forge-1605.2.1-build.9999.jar:
+			No changelog available.
+
+	FastSuite (FastSuite-1.16.4-1.0.1.jar --> FastSuite-1.16.4-1.0.2.jar):
+		FastSuite-1.16.4-1.0.2.jar:
+			[https://github.com/Shadows-of-Fire/FastSuite/blob/main/changelog.md](https://github.com/Shadows-of-Fire/FastSuite/blob/main/changelog.md)
+
+	Forgiving Void (ForgivingVoid_1.16.3-5.2.0.jar --> ForgivingVoid_1.16.5-5.2.1.jar):
+		ForgivingVoid_1.16.5-5.2.1.jar:
+			Fixes
+			Fixed mod showing as missing on client even though it only needs to be on server
+
+	Immersive Engineering ( ImmersiveEngineering-1.16.5-4.2.4-134 --> ImmersiveEngineering-1.16.5-5.0.0-135):
+		ImmersiveEngineering-1.16.5-5.0.0-135:
+			* Clean up the API (Malte)
+			* THIS IS A BREAKING CHANGE!
+			* Don't expect addons to work without being updated!
+			* Add buckets for potion fluids (Malte)
+			* Add ComputerCraft compat (Malte)
+			* Add Redstone Logic system (BluSunrize)
+			* New Block: Circuit Table, use it to make logic circuits!
+			* New Block: Logic Unit, it plugs into redstone wires to do logic operations!
+			* Changed recipes for circuit boards!
+			* Add missing death message for punching someone into a live wire (BluSunrize)
+			* Add crusher recipe for netherwart blocks (BluSunrize)
+			* Add TConstruct compat, allowing Hemp to be harvested with a kama (BluSunrize)
+			* Change Item Routers: (BluSunrize)
+			* Allow items to pass into unfiltered outputs if the filtered location is full
+			* Change "OreDictionary" to "Tags", and update icons & manual documentation
+			* Improve documentation for Feedthrough Insulators (IKnewOne)
+			* Improve container logic for the Workbench (MalkContent)
+			* Adjust internal handling of Cloche recipes, allowing more dynamic recipes for mod compat (InfinityRaider)
+			* Fix servers kicking players for flying when using the skyhook or standing on conveyors (Malte)
+			* Fix the skyhook moving players to NaN coordinates in some cases (Malte)
+			* Fix particles indicating garden cloche power state (Malte)
+			* Fix issues with arc recycling recipe generation (Malte)
+			* Fix mineral veins not being generated in some areas (Malte)
+			* Fix structural arms not using their blockstate property (Malte)
+			* This made them near unusable in structure files
+			* Fix dupe bug when interacting with barrels with stacked fluid containers (Malte)
+			* Fix duplicate files being included in the IE jar (Malte)
+			* Fix inconsistent wire length checks (Malte)
+			* Fix drills breaking stone without heads or fuel (Malte)
+			* Fix the metal press dropping two molds when broken with a drill (Malte)
+			* Fix the sawmill not dropping its sawblade when broken (Malte)
+			* Fix IE recipes involving water buckets not working in some scenarios (Malte)
+			* Fix issues with multithreaded loading (Malte)
+			* Fix material list for the combined excavator (Malte)
+			* Fix registering of potion fluid and recipes (Malte)
+			* Fix drill speed exploit in water (Malte)
+			* Fix issues related to removed mineral veins (Malte)
+			* Fix multiblocks not forming when blocks are waterlogged (Malte)
+			* Fix visual disconnects on fluid pipes (Malte)
+			* Fix workbench deleting adjacent blocks (BluSunrize)
+			* Fix powered lanterns not being flipable (BluSunrize)
+			* Fix villager requiring IE steel ingots instead of config preference (BluSunrize)
+			* Fix turret GUI not allowing unfired bullets to be removed (BluSunrize)
+			* Fix transparency render glitch with razor wire (BluSunrize)
+			* Fix drill being usable without fuel (BluSunrize)
+			* Fix dupe bug with capacitor backpacks (BluSunrize)
+			* Fix craftweaker compat allowing invalid fluid inputs (BluSunrize)
+			* They now crash during Craftweaker loading, causing an appropriate error in the CT log
+			* Fix posts having different bounding boxes on different levels, making them hard to climb (TwistedGate)
+			* Fix performance issue with empty fluid outlets (Malte)
+			* Potentially fix lanterns and floodlights with OptiFine (Malte)
+			* Translations Added/Updated: de_de (astrutz)
+
+	Integrated Dynamics (IntegratedDynamics-1.16.5-1.8.2.jar --> IntegratedDynamics-1.16.5-1.8.4.jar):
+		IntegratedDynamics-1.16.5-1.8.4.jar:
+			As always, don't forget to backup your world before updating!
+			Requires CyclopsCore version 1.11.6 or higher.
+			Fixes:
+			* Fix rare deadlock when using Crafting Writer
+			Closes CyclopsMC/IntegratedCrafting#62
+
+		IntegratedDynamics-1.16.5-1.8.3.jar:
+			As always, don't forget to backup your world before updating!
+			Requires CyclopsCore version 1.11.6 or higher.
+			s
+			Fixes:
+			* Fix recipe slot count modification not being applied in LP
+			Closes CyclopsMC/IntegratedCrafting#63
+			* Fix labels not being sent to clients after corruption
+			Closes #1038
+
+	Integrated Terminals (IntegratedTerminals-1.16.5-1.2.3.jar --> IntegratedTerminals-1.16.5-1.2.4.jar):
+		IntegratedTerminals-1.16.5-1.2.4.jar:
+			As always, don't forget to backup your world before updating!
+			Requires CyclopsCore version 1.11.6 or higher.
+			Changes:
+			* Allow querying by fluid tag
+			Fixes:
+			* Fix updating crafting jobs resetting dropdown button states, #38
+			* Fix crafting job terminal list not being scrollable, Closes #38
+			* Fix crafting plan gui initial scroll length being one off
+
+	Integrated Tunnels (IntegratedTunnels-1.16.5-1.8.1.jar --> IntegratedTunnels-1.16.5-1.8.2.jar):
+		IntegratedTunnels-1.16.5-1.8.2.jar:
+			As always, don't forget to backup your world before updating!
+			Requires CyclopsCore version 1.11.6 or higher.
+			Fixes:
+			* Fix RightClickBlock event not being called in player simulator
+			This made some third-party mod functionality break.
+			Closes CyclopsMC/IntegratedDynamics#1046
+
+	JEITweaker (JEITweaker-1.16.5-1.0.1.15.jar --> JEITweaker-1.16.5-1.0.1.27.jar):
+		JEITweaker-1.16.5-1.0.1.27.jar:
+			Current version: 1.0.1.27
+			* [use dynamic modtemplate version](https://github.com/CraftTweaker/JEITweaker/commit/c2759f6a1e8ff2b35bfe25bad1ae79582b56af35) - Jared - Thu May 27 01:42:16 2021
+			* [hardcode schoomp version](https://github.com/CraftTweaker/JEITweaker/commit/6da009c0581dafcef975cadf4ea7893bc328aa9d) - Jared - Thu May 27 01:08:27 2021
+			* [move to ModTemplate](https://github.com/CraftTweaker/JEITweaker/commit/6b7df16f588250ac3836e89bb34b80106f531c66) - Jared - Wed May 26 13:14:48 2021
+			* [Fixed published maven libs](https://github.com/CraftTweaker/JEITweaker/commit/355895ff24f73e62a676dcbe32c89aef91cfa621) - Jared - Wed May 26 11:49:03 2021
+			* [Update actions to use !CraftTweakerAPI.isServer()](https://github.com/CraftTweaker/JEITweaker/commit/bb6e199c641244d51ed5562b54b777ab1d36e565) - Jared - Mon Apr 12 04:56:40 2021
+			* [Fix reloading client resources. Close #12](https://github.com/CraftTweaker/JEITweaker/commit/fad11995a4ea889c741856771a02b365f41025ce) - Jared - Fri Mar 5 17:42:39 2021
+			* [Add support for hiding recipes](https://github.com/CraftTweaker/JEITweaker/commit/1ce9158c05cae19fd8dfcd8e5e9180e2a0b998a9) - Jared - Sun Feb 21 01:40:11 2021
+			* [add editor config and format](https://github.com/CraftTweaker/JEITweaker/commit/61500155baf1eaa514069a8ba1b658481b7740ca) - Jared - Thu Feb 11 16:59:33 2021
+			* [Fix NBT hiding. Close #10](https://github.com/CraftTweaker/JEITweaker/commit/344c56821c62a9b918e2f92878da81f3b123ee76) - Jared - Thu Feb 11 16:58:50 2021
+			* [Fix hideMod doing nothing](https://github.com/CraftTweaker/JEITweaker/commit/fd069ce5094692f2bf45a110bf36756861891c85) - Jared - Thu Feb 11 15:37:11 2021
+			* [add mod and regex support](https://github.com/CraftTweaker/JEITweaker/commit/d1b5681706eeace4d5c194164fb49b89b03b7766) - Jared - Wed Jan 27 20:06:59 2021
+			* [Add /ct dump jeiCategories close #6](https://github.com/CraftTweaker/JEITweaker/commit/c4b416776ac469700a10bacd768d73a6f8b50017) - Jared - Wed Jan 27 17:14:33 2021
+			* [Add support for hiding fluids](https://github.com/CraftTweaker/JEITweaker/commit/4db362fe9ddfc176fe9065be1fe4cef1ac2ed340) - Jared - Tue Jan 26 19:27:23 2021
+			* [port to 1.16.5](https://github.com/CraftTweaker/JEITweaker/commit/3a29330a561d2c7c1215d4fdba4d5c8229fa7fac) - Jared - Tue Jan 26 19:01:06 2021
+			* [add support for describing fluids](https://github.com/CraftTweaker/JEITweaker/commit/f3cfd98d97830fe06db89672efbb2e7a88878ccf) - Jared - Tue Jan 26 18:08:51 2021
+			* [update crafttweaker](https://github.com/CraftTweaker/JEITweaker/commit/e35cd151b5dcd3a9fcd7bb6a1b297cf9b7cd1328) - Jared - Tue Jan 26 17:21:36 2021
+			* [port to 1.16.4](https://github.com/CraftTweaker/JEITweaker/commit/ebc654ee433853ea9a9e5da992b78da9ad65aa65) - Jared - Fri Nov 13 22:58:43 2020
+			* [port to 1.16.3](https://github.com/CraftTweaker/JEITweaker/commit/8ac7d84223820add17c47fe5bac319bbf88da529) - Jared - Sun Sep 27 04:26:52 2020
+			* [port to 1.16.2](https://github.com/CraftTweaker/JEITweaker/commit/77a05b918ae6024853f1b99fdb3cf6b2da121cc8) - Jared - Thu Sep 3 21:14:19 2020
+			* [add version info to the jar file](https://github.com/CraftTweaker/JEITweaker/commit/a0b78605d84bc94b307ec5d4de886365fc14be4f) - Jared - Mon Jul 13 01:26:16 2020
+			* [update commit](https://github.com/CraftTweaker/JEITweaker/commit/3828fe59b4f3378748329e1c0bd230d02aa08db2) - Jared - Mon Jul 13 01:22:40 2020
+
+		JEITweaker-1.16.5-1.0.1.26.jar:
+			Current version: 1.0.1.26
+			* [use dynamic modtemplate version](https://github.com/CraftTweaker/JEITweaker/commit/c2759f6a1e8ff2b35bfe25bad1ae79582b56af35) - Jared - Thu May 27 01:42:16 2021
+			* [hardcode schoomp version](https://github.com/CraftTweaker/JEITweaker/commit/6da009c0581dafcef975cadf4ea7893bc328aa9d) - Jared - Thu May 27 01:08:27 2021
+			* [move to ModTemplate](https://github.com/CraftTweaker/JEITweaker/commit/6b7df16f588250ac3836e89bb34b80106f531c66) - Jared - Wed May 26 13:14:48 2021
+			* [Fixed published maven libs](https://github.com/CraftTweaker/JEITweaker/commit/355895ff24f73e62a676dcbe32c89aef91cfa621) - Jared - Wed May 26 11:49:03 2021
+			* [Update actions to use !CraftTweakerAPI.isServer()](https://github.com/CraftTweaker/JEITweaker/commit/bb6e199c641244d51ed5562b54b777ab1d36e565) - Jared - Mon Apr 12 04:56:40 2021
+			* [Fix reloading client resources. Close #12](https://github.com/CraftTweaker/JEITweaker/commit/fad11995a4ea889c741856771a02b365f41025ce) - Jared - Fri Mar 5 17:42:39 2021
+			* [Add support for hiding recipes](https://github.com/CraftTweaker/JEITweaker/commit/1ce9158c05cae19fd8dfcd8e5e9180e2a0b998a9) - Jared - Sun Feb 21 01:40:11 2021
+			* [add editor config and format](https://github.com/CraftTweaker/JEITweaker/commit/61500155baf1eaa514069a8ba1b658481b7740ca) - Jared - Thu Feb 11 16:59:33 2021
+			* [Fix NBT hiding. Close #10](https://github.com/CraftTweaker/JEITweaker/commit/344c56821c62a9b918e2f92878da81f3b123ee76) - Jared - Thu Feb 11 16:58:50 2021
+			* [Fix hideMod doing nothing](https://github.com/CraftTweaker/JEITweaker/commit/fd069ce5094692f2bf45a110bf36756861891c85) - Jared - Thu Feb 11 15:37:11 2021
+			* [add mod and regex support](https://github.com/CraftTweaker/JEITweaker/commit/d1b5681706eeace4d5c194164fb49b89b03b7766) - Jared - Wed Jan 27 20:06:59 2021
+			* [Add /ct dump jeiCategories close #6](https://github.com/CraftTweaker/JEITweaker/commit/c4b416776ac469700a10bacd768d73a6f8b50017) - Jared - Wed Jan 27 17:14:33 2021
+			* [Add support for hiding fluids](https://github.com/CraftTweaker/JEITweaker/commit/4db362fe9ddfc176fe9065be1fe4cef1ac2ed340) - Jared - Tue Jan 26 19:27:23 2021
+			* [port to 1.16.5](https://github.com/CraftTweaker/JEITweaker/commit/3a29330a561d2c7c1215d4fdba4d5c8229fa7fac) - Jared - Tue Jan 26 19:01:06 2021
+			* [add support for describing fluids](https://github.com/CraftTweaker/JEITweaker/commit/f3cfd98d97830fe06db89672efbb2e7a88878ccf) - Jared - Tue Jan 26 18:08:51 2021
+			* [update crafttweaker](https://github.com/CraftTweaker/JEITweaker/commit/e35cd151b5dcd3a9fcd7bb6a1b297cf9b7cd1328) - Jared - Tue Jan 26 17:21:36 2021
+			* [port to 1.16.4](https://github.com/CraftTweaker/JEITweaker/commit/ebc654ee433853ea9a9e5da992b78da9ad65aa65) - Jared - Fri Nov 13 22:58:43 2020
+			* [port to 1.16.3](https://github.com/CraftTweaker/JEITweaker/commit/8ac7d84223820add17c47fe5bac319bbf88da529) - Jared - Sun Sep 27 04:26:52 2020
+			* [port to 1.16.2](https://github.com/CraftTweaker/JEITweaker/commit/77a05b918ae6024853f1b99fdb3cf6b2da121cc8) - Jared - Thu Sep 3 21:14:19 2020
+			* [add version info to the jar file](https://github.com/CraftTweaker/JEITweaker/commit/a0b78605d84bc94b307ec5d4de886365fc14be4f) - Jared - Mon Jul 13 01:26:16 2020
+			* [update commit](https://github.com/CraftTweaker/JEITweaker/commit/3828fe59b4f3378748329e1c0bd230d02aa08db2) - Jared - Mon Jul 13 01:22:40 2020
+
+		JEITweaker-1.16.5-1.0.1.25.jar:
+			Current version: 1.0.1.25
+			* [use dynamic modtemplate version](https://github.com/CraftTweaker/JEITweaker/commit/c2759f6a1e8ff2b35bfe25bad1ae79582b56af35) - Jared - Thu May 27 01:42:16 2021
+			* [hardcode schoomp version](https://github.com/CraftTweaker/JEITweaker/commit/6da009c0581dafcef975cadf4ea7893bc328aa9d) - Jared - Thu May 27 01:08:27 2021
+			* [move to ModTemplate](https://github.com/CraftTweaker/JEITweaker/commit/6b7df16f588250ac3836e89bb34b80106f531c66) - Jared - Wed May 26 13:14:48 2021
+			* [Fixed published maven libs](https://github.com/CraftTweaker/JEITweaker/commit/355895ff24f73e62a676dcbe32c89aef91cfa621) - Jared - Wed May 26 11:49:03 2021
+			* [Update actions to use !CraftTweakerAPI.isServer()](https://github.com/CraftTweaker/JEITweaker/commit/bb6e199c641244d51ed5562b54b777ab1d36e565) - Jared - Mon Apr 12 04:56:40 2021
+			* [Fix reloading client resources. Close #12](https://github.com/CraftTweaker/JEITweaker/commit/fad11995a4ea889c741856771a02b365f41025ce) - Jared - Fri Mar 5 17:42:39 2021
+			* [Add support for hiding recipes](https://github.com/CraftTweaker/JEITweaker/commit/1ce9158c05cae19fd8dfcd8e5e9180e2a0b998a9) - Jared - Sun Feb 21 01:40:11 2021
+			* [add editor config and format](https://github.com/CraftTweaker/JEITweaker/commit/61500155baf1eaa514069a8ba1b658481b7740ca) - Jared - Thu Feb 11 16:59:33 2021
+			* [Fix NBT hiding. Close #10](https://github.com/CraftTweaker/JEITweaker/commit/344c56821c62a9b918e2f92878da81f3b123ee76) - Jared - Thu Feb 11 16:58:50 2021
+			* [Fix hideMod doing nothing](https://github.com/CraftTweaker/JEITweaker/commit/fd069ce5094692f2bf45a110bf36756861891c85) - Jared - Thu Feb 11 15:37:11 2021
+			* [add mod and regex support](https://github.com/CraftTweaker/JEITweaker/commit/d1b5681706eeace4d5c194164fb49b89b03b7766) - Jared - Wed Jan 27 20:06:59 2021
+			* [Add /ct dump jeiCategories close #6](https://github.com/CraftTweaker/JEITweaker/commit/c4b416776ac469700a10bacd768d73a6f8b50017) - Jared - Wed Jan 27 17:14:33 2021
+			* [Add support for hiding fluids](https://github.com/CraftTweaker/JEITweaker/commit/4db362fe9ddfc176fe9065be1fe4cef1ac2ed340) - Jared - Tue Jan 26 19:27:23 2021
+			* [port to 1.16.5](https://github.com/CraftTweaker/JEITweaker/commit/3a29330a561d2c7c1215d4fdba4d5c8229fa7fac) - Jared - Tue Jan 26 19:01:06 2021
+			* [add support for describing fluids](https://github.com/CraftTweaker/JEITweaker/commit/f3cfd98d97830fe06db89672efbb2e7a88878ccf) - Jared - Tue Jan 26 18:08:51 2021
+			* [update crafttweaker](https://github.com/CraftTweaker/JEITweaker/commit/e35cd151b5dcd3a9fcd7bb6a1b297cf9b7cd1328) - Jared - Tue Jan 26 17:21:36 2021
+			* [port to 1.16.4](https://github.com/CraftTweaker/JEITweaker/commit/ebc654ee433853ea9a9e5da992b78da9ad65aa65) - Jared - Fri Nov 13 22:58:43 2020
+			* [port to 1.16.3](https://github.com/CraftTweaker/JEITweaker/commit/8ac7d84223820add17c47fe5bac319bbf88da529) - Jared - Sun Sep 27 04:26:52 2020
+			* [port to 1.16.2](https://github.com/CraftTweaker/JEITweaker/commit/77a05b918ae6024853f1b99fdb3cf6b2da121cc8) - Jared - Thu Sep 3 21:14:19 2020
+			* [add version info to the jar file](https://github.com/CraftTweaker/JEITweaker/commit/a0b78605d84bc94b307ec5d4de886365fc14be4f) - Jared - Mon Jul 13 01:26:16 2020
+			* [update commit](https://github.com/CraftTweaker/JEITweaker/commit/3828fe59b4f3378748329e1c0bd230d02aa08db2) - Jared - Mon Jul 13 01:22:40 2020
+
+		JEITweaker-1.16.5-1.0.1.24.jar:
+			Current version: 1.0.1.24
+			* [hardcode schoomp version](https://github.com/CraftTweaker/JEITweaker/commit/6da009c0581dafcef975cadf4ea7893bc328aa9d) - Jared - Thu May 27 01:08:27 2021
+			* [move to ModTemplate](https://github.com/CraftTweaker/JEITweaker/commit/6b7df16f588250ac3836e89bb34b80106f531c66) - Jared - Wed May 26 13:14:48 2021
+			* [Fixed published maven libs](https://github.com/CraftTweaker/JEITweaker/commit/355895ff24f73e62a676dcbe32c89aef91cfa621) - Jared - Wed May 26 11:49:03 2021
+			* [Update actions to use !CraftTweakerAPI.isServer()](https://github.com/CraftTweaker/JEITweaker/commit/bb6e199c641244d51ed5562b54b777ab1d36e565) - Jared - Mon Apr 12 04:56:40 2021
+			* [Fix reloading client resources. Close #12](https://github.com/CraftTweaker/JEITweaker/commit/fad11995a4ea889c741856771a02b365f41025ce) - Jared - Fri Mar 5 17:42:39 2021
+			* [Add support for hiding recipes](https://github.com/CraftTweaker/JEITweaker/commit/1ce9158c05cae19fd8dfcd8e5e9180e2a0b998a9) - Jared - Sun Feb 21 01:40:11 2021
+			* [add editor config and format](https://github.com/CraftTweaker/JEITweaker/commit/61500155baf1eaa514069a8ba1b658481b7740ca) - Jared - Thu Feb 11 16:59:33 2021
+			* [Fix NBT hiding. Close #10](https://github.com/CraftTweaker/JEITweaker/commit/344c56821c62a9b918e2f92878da81f3b123ee76) - Jared - Thu Feb 11 16:58:50 2021
+			* [Fix hideMod doing nothing](https://github.com/CraftTweaker/JEITweaker/commit/fd069ce5094692f2bf45a110bf36756861891c85) - Jared - Thu Feb 11 15:37:11 2021
+			* [add mod and regex support](https://github.com/CraftTweaker/JEITweaker/commit/d1b5681706eeace4d5c194164fb49b89b03b7766) - Jared - Wed Jan 27 20:06:59 2021
+			* [Add /ct dump jeiCategories close #6](https://github.com/CraftTweaker/JEITweaker/commit/c4b416776ac469700a10bacd768d73a6f8b50017) - Jared - Wed Jan 27 17:14:33 2021
+			* [Add support for hiding fluids](https://github.com/CraftTweaker/JEITweaker/commit/4db362fe9ddfc176fe9065be1fe4cef1ac2ed340) - Jared - Tue Jan 26 19:27:23 2021
+			* [port to 1.16.5](https://github.com/CraftTweaker/JEITweaker/commit/3a29330a561d2c7c1215d4fdba4d5c8229fa7fac) - Jared - Tue Jan 26 19:01:06 2021
+			* [add support for describing fluids](https://github.com/CraftTweaker/JEITweaker/commit/f3cfd98d97830fe06db89672efbb2e7a88878ccf) - Jared - Tue Jan 26 18:08:51 2021
+			* [update crafttweaker](https://github.com/CraftTweaker/JEITweaker/commit/e35cd151b5dcd3a9fcd7bb6a1b297cf9b7cd1328) - Jared - Tue Jan 26 17:21:36 2021
+			* [port to 1.16.4](https://github.com/CraftTweaker/JEITweaker/commit/ebc654ee433853ea9a9e5da992b78da9ad65aa65) - Jared - Fri Nov 13 22:58:43 2020
+			* [port to 1.16.3](https://github.com/CraftTweaker/JEITweaker/commit/8ac7d84223820add17c47fe5bac319bbf88da529) - Jared - Sun Sep 27 04:26:52 2020
+			* [port to 1.16.2](https://github.com/CraftTweaker/JEITweaker/commit/77a05b918ae6024853f1b99fdb3cf6b2da121cc8) - Jared - Thu Sep 3 21:14:19 2020
+			* [add version info to the jar file](https://github.com/CraftTweaker/JEITweaker/commit/a0b78605d84bc94b307ec5d4de886365fc14be4f) - Jared - Mon Jul 13 01:26:16 2020
+			* [update commit](https://github.com/CraftTweaker/JEITweaker/commit/3828fe59b4f3378748329e1c0bd230d02aa08db2) - Jared - Mon Jul 13 01:22:40 2020
+
+		JEITweaker-1.16.5-1.0.1.23.jar:
+			Current version: 1.0.1.23
+			* [hardcode schoomp version](https://github.com/CraftTweaker/JEITweaker/commit/6da009c0581dafcef975cadf4ea7893bc328aa9d) - Jared - Thu May 27 01:08:27 2021
+			* [move to ModTemplate](https://github.com/CraftTweaker/JEITweaker/commit/6b7df16f588250ac3836e89bb34b80106f531c66) - Jared - Wed May 26 13:14:48 2021
+			* [Fixed published maven libs](https://github.com/CraftTweaker/JEITweaker/commit/355895ff24f73e62a676dcbe32c89aef91cfa621) - Jared - Wed May 26 11:49:03 2021
+			* [Update actions to use !CraftTweakerAPI.isServer()](https://github.com/CraftTweaker/JEITweaker/commit/bb6e199c641244d51ed5562b54b777ab1d36e565) - Jared - Mon Apr 12 04:56:40 2021
+			* [Fix reloading client resources. Close #12](https://github.com/CraftTweaker/JEITweaker/commit/fad11995a4ea889c741856771a02b365f41025ce) - Jared - Fri Mar 5 17:42:39 2021
+			* [Add support for hiding recipes](https://github.com/CraftTweaker/JEITweaker/commit/1ce9158c05cae19fd8dfcd8e5e9180e2a0b998a9) - Jared - Sun Feb 21 01:40:11 2021
+			* [add editor config and format](https://github.com/CraftTweaker/JEITweaker/commit/61500155baf1eaa514069a8ba1b658481b7740ca) - Jared - Thu Feb 11 16:59:33 2021
+			* [Fix NBT hiding. Close #10](https://github.com/CraftTweaker/JEITweaker/commit/344c56821c62a9b918e2f92878da81f3b123ee76) - Jared - Thu Feb 11 16:58:50 2021
+			* [Fix hideMod doing nothing](https://github.com/CraftTweaker/JEITweaker/commit/fd069ce5094692f2bf45a110bf36756861891c85) - Jared - Thu Feb 11 15:37:11 2021
+			* [add mod and regex support](https://github.com/CraftTweaker/JEITweaker/commit/d1b5681706eeace4d5c194164fb49b89b03b7766) - Jared - Wed Jan 27 20:06:59 2021
+			* [Add /ct dump jeiCategories close #6](https://github.com/CraftTweaker/JEITweaker/commit/c4b416776ac469700a10bacd768d73a6f8b50017) - Jared - Wed Jan 27 17:14:33 2021
+			* [Add support for hiding fluids](https://github.com/CraftTweaker/JEITweaker/commit/4db362fe9ddfc176fe9065be1fe4cef1ac2ed340) - Jared - Tue Jan 26 19:27:23 2021
+			* [port to 1.16.5](https://github.com/CraftTweaker/JEITweaker/commit/3a29330a561d2c7c1215d4fdba4d5c8229fa7fac) - Jared - Tue Jan 26 19:01:06 2021
+			* [add support for describing fluids](https://github.com/CraftTweaker/JEITweaker/commit/f3cfd98d97830fe06db89672efbb2e7a88878ccf) - Jared - Tue Jan 26 18:08:51 2021
+			* [update crafttweaker](https://github.com/CraftTweaker/JEITweaker/commit/e35cd151b5dcd3a9fcd7bb6a1b297cf9b7cd1328) - Jared - Tue Jan 26 17:21:36 2021
+			* [port to 1.16.4](https://github.com/CraftTweaker/JEITweaker/commit/ebc654ee433853ea9a9e5da992b78da9ad65aa65) - Jared - Fri Nov 13 22:58:43 2020
+			* [port to 1.16.3](https://github.com/CraftTweaker/JEITweaker/commit/8ac7d84223820add17c47fe5bac319bbf88da529) - Jared - Sun Sep 27 04:26:52 2020
+			* [port to 1.16.2](https://github.com/CraftTweaker/JEITweaker/commit/77a05b918ae6024853f1b99fdb3cf6b2da121cc8) - Jared - Thu Sep 3 21:14:19 2020
+			* [add version info to the jar file](https://github.com/CraftTweaker/JEITweaker/commit/a0b78605d84bc94b307ec5d4de886365fc14be4f) - Jared - Mon Jul 13 01:26:16 2020
+			* [update commit](https://github.com/CraftTweaker/JEITweaker/commit/3828fe59b4f3378748329e1c0bd230d02aa08db2) - Jared - Mon Jul 13 01:22:40 2020
+
+		JEITweaker-1.16.5-1.0.1.22.jar:
+			Current version: 1.0.1.22
+			* [hardcode schoomp version](https://github.com/CraftTweaker/JEITweaker/commit/6da009c0581dafcef975cadf4ea7893bc328aa9d) - Jared - Thu May 27 01:08:27 2021
+			* [move to ModTemplate](https://github.com/CraftTweaker/JEITweaker/commit/6b7df16f588250ac3836e89bb34b80106f531c66) - Jared - Wed May 26 13:14:48 2021
+			* [Fixed published maven libs](https://github.com/CraftTweaker/JEITweaker/commit/355895ff24f73e62a676dcbe32c89aef91cfa621) - Jared - Wed May 26 11:49:03 2021
+			* [Update actions to use !CraftTweakerAPI.isServer()](https://github.com/CraftTweaker/JEITweaker/commit/bb6e199c641244d51ed5562b54b777ab1d36e565) - Jared - Mon Apr 12 04:56:40 2021
+			* [Fix reloading client resources. Close #12](https://github.com/CraftTweaker/JEITweaker/commit/fad11995a4ea889c741856771a02b365f41025ce) - Jared - Fri Mar 5 17:42:39 2021
+			* [Add support for hiding recipes](https://github.com/CraftTweaker/JEITweaker/commit/1ce9158c05cae19fd8dfcd8e5e9180e2a0b998a9) - Jared - Sun Feb 21 01:40:11 2021
+			* [add editor config and format](https://github.com/CraftTweaker/JEITweaker/commit/61500155baf1eaa514069a8ba1b658481b7740ca) - Jared - Thu Feb 11 16:59:33 2021
+			* [Fix NBT hiding. Close #10](https://github.com/CraftTweaker/JEITweaker/commit/344c56821c62a9b918e2f92878da81f3b123ee76) - Jared - Thu Feb 11 16:58:50 2021
+			* [Fix hideMod doing nothing](https://github.com/CraftTweaker/JEITweaker/commit/fd069ce5094692f2bf45a110bf36756861891c85) - Jared - Thu Feb 11 15:37:11 2021
+			* [add mod and regex support](https://github.com/CraftTweaker/JEITweaker/commit/d1b5681706eeace4d5c194164fb49b89b03b7766) - Jared - Wed Jan 27 20:06:59 2021
+			* [Add /ct dump jeiCategories close #6](https://github.com/CraftTweaker/JEITweaker/commit/c4b416776ac469700a10bacd768d73a6f8b50017) - Jared - Wed Jan 27 17:14:33 2021
+			* [Add support for hiding fluids](https://github.com/CraftTweaker/JEITweaker/commit/4db362fe9ddfc176fe9065be1fe4cef1ac2ed340) - Jared - Tue Jan 26 19:27:23 2021
+			* [port to 1.16.5](https://github.com/CraftTweaker/JEITweaker/commit/3a29330a561d2c7c1215d4fdba4d5c8229fa7fac) - Jared - Tue Jan 26 19:01:06 2021
+			* [add support for describing fluids](https://github.com/CraftTweaker/JEITweaker/commit/f3cfd98d97830fe06db89672efbb2e7a88878ccf) - Jared - Tue Jan 26 18:08:51 2021
+			* [update crafttweaker](https://github.com/CraftTweaker/JEITweaker/commit/e35cd151b5dcd3a9fcd7bb6a1b297cf9b7cd1328) - Jared - Tue Jan 26 17:21:36 2021
+			* [port to 1.16.4](https://github.com/CraftTweaker/JEITweaker/commit/ebc654ee433853ea9a9e5da992b78da9ad65aa65) - Jared - Fri Nov 13 22:58:43 2020
+			* [port to 1.16.3](https://github.com/CraftTweaker/JEITweaker/commit/8ac7d84223820add17c47fe5bac319bbf88da529) - Jared - Sun Sep 27 04:26:52 2020
+			* [port to 1.16.2](https://github.com/CraftTweaker/JEITweaker/commit/77a05b918ae6024853f1b99fdb3cf6b2da121cc8) - Jared - Thu Sep 3 21:14:19 2020
+			* [add version info to the jar file](https://github.com/CraftTweaker/JEITweaker/commit/a0b78605d84bc94b307ec5d4de886365fc14be4f) - Jared - Mon Jul 13 01:26:16 2020
+			* [update commit](https://github.com/CraftTweaker/JEITweaker/commit/3828fe59b4f3378748329e1c0bd230d02aa08db2) - Jared - Mon Jul 13 01:22:40 2020
+
+		JEITweaker-1.16.5-1.0.1.21.jar:
+			Current version: 1.0.1.21
+			* [hardcode schoomp version](https://github.com/CraftTweaker/JEITweaker/commit/6da009c0581dafcef975cadf4ea7893bc328aa9d) - Jared - Thu May 27 01:08:27 2021
+			* [move to ModTemplate](https://github.com/CraftTweaker/JEITweaker/commit/6b7df16f588250ac3836e89bb34b80106f531c66) - Jared - Wed May 26 13:14:48 2021
+			* [Fixed published maven libs](https://github.com/CraftTweaker/JEITweaker/commit/355895ff24f73e62a676dcbe32c89aef91cfa621) - Jared - Wed May 26 11:49:03 2021
+			* [Update actions to use !CraftTweakerAPI.isServer()](https://github.com/CraftTweaker/JEITweaker/commit/bb6e199c641244d51ed5562b54b777ab1d36e565) - Jared - Mon Apr 12 04:56:40 2021
+			* [Fix reloading client resources. Close #12](https://github.com/CraftTweaker/JEITweaker/commit/fad11995a4ea889c741856771a02b365f41025ce) - Jared - Fri Mar 5 17:42:39 2021
+			* [Add support for hiding recipes](https://github.com/CraftTweaker/JEITweaker/commit/1ce9158c05cae19fd8dfcd8e5e9180e2a0b998a9) - Jared - Sun Feb 21 01:40:11 2021
+			* [add editor config and format](https://github.com/CraftTweaker/JEITweaker/commit/61500155baf1eaa514069a8ba1b658481b7740ca) - Jared - Thu Feb 11 16:59:33 2021
+			* [Fix NBT hiding. Close #10](https://github.com/CraftTweaker/JEITweaker/commit/344c56821c62a9b918e2f92878da81f3b123ee76) - Jared - Thu Feb 11 16:58:50 2021
+			* [Fix hideMod doing nothing](https://github.com/CraftTweaker/JEITweaker/commit/fd069ce5094692f2bf45a110bf36756861891c85) - Jared - Thu Feb 11 15:37:11 2021
+			* [add mod and regex support](https://github.com/CraftTweaker/JEITweaker/commit/d1b5681706eeace4d5c194164fb49b89b03b7766) - Jared - Wed Jan 27 20:06:59 2021
+			* [Add /ct dump jeiCategories close #6](https://github.com/CraftTweaker/JEITweaker/commit/c4b416776ac469700a10bacd768d73a6f8b50017) - Jared - Wed Jan 27 17:14:33 2021
+			* [Add support for hiding fluids](https://github.com/CraftTweaker/JEITweaker/commit/4db362fe9ddfc176fe9065be1fe4cef1ac2ed340) - Jared - Tue Jan 26 19:27:23 2021
+			* [port to 1.16.5](https://github.com/CraftTweaker/JEITweaker/commit/3a29330a561d2c7c1215d4fdba4d5c8229fa7fac) - Jared - Tue Jan 26 19:01:06 2021
+			* [add support for describing fluids](https://github.com/CraftTweaker/JEITweaker/commit/f3cfd98d97830fe06db89672efbb2e7a88878ccf) - Jared - Tue Jan 26 18:08:51 2021
+			* [update crafttweaker](https://github.com/CraftTweaker/JEITweaker/commit/e35cd151b5dcd3a9fcd7bb6a1b297cf9b7cd1328) - Jared - Tue Jan 26 17:21:36 2021
+			* [port to 1.16.4](https://github.com/CraftTweaker/JEITweaker/commit/ebc654ee433853ea9a9e5da992b78da9ad65aa65) - Jared - Fri Nov 13 22:58:43 2020
+			* [port to 1.16.3](https://github.com/CraftTweaker/JEITweaker/commit/8ac7d84223820add17c47fe5bac319bbf88da529) - Jared - Sun Sep 27 04:26:52 2020
+			* [port to 1.16.2](https://github.com/CraftTweaker/JEITweaker/commit/77a05b918ae6024853f1b99fdb3cf6b2da121cc8) - Jared - Thu Sep 3 21:14:19 2020
+			* [add version info to the jar file](https://github.com/CraftTweaker/JEITweaker/commit/a0b78605d84bc94b307ec5d4de886365fc14be4f) - Jared - Mon Jul 13 01:26:16 2020
+			* [update commit](https://github.com/CraftTweaker/JEITweaker/commit/3828fe59b4f3378748329e1c0bd230d02aa08db2) - Jared - Mon Jul 13 01:22:40 2020
+
+		JEITweaker-1.16.5-1.0.1.20.jar:
+			Current version: 1.0.1.20
+			* [hardcode schoomp version](https://github.com/CraftTweaker/JEITweaker/commit/6da009c0581dafcef975cadf4ea7893bc328aa9d) - Jared - Thu May 27 01:08:27 2021
+			* [move to ModTemplate](https://github.com/CraftTweaker/JEITweaker/commit/6b7df16f588250ac3836e89bb34b80106f531c66) - Jared - Wed May 26 13:14:48 2021
+			* [Fixed published maven libs](https://github.com/CraftTweaker/JEITweaker/commit/355895ff24f73e62a676dcbe32c89aef91cfa621) - Jared - Wed May 26 11:49:03 2021
+			* [Update actions to use !CraftTweakerAPI.isServer()](https://github.com/CraftTweaker/JEITweaker/commit/bb6e199c641244d51ed5562b54b777ab1d36e565) - Jared - Mon Apr 12 04:56:40 2021
+			* [Fix reloading client resources. Close #12](https://github.com/CraftTweaker/JEITweaker/commit/fad11995a4ea889c741856771a02b365f41025ce) - Jared - Fri Mar 5 17:42:39 2021
+			* [Add support for hiding recipes](https://github.com/CraftTweaker/JEITweaker/commit/1ce9158c05cae19fd8dfcd8e5e9180e2a0b998a9) - Jared - Sun Feb 21 01:40:11 2021
+			* [add editor config and format](https://github.com/CraftTweaker/JEITweaker/commit/61500155baf1eaa514069a8ba1b658481b7740ca) - Jared - Thu Feb 11 16:59:33 2021
+			* [Fix NBT hiding. Close #10](https://github.com/CraftTweaker/JEITweaker/commit/344c56821c62a9b918e2f92878da81f3b123ee76) - Jared - Thu Feb 11 16:58:50 2021
+			* [Fix hideMod doing nothing](https://github.com/CraftTweaker/JEITweaker/commit/fd069ce5094692f2bf45a110bf36756861891c85) - Jared - Thu Feb 11 15:37:11 2021
+			* [add mod and regex support](https://github.com/CraftTweaker/JEITweaker/commit/d1b5681706eeace4d5c194164fb49b89b03b7766) - Jared - Wed Jan 27 20:06:59 2021
+			* [Add /ct dump jeiCategories close #6](https://github.com/CraftTweaker/JEITweaker/commit/c4b416776ac469700a10bacd768d73a6f8b50017) - Jared - Wed Jan 27 17:14:33 2021
+			* [Add support for hiding fluids](https://github.com/CraftTweaker/JEITweaker/commit/4db362fe9ddfc176fe9065be1fe4cef1ac2ed340) - Jared - Tue Jan 26 19:27:23 2021
+			* [port to 1.16.5](https://github.com/CraftTweaker/JEITweaker/commit/3a29330a561d2c7c1215d4fdba4d5c8229fa7fac) - Jared - Tue Jan 26 19:01:06 2021
+			* [add support for describing fluids](https://github.com/CraftTweaker/JEITweaker/commit/f3cfd98d97830fe06db89672efbb2e7a88878ccf) - Jared - Tue Jan 26 18:08:51 2021
+			* [update crafttweaker](https://github.com/CraftTweaker/JEITweaker/commit/e35cd151b5dcd3a9fcd7bb6a1b297cf9b7cd1328) - Jared - Tue Jan 26 17:21:36 2021
+			* [port to 1.16.4](https://github.com/CraftTweaker/JEITweaker/commit/ebc654ee433853ea9a9e5da992b78da9ad65aa65) - Jared - Fri Nov 13 22:58:43 2020
+			* [port to 1.16.3](https://github.com/CraftTweaker/JEITweaker/commit/8ac7d84223820add17c47fe5bac319bbf88da529) - Jared - Sun Sep 27 04:26:52 2020
+			* [port to 1.16.2](https://github.com/CraftTweaker/JEITweaker/commit/77a05b918ae6024853f1b99fdb3cf6b2da121cc8) - Jared - Thu Sep 3 21:14:19 2020
+			* [add version info to the jar file](https://github.com/CraftTweaker/JEITweaker/commit/a0b78605d84bc94b307ec5d4de886365fc14be4f) - Jared - Mon Jul 13 01:26:16 2020
+			* [update commit](https://github.com/CraftTweaker/JEITweaker/commit/3828fe59b4f3378748329e1c0bd230d02aa08db2) - Jared - Mon Jul 13 01:22:40 2020
+
+		JEITweaker-1.16.5-1.0.1.19.jar:
+			Current version: 1.0.1.19
+			* [move to ModTemplate](https://github.com/CraftTweaker/JEITweaker/commit/6b7df16f588250ac3836e89bb34b80106f531c66) - Jared - Wed May 26 13:14:48 2021
+			* [Fixed published maven libs](https://github.com/CraftTweaker/JEITweaker/commit/355895ff24f73e62a676dcbe32c89aef91cfa621) - Jared - Wed May 26 11:49:03 2021
+			* [Update actions to use !CraftTweakerAPI.isServer()](https://github.com/CraftTweaker/JEITweaker/commit/bb6e199c641244d51ed5562b54b777ab1d36e565) - Jared - Mon Apr 12 04:56:40 2021
+			* [Fix reloading client resources. Close #12](https://github.com/CraftTweaker/JEITweaker/commit/fad11995a4ea889c741856771a02b365f41025ce) - Jared - Fri Mar 5 17:42:39 2021
+			* [Add support for hiding recipes](https://github.com/CraftTweaker/JEITweaker/commit/1ce9158c05cae19fd8dfcd8e5e9180e2a0b998a9) - Jared - Sun Feb 21 01:40:11 2021
+			* [add editor config and format](https://github.com/CraftTweaker/JEITweaker/commit/61500155baf1eaa514069a8ba1b658481b7740ca) - Jared - Thu Feb 11 16:59:33 2021
+			* [Fix NBT hiding. Close #10](https://github.com/CraftTweaker/JEITweaker/commit/344c56821c62a9b918e2f92878da81f3b123ee76) - Jared - Thu Feb 11 16:58:50 2021
+			* [Fix hideMod doing nothing](https://github.com/CraftTweaker/JEITweaker/commit/fd069ce5094692f2bf45a110bf36756861891c85) - Jared - Thu Feb 11 15:37:11 2021
+			* [add mod and regex support](https://github.com/CraftTweaker/JEITweaker/commit/d1b5681706eeace4d5c194164fb49b89b03b7766) - Jared - Wed Jan 27 20:06:59 2021
+			* [Add /ct dump jeiCategories close #6](https://github.com/CraftTweaker/JEITweaker/commit/c4b416776ac469700a10bacd768d73a6f8b50017) - Jared - Wed Jan 27 17:14:33 2021
+			* [Add support for hiding fluids](https://github.com/CraftTweaker/JEITweaker/commit/4db362fe9ddfc176fe9065be1fe4cef1ac2ed340) - Jared - Tue Jan 26 19:27:23 2021
+			* [port to 1.16.5](https://github.com/CraftTweaker/JEITweaker/commit/3a29330a561d2c7c1215d4fdba4d5c8229fa7fac) - Jared - Tue Jan 26 19:01:06 2021
+			* [add support for describing fluids](https://github.com/CraftTweaker/JEITweaker/commit/f3cfd98d97830fe06db89672efbb2e7a88878ccf) - Jared - Tue Jan 26 18:08:51 2021
+			* [update crafttweaker](https://github.com/CraftTweaker/JEITweaker/commit/e35cd151b5dcd3a9fcd7bb6a1b297cf9b7cd1328) - Jared - Tue Jan 26 17:21:36 2021
+			* [port to 1.16.4](https://github.com/CraftTweaker/JEITweaker/commit/ebc654ee433853ea9a9e5da992b78da9ad65aa65) - Jared - Fri Nov 13 22:58:43 2020
+			* [port to 1.16.3](https://github.com/CraftTweaker/JEITweaker/commit/8ac7d84223820add17c47fe5bac319bbf88da529) - Jared - Sun Sep 27 04:26:52 2020
+			* [port to 1.16.2](https://github.com/CraftTweaker/JEITweaker/commit/77a05b918ae6024853f1b99fdb3cf6b2da121cc8) - Jared - Thu Sep 3 21:14:19 2020
+			* [add version info to the jar file](https://github.com/CraftTweaker/JEITweaker/commit/a0b78605d84bc94b307ec5d4de886365fc14be4f) - Jared - Mon Jul 13 01:26:16 2020
+			* [update commit](https://github.com/CraftTweaker/JEITweaker/commit/3828fe59b4f3378748329e1c0bd230d02aa08db2) - Jared - Mon Jul 13 01:22:40 2020
+
+		JEITweaker-1.16.5-1.0.1.18.jar:
+			Current version: 1.0.1.18
+			* [move to ModTemplate](https://github.com/CraftTweaker/JEITweaker/commit/6b7df16f588250ac3836e89bb34b80106f531c66) - Jared - Wed May 26 13:14:48 2021
+			* [Fixed published maven libs](https://github.com/CraftTweaker/JEITweaker/commit/355895ff24f73e62a676dcbe32c89aef91cfa621) - Jared - Wed May 26 11:49:03 2021
+			* [Update actions to use !CraftTweakerAPI.isServer()](https://github.com/CraftTweaker/JEITweaker/commit/bb6e199c641244d51ed5562b54b777ab1d36e565) - Jared - Mon Apr 12 04:56:40 2021
+			* [Fix reloading client resources. Close #12](https://github.com/CraftTweaker/JEITweaker/commit/fad11995a4ea889c741856771a02b365f41025ce) - Jared - Fri Mar 5 17:42:39 2021
+			* [Add support for hiding recipes](https://github.com/CraftTweaker/JEITweaker/commit/1ce9158c05cae19fd8dfcd8e5e9180e2a0b998a9) - Jared - Sun Feb 21 01:40:11 2021
+			* [add editor config and format](https://github.com/CraftTweaker/JEITweaker/commit/61500155baf1eaa514069a8ba1b658481b7740ca) - Jared - Thu Feb 11 16:59:33 2021
+			* [Fix NBT hiding. Close #10](https://github.com/CraftTweaker/JEITweaker/commit/344c56821c62a9b918e2f92878da81f3b123ee76) - Jared - Thu Feb 11 16:58:50 2021
+			* [Fix hideMod doing nothing](https://github.com/CraftTweaker/JEITweaker/commit/fd069ce5094692f2bf45a110bf36756861891c85) - Jared - Thu Feb 11 15:37:11 2021
+			* [add mod and regex support](https://github.com/CraftTweaker/JEITweaker/commit/d1b5681706eeace4d5c194164fb49b89b03b7766) - Jared - Wed Jan 27 20:06:59 2021
+			* [Add /ct dump jeiCategories close #6](https://github.com/CraftTweaker/JEITweaker/commit/c4b416776ac469700a10bacd768d73a6f8b50017) - Jared - Wed Jan 27 17:14:33 2021
+			* [Add support for hiding fluids](https://github.com/CraftTweaker/JEITweaker/commit/4db362fe9ddfc176fe9065be1fe4cef1ac2ed340) - Jared - Tue Jan 26 19:27:23 2021
+			* [port to 1.16.5](https://github.com/CraftTweaker/JEITweaker/commit/3a29330a561d2c7c1215d4fdba4d5c8229fa7fac) - Jared - Tue Jan 26 19:01:06 2021
+			* [add support for describing fluids](https://github.com/CraftTweaker/JEITweaker/commit/f3cfd98d97830fe06db89672efbb2e7a88878ccf) - Jared - Tue Jan 26 18:08:51 2021
+			* [update crafttweaker](https://github.com/CraftTweaker/JEITweaker/commit/e35cd151b5dcd3a9fcd7bb6a1b297cf9b7cd1328) - Jared - Tue Jan 26 17:21:36 2021
+			* [port to 1.16.4](https://github.com/CraftTweaker/JEITweaker/commit/ebc654ee433853ea9a9e5da992b78da9ad65aa65) - Jared - Fri Nov 13 22:58:43 2020
+			* [port to 1.16.3](https://github.com/CraftTweaker/JEITweaker/commit/8ac7d84223820add17c47fe5bac319bbf88da529) - Jared - Sun Sep 27 04:26:52 2020
+			* [port to 1.16.2](https://github.com/CraftTweaker/JEITweaker/commit/77a05b918ae6024853f1b99fdb3cf6b2da121cc8) - Jared - Thu Sep 3 21:14:19 2020
+			* [add version info to the jar file](https://github.com/CraftTweaker/JEITweaker/commit/a0b78605d84bc94b307ec5d4de886365fc14be4f) - Jared - Mon Jul 13 01:26:16 2020
+			* [update commit](https://github.com/CraftTweaker/JEITweaker/commit/3828fe59b4f3378748329e1c0bd230d02aa08db2) - Jared - Mon Jul 13 01:22:40 2020
+
+		JEITweaker-1.16.5-1.0.1.17.jar:
+			Current version: 1.0.1.17
+			* [move to ModTemplate](https://github.com/CraftTweaker/JEITweaker/commit/6b7df16f588250ac3836e89bb34b80106f531c66) - Jared - Wed May 26 13:14:48 2021
+			* [Fixed published maven libs](https://github.com/CraftTweaker/JEITweaker/commit/355895ff24f73e62a676dcbe32c89aef91cfa621) - Jared - Wed May 26 11:49:03 2021
+			* [Update actions to use !CraftTweakerAPI.isServer()](https://github.com/CraftTweaker/JEITweaker/commit/bb6e199c641244d51ed5562b54b777ab1d36e565) - Jared - Mon Apr 12 04:56:40 2021
+			* [Fix reloading client resources. Close #12](https://github.com/CraftTweaker/JEITweaker/commit/fad11995a4ea889c741856771a02b365f41025ce) - Jared - Fri Mar 5 17:42:39 2021
+			* [Add support for hiding recipes](https://github.com/CraftTweaker/JEITweaker/commit/1ce9158c05cae19fd8dfcd8e5e9180e2a0b998a9) - Jared - Sun Feb 21 01:40:11 2021
+			* [add editor config and format](https://github.com/CraftTweaker/JEITweaker/commit/61500155baf1eaa514069a8ba1b658481b7740ca) - Jared - Thu Feb 11 16:59:33 2021
+			* [Fix NBT hiding. Close #10](https://github.com/CraftTweaker/JEITweaker/commit/344c56821c62a9b918e2f92878da81f3b123ee76) - Jared - Thu Feb 11 16:58:50 2021
+			* [Fix hideMod doing nothing](https://github.com/CraftTweaker/JEITweaker/commit/fd069ce5094692f2bf45a110bf36756861891c85) - Jared - Thu Feb 11 15:37:11 2021
+			* [add mod and regex support](https://github.com/CraftTweaker/JEITweaker/commit/d1b5681706eeace4d5c194164fb49b89b03b7766) - Jared - Wed Jan 27 20:06:59 2021
+			* [Add /ct dump jeiCategories close #6](https://github.com/CraftTweaker/JEITweaker/commit/c4b416776ac469700a10bacd768d73a6f8b50017) - Jared - Wed Jan 27 17:14:33 2021
+			* [Add support for hiding fluids](https://github.com/CraftTweaker/JEITweaker/commit/4db362fe9ddfc176fe9065be1fe4cef1ac2ed340) - Jared - Tue Jan 26 19:27:23 2021
+			* [port to 1.16.5](https://github.com/CraftTweaker/JEITweaker/commit/3a29330a561d2c7c1215d4fdba4d5c8229fa7fac) - Jared - Tue Jan 26 19:01:06 2021
+			* [add support for describing fluids](https://github.com/CraftTweaker/JEITweaker/commit/f3cfd98d97830fe06db89672efbb2e7a88878ccf) - Jared - Tue Jan 26 18:08:51 2021
+			* [update crafttweaker](https://github.com/CraftTweaker/JEITweaker/commit/e35cd151b5dcd3a9fcd7bb6a1b297cf9b7cd1328) - Jared - Tue Jan 26 17:21:36 2021
+			* [port to 1.16.4](https://github.com/CraftTweaker/JEITweaker/commit/ebc654ee433853ea9a9e5da992b78da9ad65aa65) - Jared - Fri Nov 13 22:58:43 2020
+			* [port to 1.16.3](https://github.com/CraftTweaker/JEITweaker/commit/8ac7d84223820add17c47fe5bac319bbf88da529) - Jared - Sun Sep 27 04:26:52 2020
+			* [port to 1.16.2](https://github.com/CraftTweaker/JEITweaker/commit/77a05b918ae6024853f1b99fdb3cf6b2da121cc8) - Jared - Thu Sep 3 21:14:19 2020
+			* [add version info to the jar file](https://github.com/CraftTweaker/JEITweaker/commit/a0b78605d84bc94b307ec5d4de886365fc14be4f) - Jared - Mon Jul 13 01:26:16 2020
+			* [update commit](https://github.com/CraftTweaker/JEITweaker/commit/3828fe59b4f3378748329e1c0bd230d02aa08db2) - Jared - Mon Jul 13 01:22:40 2020
+
+		JEITweaker-1.16.5-1.0.1.16.jar:
+			Current version: 1.0.1.16
+			* [Fixed published maven libs](https://github.com/CraftTweaker/JEITweaker/commit/355895ff24f73e62a676dcbe32c89aef91cfa621) - Jared - Wed May 26 11:49:03 2021
+			* [Update actions to use !CraftTweakerAPI.isServer()](https://github.com/CraftTweaker/JEITweaker/commit/bb6e199c641244d51ed5562b54b777ab1d36e565) - Jared - Mon Apr 12 04:56:40 2021
+			* [Fix reloading client resources. Close #12](https://github.com/CraftTweaker/JEITweaker/commit/fad11995a4ea889c741856771a02b365f41025ce) - Jared - Fri Mar 5 17:42:39 2021
+			* [Add support for hiding recipes](https://github.com/CraftTweaker/JEITweaker/commit/1ce9158c05cae19fd8dfcd8e5e9180e2a0b998a9) - Jared - Sun Feb 21 01:40:11 2021
+			* [add editor config and format](https://github.com/CraftTweaker/JEITweaker/commit/61500155baf1eaa514069a8ba1b658481b7740ca) - Jared - Thu Feb 11 16:59:33 2021
+			* [Fix NBT hiding. Close #10](https://github.com/CraftTweaker/JEITweaker/commit/344c56821c62a9b918e2f92878da81f3b123ee76) - Jared - Thu Feb 11 16:58:50 2021
+			* [Fix hideMod doing nothing](https://github.com/CraftTweaker/JEITweaker/commit/fd069ce5094692f2bf45a110bf36756861891c85) - Jared - Thu Feb 11 15:37:11 2021
+			* [add mod and regex support](https://github.com/CraftTweaker/JEITweaker/commit/d1b5681706eeace4d5c194164fb49b89b03b7766) - Jared - Wed Jan 27 20:06:59 2021
+			* [Add /ct dump jeiCategories close #6](https://github.com/CraftTweaker/JEITweaker/commit/c4b416776ac469700a10bacd768d73a6f8b50017) - Jared - Wed Jan 27 17:14:33 2021
+			* [Add support for hiding fluids](https://github.com/CraftTweaker/JEITweaker/commit/4db362fe9ddfc176fe9065be1fe4cef1ac2ed340) - Jared - Tue Jan 26 19:27:23 2021
+			* [port to 1.16.5](https://github.com/CraftTweaker/JEITweaker/commit/3a29330a561d2c7c1215d4fdba4d5c8229fa7fac) - Jared - Tue Jan 26 19:01:06 2021
+			* [add support for describing fluids](https://github.com/CraftTweaker/JEITweaker/commit/f3cfd98d97830fe06db89672efbb2e7a88878ccf) - Jared - Tue Jan 26 18:08:51 2021
+			* [update crafttweaker](https://github.com/CraftTweaker/JEITweaker/commit/e35cd151b5dcd3a9fcd7bb6a1b297cf9b7cd1328) - Jared - Tue Jan 26 17:21:36 2021
+			* [port to 1.16.4](https://github.com/CraftTweaker/JEITweaker/commit/ebc654ee433853ea9a9e5da992b78da9ad65aa65) - Jared - Fri Nov 13 22:58:43 2020
+			* [port to 1.16.3](https://github.com/CraftTweaker/JEITweaker/commit/8ac7d84223820add17c47fe5bac319bbf88da529) - Jared - Sun Sep 27 04:26:52 2020
+			* [port to 1.16.2](https://github.com/CraftTweaker/JEITweaker/commit/77a05b918ae6024853f1b99fdb3cf6b2da121cc8) - Jared - Thu Sep 3 21:14:19 2020
+			* [add version info to the jar file](https://github.com/CraftTweaker/JEITweaker/commit/a0b78605d84bc94b307ec5d4de886365fc14be4f) - Jared - Mon Jul 13 01:26:16 2020
+			* [update commit](https://github.com/CraftTweaker/JEITweaker/commit/3828fe59b4f3378748329e1c0bd230d02aa08db2) - Jared - Mon Jul 13 01:22:40 2020
+
+	Just Enough Items (JEI) (jei-1.16.5-7.7.0.98.jar --> jei-1.16.5-7.7.0.103.jar):
+		Placeholder:
+			No changelog available.
+
+	Mantle (Mantle 1.6.97 for 1.16.5 --> Mantle 1.6.103 for 1.16.5):
+		Mantle 1.6.103 for 1.16.5:
+			Added tag suggestions to tag based commands
+			Added command to dump global loot modifiers
+			Added fluid texture model
+
+	MythicBotany (MythicBotany-1.16.4-1.3.10.jar --> MythicBotany-1.16.4-1.3.15.jar):
+		MythicBotany-1.16.4-1.3.15.jar:
+			When the mana infuser or a rune ritual gets interrupted, it will drop solidified mana which can be converted back to mana in a mana pool.
+			Nether stars used by wither aconites, Items used by the alfsteel pylon that are not yet fully repaired and items used by the mana infuser are now protected from magnet rings
+			Datapacks can now add rune ritual recipes that consume runes from the normal rune holders
+			Fixed a bug with JEI displaying negative relative rune positions wrongy.
+			Alfsteel pylons now only require two alfsteel nuggets
+			Rune holders can no longer float in the air but need a solid surface below.
+
+		MythicBotany-1.16.4-1.3.14.jar:
+			Small changes in the lexicon and the JEI category for the mana infuser to make the mana costs more intuitive.
+
+		MythicBotany-1.16.4-1.3.12.jar:
+			More config options for mjoellnir
+
+	Nature's Compass (NaturesCompass-1.16.5-1.8.6.jar --> NaturesCompass-1.16.5-1.9.0.jar):
+		NaturesCompass-1.16.5-1.9.0.jar:
+			------------------------------------------------------------------
+			VERSION: 1.9.0 - 1.16.5
+			------------------------------------------------------------------
+			1.16.5
+			FEATURES:
+			* Added new information to the compass HUD while searching for a biome that indicates the radius that has been searched so far
+			* Added support for datapack biomes
+			* Added a permission that can be given to players to allow them to teleport to a biome without being opped or in creative mode (naturescompass.teleport)
+			* Added Japanese translations
+			* Allowed blacklisted biomes to be specified using wildcard characters in the config
+			FIXES:
+			* Fixed a crash that occurred occasionally when scrolling through the biome list in the compass GUI
+			* Fixed some Chinese translations
+			------------------------------------------------------------------
+			VERSION: 1.8.6 - 1.16.5, 1.16.4
+			------------------------------------------------------------------
+			1.16.5
+			UPDATES:
+			* Initial release for 1.16.5 (Forge 36.0.14)
+			1.16.4
+			FIXES:
+			* Fixed compass recipe not unlocking when one of its components is obtained
+			* Fixed player teleporting to nether roof when teleporting to a biome located in the nether
+			* Fixed a crash that occurred infrequently when searching for a biome
+			------------------------------------------------------------------
+			VERSION: 1.8.5 - 1.16.4, 1.16.3, 1.16.2, 1.16.1, 1.15.2, 1.14.4, 1.12.2
+			------------------------------------------------------------------
+			1.16.4
+			UPDATES:
+			* Initial release for 1.16.4 (Forge 35.1.4)
+			1.16.3
+			UPDATES:
+			* Initial release for 1.16.3 (Forge 34.0.17)
+			1.16.2
+			UPDATES:
+			* Initial release for 1.16.2 (Forge 33.0.32)
+			1.16.1
+			UPDATES:
+			* Initial release for 1.16.1 (Forge 32.0.63)
+			1.15.2, 1.14.4, 1.12.2
+			FIXES:
+			* Fixed a crash that occurred infrequently when moving a searching compass around the inventory
+			------------------------------------------------------------------
+			VERSION: 1.8.4 - 1.15.2, 1.15.1
+			------------------------------------------------------------------
+			1.15.2
+			UPDATES:
+			* Initial release for 1.15.2 (Forge 31.1.12)
+			1.15.1
+			FEATURES:
+			* Added French translations
+			* Added Polish translations
+			* Added Chinese (Taiwan) translations
+			------------------------------------------------------------------
+			VERSION: 1.8.3 - 1.15.1, 1.14.4, 1.12.2
+			------------------------------------------------------------------
+			1.15.1, 1.14.4, 1.12.2
+			FIXES:
+			* Fixed an issue where HUD info did not render at the configured line offset
+			1.15.1:
+			UPDATES:
+			* Initial release for 1.15.1 (Forge 30.0.35)
+			------------------------------------------------------------------
+			VERSION: 1.8.2 - 1.14.4, 1.13.2
+			------------------------------------------------------------------
+			1.14.4, 1.13.2:
+			FIXES:
+			* Fixed uncraftable compass recipe
+			------------------------------------------------------------------
+			VERSION: 1.8.1 - 1.14.4, 1.13.2
+			------------------------------------------------------------------
+			1.14.4, 1.13.2:
+			FIXES:
+			* Fixed a dedicated server crash upon initialization
+			------------------------------------------------------------------
+			VERSION: 1.8.0 - 1.14.4, 1.13.2, 1.12.2
+			------------------------------------------------------------------
+			1.14.4, 1.13.2, 1.12.2:
+			FEATURES:
+			* Significantly improved biome search efficiency to essentially lag-free performance under normal circumstances
+			FIXES:
+			* Fixed a major flaw in search accuracy present in version 1.7.0
+			* Fixed unresponsive biome list in the main GUI after returning from the biome info GUI
+			* Fixed crash that would occasionally occur when attempting to sort by biome source
+			1.14.4, 1.13.2:
+			UPDATES:
+			* Initial release for 1.14.4 (Forge 28.1.109)
+			* Initial release for 1.13.2 (Forge 25.0.219)
+			------------------------------------------------------------------
+			VERSION: 1.7.0 - 1.12.2
+			------------------------------------------------------------------
+			1.12.2:
+			FEATURES:
+			* Added each biome's source mod name to GUI entries and the functionality to sort by source mod
+			* Added config field to specify the side to render information on the HUD
+			FIX:
+			* Fixed server crash when using Sponge
+			------------------------------------------------------------------
+			VERSION: 1.6.2 - 1.12.2
+			------------------------------------------------------------------
+			1.12.2:
+			FEATURES:
+			* Added a new config field to specify how many new chunks can be generated from a single search
+			* Added search success/failure info to log
+			FIX:
+			* Fixed server crash by removing localized biome names as a valid disabled biome identifier
+			------------------------------------------------------------------
+			VERSION: 1.6.1 - 1.12.2
+			------------------------------------------------------------------
+			1.12.2:
+			FIXES:
+			* Fixed ConcurrentModificationException and NullPointerException after using the search GUI due to stacktrace spam in log
+			* Fixed disabled biomes still appearing in biome search list due to server config not syncing with client
+			------------------------------------------------------------------
+			VERSION: 1.6.0 - 1.12.2
+			------------------------------------------------------------------
+			1.12.2:
+			FEATURES:
+			* Added a biome name search box to the main compass GUI
+			* Biomes can now be blacklisted in the config by resource location (e.g. minecraft:ocean) as well as name (e.g. Ocean) or ID (e.g. 0)
+			* Fixed a crash that occurred somewhat randomly when selecting biomes from the GUI
+			* Added Chinese translation
+			* Added Russian translation
+			* Add Spanish translation
+			UPDATES:
+			* Updated to Forge #2796 (1.12.2)
+			------------------------------------------------------------------
+			VERSION: 1.5.1 - 1.12.2
+			------------------------------------------------------------------
+			1.12.2:
+			FEATURES:
+			* Added a config field to disable teleportation to a located biome
+			UPDATES:
+			* Updated to Forge #2581 (1.12.2)
+			------------------------------------------------------------------
+			VERSION: 1.5.0 - 1.12.2
+			------------------------------------------------------------------
+			1.12.2:
+			FIXES:
+			* Marked 1.12.2 as an accepted version
+			------------------------------------------------------------------
+			VERSION: 1.5.0 - 1.12
+			------------------------------------------------------------------
+			1.12:
+			FEATURES:
+			* Added number of biome samples to HUD info after an unsuccessful biome search
+			FIXES:
+			* Fixed mismatched or missing texture issue when certain mods are present
+			* Rewrote biome searching algorithm
+			------------------------------------------------------------------
+			VERSION: 1.4.0 - 1.12
+			------------------------------------------------------------------
+			1.12:
+			FEATURES:
+			* Changed the look of biome selection and biome info GUI backgrounds and buttons
+			1.12:
+			UPDATES:
+			* Initial release for MC 1.12 (Forge #2387)
+			------------------------------------------------------------------
+			VERSION: 1.3.0 - 1.11, 1.10.2, 1.7.10
+			------------------------------------------------------------------
+			1.11, 1.10.2, 1.7.10:
+			FEATURES:
+			* Added an op-only/cheat-only teleport button to the biome selection GUI that takes the user to the currently located biome
+			FIXES:
+			* Fixed a potential lack of localization for precipitation states
+			1.11:
+			UPDATES:
+			* Initial release for MC 1.11 (Forge #2177)
+			------------------------------------------------------------------
+			VERSION: 1.2.0 - 1.10.2, 1.7.10
+			------------------------------------------------------------------
+			1.10.2:
+			FEATURES:
+			* Added a biome blacklist config field
+			1.7.10:
+			UPDATES:
+			* Initial release for MC 1.7.10 (Forge #1614)
+			------------------------------------------------------------------
+			VERSION: 1.1.0 - 1.10.2
+			------------------------------------------------------------------
+			1.10.2:
+			FEATURES:
+			* Added a sorting function to the biome selection GUI
+			* HUD info will remain visible while chat is open (can be disabled in the config)
+			------------------------------------------------------------------
+			VERSION: 1.0.0 - 1.10.2
+			------------------------------------------------------------------
+			1.10.2:
+			UPDATES:
+			* Initial release for MC 1.10.2 (Forge #2107)
+
+	ObserverLib (ObserverLib-1.16.4-1.5.1.jar --> ObserverLib-1.16.5-1.5.3.jar):
+		ObserverLib-1.16.5-1.5.3.jar:
+			Built with:
+			* Forge 36.1.23
+			Fixes:
+			* Fixed structure preview render crash in case the overworld doesn't exist clientside
+
+		ObserverLib-1.16.5-1.5.2.jar:
+			Built with:
+			* Forge 36.1.23
+			Fixes:
+			* Fixed concurrency crash on startup, when multiple block change listeners are added
+
+	Occultism (occultism-1.1.2.jar --> occultism-1.2.2.jar):
+		occultism-1.2.2.jar:
+			[Automated Build]
+			Changelog for this build: [https://github.com/klikli-dev/occultism/wiki/1.2.2](https://github.com/klikli-dev/occultism/wiki/1.2.2)
+			Find changes for all versions at [https://github.com/klikli-dev/occultism/releases](https://github.com/klikli-dev/occultism/releases)
+
+		occultism-1.2.1.jar:
+			[Automated Build]
+			Changelog for this build: [https://github.com/klikli-dev/occultism/wiki/1.2.1](https://github.com/klikli-dev/occultism/wiki/1.2.1)
+			Find changes for all versions at [https://github.com/klikli-dev/occultism/releases](https://github.com/klikli-dev/occultism/releases)
+
+		occultism-1.2.0.jar:
+			[Automated Build]
+			Changelog for this build: [https://github.com/klikli-dev/occultism/wiki/1.2.0](https://github.com/klikli-dev/occultism/wiki/1.2.0)
+			Find changes for all versions at [https://github.com/klikli-dev/occultism/releases](https://github.com/klikli-dev/occultism/releases)
+
+		occultism-1.1.3.jar:
+			[Automated Build]
+			Changelog for this build: [https://github.com/klikli-dev/occultism/wiki/1.1.3](https://github.com/klikli-dev/occultism/wiki/1.1.3)
+			Find changes for all versions at [https://github.com/klikli-dev/occultism/releases](https://github.com/klikli-dev/occultism/releases)
+
+	Placebo (Placebo-1.16.4-4.4.5.jar --> Placebo-1.16.4-4.5.0.jar):
+		Placebo-1.16.4-4.5.0.jar:
+			Made it so the StackLootEntry can be serialized and deserialized properly.
+			Added Patreon Wings for $10 patrons.
+			Added buttons to individually disable Trails and Wings.
+
+	Skyblock Builder (skyblockbuilder-1.16.4-1.5.4.jar --> skyblockbuilder-1.16.4-1.5.6.jar):
+		skyblockbuilder-1.16.4-1.5.6.jar:
+			* add workaround for servers which used any version from 1.5.1-1.5.3 - MelanX
+
+		skyblockbuilder-1.16.4-1.5.5.jar:
+			* fix spawning in higher valid blocks - MelanX
+			* fix crash when no template is available and going to world selection screen - MelanX
+			* allow only .nbt files to be a template - MelanX
+			* add ability to change dimension for single biome option - MelanX
+			* automatically turn off reminder if no old config exists and delete outdated file - MelanX
+			* fix spawn generates when disabled.. hopefully.. once again - MelanX
+			* simplify overworld chunk generator call for new config option - MelanX
+			* add config for default overworld - MelanX
+
+	SuperMartijn642's Core Lib (supermartijn642corelib-1.0.3-mc1.16.5 --> supermartijn642corelib-1.0.5-mc1.16.5):
+		supermartijn642corelib-1.0.5-mc1.16.5:
+			* Added a new packet system overtop Forge's
+			* Removed the requirement to implement ObjectBaseScreen#renderTooltips and ObjectBaseContainerScreen#renderTooltips
+
+		supermartijn642corelib-1.0.5-mc1.16.1:
+			* Added a new packet system overtop Forge's
+			* Removed the requirement to implement ObjectBaseScreen#renderTooltips and ObjectBaseContainerScreen#renderTooltips
+
+		supermartijn642corelib-1.0.4-mc1.16.5:
+			* Add more utility functions to ClientUtils
+			* Make TileEntityBaseScreen more in line with TileEntityBaseContainerScreen
+
+		supermartijn642corelib-1.0.4-mc1.16.1:
+			* Add more utility functions to ClientUtils
+			* Make TileEntityBaseScreen more in line with TileEntityBaseContainerScreen
+
+	TipTheScales (TipTheScales-1.16.5-3.0.0.11.jar --> TipTheScales-1.16.5-3.0.0.14.jar):
+		TipTheScales-1.16.5-3.0.0.14.jar:
+			Current version: 3.0.0.14
+
+		TipTheScales-1.16.5-3.0.0.13.jar:
+			Current version: 3.0.0.13
+
+		TipTheScales-1.16.5-3.0.0.12.jar:
+			Current version: 3.0.0.12
+			* [Move to ModTemplate](https://github.com/jaredlll08/TipTheScales/commit/84dd50291c91208d12c28bf0947ab77fec759b20) - Jared - Wed May 26 12:30:18 2021
+
+Generated using [ChangelogGenerator 2.0.0-pre3](https://github.com/TheRandomLabs/ChangelogGenerator).
+
+===================================================
 Spirited Dynamics 0.0.4 --> Spirited Dynamics 0.0.5
 ===================================================
 
@@ -1778,7 +2867,6 @@ Updated:
 			[Click here for changelog](https://www.github.com/architectury/architectury/commits/0e1347a)
 			* More annotation event migration
 			* Migrate Forge ReloadListeners events to annotations
-			* Fix CLIENT_WORLD_LOAD on Forge
 
 		[Forge 1.16.4/5] v1.9.133:
 			Architectury v1.9.133 for 1.16.4/5
