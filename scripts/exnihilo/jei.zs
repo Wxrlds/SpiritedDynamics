@@ -7,6 +7,7 @@ val hideJEI as IItemStack[]=[
 <item:excompressum:cat_bait>,
 <item:excompressum:chicken_bait>,
 <item:excompressum:chicken_stick>,
+<item:excompressum:compressed_crook>,
 <item:excompressum:compressed_hammer_diamond>,
 <item:excompressum:compressed_hammer_gold>,
 <item:excompressum:compressed_hammer_iron>,
@@ -40,6 +41,10 @@ val hideJEI as IItemStack[]=[
 <item:exnaturae:livingwood_crook>,
 <item:exnaturae:livingwood_hammer>,
 <item:exnaturae:manasteel_hammer>,
+<item:exnihilosequentia:acacia_crucible>,
+<item:exnihilosequentia:birch_crucible>,
+<item:exnihilosequentia:cooked_silkworm>,
+<item:exnihilosequentia:crimson_crucible>,
 <item:exnihilosequentia:crook_andesite>,
 <item:exnihilosequentia:crook_bone>,
 <item:exnihilosequentia:crook_diamond>,
@@ -52,12 +57,23 @@ val hideJEI as IItemStack[]=[
 <item:exnihilosequentia:crucible_fired>,
 <item:exnihilosequentia:crucible_unfired>,
 <item:exnihilosequentia:crucible_wood>,
+<item:exnihilosequentia:dark_oak_crucible>,
+<item:exnihilosequentia:doll_bee>,
+<item:exnihilosequentia:doll_blaze>,
+<item:exnihilosequentia:doll_enderman>,
+<item:exnihilosequentia:doll_guardian>,
 <item:exnihilosequentia:end_cake>,
 <item:exnihilosequentia:hammer_diamond>,
 <item:exnihilosequentia:hammer_gold>,
 <item:exnihilosequentia:hammer_iron>,
 <item:exnihilosequentia:hammer_stone>,
-<item:exnihilosequentia:hammer_wood>
+<item:exnihilosequentia:hammer_wood>,
+<item:exnihilosequentia:infested_leaves>,
+<item:exnihilosequentia:infesting_leaves>,
+<item:exnihilosequentia:jungle_crucible>,
+<item:exnihilosequentia:silkworm>,
+<item:exnihilosequentia:spruce_crucible>,
+<item:exnihilosequentia:warped_crucible>
 ];
 
 for item in hideJEI {

@@ -13,4 +13,4 @@ mods.jei.JEI.hideItem(item);
 mods.jei.JEI.addInfo(<item:bloodmagic:daggerofsacrifice>, ["Craft by putting the Terra-Blade into the Altar using a Hopper or something alike.", "Don't use shift click on the Terra-Blade to put it into the Hopper."]);
 
 //Large Bloodstone Brick
-mods.jei.JEI.addInfo(<item:bloodmagic:largebloodstonebrick>, ["Takes 15.000 Mana to craft (1 Mana Pool = 1.000.000 Mana)"]);
+mods.jei.JEI.addInfo(<item:bloodmagic:largebloodstonebrick>, ["Consumes 15.000 Mana to craft (1 Mana Pool = 1.000.000 Mana)"]);

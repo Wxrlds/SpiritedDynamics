@@ -1,0 +1,156 @@
+{
+	"type": "mythicbotany:rune_ritual",
+	"group": "rune_rituals",
+	"center": {
+		"item": "mythicbotany:fimbultyr_tablet"
+	},
+	"runes": [
+		{
+			"rune": {
+				"item": "mythicbotany:midgard_rune"
+			},
+			"x": -2,
+			"z": -2,
+			"consume": true
+		},
+		{
+			"rune": {
+				"item": "mythicbotany:midgard_rune"
+			},
+			"x": 2,
+			"z": 2,
+			"consume": true
+		},
+		{
+			"rune": {
+				"item": "mythicbotany:helheim_rune"
+			},
+			"x": 2,
+			"z": -2,
+			"consume": true
+		},
+		{
+			"rune": {
+				"item": "mythicbotany:helheim_rune"
+			},
+			"x": -2,
+			"z": 2,
+			"consume": true
+		},
+		{
+			"rune": {
+				"tag": "botania:runes/summer"
+			},
+			"x": -1,
+			"z": -3,
+			"consume": true
+		},
+		{
+			"rune": {
+				"tag": "botania:runes/summer"
+			},
+			"x": 1,
+			"z": 3,
+			"consume": true
+		},
+		{
+			"rune": {
+				"tag": "botania:runes/summer"
+			},
+			"x": -3,
+			"z": -1,
+			"consume": true
+		},
+		{
+			"rune": {
+				"tag": "botania:runes/summer"
+			},
+			"x": 3,
+			"z": 1,
+			"consume": true
+		},
+		{
+			"rune": {
+				"tag": "botania:runes/fire"
+			},
+			"x": 1,
+			"z": -3,
+			"consume": true
+		},
+		{
+			"rune": {
+				"tag": "botania:runes/fire"
+			},
+			"x": -1,
+			"z": 3,
+			"consume": true
+		},
+		{
+			"rune": {
+				"tag": "botania:runes/fire"
+			},
+			"x": 3,
+			"z": -1,
+			"consume": true
+		},
+		{
+			"rune": {
+				"tag": "botania:runes/fire"
+			},
+			"x": -3,
+			"z": 1,
+			"consume": true
+		},
+		{
+			"rune": {
+				"item": "mythicbotany:alfsteel_pylon"
+			},
+			"x": 0,
+			"z": -4,
+			"consume": false
+		},
+		{
+			"rune": {
+				"item": "mythicbotany:alfsteel_pylon"
+			},
+			"x": 4,
+			"z": 0,
+			"consume": false
+		},
+		{
+			"rune": {
+				"item": "mythicbotany:alfsteel_pylon"
+			},
+			"x": 0,
+			"z": 4,
+			"consume": false
+		},
+		{
+			"rune": {
+				"item": "mythicbotany:alfsteel_pylon"
+			},
+			"x": -4,
+			"z": 0,
+			"consume": false
+		}
+	],
+	"mana": 3999999,
+	"ticks": 200,
+	"inputs": [
+		{
+			"item": "botania:ender_dagger"
+		},
+		{
+			"item": "mythicbotany:alfsteel_ingot"
+		},
+		{
+			"item": "botania:vial"
+		}
+	],
+	"outputs": [
+		{
+			"item": "mythicbotany:kvasir_blood"
+		}
+	],
+	"special_input": "mythicbotany:wandering_trader"
+}

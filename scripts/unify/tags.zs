@@ -108,6 +108,7 @@
 
 //Obsidian
 <tag:items:forge:dusts/obsidian>.remove(<item:occultism:obsidian_dust>);
+<tag:items:forge:dusts>.remove(<item:occultism:obsidian_dust>);
 
 //Osmium
 <tag:items:forge:ingots/osmium>.remove(<item:chemlib:ingot_osmium>);
@@ -122,8 +123,10 @@
 <tag:blocks:forge:ores/silver>.remove(<block:eidolon:silver_ore>);
 <tag:blocks:forge:ores/silver>.remove(<block:occultism:silver_ore>);
 <tag:blocks:forge:ores>.remove(<block:eidolon:silver_ore>);
+<tag:blocks:forge:ores>.remove(<block:occultism:silver_ore>);
 <tag:blocks:forge:storage_blocks/silver>.remove(<block:occultism:silver_block>);
 <tag:blocks:mekanism:atomic_disassembler_ore>.remove(<block:eidolon:silver_ore>);
+<tag:blocks:mekanism:atomic_disassembler_ore>.remove(<block:occultism:silver_ore>);
 <tag:items:forge:dusts/silver>.remove(<item:occultism:silver_dust>);
 <tag:items:forge:dusts>.remove(<item:occultism:silver_dust>);
 <tag:items:forge:ingots/silver>.remove(<item:chemlib:ingot_silver>);
@@ -138,6 +141,7 @@
 <tag:items:forge:ores/silver>.remove(<item:eidolon:silver_ore>);
 <tag:items:forge:ores/silver>.remove(<item:occultism:silver_ore>);
 <tag:items:forge:ores>.remove(<item:eidolon:silver_ore>);
+<tag:items:forge:ores>.remove(<item:occultism:silver_ore>);
 <tag:items:forge:storage_blocks/silver>.remove(<item:occultism:silver_block>);
 
 //Steel

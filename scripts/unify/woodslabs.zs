@@ -176,7 +176,7 @@ val slab_to_block as string[string][IItemStack]= {
 	<item:appliedenergistics2:sky_stone_brick_slab>				: { item: "appliedenergistics2:sky_stone_brick",			name: "skystonebrick"},
 	<item:appliedenergistics2:sky_stone_small_brick_slab>		: { item: "appliedenergistics2:sky_stone_small_brick",		name: "skystonesmallbrick"},
 	<item:appliedenergistics2:fluix_slab>						: { item: "appliedenergistics2:fluix_block",				name: "fluixblock"},
-	<item:appliedenergistics2:quartz_slab>						: { item: "appliedenergistics2:quartz_block",				name: "quartzblock"},
+	<item:appliedenergistics2:quartz_slab>						: { item: "appliedenergistics2:quartz_block",				name: "certusquartzblock"},
 	<item:appliedenergistics2:chiseled_quartz_slab>				: { item: "appliedenergistics2:chiseled_quartz_block",		name: "chiseledquartzblock"},
 	<item:appliedenergistics2:quartz_pillar_slab>				: { item: "appliedenergistics2:quartz_pillar",				name: "quartzpillar"},
 	<item:immersiveengineering:slab_steel_scaffolding_standard>	: { item: "immersiveengineering:steel_scaffolding_standard",name: "steelscaffoldingstandard"},

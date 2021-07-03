@@ -30,7 +30,7 @@ mods.jei.JEI.hideItem(item);
 }
 
 //Ultimate Crafting Table
-mods.jei.JEI.addInfo(<item:extendedcrafting:ultimate_table>, ["Takes 5.000.000 Mana to craft (1 Mana Pool = 1.000.000 Mana)"]);
+mods.jei.JEI.addInfo(<item:extendedcrafting:ultimate_table>, ["Consumes 5.000.000 Mana to craft (1 Mana Pool = 1.000.000 Mana)"]);
 
 //Ultimate Auto Crafting Table
-mods.jei.JEI.addInfo(<item:extendedcrafting:ultimate_auto_table>, ["Takes 5.000.000 Mana to craft (1 Mana Pool = 1.000.000 Mana)"]);
+mods.jei.JEI.addInfo(<item:extendedcrafting:ultimate_auto_table>, ["Consumes 5.000.000 Mana to craft (1 Mana Pool = 1.000.000 Mana)"]);
