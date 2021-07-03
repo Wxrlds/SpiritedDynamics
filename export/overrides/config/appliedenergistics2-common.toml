@@ -74,7 +74,7 @@
 [GrindStone]
 	#Chance to actually get an output with stacksize > 1.
 	#Range: 0.0 ~ 100.0
-	oreDoublePercentage = 90.0
+	oreDoublePercentage = 0.0
 
 [battery]
 	entropyManipulator = 200000

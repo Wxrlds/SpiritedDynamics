@@ -247,3 +247,11 @@ craftingTable.addShaped("vanilla/crafting/beacon", <item:minecraft:beacon>, [
     [<item:glassential:glass_dark>, <tag:items:forge:pellets/polonium>, <item:glassential:glass_dark>],
 	[<item:minecraft:crying_obsidian>, <tag:items:forge:storage_blocks/refined_obsidian>, <item:minecraft:crying_obsidian>]
 ]);
+
+//Enchanted Golden Apple
+craftingTable.removeRecipe(<item:minecraft:enchanted_golden_apple>);
+craftingTable.addShaped("vanilla/crafting/enchantedgoldenapple", <item:minecraft:enchanted_golden_apple>, [
+    [<tag:items:forge:ingots/terrasteel>, <item:botania:life_essence>, <tag:items:forge:ingots/terrasteel>],
+    [<item:contenttweaker:jupitum_ingot>, <item:minecraft:golden_apple>, <item:contenttweaker:marsium_ingot>],
+    [<tag:items:forge:ingots/terrasteel>, <item:contenttweaker:venuium_ingot>, <tag:items:forge:ingots/terrasteel>]
+]);

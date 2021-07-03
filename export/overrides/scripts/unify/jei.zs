@@ -94,13 +94,3 @@ val hideJEI as IItemStack[]=[
 for item in hideJEI {
 mods.jei.JEI.hideItem(item);
 }
-
-//Hide Categories
-mods.jei.JEI.hideCategory("appliedenergistics2:grinder");
-mods.jei.JEI.hideCategory("exnihilosequentia:crook");
-mods.jei.JEI.hideCategory("exnihilosequentia:crucible_fired");
-mods.jei.JEI.hideCategory("exnihilosequentia:crucible_wood");
-mods.jei.JEI.hideCategory("exnihilosequentia:heat");
-mods.jei.JEI.hideCategory("jeresources:enchantment");
-mods.jei.JEI.hideCategory("jeresources:plant");
-mods.jei.JEI.hideCategory("jeresources:worldgen");

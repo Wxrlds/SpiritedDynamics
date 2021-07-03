@@ -6,6 +6,7 @@
 	title: "Progression Help"
 	icon: "botania:pure_daisy"
 	default_quest_shape: ""
+	default_hide_dependency_lines: false
 	quests: [
 		{
 			x: -0.5d
@@ -427,6 +428,7 @@
 			}]
 		}
 		{
+			icon: "naturesaura:nature_altar"
 			x: 13.0d
 			y: -3.0d
 			dependencies: [
@@ -434,11 +436,18 @@
 				"14A4C07AF7C01FE5"
 			]
 			id: "789DA48F96F2FC4D"
-			tasks: [{
-				id: "407758C719C44BB5"
-				type: "item"
-				item: "naturesaura:nature_altar"
-			}]
+			tasks: [
+				{
+					id: "407758C719C44BB5"
+					type: "item"
+					item: "naturesaura:nature_altar"
+				}
+				{
+					id: "7B99A7CEEB82F03F"
+					type: "item"
+					item: "naturesaura:gold_brick"
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -673,9 +682,10 @@
 			}]
 		}
 		{
-			x: 16.0d
-			y: -1.5d
+			x: 18.511904761904766d
+			y: -1.5595238095238173d
 			dependencies: ["6776FE159F468286"]
+			size: 2.0d
 			id: "68E96FCD37748C06"
 			tasks: [{
 				id: "3E74BEBAEAD6EE7A"
@@ -1268,6 +1278,7 @@
 				"6763DA3B514558D4"
 				"0ADDF9BDB7EFE0A3"
 			]
+			size: 2.0d
 			id: "70C455B5110E8B5E"
 			tasks: [{
 				id: "0899560B586AADEE"
@@ -1605,6 +1616,7 @@
 			x: 28.0d
 			y: -7.5d
 			dependencies: ["341D0D68DC626046"]
+			size: 2.0d
 			id: "432B6AC7E80A5700"
 			tasks: [{
 				id: "5C6F66EF7D4B984A"
@@ -1982,6 +1994,7 @@
 			x: 34.0d
 			y: -3.0d
 			dependencies: ["40DFC39ADB7A71E5"]
+			size: 2.0d
 			id: "1FCF8332E02F37F9"
 			tasks: [{
 				id: "45CF9EBC26948C90"
@@ -2027,8 +2040,8 @@
 		}
 		{
 			x: 31.125d
-			y: -8.625d
-			dependencies: ["23DA1E10F8FF3CF7"]
+			y: -7.5d
+			dependencies: ["15DB752288A63AB9"]
 			size: 0.75d
 			id: "2B7E782A5F18BAFC"
 			tasks: [{
@@ -2038,10 +2051,9 @@
 			}]
 		}
 		{
-			x: 31.125d
-			y: -7.5d
+			x: 32.5d
+			y: -6.0d
 			dependencies: ["77E372704F154ED7"]
-			size: 0.75d
 			id: "23DA1E10F8FF3CF7"
 			tasks: [{
 				id: "09DE980759FAD81D"
@@ -2086,6 +2098,265 @@
 						Damage: 0
 					}
 				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.5d
+			dependencies: ["14A4C07AF7C01FE5"]
+			id: "47C0B20499FD7686"
+			tasks: [{
+				id: "06210066E19EA50C"
+				type: "item"
+				item: "integrateddynamics:menril_sapling"
+			}]
+		}
+		{
+			x: 29.5d
+			y: 3.0d
+			dependencies: ["2D287501E33B93E2"]
+			id: "734721DD4A40C125"
+			tasks: [{
+				id: "5C520E2EC15FB70E"
+				type: "item"
+				item: "minecraft:spawner"
+			}]
+		}
+		{
+			x: 32.5d
+			y: -7.5d
+			dependencies: [
+				"23DA1E10F8FF3CF7"
+				"00BA816E3226205B"
+			]
+			id: "15DB752288A63AB9"
+			tasks: [{
+				id: "4CD21517699CCEE5"
+				type: "item"
+				item: "mythicbotany:kvasir_blood"
+			}]
+		}
+		{
+			x: 34.0d
+			y: -7.5d
+			dependencies: ["0C8FDEAA7F371B4C"]
+			id: "00BA816E3226205B"
+			tasks: [{
+				id: "0AFF88910292CBB8"
+				type: "item"
+				item: "mythicbotany:alfsteel_pylon"
+			}]
+		}
+		{
+			x: 35.5d
+			y: -6.0d
+			dependencies: ["0793CB132D5BFFF4"]
+			id: "0A776A23623D6359"
+			tasks: [{
+				id: "517AC3A5889C2271"
+				type: "item"
+				item: "botania:gaia_pylon"
+			}]
+		}
+		{
+			x: 34.0d
+			y: -6.0d
+			dependencies: ["4EDE36742983EB33"]
+			id: "0793CB132D5BFFF4"
+			tasks: [{
+				id: "1924806B30945174"
+				type: "item"
+				item: "botania:natura_pylon"
+			}]
+		}
+		{
+			x: 34.0d
+			y: -4.5d
+			dependencies: ["2136FBB05C0FBA03"]
+			id: "4EDE36742983EB33"
+			tasks: [{
+				id: "71A8843512EAC428"
+				type: "item"
+				item: "botania:mana_pylon"
+			}]
+		}
+		{
+			x: 35.5d
+			y: -4.5d
+			shape: "gear"
+			id: "2136FBB05C0FBA03"
+			tasks: [{
+				id: "7219BF0900688CF3"
+				type: "item"
+				item: "botania:mana_diamond"
+			}]
+		}
+		{
+			x: 31.0d
+			y: 4.5d
+			dependencies: ["6FD65C8D638C766F"]
+			id: "75226726EBE8FCB2"
+			tasks: [{
+				id: "0841DBE5BED05F4C"
+				type: "item"
+				item: "exnihilosequentia:mesh_flint"
+			}]
+		}
+		{
+			x: 29.5d
+			y: 4.5d
+			dependencies: ["75226726EBE8FCB2"]
+			id: "11481A1C6569CA3E"
+			tasks: [{
+				id: "5A5C8422D7DDD14C"
+				type: "item"
+				item: "exnihilosequentia:mesh_iron"
+			}]
+		}
+		{
+			x: 28.0d
+			y: 4.5d
+			dependencies: ["11481A1C6569CA3E"]
+			id: "36CF87CA0FD285F2"
+			tasks: [{
+				id: "651B8A33AFFB80BD"
+				type: "item"
+				item: "exnihilosequentia:mesh_diamond"
+			}]
+		}
+		{
+			x: 26.5d
+			y: 4.5d
+			dependencies: ["36CF87CA0FD285F2"]
+			id: "3374F5D26BE27A6B"
+			tasks: [{
+				id: "506061ECFD9BFCEC"
+				type: "item"
+				item: "exnihilosequentia:mesh_emerald"
+			}]
+		}
+		{
+			x: 25.0d
+			y: 4.5d
+			dependencies: ["3374F5D26BE27A6B"]
+			id: "739C57D5384FD109"
+			tasks: [{
+				id: "338E0DEAEB1A42A0"
+				type: "item"
+				item: "exnihilosequentia:mesh_netherite"
+			}]
+		}
+		{
+			x: 31.0d
+			y: 6.0d
+			dependencies: ["75226726EBE8FCB2"]
+			id: "771F5930A47AF417"
+			tasks: [{
+				id: "2CA1E398AF9B470C"
+				type: "item"
+				item: "appliedenergistics2:sky_dust"
+			}]
+		}
+		{
+			title: "Ex Nihilo Barrel"
+			x: 22.0d
+			y: 0.0d
+			dependencies: ["6776FE159F468286"]
+			id: "2AD10E09BDDA9F8C"
+			tasks: [
+				{
+					id: "10E1610C264D41AC"
+					type: "item"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "exnihilosequentia:barrels"
+						}
+					}
+				}
+				{
+					id: "22BF7E898E04D23F"
+					type: "item"
+					item: "exnihilosequentia:barrel_stone"
+				}
+			]
+		}
+		{
+			x: 32.5d
+			y: 4.5d
+			dependencies: ["771F5930A47AF417"]
+			id: "18B6543AB354F256"
+			tasks: [{
+				id: "368D04A425D24E32"
+				type: "item"
+				item: "appliedenergistics2:silicon_press"
+			}]
+		}
+		{
+			x: 32.5d
+			y: 6.0d
+			dependencies: ["771F5930A47AF417"]
+			id: "2DAB00DB26D11207"
+			tasks: [{
+				id: "546B5340A18C6077"
+				type: "item"
+				item: "appliedenergistics2:logic_processor_press"
+			}]
+		}
+		{
+			x: 32.5d
+			y: 7.5d
+			dependencies: ["771F5930A47AF417"]
+			id: "341230D3903CF5ED"
+			tasks: [{
+				id: "55A4F3566A1F783A"
+				type: "item"
+				item: "appliedenergistics2:engineering_processor_press"
+			}]
+		}
+		{
+			x: 31.0d
+			y: 7.5d
+			dependencies: ["771F5930A47AF417"]
+			id: "1E260C33D7C589A4"
+			tasks: [{
+				id: "719EB7D1BFADBF38"
+				type: "item"
+				item: "appliedenergistics2:calculation_processor_press"
+			}]
+		}
+		{
+			x: 29.5d
+			y: 7.5d
+			dependencies: ["771F5930A47AF417"]
+			id: "03F5E64D94D5C8A0"
+			tasks: [{
+				id: "5086FB3FC52F057D"
+				type: "item"
+				item: "appliedenergistics2:energy_acceptor"
+			}]
+		}
+		{
+			x: 35.5d
+			y: -7.5d
+			dependencies: ["0A776A23623D6359"]
+			id: "0C8FDEAA7F371B4C"
+			tasks: [{
+				id: "25F3A95044F16589"
+				type: "item"
+				item: "botania:life_essence"
+			}]
+		}
+		{
+			x: 29.5d
+			y: 6.0d
+			dependencies: ["03F5E64D94D5C8A0"]
+			id: "3A30F8F28873DCAD"
+			tasks: [{
+				id: "2D53AEE4F4AD09E4"
+				type: "item"
+				item: "appliedenergistics2:controller"
 			}]
 		}
 	]

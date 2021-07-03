@@ -3,7 +3,7 @@
 <recipetype:mekanism:enriching>.removeByName("mekanism:processing/netherite/dirty_scrap_to_scrap");
 blastFurnace.removeRecipe(<item:minecraft:netherite_scrap>);
 furnace.removeRecipe(<item:minecraft:netherite_scrap>);
-<recipetype:bloodmagic:alchemytable>.addJSONRecipe("bloodmagic/alchemytable/arcaneashes",{
+<recipetype:bloodmagic:alchemytable>.addJSONRecipe("bloodmagic/alchemytable/netheritescrap",{
 	"type": "bloodmagic:alchemytable",
 	"input": [
 		{

@@ -13,3 +13,6 @@ val hideJEI as IItemStack[]=[
 for item in hideJEI {
 mods.jei.JEI.hideItem(item);
 }
+
+//Dragon Egg
+mods.jei.JEI.addItem(<item:minecraft:dragon_egg>);
