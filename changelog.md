@@ -1,13 +1,72 @@
-=====================================================
-Spirited Dynamics 0.0.5 -> Spirited Dynamics 0.0.6
-=====================================================
+## [0.0.7] - 2021-07-03
+[Clich here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/commit/7d279b121dbf8520a5031e365fb79da45f5de236)
+
+### Added
+- Dragon Egg to JEI
+- Wandering Trader trades Dimensional Chest
+- Wandering Trader trades Pewter Ingot
+
+### Changed
+- Apotheosis spawner requirements for nearby players
+- Blocks from Beacon Base Blocks
+- Drop chance for Copper from Drowned is equal to Vanilla 1.17.1
+- Endermite no longer drops End Stone
+- Items from Beacon Playment Items
+- Wandering Trader Enchanted Golden Apple trade
+
+###Recipes
+- Acacia Barrel
+- Alfsteel Ingot
+- Alfsteel Pylon
+- Blood of Kvasir
+- Carbon
+- Certus Quartz Ore
+- Charged Certus Quartz
+- Charged Certus Quartz Ore
+- Chorus Flower
+- Dark Oak Barrel
+- Diamond Mesh
+- Dimensional Core
+- Emerald Mesh
+- Enchanted Golden Apple
+- Flint Mesh
+- Flint Mesh
+- Gaia Pylon
+- Inscriber Calculation Press
+- Inscriber Engineering Press
+- Inscriber Logic Press
+- Inscriber Silicon Press
+- Iron Mesh
+- ME Controller
+- Machine Frame (RFTools)
+- Oak Barrel
+- Sky Stone Dust
+- Spawner
+- Stone Path
+- Wooden Path
+- Worn Stone Path
+
+### Disabled
+- Acacia Crucible
+- Birch Crucible
+- Compressed Crook
+- Crimson Crucible
+- Dark Oak Crucible
+- Infested Leaves
+- Jungle Crucible
+- Spruce Crucible
+- Wandering Trader no longer Trades Beacons
+- Wandering Trader no longer Trades Eye of Ender
+- Warped Crucible
+
+## [0.0.6] - 2021-06-04
 [Clich here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/commit/fe28acd3c9516d4801b4946ae3707cebf5a1a133)
 
 ### Added
-- JEI info to Ultimate Crafting Table
-- JEI info to Ultimate Auto Crafting Table
 - JEI info to Large Bloodstone Brick
 - JEI info to Terrasteel Ingot
+- JEI info to Ultimate Auto Crafting Table
+- JEI info to Ultimate Crafting Table
 
 ### Changed
 - Acacia Sign max stack size
@@ -25,7 +84,7 @@ Spirited Dynamics 0.0.5 -> Spirited Dynamics 0.0.6
 - Gray Banner max stack size
 - Green Banner max stack size
 - Honey Bottle max stack size
-- JEI Order
+- JEI order
 - Jungle Sign max stack size
 - Last server no longer has an entry by default
 - Light Blue Banner max stack size
@@ -50,17 +109,21 @@ Spirited Dynamics 0.0.5 -> Spirited Dynamics 0.0.6
 - Iridescent Altar
 - Mana Powder
 - Mante of Stars Vicio
+- Netherite Hammer
 - Netherite Ingot
 - Netherite Scrap
 - Polonium Pellet
-- Netherite Hammer
 - SPS Port
 - Shadow Gem
+- Stone Barrel
+- Wood Barrel
 
 ### Disabled
 - Acacia Crucible
+- Andesite Crook
 - Birch Crucible
 - Blazing Doll
+- Bone Crook
 - Buzzing Doll
 - Cat Bait
 - Chicken Bait
@@ -74,8 +137,11 @@ Spirited Dynamics 0.0.5 -> Spirited Dynamics 0.0.6
 - Cow Bait
 - Creeping Doll
 - Dark Oak Crucible
+- Diamond Crook
 - Diamond Hammer
+- Diorite Crook
 - Donkey Bait
+- Dreamwood Crook
 - Eidolon Silver
 - End Cake
 - Evolved Orechid
@@ -87,13 +153,17 @@ Spirited Dynamics 0.0.5 -> Spirited Dynamics 0.0.6
 - Ex Nihilo Tin Ingot
 - Ex Nihilo Uranium Ingot
 - Fired Crucible
-- For Bait
+- Fox Bait
+- Gold Crook
 - Gold Hammer
+- Granite Crook
 - Horse Bait
+- Iron Crook
 - Iron Hammer
 - Iron Mesh
 - Jungle Crucible
 - Livingrock Hammer
+- Livingwood Crook
 - Livingwood Hammer
 - Llama Bait
 - Magnetic Attraction Unit
@@ -110,8 +180,10 @@ Spirited Dynamics 0.0.5 -> Spirited Dynamics 0.0.6
 - Rabbit Bait
 - Sawdust
 - Sheep Bait
+- Silk Worm
 - Spruce Crucible
 - Squid Bait
+- Stone Crook
 - Stone Hammer
 - Stone Stick
 - Uncompressed Coal
@@ -119,12 +191,11 @@ Spirited Dynamics 0.0.5 -> Spirited Dynamics 0.0.6
 - Vein Mining Unit
 - Wolf Bait
 - Wood Chippings
+- Wood Crook
 - Wood Hammer
 - Wooden Crucible
 
-=====================================================
-Spirited Dynamics 0.0.4 -> Spirited Dynamics 0.0.5
-=====================================================
+## [0.0.5] - 2021-05-21
 [Clich here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/commit/2cf97182156414bdd006d5d5ad464f690d0ba9c1)
 
 ### Added
@@ -193,9 +264,7 @@ Spirited Dynamics 0.0.4 -> Spirited Dynamics 0.0.5
 - Tainted Blood Pendant
 - Thermoelectric Generator
 
-=====================================================
-Spirited Dynamics 0.0.3 -> Spirited Dynamics 0.0.4
-=====================================================
+## [0.0.4] - 2021-03-22
 [Clich here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/commit/ee3079c8206f5bfd55eb71818cc3f9abb449312c)
 
 ### Changed
@@ -209,9 +278,7 @@ Spirited Dynamics 0.0.3 -> Spirited Dynamics 0.0.4
 - Living Wood Planks
 - Smooth Stone Brick
 
-=====================================================
-Spirited Dynamics 0.0.2 -> Spirited Dynamics 0.0.3
-=====================================================
+## [0.0.3] - 2021-03-18
 [Clich here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/commit/dae3a3ed26af4dab8093c00a8835a4dd91dac8eb)
 
 ### Changed
@@ -233,9 +300,7 @@ Spirited Dynamics 0.0.2 -> Spirited Dynamics 0.0.3
 - Flügel Tiara
 - Heat Generator
 
-=====================================================
-Spirited Dynamics 0.0.1 -> Spirited Dynamics 0.0.2
-=====================================================
+## [0.0.2] - 2021-03-14
 [Clich here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/commit/63e3d9759883334f7ae0f40b96260cd6ed225887)
 
 ### Added
@@ -244,7 +309,5 @@ Spirited Dynamics 0.0.1 -> Spirited Dynamics 0.0.2
 ### Recipes
 - Fixed Obsidian dupe issue
 
-=====================================================
-Spirited Dynamics 0.0.1
-=====================================================
+## [0.0.1] - 2021-03-14
 Initial release
