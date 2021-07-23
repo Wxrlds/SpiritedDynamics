@@ -1,3 +1,8 @@
+## [0.0.9] - 2021-07-23
+[Clich here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/commit/097457dba2c6527ed537a43b961bf9d61f6a97d6)
+
+Curseforge broke the exported file, this is the fix.
+
 ## [0.0.8] - 2021-07-23
 [Clich here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/commit/87e86c224cd8e6903bac48e78f89d0cf54690e65)
 
