@@ -1,0 +1,30 @@
+{
+	"display": {
+		"title": {
+			"text": "Beacons"
+		},
+		"description": {
+			"text": "Not to be confused with Bacon!"
+		},
+		"icon": {
+			"item": "minecraft:beacon"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"beacon": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:beacon"
+					}
+				]
+			}
+		}
+	},
+	"parent": "spiriteddynamics:iesniumore"
+}

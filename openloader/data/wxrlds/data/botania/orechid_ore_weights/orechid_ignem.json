@@ -8,12 +8,12 @@
 		{
 			"type": "block",
 			"block": "minecraft:nether_gold_ore",
-			"weight": 3635
+			"weight": 3035
 		},
 		{
 			"type": "block",
 			"block": "minecraft:ancient_debris",
-			"weight": 148
+			"weight": 463
 		}
 	]
 }

@@ -47,9 +47,6 @@
     "harvest_tool_new_line": false,
     "trapped_chest": false
   },
-  "woot": {
-    "display_layout_items": true
-  },
   "waila": {
     "show_registry": false,
     "show_states": false,

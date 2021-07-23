@@ -9,7 +9,7 @@
 	#Range: 256 ~ 4096
 	fallingHeight = 300
 	#Set to false to make Forgiving Void not trigger in the end void (dimension 1).
-	triggerInEnd = false
+	triggerInEnd = true
 	#Set to true if you want the dimensionBlacklist to be treated as a whitelist instead. Options triggerInOverworld etc. still take priority.
 	dimensionBlacklistIsWhitelist = false
 	#Prevent death on void fall (limits damage to leave at least 0.5 hearts)
@@ -18,7 +18,7 @@
 	#Range: > 0
 	damageOnFall = 19
 	#Set to false to make Forgiving Void not trigger in the nether void (dimension -1).
-	triggerInNether = false
+	triggerInNether = true
 	#The y level at which Forgiving Void should forgive the player and send them towards the sky.
 	#Range: -64 ~ 0
 	triggerAtY = -32

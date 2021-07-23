@@ -1,0 +1,30 @@
+{
+	"display": {
+		"title": {
+			"text": "Terrestrial Agglomeration Plate"
+		},
+		"description": {
+			"text": "Getting close to Terrasteel!"
+		},
+		"icon": {
+			"item": "botania:terra_plate"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"terraplate": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "botania:terra_plate"
+					}
+				]
+			}
+		}
+	},
+	"parent": "spiriteddynamics:manafluxfield"
+}

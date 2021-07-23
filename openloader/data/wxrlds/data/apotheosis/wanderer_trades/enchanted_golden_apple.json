@@ -5,8 +5,8 @@
     "count": 64
   },
   "input_2": {
-    "item": "minecraft:air",
-    "count": 0
+    "item": "minecraft:emerald_block",
+    "count": 64
   },
   "output": {
     "item": "minecraft:enchanted_golden_apple",

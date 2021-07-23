@@ -1,0 +1,42 @@
+{
+	"display": {
+		"title": {
+			"text": "Cover me in... Meka-Suit and Tool!"
+		},
+		"description": {
+			"text": "Almost invincible!"
+		},
+		"icon": {
+			"item": "mekanism:mekasuit_bodyarmor"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"mekasuit": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "mekanism:mekasuit_helmet"
+					},
+					{
+						"item": "mekanism:mekasuit_bodyarmor"
+					},
+					{
+						"item": "mekanism:mekasuit_pants"
+					},
+					{
+						"item": "mekanism:mekasuit_boots"
+					},
+					{
+						"item": "mekanism:meka_tool"
+					}
+				]
+			}
+		}
+	},
+	"parent": "spiriteddynamics:alfheim"
+}

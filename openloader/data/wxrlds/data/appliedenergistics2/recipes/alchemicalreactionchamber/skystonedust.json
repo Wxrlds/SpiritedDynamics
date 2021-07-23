@@ -1,0 +1,21 @@
+{
+	"type": "bloodmagic:arc",
+	"input": {
+		"item": "architects_palette:twisting_blackstone_bricks"
+	},
+	"tool": {
+		"tag": "bloodmagic:arc/reverter"
+	},
+	"addedoutput": [
+		{
+			"chance": 0.05,
+			"type": {
+				"item": "appliedenergistics2:sky_stone_block"
+			}
+		}
+	],
+	"output": {
+		"item": "appliedenergistics2:sky_dust"
+	},
+	"consumeingredient": false
+}

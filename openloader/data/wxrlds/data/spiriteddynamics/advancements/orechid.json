@@ -1,0 +1,30 @@
+{
+	"display": {
+		"title": {
+			"text": "Orechid"
+		},
+		"description": {
+			"text": "Makes Ores from Mana!"
+		},
+		"icon": {
+			"item": "botania:orechid"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"orechid": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "botania:orechid"
+					}
+				]
+			}
+		}
+	},
+	"parent": "spiriteddynamics:root"
+}
