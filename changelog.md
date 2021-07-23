@@ -1,3 +1,93 @@
+## [0.0.8] - 2021-07-23
+[Clich here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/commit/87e86c224cd8e6903bac48e78f89d0cf54690e65)
+
+### Enabled
+- Solar Recharging Unit
+
+### Added
+- Custom Advencements
+- JEI description to Iesnium Ore
+- JEI description to Otherstone
+- JEI description to Stardust
+
+### Changed
+- Beacon base blocks
+- Beacon payment items
+- Decreased max level of capturing enchant
+- Enriched Iron Block now needs to be mined with a pickaxe
+- Falling down in the Nether and End no longer kills you
+- JEI now shows only two collector crystals but actually shows their recipe
+- Orechid Ignem Generation chances
+- Wandering Trader Enchanted Golden Apple trade
+
+### Recipes
+- Auto Compressed Hammer
+- Auto Hammer
+- Auto Trader
+- Barterer
+- Blue Connector
+- Breeder
+- Candle
+- Certus Quartz Ore
+- Charged Certus Quartz Crystal
+- Converter
+- Draconic Endshelf
+- Elytra
+- End Crystal
+- End Stone in Chemical Dissolver
+- Energy Pipe
+- Enriched Iron Block
+- Farmer
+- Fluid Pipe
+- Fusion Chamber Core
+- Gaia Spirit Ingot
+- Gas Pipe
+- Green Connector
+- Incubator
+- Iron Farm
+- Item Pipe
+- Jetpack Unit
+- Meka-Tool
+- Mekasuit Bodyarmour
+- Mekasuit Boots
+- Mekasuit Helmet
+- Mekasuit Pants
+- Mjöllnir
+- Netherite Scrap
+- Pewter Inlay
+- Red Connector
+- Saturium Ingot
+- Sky Stone Dust
+- Soul Enchanter
+- Steel Block
+- Trader
+- Travel Anchor
+- Travel Staff
+- White Candle
+- Yellow Connector
+
+### Disabled
+- Armored Jetpack
+- Black Iron Nugget
+- Compressed Dreamwood Crook
+- Compressed Livingrock Hammer
+- Compressed Livingwood Crook
+- Compressed Livingwood Hammer
+- Compressed Manasteel Hammer
+- Crystaltine Block
+- Crystaltine Ingot
+- Crystaltine Nugget
+- Ender Ingot Block
+- Ender Nugget
+- Ender Star Block
+- Enhanced Ender Ingot
+- Enhanced Ender Ingot Block
+- Enhanced Ender Nugget
+- Jetpack
+- The Ultimate Block
+- The Ultimate Ingot
+- The Ultimate Nugget
+
 ## [0.0.7] - 2021-07-03
 [Clich here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/commit/7d279b121dbf8520a5031e365fb79da45f5de236)
 
@@ -14,7 +104,7 @@
 - Items from Beacon Playment Items
 - Wandering Trader Enchanted Golden Apple trade
 
-###Recipes
+### Recipes
 - Acacia Barrel
 - Alfsteel Ingot
 - Alfsteel Pylon
@@ -29,7 +119,6 @@
 - Dimensional Core
 - Emerald Mesh
 - Enchanted Golden Apple
-- Flint Mesh
 - Flint Mesh
 - Gaia Pylon
 - Inscriber Calculation Press
@@ -63,10 +152,10 @@
 [Clich here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/commit/fe28acd3c9516d4801b4946ae3707cebf5a1a133)
 
 ### Added
-- JEI info to Large Bloodstone Brick
-- JEI info to Terrasteel Ingot
-- JEI info to Ultimate Auto Crafting Table
-- JEI info to Ultimate Crafting Table
+- JEI description to Large Bloodstone Brick
+- JEI description to Terrasteel Ingot
+- JEI description to Ultimate Auto Crafting Table
+- JEI description to Ultimate Crafting Table
 
 ### Changed
 - Acacia Sign max stack size
@@ -199,7 +288,7 @@
 [Clich here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/commit/2cf97182156414bdd006d5d5ad464f690d0ba9c1)
 
 ### Added
-- JEI info page to Dagger of Sacrifice
+- JEI description page to Dagger of Sacrifice
 - Tooltip to Kinetic Dynamo
 - Tooltip to Lightning Block
 - Tooltip to Time Block
