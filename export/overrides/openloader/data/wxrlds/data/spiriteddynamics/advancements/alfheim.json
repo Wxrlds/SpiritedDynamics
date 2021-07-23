@@ -1,0 +1,30 @@
+{
+	"display": {
+		"title": {
+			"text": "Alfheim"
+		},
+		"description": {
+			"text": "Going where you're not supposed to!"
+		},
+		"icon": {
+			"item": "mythicbotany:kvasir_mead"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"alfheim": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "mythicbotany:kvasir_mead"
+					}
+				]
+			}
+		}
+	},
+	"parent": "spiriteddynamics:beacon"
+}

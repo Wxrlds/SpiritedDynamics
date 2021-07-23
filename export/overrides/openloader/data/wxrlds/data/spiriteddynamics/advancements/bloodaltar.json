@@ -1,0 +1,30 @@
+{
+	"display": {
+		"title": {
+			"text": "Blood Altar"
+		},
+		"description": {
+			"text": "Don't die!"
+		},
+		"icon": {
+			"item": "bloodmagic:altar"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"bloodaltar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "bloodmagic:altar"
+					}
+				]
+			}
+		}
+	},
+	"parent": "spiriteddynamics:terraplate"
+}

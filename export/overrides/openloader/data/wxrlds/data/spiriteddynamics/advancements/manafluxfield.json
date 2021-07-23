@@ -1,0 +1,30 @@
+{
+	"display": {
+		"title": {
+			"text": "Mana Fluxfield"
+		},
+		"description": {
+			"text": "Power from Mana!"
+		},
+		"icon": {
+			"item": "botania:mana_fluxfield"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"manafluxfield": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "botania:mana_fluxfield"
+					}
+				]
+			}
+		}
+	},
+	"parent": "spiriteddynamics:luminousaltar"
+}

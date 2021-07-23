@@ -1,0 +1,23 @@
+{
+	"display": {
+		"title": {
+			"text": "Spirited Dynamics"
+		},
+		"description": {
+			"text": "Advancements for Spirited Dynamics!"
+		},
+		"icon": {
+			"item": "contenttweaker:spirited_dynamics"
+		},
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": false,
+		"background": "contenttweaker:textures/item/spirited_dynamics.png"
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

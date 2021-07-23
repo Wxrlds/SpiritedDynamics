@@ -1,0 +1,59 @@
+
+#General Settings
+[general]
+
+	#Nutrient Levels
+	[general.nutrient_levels]
+		#Malnourishment value, below which bad effects can occur. (default:1.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		nutrient_level_malnourished = 1.0
+		#Initial nutrient level for new player. (default:50.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		nutrient_initial = 50.0
+		#Boundary between low and target, above which good affects can occur. (default:100.0
+		#Range: 0.0 ~ 1.7976931348623157E308
+		nutrient_level_low_target = 100.0
+		#Boundary between target and high, below which good affects can occur. (default:120.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		nutrient_level_target_high = 120.0
+		#Engorgement value, above which bad affects can occur.(default:170.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		nutrient_level_engorged = 170.0
+		#Maximum nutrient level. nutrients will cap out at this value no matter how much you eat. (default:180.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		nutrient_level_max = 180.0
+		#Nutrient Increment Rate - rate of nutrient increase relative to food saturation and points. (default:1.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		nutrient_increment_rate = 1.0
+		#Nutrient Decay Rate - base rate of nutrient reduction over time relative to player saturation and food level decay. (default:1.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		nutrient_decay_rate = 1.0
+		#Nutrient Loss On Death - number of nutrition point lost from each nutrient on death (bottoms out at initial value). (default:10.0)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		nutrient_death_loss = 10.0
+
+	#Effects
+	[general.nutrition_affects]
+		#List of nutrients which only give bad effects when engorged, are not required for a balanced diet and do not cause malnourishment when low (default:sugar).
+		effect_bad_nutrients = ["sugars"]
+		#List of nutrients which only give good effects, are not required for a balanced diet and do not cause engorgement. You can eat as much as you want (default:vegetables).
+		effect_good_nutrients = ["vegetables"]
+
+	#Nutrient for modded foods: Add foods or tags here to add nutrients to the foods.
+	#This is usually only needed for raw ingredients. Crafted and cooked foods will get nutrients from recipe ingredients.
+	#This can be done with data packs by adding foods to item tags under forge:nutrient/<nutrientName>, but this config is here for convenience.
+	#Data packs are required to define new nutrient categories.
+	#These configs are additive on top of data packs.
+	#Run the command /nutritionalbalance get_unassigned_foods to find any foods that do not have nutrients.
+	[general.nutrient_foods]
+		#List of vegetables.
+		vegetables_item_list = ["#minecraft:flowers", "#forge:vegetables"]
+		#List of carbohydrates.
+		carbs_item_list = ["#forge:carbs", "#forge:grain"]
+		#List of simple sugars.
+		sugars_item_list = []
+		#List of proteins.
+		protein_item_list = ["#forge:protein", "#forge:milk", "#forge:yogurt", "#forge:nuts"]
+		#List of proteins.
+		fruits_item_list = ["#forge:fruits"]
+

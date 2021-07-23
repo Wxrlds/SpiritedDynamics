@@ -1,0 +1,30 @@
+{
+	"display": {
+		"title": {
+			"text": "Luminous Crafting Altar"
+		},
+		"description": {
+			"text": "Now you'll have to make it night time!"
+		},
+		"icon": {
+			"item": "astralsorcery:altar_discovery"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"luminousaltar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "astralsorcery:altar_discovery"
+					}
+				]
+			}
+		}
+	},
+	"parent": "spiriteddynamics:orechid"
+}

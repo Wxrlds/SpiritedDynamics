@@ -1,0 +1,30 @@
+{
+	"display": {
+		"title": {
+			"text": "Wooden Altar"
+		},
+		"description": {
+			"text": "Looks like a downgrade!"
+		},
+		"icon": {
+			"item": "eidolon:wooden_altar"
+		},
+		"frame": "goal",
+		"show_toast": true,
+		"announce_to_chat": true,
+		"hidden": false
+	},
+	"criteria": {
+		"woodenaltar": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "eidolon:wooden_altar"
+					}
+				]
+			}
+		}
+	},
+	"parent": "spiriteddynamics:bloodaltar"
+}
