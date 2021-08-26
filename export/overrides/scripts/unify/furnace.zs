@@ -44,10 +44,10 @@ furnace.removeByName(item);
 }
 
 //Silver Ingot
-furnace.addRecipe("immersiveengineering/furnace/ingot/silver", <item:immersiveengineering:ingot_silver>, <item:exnihilosequentia:chunk_silver>, 1.0, 200);
+furnace.addRecipe("unify/furnace/ingot/silver", <item:immersiveengineering:ingot_silver>, <item:exnihilosequentia:chunk_silver>, 1.0, 200);
 
 //Aluminium Ingot
-furnace.addRecipe("immersiveengineering/furnace/ingot/alumiumium", <item:immersiveengineering:ingot_aluminum>, <item:exnihilosequentia:chunk_aluminum>, 1.0, 200);
+furnace.addRecipe("unify/furnace/ingot/alumiumium", <item:immersiveengineering:ingot_aluminum>, <item:exnihilosequentia:chunk_aluminum>, 1.0, 200);
 
 //Nickel Ingot
-furnace.addRecipe("immersiveengineering/furnace/ingot/nickel", <item:immersiveengineering:ingot_nickel>, <item:exnihilosequentia:chunk_nickel>, 1.0, 200);
+furnace.addRecipe("unify/furnace/ingot/nickel", <item:immersiveengineering:ingot_nickel>, <item:exnihilosequentia:chunk_nickel>, 1.0, 200);
