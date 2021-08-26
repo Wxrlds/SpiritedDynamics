@@ -1,3 +1,28 @@
+## [0.0.10] - 2021.08.26
+[Click here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/commit/b7e8d60bfd13a102eadd8bcefa03299e7b6f2662)
+
+### Enabled
+- Mekanism Solar Generators
+
+### Added
+- Compressed Dirt as Botany Pot Soil
+- JEI description to Blaze Mesh
+
+### Changed
+- Blazes can no longer be a Compressed Mob
+- Fel Blaze now drops more Blaze Powder when killed by a Player
+- Order of custom Advancements
+- Pewter trade in Wandering Trader
+
+### Recipes
+- Celestial Gateway
+- Glowstone
+- Integrated Dynamics Generator
+- Nitrate
+- Smooth Stone Bricks
+- Starlight Infuser
+- Stone in Chemical Dissolver
+
 ## [0.0.9] - 2021-07-23
 [Clich here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/commit/097457dba2c6527ed537a43b961bf9d61f6a97d6)
 
