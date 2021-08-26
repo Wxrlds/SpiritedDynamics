@@ -2,17 +2,17 @@
   "rare": "",
   "input_1": {
     "item": "minecraft:emerald",
-    "count": 2
+    "count": 3
   },
   "input_2": {
-    "item": "minecraft:air",
-    "count": 0
+    "item": "mekanism:ingot_steel",
+    "count": 8
   },
   "output": {
     "item": "eidolon:pewter_ingot",
-    "count": 32
+    "count": 16
   },
-  "max_trades": 5,
+  "max_trades": 2,
   "xp": 20,
   "price_mult": 1.0
 }

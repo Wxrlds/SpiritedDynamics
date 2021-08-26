@@ -1,6 +1,6 @@
 //Chemical Injection Chamber
 craftingTable.removeRecipe(<item:mekanism:chemical_injection_chamber>);
-mods.extendedcrafting.TableCrafting.addShaped("mekanism/tier4crafting/chemicalinjectionchamber", 4, <item:mekanism:chemical_injection_chamber>, [
+mods.extendedcrafting.TableCrafting.addShaped("mekanism/tier4crafting/chemicalin_jection_chamber", 4, <item:mekanism:chemical_injection_chamber>, [
 	[<item:botania:rune_mana>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:botania:rune_mana>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:botania:rune_mana>],
 	[<item:minecraft:air>, <item:chemlib:ingot_yttrium>, <item:minecraft:beehive>, <item:minecraft:air>, <item:minecraft:potion>.withTag({Potion: "minecraft:long_fire_resistance" as string}), <item:minecraft:air>, <item:minecraft:wither_skeleton_skull>, <item:immersiveengineering:silver>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:minecraft:wither_skeleton_skull>, <item:immersiveengineering:silver>, <item:mekanism:ultimate_control_circuit>, <item:pipez:gas_pipe>, <item:mekanism:ultimate_control_circuit>, <item:chemlib:ingot_yttrium>, <item:minecraft:beehive>, <item:minecraft:air>],
@@ -14,7 +14,7 @@ mods.extendedcrafting.TableCrafting.addShaped("mekanism/tier4crafting/chemicalin
 
 //Mekasuit Helmet
 craftingTable.removeRecipe(<item:mekanism:mekasuit_helmet>);
-mods.extendedcrafting.TableCrafting.addShaped("mekanism/tier4crafting/mekasuithelmet", 4, <item:mekanism:mekasuit_helmet>, [
+mods.extendedcrafting.TableCrafting.addShaped("mekanism/tier4crafting/mekasuit_helmet", 4, <item:mekanism:mekasuit_helmet>, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:mythicbotany:dragonstone_ore>, <item:mythicbotany:dragonstone_ore>, <item:mythicbotany:dragonstone_ore>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:mythicbotany:dragonstone_ore>, <item:mythicbotany:dragonstone_ore>, <item:mythicbotany:dragonstone_ore>, <item:mythicbotany:dragonstone_ore>, <item:mythicbotany:dragonstone_ore>, <item:mythicbotany:dragonstone_ore>, <item:mythicbotany:dragonstone_ore>, <item:minecraft:air>],
 	[<item:minecraft:air>, <item:mythicbotany:dragonstone_ore>, <item:mythicbotany:dragonstone_ore>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mythicbotany:dragonstone_ore>, <item:mythicbotany:dragonstone_ore>, <item:minecraft:air>],
@@ -28,7 +28,7 @@ mods.extendedcrafting.TableCrafting.addShaped("mekanism/tier4crafting/mekasuithe
 
 //Mekasuit Bodyarmour
 craftingTable.removeRecipe(<item:mekanism:mekasuit_bodyarmor>);
-mods.extendedcrafting.TableCrafting.addShaped("mekanism/tier4crafting/mekasuitbodyarmor", 4, <item:mekanism:mekasuit_bodyarmor>, [
+mods.extendedcrafting.TableCrafting.addShaped("mekanism/tier4crafting/mekasuit_bodyarmor", 4, <item:mekanism:mekasuit_bodyarmor>, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:mythicbotany:nidavellir_rune>, <item:mythicbotany:joetunheim_rune>, <item:mythicbotany:vanaheim_rune>, <item:mythicbotany:muspelheim_rune>, <item:mythicbotany:niflheim_rune>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>, <item:mekanism:hdpe_sheet>, <item:mekanism:ultimate_induction_cell>, <item:mekanism:hdpe_sheet>, <item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>],
 	[<item:mythicbotany:dream_cherry>, <item:mythicbotany:dream_cherry>, <item:mythicbotany:dream_cherry>, <item:mekanism:hdpe_sheet>, <item:mekanism:ultimate_induction_cell>, <item:mekanism:hdpe_sheet>, <item:mythicbotany:dream_cherry>, <item:mythicbotany:dream_cherry>, <item:mythicbotany:dream_cherry>],
@@ -42,7 +42,7 @@ mods.extendedcrafting.TableCrafting.addShaped("mekanism/tier4crafting/mekasuitbo
 
 //Mekasuit Pants
 craftingTable.removeRecipe(<item:mekanism:mekasuit_pants>);
-mods.extendedcrafting.TableCrafting.addShaped("mekanism/tier4crafting/mekasuitpants", 4, <item:mekanism:mekasuit_pants>, [
+mods.extendedcrafting.TableCrafting.addShaped("mekanism/tier4crafting/mekasuit_pants", 4, <item:mekanism:mekasuit_pants>, [
 	[<item:minecraft:air>, <item:mythicbotany:elementium_ore>, <item:mythicbotany:elementium_ore>, <item:mythicbotany:elementium_ore>, <item:contenttweaker:saturium_ingot>, <item:mythicbotany:elementium_ore>, <item:mythicbotany:elementium_ore>, <item:mythicbotany:elementium_ore>, <item:minecraft:air>], 
 	[<item:mythicbotany:elementium_ore>, <item:mythicbotany:elementium_ore>, <item:mythicbotany:elementium_ore>, <item:mythicbotany:elementium_ore>, <item:mythicbotany:elementium_ore>, <item:mythicbotany:elementium_ore>, <item:mythicbotany:elementium_ore>, <item:mythicbotany:elementium_ore>, <item:mythicbotany:elementium_ore>], 
 	[<item:mythicbotany:elementium_ore>, <item:mythicbotany:elementium_ore>, <item:mythicbotany:elementium_ore>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mythicbotany:elementium_ore>, <item:mythicbotany:elementium_ore>, <item:mythicbotany:elementium_ore>], 
@@ -56,7 +56,7 @@ mods.extendedcrafting.TableCrafting.addShaped("mekanism/tier4crafting/mekasuitpa
 
 //Mekasuit Boots
 craftingTable.removeRecipe(<item:mekanism:mekasuit_boots>);
-mods.extendedcrafting.TableCrafting.addShaped("mekanism/tier4crafting/mekasuitboots", 4, <item:mekanism:mekasuit_boots>, [
+mods.extendedcrafting.TableCrafting.addShaped("mekanism/tier4crafting/mekasuit_boots", 4, <item:mekanism:mekasuit_boots>, [
 	[<item:minecraft:air>, <item:mekanism:pellet_polonium>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:minecraft:air>, <item:mekanism:hdpe_sheet>, <item:mekanism:hdpe_sheet>, <item:mekanism:pellet_polonium>, <item:minecraft:air>],
 	[<item:mekanism:pellet_polonium>, <item:mythicbotany:nidavellir_rune>, <item:mythicbotany:gold_ore>, <item:mythicbotany:joetunheim_rune>, <item:contenttweaker:saturium_ingot>, <item:mythicbotany:muspelheim_rune>, <item:mythicbotany:gold_ore>, <item:mythicbotany:niflheim_rune>, <item:mekanism:pellet_polonium>],
 	[<item:mekanism:hdpe_sheet>, <item:mythicbotany:gold_ore>, <item:mekanism:ultimate_induction_cell>, <item:mythicbotany:gold_ore>, <item:mekanism:hdpe_sheet>, <item:mythicbotany:gold_ore>, <item:mekanism:ultimate_induction_cell>, <item:mythicbotany:gold_ore>, <item:mekanism:hdpe_sheet>],
@@ -70,7 +70,7 @@ mods.extendedcrafting.TableCrafting.addShaped("mekanism/tier4crafting/mekasuitbo
 
 //Meka-Tool
 craftingTable.removeRecipe(<item:mekanism:meka_tool>);
-mods.extendedcrafting.TableCrafting.addShaped("mekanism/tier4crafting/mekatool", 4, <item:mekanism:meka_tool>, [
+mods.extendedcrafting.TableCrafting.addShaped("mekanism/tier4crafting/meka_tool", 4, <item:mekanism:meka_tool>, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:mekanism:pellet_polonium>, <item:mekanismgenerators:fusion_fuel_bucket>, <item:mekanismgenerators:fusion_fuel_bucket>, <item:minecraft:air>], 
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:mekanism:pellet_polonium>, <item:mekanism:ultimate_tier_installer>, <item:mekanism:pellet_polonium>, <item:mekanismgenerators:fusion_fuel_bucket>, <item:minecraft:air>], 

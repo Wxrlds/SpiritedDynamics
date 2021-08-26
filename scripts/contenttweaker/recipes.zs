@@ -34,7 +34,7 @@
 });
 
 //Marsium Ingot
-<recipetype:interactio:item_explode>.addJSONRecipe("contenttweaker/recipes/marsium",{
+<recipetype:interactio:item_explode>.addJSONRecipe("contenttweaker/recipes/marsium_ingot",{
 	"type": "interactio:item_explode",
 	"inputs": [
 		{
@@ -64,7 +64,7 @@
 });
 
 //Jupitum Ingot
-<recipetype:interactio:item_lightning>.addJSONRecipe("contenttweaker/recipes/jupitum",{
+<recipetype:interactio:item_lightning>.addJSONRecipe("contenttweaker/recipes/jupitum_ingot",{
 	"type": "interactio:item_lightning",
 	"inputs": [
 		{
@@ -94,7 +94,7 @@
 });
 
 //Lightning Block
-<recipetype:bloodmagic:array>.addJSONRecipe("contenttweaker/recipes/lightningblock",{
+<recipetype:bloodmagic:array>.addJSONRecipe("contenttweaker/recipes/lightning_block",{
 	"type": "bloodmagic:array",
 	"texture": "bloodmagic:textures/models/alchemyarrays/sunarray.png",
 	"baseinput": {
@@ -111,7 +111,7 @@
 <item:contenttweaker:lightning>.addTooltip("Place down to summon a lightning bolt at your current location");
 
 //Time Block
-craftingTable.addShaped("contenttweaker/recipes/timeblock", <item:contenttweaker:time> * 8, [
+craftingTable.addShaped("contenttweaker/recipes/time_block", <item:contenttweaker:time> * 8, [
 	[<item:eidolon:soul_shard>, <item:botania:quartz_dark>, <item:eidolon:soul_shard>],
     [<item:botania:quartz_dark>, <item:minecraft:clock>, <item:botania:quartz_dark>],
     [<item:eidolon:soul_shard>, <item:botania:quartz_dark>, <item:eidolon:soul_shard>]
@@ -119,7 +119,7 @@ craftingTable.addShaped("contenttweaker/recipes/timeblock", <item:contenttweaker
 <item:contenttweaker:time>.addTooltip("Place down to advance time by 1500 ticks");
 
 //Enriched Iron Block
-<recipetype:mekanism:metallurgic_infusing>.addJSONRecipe("contenttweaker/recipes/enrichedironblock",{
+<recipetype:mekanism:metallurgic_infusing>.addJSONRecipe("contenttweaker/recipes/enriched_iron_block",{
 	"type": "mekanism:metallurgic_infusing",
 	"itemInput": {
 		"ingredient": {
