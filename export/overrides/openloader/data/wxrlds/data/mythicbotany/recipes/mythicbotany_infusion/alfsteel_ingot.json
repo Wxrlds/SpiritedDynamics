@@ -13,7 +13,7 @@
 			"tag": "forge:gems/dragonstone"
 		},
 		{
-			"tag": "forge:gems/shadow_gem"
+			"item": "powder_power:blend_quadrilium"
 		},
 		{
 			"item": "botania:pixie_dust"

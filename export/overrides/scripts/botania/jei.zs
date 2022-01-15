@@ -2,14 +2,14 @@ import crafttweaker.api.item.IItemStack;
 
 //Hide by item id
 val hideJEI as IItemStack[]=[
-<item:botania:blood_pendant>,
-<item:botania:flight_tiara>,
-<item:botania:infrangible_platform>,
-<item:botania:lens_storm>
+	<item:botania:blood_pendant>,
+	<item:botania:flight_tiara>,
+	<item:botania:infrangible_platform>,
+	<item:botania:lens_storm>
 ];
 
 for item in hideJEI {
-mods.jei.JEI.hideItem(item);
+	mods.jei.JEI.hideItem(item);
 }
 
 //Terrasteel Ingot

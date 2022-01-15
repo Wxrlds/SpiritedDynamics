@@ -1,3 +1,4 @@
+//Orechid Ignem
 <recipetype:botania:petal_apothecary>.removeByName("botania:petal_apothecary/orechid_ignem");
 <recipetype:botania:petal_apothecary>.addJSONRecipe("botania/petal_apothecary/orechid_ignem",{
 	"type": "botania:petal_apothecary",

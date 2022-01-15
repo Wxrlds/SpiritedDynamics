@@ -1,5 +1,6 @@
 import mods.botanypots.ZenSoil;
+
 val soils = <recipetype:botanypots:soil>;
 
-//Compressed Dirt
-val dirtSoil = soils.create("excompressum:compressed_dirt", <item:excompressum:compressed_dirt>, <blockstate:excompressum:compressed_dirt>, 0.90, "dirt");
+//Enchanted Soil
+val dirtSoil = soils.create("botania:enchanted_soil", <item:botania:enchanted_soil>, <blockstate:botania:enchanted_soil>, 0.90, "dirt");

@@ -66,34 +66,23 @@
 <tag:items:forge:dusts>.remove(<item:occultism:iron_dust>);
 
 //Lead
-<tag:blocks:forge:ores/lead>.remove(<block:eidolon:lead_ore>);
 <tag:blocks:forge:ores/lead>.remove(<block:immersiveengineering:ore_lead>);
-<tag:blocks:forge:ores>.remove(<block:eidolon:lead_ore>);
 <tag:blocks:forge:ores>.remove(<block:immersiveengineering:ore_lead>);
-<tag:blocks:forge:storage_blocks/lead>.remove(<block:eidolon:lead_block>);
 <tag:blocks:forge:storage_blocks/lead>.remove(<block:immersiveengineering:storage_lead>);
-<tag:blocks:forge:storage_blocks>.remove(<block:eidolon:lead_block>);
 <tag:blocks:forge:storage_blocks>.remove(<block:immersiveengineering:storage_lead>);
-<tag:blocks:mekanism:atomic_disassembler_ore>.remove(<block:eidolon:lead_ore>);
 <tag:blocks:mekanism:atomic_disassembler_ore>.remove(<block:immersiveengineering:ore_lead>);
 <tag:items:forge:dusts/lead>.remove(<item:immersiveengineering:dust_lead>);
 <tag:items:forge:dusts>.remove(<item:immersiveengineering:dust_lead>);
 <tag:items:forge:ingots/lead>.remove(<item:chemlib:ingot_lead>);
-<tag:items:forge:ingots/lead>.remove(<item:eidolon:lead_ingot>);
 <tag:items:forge:ingots/lead>.remove(<item:exnihilosequentia:ingot_lead>);
 <tag:items:forge:ingots/lead>.remove(<item:immersiveengineering:ingot_lead>);
 <tag:items:forge:ingots>.remove(<item:exnihilosequentia:ingot_lead>);
 <tag:items:forge:ingots>.remove(<item:immersiveengineering:ingot_lead>);
-<tag:items:forge:nuggets/lead>.remove(<item:eidolon:lead_nugget>);
 <tag:items:forge:nuggets/lead>.remove(<item:immersiveengineering:nugget_lead>);
 <tag:items:forge:nuggets>.remove(<item:immersiveengineering:nugget_lead>);
-<tag:items:forge:ores/lead>.remove(<item:eidolon:lead_ore>);
 <tag:items:forge:ores/lead>.remove(<item:immersiveengineering:ore_lead>);
-<tag:items:forge:ores>.remove(<item:eidolon:lead_ore>);
 <tag:items:forge:ores>.remove(<item:immersiveengineering:ore_lead>);
-<tag:items:forge:storage_blocks/lead>.remove(<item:eidolon:lead_block>);
 <tag:items:forge:storage_blocks/lead>.remove(<item:immersiveengineering:storage_lead>);
-<tag:items:forge:storage_blocks>.remove(<item:eidolon:lead_block>);
 <tag:items:forge:storage_blocks>.remove(<item:immersiveengineering:storage_lead>);
 
 //Netherite
@@ -120,27 +109,19 @@
 <tag:items:forge:dusts>.remove(<item:appliedenergistics2:nether_quartz_dust>);
 
 //Silver
-<tag:blocks:forge:ores/silver>.remove(<block:eidolon:silver_ore>);
 <tag:blocks:forge:ores/silver>.remove(<block:occultism:silver_ore>);
-<tag:blocks:forge:ores>.remove(<block:eidolon:silver_ore>);
 <tag:blocks:forge:ores>.remove(<block:occultism:silver_ore>);
 <tag:blocks:forge:storage_blocks/silver>.remove(<block:occultism:silver_block>);
-<tag:blocks:mekanism:atomic_disassembler_ore>.remove(<block:eidolon:silver_ore>);
 <tag:blocks:mekanism:atomic_disassembler_ore>.remove(<block:occultism:silver_ore>);
 <tag:items:forge:dusts/silver>.remove(<item:occultism:silver_dust>);
 <tag:items:forge:dusts>.remove(<item:occultism:silver_dust>);
 <tag:items:forge:ingots/silver>.remove(<item:chemlib:ingot_silver>);
-<tag:items:forge:ingots/silver>.remove(<item:eidolon:silver_ingot>);
 <tag:items:forge:ingots/silver>.remove(<item:exnihilosequentia:ingot_silver>);
 <tag:items:forge:ingots/silver>.remove(<item:occultism:silver_ingot>);
-<tag:items:forge:ingots>.remove(<item:eidolon:silver_ingot>);
 <tag:items:forge:ingots>.remove(<item:exnihilosequentia:ingot_silver>);
 <tag:items:forge:ingots>.remove(<tag:items:forge:ingots>);
-<tag:items:forge:nuggets/silver>.remove(<item:eidolon:silver_nugget>);
 <tag:items:forge:nuggets/silver>.remove(<item:occultism:silver_nugget>);
-<tag:items:forge:ores/silver>.remove(<item:eidolon:silver_ore>);
 <tag:items:forge:ores/silver>.remove(<item:occultism:silver_ore>);
-<tag:items:forge:ores>.remove(<item:eidolon:silver_ore>);
 <tag:items:forge:ores>.remove(<item:occultism:silver_ore>);
 <tag:items:forge:storage_blocks/silver>.remove(<item:occultism:silver_block>);
 
@@ -158,10 +139,8 @@
 
 //Sulfur
 <tag:items:forge:dusts/sulfur>.remove(<item:bloodmagic:sulfur>);
-<tag:items:forge:dusts/sulfur>.remove(<item:eidolon:sulfur>);
 <tag:items:forge:dusts/sulfur>.remove(<item:immersiveengineering:dust_sulfur>);
 <tag:items:forge:dusts>.remove(<item:bloodmagic:sulfur>);
-<tag:items:forge:dusts>.remove(<item:eidolon:sulfur>);
 <tag:items:forge:dusts>.remove(<item:immersiveengineering:dust_sulfur>);
 
 //Tin
@@ -200,7 +179,3 @@
 //Yellow Dye
 <tag:items:forge:dyes/yellow>.remove(<item:mekanism:dust_sulfur>);
 <tag:items:forge:dyes>.remove(<item:mekanism:dust_sulfur>);
-
-//Stone Stick
-<tag:items:forge:rods/stone>.remove(<item:exnihilosequentia:item_stick_stone>);
-<tag:items:forge:rods>.remove(<item:exnihilosequentia:item_stick_stone>);

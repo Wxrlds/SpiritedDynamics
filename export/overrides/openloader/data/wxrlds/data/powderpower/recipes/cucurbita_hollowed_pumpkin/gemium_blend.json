@@ -1,0 +1,50 @@
+{
+	"type": "cucurbita:hollowed_pumpkin",
+	"group": "hollowed_pumpkin",
+	"heat": 300,
+	"input": {
+		"fluid": {
+			"name": "minecraft:water",
+			"amount": 1000
+		},
+		"ingredients": [
+			{
+				"tag": "forge:dusts/redstone"
+			},
+			{
+				"tag": "forge:dusts/redstone"
+			},
+			{
+				"item": "astralsorcery:stardust"
+			},
+			{
+				"item": "astralsorcery:stardust"
+			},
+			{
+				"item": "powder_power:blend_redium"
+			},
+			{
+				"item": "powder_power:blend_redium"
+			},
+			{
+				"item": "powder_power:blend_redium"
+			},
+			{
+				"item": "powder_power:blend_redium"
+			},
+			{
+				"tag": "forge:gems/quartz"
+			},
+			{
+				"item": "architects_palette:rotten_flesh_block"
+			}
+		]
+	},
+	"output": [
+		{
+			"item": "powder_power:blend_gemium",
+			"count": 1,
+			"chance": 1
+		}
+	]
+}

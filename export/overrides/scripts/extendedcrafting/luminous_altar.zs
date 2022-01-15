@@ -14,7 +14,7 @@ craftingTable.removeRecipe(<item:extendedcrafting:advanced_table>);
 	],
 	"key": {
 		"G": {
-			"item": "eidolon:arcane_gold_block"
+			"item": "powder_power:powder_gold"
 		},
 		"L": {
 			"item": "extendedcrafting:luminessence_block"
@@ -59,7 +59,7 @@ craftingTable.removeRecipe(<item:extendedcrafting:advanced_auto_table>);
 	],
 	"key": {
 		"G": {
-			"item": "eidolon:arcane_gold_block"
+			"item": "powder_power:powder_gold"
 		},
 		"L": {
 			"item": "extendedcrafting:luminessence_block"

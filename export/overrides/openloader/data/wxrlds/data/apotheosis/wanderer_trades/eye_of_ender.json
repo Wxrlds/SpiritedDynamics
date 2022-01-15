@@ -1,17 +1,18 @@
 {
-  "input_1": {
-    "item": "minecraft:emerald",
-    "count": 32
-  },
-  "input_2": {
-    "item": "minecraft:ender_eye",
-    "count": 1
-  },
-  "output": {
-    "item": "dimstorage:dimensional_chest",
-    "count": 1
-  },
-  "max_trades": 2,
-  "xp": 5,
-  "price_mult": 1.0
+	"rare": "",
+	"input_1": {
+		"item": "minecraft:air",
+		"count": 0
+	},
+	"input_2": {
+		"item": "minecraft:air",
+		"count": 0
+	},
+	"output": {
+		"item": "minecraft:air",
+		"count": 0
+	},
+	"max_trades": 0,
+	"xp": 0,
+	"price_mult": 0
 }

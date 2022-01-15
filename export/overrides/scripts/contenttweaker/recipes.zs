@@ -48,6 +48,10 @@
 		{
 			"item": "mekanism:ingot_refined_glowstone",
 			"count": 4
+		},
+		{
+			"item": "bloodmagic:strong_tau",
+			"count": 1
 		}
 	],
 	"output": {
@@ -55,7 +59,7 @@
 			{
 				"result": {
 					"item": "contenttweaker:marsium_ingot",
-					"count": 4
+					"count": 5
 				},
 				"weight": 1
 			}
@@ -112,9 +116,9 @@
 
 //Time Block
 craftingTable.addShaped("contenttweaker/recipes/time_block", <item:contenttweaker:time> * 8, [
-	[<item:eidolon:soul_shard>, <item:botania:quartz_dark>, <item:eidolon:soul_shard>],
+	[<item:powder_power:blend_redium>, <item:botania:quartz_dark>, <item:powder_power:blend_redium>],
     [<item:botania:quartz_dark>, <item:minecraft:clock>, <item:botania:quartz_dark>],
-    [<item:eidolon:soul_shard>, <item:botania:quartz_dark>, <item:eidolon:soul_shard>]
+    [<item:powder_power:blend_redium>, <item:botania:quartz_dark>, <item:powder_power:blend_redium>]
 ]);
 <item:contenttweaker:time>.addTooltip("Place down to advance time by 1500 ticks");
 

@@ -3,21 +3,50 @@ import crafttweaker.api.BracketHandlers;
 
 //Remove by item id
 val removeID as IItemStack[]=[
-<item:minecraft:end_portal_frame>
+    <item:minecraft:end_portal_frame>
 ];
 
 for item in removeID {
-craftingTable.removeRecipe(item);
+    craftingTable.removeRecipe(item);
 }
 
 //Remove by recipe name
 val removeName=[
-"excompressum:uncompressed_coal_pack",
-"extendedcrafting:nether_star_block_uncraft"
+	"powder_power:wand_basalt_to_blackstone",
+	"powder_power:wand_brown_mushroom_to_netherwart",
+	"powder_power:wand_cobble_to_netherrack",
+	"powder_power:wand_crimson_fungus_to_warped_fungus",
+	"powder_power:wand_crimson_nylium_to_warped_nylium",
+	"powder_power:wand_diamond_block_to_ghast_tear",
+	"powder_power:wand_diorite_to_end_stone",
+	"powder_power:wand_dirt_to_soulsoil",
+	"powder_power:wand_emerald_block_to_sea_lantern",
+	"powder_power:wand_ender_chest_to_shulker_box",
+	"powder_power:wand_glowstone_to_shroomlight",
+	"powder_power:wand_gold_block_to_end_rod",
+	"powder_power:wand_granite_to_purpur",
+	"powder_power:wand_lapis_block_to_quartz_block",
+	"powder_power:wand_magma_to_basalt",
+	"powder_power:wand_mushroom_to_crimson_fungus",
+	"powder_power:wand_mycelium_to_crimson_nylium",
+	"powder_power:wand_netherrack_to_magma",
+	"powder_power:wand_obsidian_to_crying",
+	"powder_power:wand_podzol_to_myccelium",
+	"powder_power:wand_red_mushroom_to_netherwart",
+	"powder_power:wand_redstone_block_to_glowstone",
+	"powder_power:wand_sand_to_soul_sand",
+	"powder_power:wand_vine_to_weeping",
+	"powder_power:wand_weeping_to_twisting",
+    "excompressum:uncompressed_coal_pack",
+    "extendedcrafting:nether_star_block_uncraft",
+    "powder_power:hammer_powder_blaze_from_magma",
+    "powder_power:obsidian_from_powder",
+    "powder_power:purpur_block_from_powder",
+    "powder_power:quartz_block_from_powder"
 ];
 
 for item in removeName {
-craftingTable.removeByName(item);
+    craftingTable.removeByName(item);
 }
 
 //Composter
@@ -32,8 +61,8 @@ craftingTable.addShaped("vanilla/crafting_table/composter", <item:minecraft:comp
 craftingTable.removeRecipe(<item:minecraft:piston>);
 craftingTable.addShaped("vanilla/crafting_table/piston", <item:minecraft:piston>, [
     [<item:astralsorcery:infused_wood_slab>, <item:astralsorcery:infused_wood_slab>, <item:astralsorcery:infused_wood_slab>],
-    [<item:eidolon:smooth_stone_bricks>, <tag:items:forge:ingots/constantan>, <item:eidolon:smooth_stone_bricks>],
-    [<item:eidolon:smooth_stone_bricks>, <item:extendedcrafting:redstone_ingot>, <item:eidolon:smooth_stone_bricks>]
+    [<item:minecraft:smooth_stone>, <tag:items:forge:ingots/constantan>, <item:minecraft:smooth_stone>],
+    [<item:minecraft:smooth_stone>, <item:extendedcrafting:redstone_ingot>, <item:minecraft:smooth_stone>]
 ]);
 
 //Sticky Piston
@@ -45,9 +74,9 @@ craftingTable.addShapeless("vanilla/crafting_table/piston/sticky", <item:minecra
 //Eye of Ender
 craftingTable.removeRecipe(<item:minecraft:ender_eye>);
 craftingTable.addShaped("vanilla/crafting_table/ender_eye", <item:minecraft:ender_eye>, [
-    [<item:contenttweaker:marsium_ingot>, <tag:items:forge:nuggets/terrasteel>, <tag:items:forge:nuggets/arcane_gold>],
+    [<item:contenttweaker:marsium_ingot>, <tag:items:forge:nuggets/terrasteel>, <item:powder_power:powder_wood>],
     [<tag:items:forge:nuggets/terrasteel>, <item:rftoolsbase:infused_enderpearl>, <tag:items:forge:nuggets/terrasteel>],
-    [<tag:items:forge:nuggets/arcane_gold>, <tag:items:forge:nuggets/terrasteel>, <item:contenttweaker:marsium_ingot>]
+    [<item:powder_power:powder_wood>, <tag:items:forge:nuggets/terrasteel>, <item:contenttweaker:marsium_ingot>]
 ]);
 
 //Brewing Stand
