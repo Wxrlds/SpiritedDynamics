@@ -1,3 +1,6 @@
+Mod Changelogs paused for an unknown amount of time.
+Modlist generator doesn't work anymore
+
 ====================================================
 Spirited Dynamics 0.0.9 --> Spirited Dynamics 0.0.10
 ====================================================

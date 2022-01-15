@@ -1,3 +1,56 @@
+## [0.1.0] - 2022.01.15
+[Click here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/commit/8fdb3504c8d8efb6b2c881a682c5f53c792e8b89)
+
+### Enabled
+- Stronghold generation in the overworld
+
+### Added
+- Custom Main Menu
+- JEI info to Charged Certus Quartz
+- JEI info to Melon Stem
+- JEI info to Pumpkin Stem
+
+### Changed
+- Durability of Spoon
+- Removed Chisels & Bits's Block Bits from JEI
+- Replaced Eidolon with Powder Power and Cucurbita
+- Swaped compressed dirt with enchanted soil
+- Wooden Altar Advancement
+
+### Recipes
+- Alchemist Wand
+- Alfsteel Ingot
+- Chemical Injection Chamber
+- Crystal Lens
+- Dirty Netherite Scrap
+- Enchanted Soil
+- Energy Acceptor
+- Gemium Blend
+- Gold Powder
+- Iron Powder
+- Kvasir Blood
+- Luminessence
+- Manasteel Block
+- Manasteel Ingot
+- Marsium Ingot
+- Metallurgic Infuser
+- Netherite Dust
+- Netherite Scrap
+- Overgrowth Seed
+- Piston
+- Quadrilium Blend
+- Redium Blend
+- Spoon
+- Sulfur
+- Trilium Blend
+- Wood Powder
+
+### Disabled
+- Blood Magic Sulfur
+- Nutritional Balance Toasts
+- Wandering Trader trade for Enchanted Golden Apple
+- Wandering Trader trade for Eye of Ender
+
 ## [0.0.10] - 2021.08.26
 [Click here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/commit/b7e8d60bfd13a102eadd8bcefa03299e7b6f2662)
 
