@@ -24,4 +24,4 @@
 
 //Ethereal Slate
 <recipetype:bloodmagic:altar>.removeRecipe(<item:bloodmagic:etherealslate>);
-<recipetype:bloodmagic:altar>.addRecipe("bloodmagic/blood_altar/slate/ethereal", <item:bloodmagic:etherealslate>, <item:eidolon:unholy_symbol>, 4, 30000, 200, 150);
+<recipetype:bloodmagic:altar>.addRecipe("bloodmagic/blood_altar/slate/ethereal", <item:bloodmagic:etherealslate>, <item:powder_power:powder_iron>, 4, 30000, 200, 150);

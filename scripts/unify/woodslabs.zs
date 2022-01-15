@@ -10,17 +10,17 @@ val air = <item:minecraft:air>;
 
 //Logs to Planks
 val log_to_plank as string[string][IItemStack]= {
-  <item:minecraft:acacia_log>			: { item: "minecraft:acacia_planks",			name : "acacia" },
-  <item:minecraft:birch_log>			: { item: "minecraft:birch_planks",				name : "birch" },
-  <item:minecraft:crimson_stem>			: { item: "minecraft:crimson_planks",			name : "crimson" },
-  <item:minecraft:dark_oak_log>			: { item: "minecraft:dark_oak_planks",			name : "dark_oak" },
-  <item:minecraft:jungle_log>			: { item: "minecraft:jungle_planks",			name : "jungle" },
-  <item:minecraft:oak_log>				: { item: "minecraft:oak_planks",				name : "oak" },
-  <item:minecraft:spruce_log>			: { item: "minecraft:spruce_planks",			name : "spruce" },
-  <item:minecraft:warped_stem>			: { item: "minecraft:warped_planks",			name : "warped" },
-  <item:architects_palette:twisted_log> : { item: "architects_palette:twisted_planks",	name : "twisted" },
-  <item:integrateddynamics:menril_log>	: { item: "integrateddynamics:menril_planks",	name : "menril" },
-  <item:botania:livingwood>				: { item: "botania:livingwood_planks",			name : "livingwood"}
+	<item:minecraft:acacia_log>				: { item: "minecraft:acacia_planks",			name : "acacia" },
+	<item:minecraft:birch_log>				: { item: "minecraft:birch_planks",				name : "birch" },
+	<item:minecraft:crimson_stem>			: { item: "minecraft:crimson_planks",			name : "crimson" },
+	<item:minecraft:dark_oak_log>			: { item: "minecraft:dark_oak_planks",			name : "dark_oak" },
+	<item:minecraft:jungle_log>				: { item: "minecraft:jungle_planks",			name : "jungle" },
+	<item:minecraft:oak_log>				: { item: "minecraft:oak_planks",				name : "oak" },
+	<item:minecraft:spruce_log>				: { item: "minecraft:spruce_planks",			name : "spruce" },
+	<item:minecraft:warped_stem>			: { item: "minecraft:warped_planks",			name : "warped" },
+	<item:architects_palette:twisted_log>	: { item: "architects_palette:twisted_planks",	name : "twisted" },
+	<item:integrateddynamics:menril_log>	: { item: "integrateddynamics:menril_planks",	name : "menril" },
+	<item:botania:livingwood>				: { item: "botania:livingwood_planks",			name : "livingwood"}
 };
 
 for log, data in log_to_plank {
@@ -35,16 +35,16 @@ for log, data in log_to_plank {
 
 //Logs to Wood/Bark
 val log_to_wood as string[string][IItemStack]= {
-  <item:minecraft:acacia_log>			: { item: "minecraft:acacia_wood",				name : "acacia" },
-  <item:minecraft:birch_log>			: { item: "minecraft:birch_wood",				name : "birch" },
-  <item:minecraft:crimson_hyphae>		: { item: "minecraft:crimson_hyphae",			name : "crimson" },
-  <item:minecraft:dark_oak_log>			: { item: "minecraft:dark_oak_wood",			name : "dark_oak" },
-  <item:minecraft:jungle_log>			: { item: "minecraft:jungle_wood",				name : "jungle" },
-  <item:minecraft:oak_log>				: { item: "minecraft:oak_wood",					name : "oak" },
-  <item:minecraft:spruce_log>			: { item: "minecraft:spruce_wood",				name : "spruce" },
-  <item:minecraft:warped_hyphae>		: { item: "minecraft:warped_hyphae",			name : "warped" },
-  <item:architects_palette:twisted_log>	: { item: "architects_palette:twisted_wood",	name : "twisted" },
-  <item:integrateddynamics:menril_log>	: { item: "integrateddynamics:menril_wood",		name : "menril" }
+	<item:minecraft:acacia_log>				: { item: "minecraft:acacia_wood",				name : "acacia" },
+	<item:minecraft:birch_log>				: { item: "minecraft:birch_wood",				name : "birch" },
+	<item:minecraft:crimson_hyphae>			: { item: "minecraft:crimson_hyphae",			name : "crimson" },
+	<item:minecraft:dark_oak_log>			: { item: "minecraft:dark_oak_wood",			name : "dark_oak" },
+	<item:minecraft:jungle_log>				: { item: "minecraft:jungle_wood",				name : "jungle" },
+	<item:minecraft:oak_log>				: { item: "minecraft:oak_wood",					name : "oak" },
+	<item:minecraft:spruce_log>				: { item: "minecraft:spruce_wood",				name : "spruce" },
+	<item:minecraft:warped_hyphae>			: { item: "minecraft:warped_hyphae",			name : "warped" },
+	<item:architects_palette:twisted_log>	: { item: "architects_palette:twisted_wood",	name : "twisted" },
+	<item:integrateddynamics:menril_log>	: { item: "integrateddynamics:menril_wood",		name : "menril" }
 };
 
 for log, data in log_to_wood {
@@ -59,16 +59,16 @@ for log, data in log_to_wood {
 
 //Stripped Logs to Stripped Wood/Bark
 val stripped_log_to_stripped_wood as string[string][IItemStack]= {
-  <item:minecraft:stripped_acacia_log>				: { item: "minecraft:stripped_acacia_wood",				name : "acacia" },
-  <item:minecraft:stripped_birch_log>				: { item: "minecraft:stripped_birch_wood",				name : "birch" },
-  <item:minecraft:stripped_crimson_hyphae>			: { item: "minecraft:stripped_crimson_hyphae",			name : "crimson" },
-  <item:minecraft:stripped_dark_oak_log>			: { item: "minecraft:stripped_dark_oak_wood",			name : "dark_oak" },
-  <item:minecraft:stripped_jungle_log>				: { item: "minecraft:stripped_jungle_wood",				name : "jungle" },
-  <item:minecraft:stripped_oak_log>					: { item: "minecraft:stripped_oak_wood", 				name : "oak" },
-  <item:minecraft:stripped_spruce_log>				: { item: "minecraft:stripped_spruce_wood",				name : "spruce" },
-  <item:minecraft:stripped_warped_hyphae>			: { item: "minecraft:stripped_warped_hyphae",			name : "warped" },
-  <item:architects_palette:stripped_twisted_log>	: { item: "architects_palette:stripped_twisted_wood",	name : "twisted" },
-  <item:integrateddynamics:menril_log_stripped>		: { item: "integrateddynamics:menril_wood_stripped",	name : "menril" }
+	<item:minecraft:stripped_acacia_log>			: { item: "minecraft:stripped_acacia_wood",				name : "acacia" },
+	<item:minecraft:stripped_birch_log>				: { item: "minecraft:stripped_birch_wood",				name : "birch" },
+	<item:minecraft:stripped_crimson_hyphae>		: { item: "minecraft:stripped_crimson_hyphae",			name : "crimson" },
+	<item:minecraft:stripped_dark_oak_log>			: { item: "minecraft:stripped_dark_oak_wood",			name : "dark_oak" },
+	<item:minecraft:stripped_jungle_log>			: { item: "minecraft:stripped_jungle_wood",				name : "jungle" },
+	<item:minecraft:stripped_oak_log>				: { item: "minecraft:stripped_oak_wood", 				name : "oak" },
+	<item:minecraft:stripped_spruce_log>			: { item: "minecraft:stripped_spruce_wood",				name : "spruce" },
+	<item:minecraft:stripped_warped_hyphae>			: { item: "minecraft:stripped_warped_hyphae",			name : "warped" },
+	<item:architects_palette:stripped_twisted_log>	: { item: "architects_palette:stripped_twisted_wood",	name : "twisted" },
+	<item:integrateddynamics:menril_log_stripped>	: { item: "integrateddynamics:menril_wood_stripped",	name : "menril" }
 };
 
 for stripped_log, data in stripped_log_to_stripped_wood {
@@ -84,20 +84,20 @@ for stripped_log, data in stripped_log_to_stripped_wood {
 //Crafting Table
 craftingTable.removeRecipe(<item:minecraft:crafting_table>);
 craftingTable.addShaped("unify/woodslabs/crafting_table", <item:minecraft:crafting_table>, [
-    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
-    [<tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
+	[<tag:items:minecraft:logs>, <tag:items:minecraft:logs>],
+	[<tag:items:minecraft:logs>, <tag:items:minecraft:logs>]
 ]);
 
 //Stick
 craftingTable.removeRecipe(<item:minecraft:stick>);
 craftingTable.addShaped("unify/woodslabs/stick/fromplank", <item:minecraft:stick> * 6, [
-    [<tag:items:minecraft:planks>],
-    [<tag:items:minecraft:planks>],
+	[<tag:items:minecraft:planks>],
+	[<tag:items:minecraft:planks>],
 	[<tag:items:minecraft:planks>]
 ]);
 craftingTable.addShaped("unify/woodslabs/stick/fromlog", <item:minecraft:stick> * 16, [
-    [<tag:items:minecraft:logs>],
-    [air],
+	[<tag:items:minecraft:logs>],
+	[air],
 	[<tag:items:minecraft:logs>]
 ]);
 
@@ -183,9 +183,6 @@ val slab_to_block as string[string][IItemStack]= {
 	<item:immersiveengineering:slab_alu_scaffolding_standard>	: { item: "immersiveengineering:alu_scaffolding_standard",	name: "aluscaffoldingstandard"},
 	<item:naturesaura:infused_brick_slab>						: { item: "naturesaura:infused_brick",						name: "infusedbrick"},
 	<item:naturesaura:infused_slab>								: { item: "naturesaura:infused_stone",						name: "infusedstone"},
-	<item:eidolon:smooth_stone_bricks_slab>						: { item: "eidolon:smooth_stone_bricks",					name: "smoothstonebricks"},
-	<item:eidolon:smooth_stone_tiles_slab>						: { item: "eidolon:smooth_stone_tiles",						name: "smoothstonetiles"},
-	<item:eidolon:polished_planks_slab>							: { item: "eidolon:polished_planks",						name: "polishedplanks"},
 	<item:occultism:otherstone_slab>							: { item: "occultism:otherstone",							name: "otherstone"},
 	<item:masonry:darkprismarinetiledslab>						: { item: "minecraft:dark_prismarine",						name: "darkprismarine2"},
 	<item:masonry:dioritetiledslab>								: { item: "minecraft:diorite",								name: "diorite2"},

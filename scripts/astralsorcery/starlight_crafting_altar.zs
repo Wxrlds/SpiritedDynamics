@@ -20,7 +20,7 @@
 			"item": "astralsorcery:starmetal_ingot"
 		},
 		"G": {
-			"item": "eidolon:gold_inlay"
+			"item": "powder_power:powder_gold"
 		}
 	},
 	"output": [
@@ -54,7 +54,7 @@
 			"item": "astralsorcery:infused_wood_engraved"
 		},
 		"B": {
-			"item": "eidolon:lesser_soul_gem"
+			"item": "powder_power:blend_gemium"
 		},
 		"C": {
 			"item": "astralsorcery:marble_runed"

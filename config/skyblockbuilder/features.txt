@@ -66,10 +66,10 @@ naturesaura:crimson_aura_mushroom
 naturesaura:aura_mushroom
 naturesaura:ancient_tree
 naturesaura:nether_wart_mushroom
+appliedenergistics2:charged_quartz_ore
 mekanism:disk
 mekanism:ore
 mekanism:ore_retrogen
-appliedenergistics2:charged_quartz_ore
 mythicbotany:motif_flowers
 mythicbotany:mana_crystals
 mythicbotany:abandoned_apothecaries

@@ -1,0 +1,269 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/assets/BH_SD_ASSETS/background.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = 12
+  action = movebutton
+  y = -63
+}
+
+customization {
+  identifier = %id=400322%
+  width = 140
+  action = resizebutton
+  height = 48
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\BH_SD_ASSETS\multiplayerhover.png
+  backgroundnormal = config\fancymenu\assets\BH_SD_ASSETS\multiplayer.png
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = bottom-centered
+  x = 72
+  action = movebutton
+  y = -45
+}
+
+customization {
+  identifier = %id=604382%
+  width = 31
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=604382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=604382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\BH_SD_ASSETS\accessibilityhover.png
+  backgroundnormal = config\fancymenu\assets\BH_SD_ASSETS\accessibility.png
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = 12
+  action = movebutton
+  y = -8
+}
+
+customization {
+  identifier = %id=400382%
+  width = 140
+  action = resizebutton
+  height = 48
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\BH_SD_ASSETS\optionshover.png
+  backgroundnormal = config\fancymenu\assets\BH_SD_ASSETS\options.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = bottom-centered
+  x = -70
+  action = movebutton
+  y = -65
+}
+
+customization {
+  identifier = %id=502382%
+  width = 140
+  action = resizebutton
+  height = 48
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\BH_SD_ASSETS\quitgamehover.png
+  backgroundnormal = config\fancymenu\assets\BH_SD_ASSETS\quitgame.png
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = bottom-centered
+  x = -103
+  action = movebutton
+  y = -45
+}
+
+customization {
+  identifier = %id=376382%
+  width = 31
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=376382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=376382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\BH_SD_ASSETS\languagehover.png
+  backgroundnormal = config\fancymenu\assets\BH_SD_ASSETS\language.png
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -151
+  action = movebutton
+  y = -63
+}
+
+customization {
+  identifier = %id=400298%
+  width = 140
+  action = resizebutton
+  height = 48
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\BH_SD_ASSETS\singleplayerhover.png
+  backgroundnormal = config\fancymenu\assets\BH_SD_ASSETS\singleplayer.png
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-centered
+  x = -151
+  action = movebutton
+  y = -8
+}
+
+customization {
+  identifier = %id=400346%
+  width = 140
+  action = resizebutton
+  height = 48
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config\fancymenu\assets\BH_SD_ASSETS\modshover.png
+  backgroundnormal = config\fancymenu\assets\BH_SD_ASSETS\mods.png
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\BH_SD_ASSETS\discordhover.png
+  label = 
+  loopbackgroundanimations = true
+  x = -151
+  width = 140
+  actionid = 46516311-aa99-42e4-8769-2481c2842dbb1635949159044
+  action = addbutton
+  y = 47
+  backgroundnormal = config\fancymenu\assets\BH_SD_ASSETS\discord.png
+  value = https://discord.gg/hsae7DJ
+  height = 48
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = config\fancymenu\assets\BH_SD_ASSETS\serverhover.png
+  label = 
+  loopbackgroundanimations = true
+  x = 12
+  width = 140
+  actionid = 6f6b4c49-8f14-4e45-8231-e2e29c97e54c1635949469492
+  action = addbutton
+  y = 47
+  backgroundnormal = config\fancymenu\assets\BH_SD_ASSETS\server.png
+  value = https://bisecthosting.com/wxrlds
+  height = 48
+}
+

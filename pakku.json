@@ -1,6 +1,6 @@
 {
   "name": "Spirited Dynamics",
-  "version": "0.0.10",
+  "version": "0.1.0",
   "description": "Spirited Dynamics - A light 1.16.5 expert Skyblock Modpack",
   "author": "wxrlds_",
   "overrides": [
@@ -10,6 +10,7 @@
     "scripts",
     "!config/ftbquests",
     "!config/jei/bookmarks.ini",
-    "!openloader/.cache"
+    "!openloader/.cache",
+    "!openloader/data/contenttweaker/data/contenttweaker/functions/Charged Certus Advancement Logic.ods"
   ]
 }

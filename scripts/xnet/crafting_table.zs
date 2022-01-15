@@ -1,3 +1,11 @@
+//Machine Frame
+craftingTable.removeRecipe(<item:rftoolsbase:machine_frame>);
+craftingTable.addShaped("rftools/crafting_table/machine_frame", <item:rftoolsbase:machine_frame>, [
+	[<item:powder_power:ingot_trilium>, <tag:items:forge:dyes/blue>, <item:powder_power:ingot_trilium>],
+	[<tag:items:forge:nuggets/gold>, <item:minecraft:air>, <tag:items:forge:nuggets/gold>],
+	[<item:powder_power:ingot_trilium>, <tag:items:forge:dyes/blue>, <item:powder_power:ingot_trilium>]
+]);
+
 //Red Connector
 craftingTable.removeByName("xnet:connector_red");
 craftingTable.addShaped("xnet/crafting_table/connector/red", <item:xnet:connector_red>, [

@@ -19,8 +19,5 @@ minecraft:bastion_remnant
 astralsorcery:ancient_shrine
 astralsorcery:desert_shrine
 astralsorcery:small_shrine
-eidolon:lab
-eidolon:stray_tower
-eidolon:catacomb
 appliedenergistics2:meteorite
 mythicbotany:andwari_cave

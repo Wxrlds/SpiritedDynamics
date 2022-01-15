@@ -13,7 +13,7 @@
 			"item": "minecraft:phantom_membrane"
 		},
 		{
-			"item": "eidolon:enchanted_ash"
+			"item": "powder_power:powder_purpur"
 		}
 	],
 	"output": {

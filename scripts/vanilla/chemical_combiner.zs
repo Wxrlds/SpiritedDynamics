@@ -2,23 +2,23 @@ import crafttweaker.api.item.IItemStack;
 
 //Remove by recipe name
 val removeName=[
-"alchemistry:combiner/black_dye",
-"alchemistry:combiner/cyan_dye",
-"alchemistry:combiner/gray_dye",
-"alchemistry:combiner/green_dye",
-"alchemistry:combiner/light_blue_dye",
-"alchemistry:combiner/light_gray_dye",
-"alchemistry:combiner/lime_dye",
-"alchemistry:combiner/magenta_dye",
-"alchemistry:combiner/orange_dye",
-"alchemistry:combiner/pink_dye",
-"alchemistry:combiner/purple_dye",
-"alchemistry:combiner/red_dye",
-"alchemistry:combiner/yellow_dye"
+	"alchemistry:combiner/black_dye",
+	"alchemistry:combiner/cyan_dye",
+	"alchemistry:combiner/gray_dye",
+	"alchemistry:combiner/green_dye",
+	"alchemistry:combiner/light_blue_dye",
+	"alchemistry:combiner/light_gray_dye",
+	"alchemistry:combiner/lime_dye",
+	"alchemistry:combiner/magenta_dye",
+	"alchemistry:combiner/orange_dye",
+	"alchemistry:combiner/pink_dye",
+	"alchemistry:combiner/purple_dye",
+	"alchemistry:combiner/red_dye",
+	"alchemistry:combiner/yellow_dye"
 ];
 
 for item in removeName {
-<recipetype:alchemistry:combiner>.removeByName(item);
+	<recipetype:alchemistry:combiner>.removeByName(item);
 }
 
 //Flint

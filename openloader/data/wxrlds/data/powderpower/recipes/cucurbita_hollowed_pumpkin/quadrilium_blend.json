@@ -1,0 +1,41 @@
+{
+	"type": "cucurbita:hollowed_pumpkin",
+	"group": "hollowed_pumpkin",
+	"heat": 300,
+	"input": {
+		"fluid": {
+			"name": "minecraft:lava",
+			"amount": 1000
+		},
+		"ingredients": [
+			{
+				"tag": "minecraft:coals"
+			},
+			{
+				"tag": "forge:gems/diamond"
+			},
+			{
+				"item": "minecraft:ghast_tear"
+			},
+			{
+				"item": "botania:fel_pumpkin"
+			},
+			{
+				"item": "botania:fel_pumpkin"
+			},
+			{
+				"item": "mekanism:pellet_antimatter"
+			},
+			{
+				"item": "mekanism:pellet_antimatter"
+			}
+		]
+	},
+	"output": [
+		{
+			"item": "powder_power:blend_quadrilium",
+			"count": 1,
+			"chance": 1.0
+		}
+	]
+}

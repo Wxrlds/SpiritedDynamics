@@ -1,9 +1,9 @@
 //Energy Acceptor
 craftingTable.removeRecipe(<item:appliedenergistics2:energy_acceptor>);
 craftingTable.addShaped("appliedenergistics2/crafting_table/energy_acceptor", <item:appliedenergistics2:energy_acceptor>, [
-	[<item:eidolon:lesser_soul_gem>, <item:appliedenergistics2:quartz_glass>, <item:appliedenergistics2:sky_dust>],
+	[<item:powder_power:blend_gemium>, <item:appliedenergistics2:quartz_glass>, <item:appliedenergistics2:sky_dust>],
     [<item:appliedenergistics2:quartz_glass>, <tag:items:appliedenergistics2:crystals/fluix>, <item:appliedenergistics2:quartz_glass>],
-    [<item:appliedenergistics2:sky_dust>, <item:appliedenergistics2:quartz_glass>, <item:eidolon:lesser_soul_gem>]
+    [<item:appliedenergistics2:sky_dust>, <item:appliedenergistics2:quartz_glass>, <item:powder_power:blend_gemium>]
 ]);
 
 //Inscriber Silicon Press

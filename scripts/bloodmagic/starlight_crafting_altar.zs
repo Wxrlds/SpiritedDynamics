@@ -109,7 +109,7 @@ craftingTable.removeRecipe(<item:bloodmagic:accelerationrune>);
 			"item": "bloodmagic:demonslate"
 		},
 		"S": {
-			"item": "eidolon:arcane_gold_ingot"
+			"item": "powder_power:powder_gold"
 		},
 		"R": {
 			"item": "bloodmagic:speedrune"
@@ -278,7 +278,7 @@ craftingTable.removeRecipe(<item:bloodmagic:sacrificerune>);
 			"item": "bloodmagic:reinforcedslate"
 		},
 		"S": {
-			"item": "eidolon:arcane_gold_ingot"
+			"item": "powder_power:powder_gold"
 		},
 		"R": {
 			"item": "bloodmagic:blankrune"
@@ -401,7 +401,7 @@ craftingTable.removeRecipe(<item:bloodmagic:incensealtar>);
 			"item": "naturesaura:gold_fiber"
 		},
 		"S": {
-			"item": "eidolon:unholy_symbol"
+			"item": "powder_power:powder_iron"
 		},
 		"P": {
 			"item": "immersiveengineering:plate_gold"

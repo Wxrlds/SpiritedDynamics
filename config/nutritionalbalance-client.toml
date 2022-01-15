@@ -3,6 +3,8 @@
 [general]
 	#Show the nutrient button in the player inventory screen. (default:true)
 	nutrient_button_enabled = true
+	#Show a Toast notification when player nutrition status changes. (default:true)
+	show_threshold_toast = false
 
 	#Nutrient Button Location
 	[general.button]

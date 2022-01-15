@@ -1,0 +1,38 @@
+{
+	"type": "cucurbita:hollowed_pumpkin",
+	"group": "hollowed_pumpkin",
+	"heat": 300,
+	"input": {
+		"fluid": {
+			"name": "minecraft:water",
+			"amount": 1000
+		},
+		"ingredients": [
+			{
+				"tag": "forge:ingots/gold"
+			},
+			{
+				"tag": "forge:ingots/gold"
+			},
+			{
+				"tag": "forge:dusts/redstone"
+			},
+			{
+				"tag": "forge:dusts/redstone"
+			},
+			{
+				"item": "architects_palette:charcoal_block"
+			},
+			{
+				"item": "architects_palette:rotten_flesh_block"
+			}
+		]
+	},
+	"output": [
+		{
+			"item": "powder_power:powder_gold",
+			"count": 3,
+			"chance": 0.99
+		}
+	]
+}

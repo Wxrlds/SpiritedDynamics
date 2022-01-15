@@ -4,10 +4,10 @@
 			"text": "Wooden Altar"
 		},
 		"description": {
-			"text": "Looks like a downgrade!"
+			"text": "Does this even contain iron?"
 		},
 		"icon": {
-			"item": "eidolon:wooden_altar"
+			"item": "powder_power:powder_iron"
 		},
 		"frame": "goal",
 		"show_toast": true,
@@ -20,7 +20,7 @@
 			"conditions": {
 				"items": [
 					{
-						"item": "eidolon:wooden_altar"
+						"item": "powder_power:powder_iron"
 					}
 				]
 			}
