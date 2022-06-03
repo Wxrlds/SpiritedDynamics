@@ -6,7 +6,6 @@ val hideJEI as IItemStack[]=[
 	<item:appliedenergistics2:gold_dust>,
 	<item:appliedenergistics2:grindstone>,
 	<item:appliedenergistics2:iron_dust>,
-	<item:appliedenergistics2:nether_quartz_dust>,
 	<item:bloodmagic:coalsand>,
 	<item:bloodmagic:fragment_netherite_scrap>,
 	<item:bloodmagic:goldfragment>,
@@ -50,10 +49,10 @@ val hideJEI as IItemStack[]=[
 	<item:immersiveengineering:nugget_lead>,
 	<item:immersiveengineering:nugget_steel>,
 	<item:immersiveengineering:nugget_uranium>,
-	<item:immersiveengineering:wirecoil_copper>,
 	<item:immersiveengineering:wirecoil_copper_ins>,
-	<item:immersiveengineering:wirecoil_electrum>,
+	<item:immersiveengineering:wirecoil_copper>,
 	<item:immersiveengineering:wirecoil_electrum_ins>,
+	<item:immersiveengineering:wirecoil_electrum>,
 	<item:immersiveengineering:wirecoil_steel>,
 	<item:mekanism:advanced_logistical_transporter>,
 	<item:mekanism:advanced_mechanical_pipe>,
@@ -64,6 +63,7 @@ val hideJEI as IItemStack[]=[
 	<item:mekanism:basic_pressurized_tube>,
 	<item:mekanism:basic_universal_cable>,
 	<item:mekanism:diversion_transporter>,
+	<item:mekanism:dust_quartz>,
 	<item:mekanism:elite_logistical_transporter>,
 	<item:mekanism:elite_mechanical_pipe>,
 	<item:mekanism:elite_pressurized_tube>,
@@ -83,7 +83,8 @@ val hideJEI as IItemStack[]=[
 	<item:occultism:silver_block>,
 	<item:occultism:silver_dust>,
 	<item:occultism:silver_ingot>,
-	<item:occultism:silver_nugget>
+	<item:occultism:silver_nugget>,
+	<item:pamhc2foodcore:saltitem>
 ];
 
 for item in hideJEI {

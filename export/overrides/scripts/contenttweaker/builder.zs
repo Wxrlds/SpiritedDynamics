@@ -20,10 +20,10 @@ new ItemBuilder().build("saturium_ingot");
 new BlockBuilder().withHardnessAndResistance(5.0f).withHarvestLevel(2).withHarvestTool(<tooltype:pickaxe>).setRequiresTool().build("enriched_iron_block");
 
 //Lightning
-new BlockBuilder().build("lightning");
+new ItemBuilder().withMaxDamage(3).build("lightning_staff");
 
-//Time
-new BlockBuilder().build("time");
+//Time Staff
+new ItemBuilder().withMaxDamage(9).build("time_staff");
 
 //Spirited Dynamics
 new ItemBuilder().build("spirited_dynamics");

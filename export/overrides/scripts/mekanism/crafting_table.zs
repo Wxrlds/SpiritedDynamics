@@ -55,3 +55,11 @@ craftingTable.addShaped("mekanism/crafting_table/jetpack_unit", <item:mekanism:m
 	[<item:mekanism:alloy_reinforced>, <item:mekanism:module_base>, <item:mekanism:alloy_reinforced>],
 	[<item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>, <item:mekanism:pellet_polonium>]
 ]);
+
+//SPS Casing
+craftingTable.removeRecipe(<item:mekanism:sps_casing>);
+craftingTable.addShaped("mekanism/crafting_table/sps_casing", <item:mekanism:sps_casing> * 8, [
+	[<item:botania:bubbell>|<item:botania:heisei_dream>|<item:botania:kekimurus>|<item:botania:labellia>, <item:mekanism:pellet_polonium>, <item:mekanism:hdpe_sheet>],
+	[<item:mekanism:pellet_polonium>, <item:mekanism:pellet_plutonium>, <item:mekanism:pellet_polonium>],
+	[<item:mekanism:hdpe_sheet>, <item:mekanism:pellet_polonium>, <item:botania:loonium>|<item:botania:rafflowsia>|<item:botania:spectranthemum>|<item:botania:spectrolus>]
+]);

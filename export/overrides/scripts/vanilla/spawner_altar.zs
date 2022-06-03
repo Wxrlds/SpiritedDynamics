@@ -121,3 +121,22 @@
 	"aura": 30000,
 	"time": 40
 });
+
+//Wandering Tradeer
+<recipetype:naturesaura:animal_spawner>.addJSONRecipe("vanilla/spawner_altar/wanderingtrader",{
+	"type": "naturesaura:animal_spawner",
+	"ingredients": [
+		{
+			"item": "naturesaura:birth_spirit"
+		},
+		{
+			"tag": "minecraft:music_discs"
+		},
+		{
+			"tag": "forge:ores/emerald"
+		}
+	],
+	"entity": "minecraft:wandering_trader",
+	"aura": 30000,
+	"time": 40
+});

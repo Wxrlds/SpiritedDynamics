@@ -12,7 +12,7 @@ for item in removeID {
 
 //Diluted Mana Pool
 craftingTable.removeRecipe(<item:botania:diluted_pool>);
-craftingTable.addShaped("botania/crafting_table/diluted_mana_pool", <item:botania:diluted_pool>, [
+craftingTable.addShaped("botania/crafting_table/mana_pool/diluted", <item:botania:diluted_pool>, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:astralsorcery:black_marble_raw>, <item:minecraft:air>, <item:astralsorcery:black_marble_raw>],
 	[<item:astralsorcery:black_marble_raw>, <item:astralsorcery:black_marble_raw>, <item:astralsorcery:black_marble_raw>]
@@ -20,7 +20,7 @@ craftingTable.addShaped("botania/crafting_table/diluted_mana_pool", <item:botani
 
 //Mana Pool
 craftingTable.removeRecipe(<item:botania:mana_pool>);
-craftingTable.addShaped("botania/crafting_table/mana_pool", <item:botania:mana_pool>, [
+craftingTable.addShaped("botania/crafting_table//mana_pool/mana_pool", <item:botania:mana_pool>, [
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>],
 	[<item:botania:livingrock>, <item:botania:diluted_pool>, <item:botania:livingrock>],
 	[<item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>]
@@ -36,7 +36,6 @@ craftingTable.addShaped("botania/crafting_table/alchemy_catalyst", <item:botania
 
 //Elven Gateway Core
 craftingTable.removeRecipe(<item:botania:alfheim_portal>);
-// ~/.minecraft/openloader/data/wxrlds/data/botania/recipes/alchemicalreactionchamber/elvengatewaycore.json
 
 //Fel Pumpkin
 craftingTable.removeRecipe(<item:botania:fel_pumpkin>);

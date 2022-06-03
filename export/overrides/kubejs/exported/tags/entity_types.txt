@@ -1,0 +1,136 @@
+To refresh this file, delete it and run /reload command again! Last updated: Jun 1, 2022 6:03:13 PM
+
+#forge:squid
+- minecraft:squid
+
+#forge:spiders
+- minecraft:spider
+
+#occultism:humans
+- #forge:villagers
+- minecraft:player
+
+#forge:horses
+- minecraft:horse
+
+#forge:golems/snow
+- minecraft:snow_golem
+
+#botania:cocoon/common
+- minecraft:pig
+- minecraft:cow
+- minecraft:chicken
+- minecraft:rabbit
+- minecraft:sheep
+
+#forge:pigs
+- minecraft:pig
+
+#occultism:wild_hunt
+- occultism:wild_hunt_skeleton
+- occultism:wild_hunt_wither_skeleton
+
+#forge:parrots
+- minecraft:parrot
+
+#botania:cocoon/rare_aquatic
+- minecraft:dolphin
+
+#forge:cows
+- minecraft:cow
+
+#botania:cocoon/rare
+- minecraft:horse
+- minecraft:donkey
+- minecraft:wolf
+- minecraft:ocelot
+- minecraft:cat
+- minecraft:parrot
+- minecraft:llama
+- minecraft:fox
+- minecraft:panda
+- minecraft:turtle
+- quark:frog?
+
+#botania:shaded_mesa_blacklist
+- minecraft:ender_dragon
+- minecraft:wither
+- minecraft:item_frame
+- minecraft:end_crystal
+- minecraft:painting
+- botania:corporea_spark
+- botania:doppleganger
+- botania:flame_ring
+- botania:magic_landmine
+- botania:magic_missile
+- botania:mana_burst
+- botania:pink_wither
+- botania:spark
+- botania:player_mover
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+
+#occultism:afrit_allies
+- minecraft:blaze
+
+#forge:villagers
+- minecraft:villager
+
+#forge:llamas
+- minecraft:llama
+- minecraft:trader_llama
+
+#botania:cocoon/common_aquatic
+- minecraft:cod
+- minecraft:salmon
+- minecraft:tropical_fish
+- minecraft:pufferfish
+- minecraft:squid
+- quark:crab?
+
+#per-viam-invenire:replace_vanilla_navigator
+- mekanism:robit
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- mekanism:flame
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+
+#forge:sheep
+- minecraft:sheep
+
+#forge:zombies
+- minecraft:zombie
+- minecraft:zombie_villager
+- minecraft:husk
+- minecraft:drowned
+
+#forge:chicken
+- minecraft:chicken
+
+#forge:bats
+- minecraft:bat

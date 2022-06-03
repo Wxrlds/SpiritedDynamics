@@ -82,3 +82,18 @@
 		"count": 1
 	}
 });
+
+//Quartz Dust
+<recipetype:mekanism:crushing>.removeByName("mekanism:processing/quartz/to_dust");
+<recipetype:mekanism:crushing>.addJSONRecipe("unify/mekanism_crusher/quartz/dust",{
+	"type": "mekanism:crushing",
+	"input": {
+		"ingredient": {
+			"tag": "forge:gems/quartz"
+		}
+	},
+	"output": {
+		"item": "appliedenergistics2:nether_quartz_dust",
+		"count": 1
+	}
+});

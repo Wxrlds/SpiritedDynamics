@@ -103,10 +103,9 @@
 <tag:items:forge:ingots/osmium>.remove(<item:chemlib:ingot_osmium>);
 
 //Quartz
-<tag:items:appliedenergistics2:dusts/quartz>.remove(<item:appliedenergistics2:nether_quartz_dust>);
-<tag:items:appliedenergistics2:nether_quartz_dust>.remove(<item:appliedenergistics2:nether_quartz_dust>);
-<tag:items:forge:dusts/quartz>.remove(<item:appliedenergistics2:nether_quartz_dust>);
-<tag:items:forge:dusts>.remove(<item:appliedenergistics2:nether_quartz_dust>);
+<tag:items:appliedenergistics2:dusts/quartz>.remove(<item:mekanism:dust_quartz>);
+<tag:items:forge:dusts/quartz>.remove(<item:mekanism:dust_quartz>);
+<tag:items:forge:dusts>.remove(<item:mekanism:dust_quartz>);
 
 //Silver
 <tag:blocks:forge:ores/silver>.remove(<block:occultism:silver_ore>);
@@ -179,3 +178,8 @@
 //Yellow Dye
 <tag:items:forge:dyes/yellow>.remove(<item:mekanism:dust_sulfur>);
 <tag:items:forge:dyes>.remove(<item:mekanism:dust_sulfur>);
+
+//Salt
+<tag:items:forge:salt/salt>.add(<item:mekanism:salt>);
+<tag:items:forge:salt/salt>.remove(<item:pamhc2foodcore:saltitem>);
+<tag:items:forge:salt>.remove(<item:pamhc2foodcore:saltitem>);
