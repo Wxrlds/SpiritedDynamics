@@ -15,4 +15,4 @@ for item in hideJEI {
 mods.jei.JEI.addInfo(<item:appliedenergistics2:controller>, ["Consumes 5.000.000 Mana to craft (1 Mana Pool = 1.000.000 Mana)"]);
 
 //Charged Certus Quartz
-mods.jei.JEI.addInfo(<item:appliedenergistics2:charged_certus_quartz_crystal>, ["To craft, drop up to 63 Certus Quartz Crystals on the floor and place a Lightning Block next to it."]);
+mods.jei.JEI.addInfo(<item:appliedenergistics2:charged_certus_quartz_crystal>, ["Strike Certus Quartz Crystals with lightning to craft"]);

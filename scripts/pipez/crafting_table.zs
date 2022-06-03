@@ -29,3 +29,11 @@ craftingTable.addShaped("pipez/crafting_table/pipe/gas", <item:pipez:gas_pipe> *
 	[<item:mekanism:alloy_infused>, <item:integrateddynamics:crystalized_menril_chunk>, <item:mekanism:alloy_infused>],
 	[<item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>, <item:minecraft:iron_ingot>]
 ]);
+
+//Infinity Upgrade
+craftingTable.removeRecipe(<item:pipez:infinity_upgrade>);
+craftingTable.addShaped("pipez/crafting_table/upgrade/infinity", <item:pipez:infinity_upgrade> * 7, [
+	[<item:pipez:ultimate_upgrade>, <item:pipez:advanced_upgrade>, <item:pipez:ultimate_upgrade>],
+	[<item:pipez:advanced_upgrade>, <tag:items:forge:pellets/antimatter>, <item:pipez:advanced_upgrade>],
+	[<item:pipez:ultimate_upgrade>, <item:minecraft:dragon_egg>, <item:pipez:ultimate_upgrade>]
+]);

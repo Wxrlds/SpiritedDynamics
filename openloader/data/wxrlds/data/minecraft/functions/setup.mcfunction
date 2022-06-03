@@ -1,4 +1,0 @@
-difficulty hard
-gamerule naturalRegeneration false
-gamerule doDaylightCycle false
-scoreboard objectives add sinceDeath minecraft.custom:minecraft.time_since_death

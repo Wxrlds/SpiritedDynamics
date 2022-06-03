@@ -31,10 +31,10 @@ val removeID as IItemStack[]=[
 	<item:immersiveengineering:plate_nickel>,
 	<item:immersiveengineering:plate_silver>,
 	<item:immersiveengineering:plate_uranium>,
-	<item:immersiveengineering:wirecoil_copper>,
 	<item:immersiveengineering:wirecoil_copper_ins>,
-	<item:immersiveengineering:wirecoil_electrum>,
+	<item:immersiveengineering:wirecoil_copper>,
 	<item:immersiveengineering:wirecoil_electrum_ins>,
+	<item:immersiveengineering:wirecoil_electrum>,
 	<item:immersiveengineering:wirecoil_steel>,
 	<item:mekanism:advanced_logistical_transporter>,
 	<item:mekanism:advanced_mechanical_pipe>,
@@ -68,7 +68,8 @@ val removeID as IItemStack[]=[
 	<item:occultism:copper_nugget>,
 	<item:occultism:silver_block>,
 	<item:occultism:silver_ingot>,
-	<item:occultism:silver_nugget>
+	<item:occultism:silver_nugget>,
+	<item:pamhc2foodcore:saltitem>
 ];
 
 for item in removeID {
@@ -88,3 +89,9 @@ val removeName=[
 for item in removeName {
 	craftingTable.removeByName(item);
 }
+
+//Salt
+craftingTable.removeRecipe(<item:pamhc2foodcore:saltitem>);
+craftingTable.addShapeless("vanilla/crafting_table/salt", <item:mekanism:salt>,
+	[<item:pamhc2foodcore:potitem>, <tag:items:forge:water>]
+);

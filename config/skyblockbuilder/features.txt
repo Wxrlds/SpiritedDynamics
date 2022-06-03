@@ -52,8 +52,8 @@ minecraft:random_boolean_selector
 minecraft:decorated
 astralsorcery:replace_block
 astralsorcery:rock_crystal
-apotheosis:boss_dungeon
-apotheosis:boss_dungeon_2
+apotheosis:boss_dng
+apotheosis:boss_dng_2
 apotheosis:rogue_spawner
 apotheosis:trove
 apotheosis:tome_tower

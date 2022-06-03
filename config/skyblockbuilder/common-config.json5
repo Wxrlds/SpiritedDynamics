@@ -146,7 +146,7 @@
     "biomeRange": 1048576,
     
     // Should the biomes repeat each x blocks? Disable to have normal vanilla biome generation. [default: true]
-    "biomeRangeEnabled": true,
+    "biomeRangeEnabled": false,
     
     // Distance between islands in overworld [default: 8192]
     // nether the distance is 1/8

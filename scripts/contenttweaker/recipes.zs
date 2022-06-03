@@ -67,6 +67,48 @@
 	}
 });
 
+//Lightning Staff
+<recipetype:bloodmagic:array>.addJSONRecipe("contenttweaker/recipes/lightning_block",{
+	"type": "bloodmagic:array",
+	"texture": "bloodmagic:textures/models/alchemyarrays/sunarray.png",
+	"baseinput": {
+		"item": "astralsorcery:liquid_starlight_bucket"
+	},
+	"addedinput": {
+		"item": "minecraft:glowstone"
+	},
+	"output": {
+		"item": "contenttweaker:lightning_staff",
+		"count": 1
+	}
+});
+<item:contenttweaker:lightning_staff>.addTooltip("Right click to summon a lightning bolt");
+
+//Time Staff
+craftingTable.addShaped("contenttweaker/recipes/time_staff", <item:contenttweaker:time_staff>, [
+	[<item:powder_power:blend_redium>, <item:botania:quartz_dark>, <item:powder_power:blend_redium>],
+    [<item:botania:quartz_dark>, <item:minecraft:clock>, <item:botania:quartz_dark>],
+    [<item:powder_power:blend_redium>, <item:botania:quartz_dark>, <item:powder_power:blend_redium>]
+]);
+<item:contenttweaker:time_staff>.addTooltip("Right click to advance time by 1500 ticks");
+
+//Enriched Iron Block
+<recipetype:mekanism:metallurgic_infusing>.addJSONRecipe("contenttweaker/recipes/enriched_iron_block",{
+	"type": "mekanism:metallurgic_infusing",
+	"itemInput": {
+		"ingredient": {
+			"tag": "forge:storage_blocks/iron"
+		}
+	},
+	"infusionInput": {
+		"amount": 90,
+		"tag": "mekanism:carbon"
+	},
+	"output": {
+		"item": "contenttweaker:enriched_iron_block"
+	}
+});
+
 //Jupitum Ingot
 <recipetype:interactio:item_lightning>.addJSONRecipe("contenttweaker/recipes/jupitum_ingot",{
 	"type": "interactio:item_lightning",
@@ -94,48 +136,6 @@
 				"weight": 1
 			}
 		]
-	}
-});
-
-//Lightning Block
-<recipetype:bloodmagic:array>.addJSONRecipe("contenttweaker/recipes/lightning_block",{
-	"type": "bloodmagic:array",
-	"texture": "bloodmagic:textures/models/alchemyarrays/sunarray.png",
-	"baseinput": {
-		"item": "astralsorcery:liquid_starlight_bucket"
-	},
-	"addedinput": {
-		"item": "minecraft:glowstone"
-	},
-	"output": {
-		"item": "contenttweaker:lightning",
-		"count": 1
-	}
-});
-<item:contenttweaker:lightning>.addTooltip("Place down to summon a lightning bolt at your current location");
-
-//Time Block
-craftingTable.addShaped("contenttweaker/recipes/time_block", <item:contenttweaker:time> * 8, [
-	[<item:powder_power:blend_redium>, <item:botania:quartz_dark>, <item:powder_power:blend_redium>],
-    [<item:botania:quartz_dark>, <item:minecraft:clock>, <item:botania:quartz_dark>],
-    [<item:powder_power:blend_redium>, <item:botania:quartz_dark>, <item:powder_power:blend_redium>]
-]);
-<item:contenttweaker:time>.addTooltip("Place down to advance time by 1500 ticks");
-
-//Enriched Iron Block
-<recipetype:mekanism:metallurgic_infusing>.addJSONRecipe("contenttweaker/recipes/enriched_iron_block",{
-	"type": "mekanism:metallurgic_infusing",
-	"itemInput": {
-		"ingredient": {
-			"tag": "forge:storage_blocks/iron"
-		}
-	},
-	"infusionInput": {
-		"amount": 90,
-		"tag": "mekanism:carbon"
-	},
-	"output": {
-		"item": "contenttweaker:enriched_iron_block"
 	}
 });
 

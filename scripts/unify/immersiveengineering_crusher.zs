@@ -14,7 +14,7 @@
 <recipetype:immersiveengineering:crusher>.addRecipe("unify/immersiveengineering_crusher/charcoal/dust", <item:minecraft:charcoal>, 4000, <item:mekanism:dust_charcoal>);
 
 //Quartz Dust
-<recipetype:immersiveengineering:crusher>.addRecipe("unify/immersiveengineering_crusher/quartz/dust", <item:minecraft:quartz>, 4000, <item:mekanism:dust_quartz>);
+<recipetype:immersiveengineering:crusher>.addRecipe("unify/immersiveengineering_crusher/quartz/dust", <item:minecraft:quartz>, 4000, <item:appliedenergistics2:nether_quartz_dust>);
 
 //Fluorite Dust
 <recipetype:immersiveengineering:crusher>.addRecipe("unify/immersiveengineering_crusher/fluorite/dust", <item:mekanism:fluorite_gem>, 4000, <item:mekanism:dust_fluorite>);
