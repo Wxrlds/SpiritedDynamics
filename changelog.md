@@ -1,3 +1,9 @@
+## [0.2.0a] - 2022.06.03
+Server side only release
+
+### Changes
+- Fixed the download, install and start Forge Server Scripts downloading the wrong Forge version
+
 ## [0.2.0] - 2022.06.03
 [Click here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/commit/c81eb6d251630075dbf235786f27a305c024257e)
 
