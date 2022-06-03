@@ -1,3 +1,40 @@
+## [0.2.0] - 2022.06.03
+[Click here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/commit/c81eb6d251630075dbf235786f27a305c024257e)
+
+### Enabled
+- AE2 Quartz Dust
+
+### Added
+- Correct server icon
+- Lightning Staff (and removed the Lightning Block)
+- Mechanic which gives you a hunger effect after death
+- Recipe to clear Netherite Scrap NBT
+- Time Staff (and removed the Time Block)
+- Tooltip to Spoon
+
+### Changed
+- Charged Certus Quartz recipe now uses KubeJS
+- Extracting XP from the XP Block now works with mending
+- Sulfor drops from killing a Blaze
+
+### Recipes
+- Beetiful Seeds
+- Everlasting Guilty Pool
+- Fluorite
+- Infinity Pipe Upgrade
+- Item Tunnel
+- Redstone Tunnel
+- Sawdust
+- SPS Casing
+
+### Disabled
+- Mekanism Quartz Dust
+- Pams Salt
+- Repeating of biome generation every 1048576 blocks
+- Sorting inside Auto Sieve
+- Ultimate Singularity recipe
+- Wood Chippings recipe
+
 ## [0.1.0] - 2022.01.15
 [Click here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/commit/8fdb3504c8d8efb6b2c881a682c5f53c792e8b89)
 
@@ -14,7 +51,7 @@
 - Durability of Spoon
 - Removed Chisels & Bits's Block Bits from JEI
 - Replaced Eidolon with Powder Power and Cucurbita
-- Swaped compressed dirt with enchanted soil
+- Swapped compressed dirt with enchanted soil in Botany Pots
 - Wooden Altar Advancement
 
 ### Recipes
