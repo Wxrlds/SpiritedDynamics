@@ -1,5 +1,162 @@
-Mod Changelogs paused for an unknown amount of time.
-Modlist generator doesn't work anymore
+====================================================
+Spirited Dynamics 0.1.0 --> Spirited Dynamics 0.2.0
+====================================================
+
+## Added
+- [Rhino](https://www.curseforge.com/minecraft/mc-mods/rhino)
+- [Compact Machines](https://www.curseforge.com/minecraft/mc-mods/compact-machines)
+- [Beetiful Garden](https://www.curseforge.com/minecraft/mc-mods/beetiful-garden)
+- [Rubidium](https://www.curseforge.com/minecraft/mc-mods/rubidium)
+- [KubeJS](https://www.curseforge.com/minecraft/mc-mods/kubejs)
+- [ServerConfig Updater](https://www.curseforge.com/minecraft/mc-mods/serverconfig-updater)
+- [BisectHosting Server Integration Menu [FORGE]](https://www.curseforge.com/minecraft/mc-mods/bisecthosting-server-integration-menu-forge)
+
+## Removed
+- [Open Loader](https://www.curseforge.com/minecraft/mc-mods/open-loader)
+
+## Changed
+- Apotheosis-1.16.5-4.8.4.jar -> Apotheosis-1.16.5-4.8.99F.jar
+- appleskin-forge-mc1.16.x-2.2.0.jar -> appleskin-forge-mc1.16.x-2.4.0.jar
+- appliedenergistics2-8.4.6.jar -> appliedenergistics2-8.4.7.jar
+- Architects-Palette-1.16.4-1.1.4.jar -> Architects-Palette-1.16.4-1.1.5.jar
+- architectury-1.28.48.jar -> architectury-1.32.63.jar
+- astralsorcery-1.16-1.16.5-1.13.12.jar -> astralsorcery-1.16.5-1.14.1.jar
+- AttributeFix-1.16.5-10.1.3.jar -> AttributeFix-1.16.5-10.1.4.jar
+- BloodMagic-1.16.4-3.1.7-27.jar -> BloodMagic-1.16.4-3.1.10-32.jar
+- Bookshelf-Forge-1.16.5-10.4.31.jar -> Bookshelf-Forge-1.16.5-10.4.32.jar
+- Botania-1.16.5-420.1.jar -> Botania-1.16.5-420.2.jar
+- BotanyPots-1.16.5-7.1.23.jar -> BotanyPots-1.16.5-7.1.39.jar
+- BotanyTrees-1.16.5-3.0.5.jar -> BotanyTrees-1.16.5-3.0.7.jar
+- chemlib-1.16.5-1.jar -> chemlib-1.16.5-2.jar
+- cloth-config-4.13.49-forge.jar -> cloth-config-4.14.64-forge.jar
+- Clumps-6.0.0.27.jar -> Clumps-6.0.0.28.jar
+- ContentTweaker-1.16-1.0.0.develop.33.jar -> ContentTweaker-1.16-1.0.0.develop.36.jar
+- CraftTweaker-1.16.5-7.1.2.489.jar -> CraftTweaker-1.16.5-7.1.2.510.jar
+- curios-forge-1.16.5-4.0.7.0.jar -> curios-forge-1.16.5-4.0.8.2.jar
+- CyclopsCore-1.16.5-1.12.1.jar -> CyclopsCore-1.16.5-1.12.4.jar
+- dankstorage-3.19.jar -> dankstorage-1.16.5-3.21.jar
+- DarkUtilities-1.16.5-8.0.10.jar -> DarkUtilities-1.16.5-8.0.14.jar
+- easy_villagers-1.16.5-1.0.11.jar -> easy_villagers-1.16.5-1.0.13.jar
+- entityculling-1.3.0.jar -> entityculling-forge-mc1.16.5-1.5.2.jar
+- exnihilosequentia-1.16-20220115-185452.jar -> exnihilosequentia-1.16-20220530-185402.jar
+- fancymenu_forge_2.5.2_MC_1.16.2-1.16.5.jar -> fancymenu_forge_2.7.2_MC_1.16.2-1.16.5.jar
+- geckolib-forge-1.16.5-3.0.59.jar -> geckolib-forge-1.16.5-3.0.71.jar
+- globalxp-1.16.5-v1.9.jar -> globalxp-1.16.5-v1.10.jar
+- ImmersiveEngineering-1.16.5-5.0.7-143.jar -> ImmersiveEngineering-1.16.5-5.1.0-148.jar
+- IntegratedCrafting-1.16.5-1.0.20.jar -> IntegratedCrafting-1.16.5-1.0.22.jar
+- IntegratedDynamics-1.16.5-1.10.6.jar -> IntegratedDynamics-1.16.5-1.10.10.jar
+- IntegratedTerminals-1.16.5-1.2.11.jar -> IntegratedTerminals-1.16.5-1.2.13.jar
+- itemcollectors-1.1.4-mc1.16.jar -> itemcollectors-1.1.5-mc1.16.jar
+- jei-1.16.5-7.7.1.144.jar -> jei-1.16.5-7.7.1.152.jar
+- jeiintegration_1.16.5-7.0.1.15.jar -> jeiintegration_1.16.5-7.1.0.22.jar
+- Mantle-1.16.5-1.6.152.jar -> Mantle-1.16.5-1.6.157.jar
+- mcjtylib-1.16-5.1.3.jar -> mcjtylib-1.16-5.1.7.jar
+- Mekanism-1.16.5-10.1.1.456.jar -> Mekanism-1.16.5-10.1.2.457.jar
+- MekanismGenerators-1.16.5-10.1.1.456.jar -> MekanismGenerators-1.16.5-10.1.2.457.jar
+- moreoverlays-1.18.17-mc1.16.5.jar -> moreoverlays-1.18.18-mc1.16.5.jar
+- nutritionalbalance-1.16.5-0.7.11.jar -> nutritionalbalance-1.16.5-0.7.13.jar
+- occultism-1.16.5-1.24.0.jar -> occultism-1.16.5-1.28.0.jar
+- Placebo-1.16.5-4.6.1.jar -> Placebo-1.16.5-4.7.0.jar
+- rftoolsbase-1.16-2.1.2.jar -> rftoolsbase-1.16-2.1.4.jar
+- Runelic-1.16.5-7.0.2.jar -> Runelic-1.16.5-7.0.3.jar
+- SkyblockBuilder-1.16.4-1.6.13.jar -> SkyblockBuilder-1.16.4-1.6.14.jar
+- StorageDrawers-1.16.3-8.5.0.jar -> StorageDrawers-1.16.3-8.5.2.jar
+- supermartijn642corelib-1.0.16-mc1.16.5.jar -> supermartijn642corelib-1.0.18-forge-mc1.16.5.jar
+- trashcans-1.0.12-mc1.16.jar -> trashcans-1.0.15-forge-mc1.16.jar
+- xnet-1.16-3.0.16.jar -> xnet-1.16-3.0.17.jar
+- XNetGases-1.16.5-2.3.9.jar -> XNetGases-1.16.5-2.3.10.jar
+
+====================================================
+Spirited Dynamics 0.0.10 --> Spirited Dynamics 0.1.0
+====================================================
+
+## Added
+- [Smooth Boot (Forge)](https://www.curseforge.com/minecraft/mc-mods/smooth-boot-forge)
+- [Overloaded Armor Bar](https://www.curseforge.com/minecraft/mc-mods/overloaded-armor-bar)
+- [Cucurbita](https://www.curseforge.com/minecraft/mc-mods/cucurbita)
+- [Konkrete [Forge]](https://www.curseforge.com/minecraft/mc-mods/konkrete)
+- [FerriteCore (Forge)](https://www.curseforge.com/minecraft/mc-mods/ferritecore)
+- [FancyMenu [Forge]](https://www.curseforge.com/minecraft/mc-mods/fancymenu-forge)
+- [Powder Power [FORGE]](https://www.curseforge.com/minecraft/mc-mods/powder-power)
+- [GeckoLib](https://www.curseforge.com/minecraft/mc-mods/geckolib)
+
+## Removed
+- [ReAuth](https://www.curseforge.com/minecraft/mc-mods/reauth)
+
+## Changed
+- Apotheosis-1.16.5-4.7.1.jar -> Apotheosis-1.16.5-4.8.4.jar
+- appleskin-forge-mc1.16.x-2.1.0.jar -> appleskin-forge-mc1.16.x-2.2.0.jar
+- appliedenergistics2-8.4.0.jar -> appliedenergistics2-8.4.6.jar
+- architectury-1.21.31-forge.jar -> architectury-1.28.48.jar
+- AttributeFix-1.16.5-10.1.2.jar -> AttributeFix-1.16.5-10.1.3.jar
+- BloodMagic-1.16.4-3.1.1-16.jar -> BloodMagic-1.16.4-3.1.7-27.jar
+- Bookshelf-Forge-1.16.5-10.2.27.jar -> Bookshelf-Forge-1.16.5-10.4.31.jar
+- Botania-1.16.5-419.jar -> Botania-1.16.5-420.1.jar
+- buildinggadgets-1.16.5-3.8.0.jar -> buildinggadgets-1.16.5-3.8.2.jar
+- caelus-forge-1.16.5-2.1.3.1.jar -> caelus-forge-1.16.5-2.1.3.2.jar
+- chemlib-1.16.4-1.jar -> chemlib-1.16.5-1.jar
+- chiselsandbits-0.3.4-RELEASE.jar -> chiselsandbits-1.0.63.jar
+- cloth-config-4.11.26-forge.jar -> cloth-config-4.13.49-forge.jar
+- Clumps-6.0.0.25.jar -> Clumps-6.0.0.27.jar
+- colytra-forge-1.16.5-5.1.1.1.jar -> colytra-forge-1.16.5-5.1.1.2.jar
+- CommonCapabilities-1.16.5-2.7.0.jar -> CommonCapabilities-1.16.5-2.8.0.jar
+- constructionwand-1.16.5-2.2.jar -> constructionwand-1.16.5-2.6.jar
+- ContentTweaker-1.16-1.0.0.develop.22.jar -> ContentTweaker-1.16-1.0.0.develop.33.jar
+- Controlling-7.0.0.24.jar -> Controlling-7.0.0.28.jar
+- cookiecore-1.16.2-3.0.2-9389769.jar -> cookiecore-1.16.5-3.3.1-9c789ef.jar
+- CookingForBlockheads_1.16.5-9.3.3.jar -> CookingForBlockheads_1.16.5-9.3.4.jar
+- craftingstation-4.1.1.jar -> craftingstation-4.2.jar
+- CraftTweaker-1.16.5-7.1.2.406.jar -> CraftTweaker-1.16.5-7.1.2.489.jar
+- Cucumber-1.16.4-4.1.10.jar -> Cucumber-1.16.5-4.1.12.jar
+- curios-forge-1.16.5-4.0.5.2.jar -> curios-forge-1.16.5-4.0.7.0.jar
+- CyclopsCore-1.16.5-1.11.8.jar -> CyclopsCore-1.16.5-1.12.1.jar
+- dankstorage-3.16.jar -> dankstorage-3.19.jar
+- ExCompressum_1.16.5-4.0.4.jar -> ExCompressum_1.16.5-4.0.5.jar
+- exnihilosequentia-1.16-20210826035238.jar -> exnihilosequentia-1.16-20220115-185452.jar
+- ExtendedCrafting-1.16.4-3.1.6.jar -> ExtendedCrafting-1.16.5-3.1.11.jar
+- FastFurnace-1.16.4-4.4.0.jar -> FastFurnace-1.16.5-4.5.0.jar
+- FastLeafDecay-v25.jar -> FastLeafDecay-v25.2.jar
+- FastWorkbench-1.16.4-4.5.1.jar -> FastWorkbench-1.16.5-4.6.1.jar
+- ftb-backups-2.1.1.6.jar -> ftb-backups-2.1.2.2.jar
+- ftb-chunks-forge-1605.3.1-build.46.jar -> ftb-chunks-forge-1605.3.2-build.115.jar
+- ftb-essentials-1605.1.4-build.13.jar -> ftb-essentials-1605.1.5-build.32.jar
+- ftb-library-forge-1605.3.2-build.64.jar -> ftb-library-forge-1605.3.4-build.90.jar
+- ftb-teams-forge-1605.2.1-build.20.jar -> ftb-teams-forge-1605.2.3-build.40.jar
+- ftb-ultimine-forge-1605.3.0-build.25.jar -> ftb-ultimine-forge-1605.3.1-build.45.jar
+- globalxp-1.16.5-v1.8.jar -> globalxp-1.16.5-v1.9.jar
+- ImmersiveEngineering-1.16.5-5.0.3-138.jar -> ImmersiveEngineering-1.16.5-5.0.7-143.jar
+- IntegratedCrafting-1.16.5-1.0.17.jar -> IntegratedCrafting-1.16.5-1.0.20.jar
+- IntegratedDynamics-1.16.5-1.9.3.jar -> IntegratedDynamics-1.16.5-1.10.6.jar
+- IntegratedTerminals-1.16.5-1.2.4.jar -> IntegratedTerminals-1.16.5-1.2.11.jar
+- IntegratedTunnels-1.16.5-1.8.5.jar -> IntegratedTunnels-1.16.5-1.8.9.jar
+- itemcollectors-1.1.2-mc1.16.5.jar -> itemcollectors-1.1.4-mc1.16.jar
+- Jade-1.16.4-2.7.4.jar -> Jade-1.16.4-2.8.1.jar
+- jei-1.16.5-7.7.1.121.jar -> jei-1.16.5-7.7.1.144.jar
+- JEITweaker-1.16.5-1.0.1.34.jar -> JEITweaker-1.16.5-1.1.0.49.jar
+- JustEnoughProfessions-1.16.5-1.2.1.jar -> JustEnoughProfessions-1.16.5-1.2.2.jar
+- Mantle-1.16.5-1.6.123.jar -> Mantle-1.16.5-1.6.152.jar
+- mcjtylib-1.16-5.0.22.jar -> mcjtylib-1.16-5.1.3.jar
+- Mekanism-1.16.5-10.0.21.448.jar -> Mekanism-1.16.5-10.1.1.456.jar
+- MekanismGenerators-1.16.5-10.0.21.448.jar -> MekanismGenerators-1.16.5-10.1.1.456.jar
+- moredragoneggs-1.4.jar -> moredragoneggs-2.4.jar
+- moreoverlays-1.18.15-mc1.16.5.jar -> moreoverlays-1.18.17-mc1.16.5.jar
+- MythicBotany-1.16.5-1.4.1.jar -> MythicBotany-1.16.5-1.4.19.jar
+- NaturesAura-34.2.jar -> NaturesAura-34.3.jar
+- nutritionalbalance-1.16.5-0.7.7.jar -> nutritionalbalance-1.16.5-0.7.11.jar
+- occultism-1.16.5-1.8.4.jar -> occultism-1.16.5-1.24.0.jar
+- Patchouli-1.16.4-53.1.jar -> Patchouli-1.16.4-53.2.jar
+- pipez-1.16.5-1.2.7.jar -> pipez-1.16.5-1.2.15.jar
+- Placebo-1.16.5-4.6.0.jar -> Placebo-1.16.5-4.6.1.jar
+- rftoolsbase-1.16-2.0.11.jar -> rftoolsbase-1.16-2.1.2.jar
+- Runelic-1.16.5-7.0.1.jar -> Runelic-1.16.5-7.0.2.jar
+- SimpleDiscordRichPresence-1.16.4-1.3.5.jar -> SimpleDiscordRichPresence-1.4.0-build.3+mc1.16.5.jar
+- SkyblockBuilder-1.16.4-1.6.4.jar -> SkyblockBuilder-1.16.4-1.6.13.jar
+- StorageDrawers-1.16.3-8.3.0.jar -> StorageDrawers-1.16.3-8.5.0.jar
+- supermartijn642corelib-1.0.12-mc1.16.5.jar -> supermartijn642corelib-1.0.16-mc1.16.5.jar
+- Toast-Control-1.16.4-4.3.1.jar -> ToastControl-1.16.5-4.4.0.jar
+- trashcans-1.0.10-mc1.16.5.jar -> trashcans-1.0.12-mc1.16.jar
+- xnet-1.16-3.0.13.jar -> xnet-1.16-3.0.16.jar
+- XNetGases-1.16.5-2.3.7.jar -> XNetGases-1.16.5-2.3.9.jar
 
 ====================================================
 Spirited Dynamics 0.0.9 --> Spirited Dynamics 0.0.10
