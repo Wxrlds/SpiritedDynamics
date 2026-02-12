@@ -6,11 +6,7 @@ This version has a breaking update with the Chiseled mod, causing breaking issue
 
 DimStorage was removed and replaced with EnderStorage.
 
-Akashic Tome was replaced with Ecceentric Tome. Secure your books!
-
-### Enabled
-
-### Added
+Akashic Tome was replaced with Eccentric Tome. Secure your books!
 
 ### Changed
 

@@ -31,10 +31,10 @@
         "server-icon.png"
     ],
     "client_overrides": [
-        "config/defaultoptions",
         "!config/invtweaks-client.toml",
         "config/*-client.toml",
         "config/Mekanism/client.toml",
+        "config/defaultoptions",
         "config/entityculling.json",
         "config/equipmentcompare-common.toml",
         "config/fancymenu",
