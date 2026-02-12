@@ -1,30 +1,30 @@
 {
-	"display": {
-		"title": {
-			"text": "Iesnium Ore"
-		},
-		"description": {
-			"text": "Looks like Andesite, smells like Andesite, tastes like Andesite, is not Andesite!"
-		},
-		"icon": {
-			"item": "occultism:iesnium_ore"
-		},
-		"frame": "goal",
-		"show_toast": true,
-		"announce_to_chat": true,
-		"hidden": false
-	},
-	"criteria": {
-		"iesniumore": {
-			"trigger": "minecraft:inventory_changed",
-			"conditions": {
-				"items": [
-					{
-						"item": "occultism:iesnium_ore"
-					}
-				]
-			}
-		}
-	},
-	"parent": "spiriteddynamics:woodenaltar"
+  "display": {
+    "title": {
+      "text": "Iesnium Ore"
+    },
+    "description": {
+      "text": "Looks like Andesite, smells like Andesite, tastes like Andesite, is not Andesite!"
+    },
+    "icon": {
+      "item": "occultism:iesnium_ore"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "iesniumore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "occultism:iesnium_ore"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "spiriteddynamics:ironpowder"
 }

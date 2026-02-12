@@ -66,7 +66,6 @@ naturesaura:crimson_aura_mushroom
 naturesaura:aura_mushroom
 naturesaura:ancient_tree
 naturesaura:nether_wart_mushroom
-appliedenergistics2:charged_quartz_ore
 mekanism:disk
 mekanism:ore
 mekanism:ore_retrogen
@@ -74,6 +73,7 @@ mythicbotany:motif_flowers
 mythicbotany:mana_crystals
 mythicbotany:abandoned_apothecaries
 mythicbotany:wheat_fields
+appliedenergistics2:charged_quartz_ore
 immersiveengineering:mineral_vein
 immersiveengineering:ie_ore
 immersiveengineering:ore_retro

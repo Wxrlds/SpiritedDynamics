@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": {
+      "text": "Time Staff"
+    },
+    "description": {
+      "text": "Ruler over Time!"
+    },
+    "icon": {
+      "item": "contenttweaker:time_staff"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "timestaff": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "contenttweaker:time_staff"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "spiriteddynamics:luminousaltar"
+}

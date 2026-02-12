@@ -1,0 +1,2443 @@
+{
+	id: "578998E261DF9D60"
+	group: ""
+	order_index: 0
+	filename: "guided_mode"
+	title: "Progression Help"
+	icon: "botania:pure_daisy"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: 0.0d
+			id: "7148EDD7A1876C8D"
+			tasks: [{
+				id: "018803ECF24E7DA5"
+				type: "item"
+				item: "botania:pebble"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["7148EDD7A1876C8D"]
+			id: "02B35C767BE73F76"
+			tasks: [{
+				id: "1A7BAB585E8A5A1B"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+		}
+		{
+			icon: "minecraft:birch_log"
+			x: -0.5d
+			y: 3.0d
+			id: "7B46BE20DDE0089A"
+			tasks: [
+				{
+					id: "0C65FB06EF56A36A"
+					type: "item"
+					item: "minecraft:birch_sapling"
+				}
+				{
+					id: "570A689CFF82477F"
+					type: "item"
+					item: "minecraft:birch_log"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["3D05E3324DB2FB1F"]
+			id: "758CF0C22E0C81BB"
+			tasks: [{
+				id: "212FA0F83F46DB14"
+				type: "item"
+				item: "botania:fertilizer"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			dependencies: ["758CF0C22E0C81BB"]
+			id: "56D5C2123AAB453E"
+			tasks: [{
+				id: "54B0383609E85149"
+				type: "item"
+				title: "Any #botania:mystical_flowers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: [
+				"56D5C2123AAB453E"
+				"7A4CBECB1E2A7659"
+			]
+			id: "524A7B6F17F6557E"
+			tasks: [{
+				id: "5163B4BCD396BF6C"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+		}
+		{
+			icon: "minecraft:bone"
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["02B35C767BE73F76"]
+			id: "2D19D4FE59977E1F"
+			tasks: [
+				{
+					id: "1BA4970CC0454970"
+					type: "item"
+					item: "minecraft:bone"
+				}
+				{
+					id: "518CF3F6971B8AD5"
+					type: "item"
+					item: "minecraft:bone_meal"
+				}
+			]
+		}
+		{
+			icon: "minecraft:wheat_seeds"
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["2D19D4FE59977E1F"]
+			id: "7A4CBECB1E2A7659"
+			tasks: [
+				{
+					id: "6EA891AFFED08E49"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+				}
+				{
+					id: "3657D2522A8D5585"
+					type: "item"
+					item: "minecraft:pumpkin_seeds"
+				}
+				{
+					id: "599A4F38C172C71A"
+					type: "item"
+					item: "minecraft:melon_seeds"
+				}
+				{
+					id: "640DDCD95AB3FC08"
+					type: "item"
+					item: "immersiveengineering:seed"
+				}
+				{
+					id: "034F080128AF1BFB"
+					type: "item"
+					item: "occultism:datura_seeds"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			dependencies: ["524A7B6F17F6557E"]
+			id: "0C3127A614BC3B0E"
+			tasks: [{
+				id: "1C924A4FEE97AA15"
+				type: "item"
+				item: "astralsorcery:marble_raw"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			dependencies: [
+				"7A4CBECB1E2A7659"
+				"73411E5A93517790"
+			]
+			size: 2.0d
+			id: "61862EFBA742A97B"
+			tasks: [{
+				id: "7AA85E0038603F21"
+				type: "item"
+				item: "botania:orechid"
+			}]
+		}
+		{
+			icon: "astralsorcery:altar_discovery"
+			x: 11.0d
+			y: -1.0d
+			dependencies: [
+				"12255E39F1924E56"
+				"715178AC66A41CE3"
+				"6EDE6DA8587B5C05"
+				"448F7FE609FC302B"
+				"3CF451B8010EF952"
+			]
+			size: 2.0d
+			id: "14A4C07AF7C01FE5"
+			tasks: [
+				{
+					id: "35BC71B119FCF4E5"
+					type: "item"
+					item: "astralsorcery:altar_discovery"
+				}
+				{
+					id: "6040575479E3BC7C"
+					type: "item"
+					item: "astralsorcery:wand"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -3.0d
+			dependencies: ["6C493B6B7A305671"]
+			id: "0152B4E954078983"
+			tasks: [{
+				id: "18A1AFA462B31BAC"
+				type: "item"
+				item: "botania:blaze_block"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			dependencies: ["61862EFBA742A97B"]
+			id: "715178AC66A41CE3"
+			tasks: [{
+				id: "723148ED170F1F93"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+		}
+		{
+			icon: "botania:fel_pumpkin"
+			x: 7.0d
+			y: -1.5d
+			dependencies: ["61862EFBA742A97B"]
+			id: "6C493B6B7A305671"
+			tasks: [
+				{
+					id: "25191BA0F7050EDF"
+					type: "item"
+					item: "botania:fel_pumpkin"
+				}
+				{
+					id: "3689B39C5CFEFA7E"
+					type: "item"
+					item: "minecraft:iron_bars"
+					count: 2L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -4.5d
+			dependencies: ["0152B4E954078983"]
+			id: "12255E39F1924E56"
+			tasks: [{
+				id: "15648175D98490D9"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			dependencies: ["0C3127A614BC3B0E"]
+			id: "6EDE6DA8587B5C05"
+			tasks: [{
+				id: "7C90ED3874F0EECF"
+				type: "item"
+				item: "astralsorcery:black_marble_raw"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -4.5d
+			dependencies: ["116A31A88B3E21B8"]
+			id: "448F7FE609FC302B"
+			tasks: [{
+				id: "2258E4058AF9DACD"
+				type: "item"
+				item: "naturesaura:ancient_log"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			dependencies: [
+				"5E5C86BF7F1525E3"
+				"602B10A29C3991B0"
+			]
+			id: "116A31A88B3E21B8"
+			tasks: [{
+				id: "7A57E65EE21E509F"
+				type: "item"
+				item: "naturesaura:ancient_sapling"
+			}]
+		}
+		{
+			icon: "naturesaura:gold_fiber"
+			x: 5.5d
+			y: -3.0d
+			dependencies: ["61862EFBA742A97B"]
+			id: "5E5C86BF7F1525E3"
+			tasks: [
+				{
+					id: "63AC39BB9C5E0158"
+					type: "item"
+					item: "naturesaura:gold_leaf"
+				}
+				{
+					id: "637728A8ABFEF6CC"
+					type: "item"
+					item: "naturesaura:gold_fiber"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["7A4CBECB1E2A7659"]
+			id: "39F13C96361E896F"
+			tasks: [{
+				id: "44E8FD281D90CF3D"
+				type: "item"
+				item: "minecraft:hay_block"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			dependencies: [
+				"6EDE6DA8587B5C05"
+				"4E171C581F770AC2"
+			]
+			id: "73411E5A93517790"
+			tasks: [{
+				id: "005859253C167889"
+				type: "item"
+				item: "botania:diluted_pool"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			dependencies: [
+				"39F13C96361E896F"
+				"73411E5A93517790"
+			]
+			id: "602B10A29C3991B0"
+			tasks: [{
+				id: "2D2A3A3D1FD52BE1"
+				type: "item"
+				item: "minecraft:sugar_cane"
+			}]
+		}
+		{
+			icon: "minecraft:blackstone"
+			x: 8.5d
+			y: -4.5d
+			dependencies: ["12255E39F1924E56"]
+			id: "043538B346BC375D"
+			tasks: [
+				{
+					id: "46B62CE3CEC59299"
+					type: "item"
+					item: "minecraft:blackstone"
+				}
+				{
+					id: "57BB518B846728AB"
+					type: "item"
+					item: "minecraft:soul_sand"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			dependencies: [
+				"73411E5A93517790"
+				"043538B346BC375D"
+			]
+			id: "3DD8A6B2C478CD1C"
+			tasks: [{
+				id: "655FE1DD039E2FEA"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 0.0d
+			dependencies: ["098FB911F3A0D53B"]
+			id: "277B67812ECAFB08"
+			tasks: [{
+				id: "26A6973DFC1A6992"
+				type: "item"
+				item: "astralsorcery:well"
+			}]
+		}
+		{
+			icon: "minecraft:soul_soil"
+			x: 10.0d
+			y: -4.5d
+			dependencies: ["043538B346BC375D"]
+			id: "289C1E1136917A86"
+			tasks: [
+				{
+					id: "03595C269BB2BB20"
+					type: "item"
+					item: "minecraft:soul_soil"
+				}
+				{
+					id: "686A31F0F07597D5"
+					type: "item"
+					item: "minecraft:soul_campfire"
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: -4.5d
+			dependencies: ["289C1E1136917A86"]
+			id: "592AE3D394A37A06"
+			tasks: [{
+				id: "0DE25D3FA81464DE"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -4.5d
+			dependencies: ["592AE3D394A37A06"]
+			id: "35C02F4E8068906F"
+			tasks: [{
+				id: "0519D22BBCC66BF3"
+				type: "item"
+				item: "minecraft:glass"
+			}]
+		}
+		{
+			icon: "naturesaura:nature_altar"
+			x: 13.0d
+			y: -3.0d
+			dependencies: [
+				"35C02F4E8068906F"
+				"14A4C07AF7C01FE5"
+			]
+			id: "789DA48F96F2FC4D"
+			tasks: [
+				{
+					id: "407758C719C44BB5"
+					type: "item"
+					item: "naturesaura:nature_altar"
+				}
+				{
+					id: "7B99A7CEEB82F03F"
+					type: "item"
+					item: "naturesaura:gold_brick"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -6.0d
+			dependencies: ["116A31A88B3E21B8"]
+			id: "3CF451B8010EF952"
+			tasks: [{
+				id: "4F531C0C1197D9DB"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -3.0d
+			dependencies: ["789DA48F96F2FC4D"]
+			id: "5F569C12C073D21C"
+			tasks: [{
+				id: "1655BDF38DFBDFCC"
+				type: "item"
+				item: "naturesaura:infused_iron"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -3.0d
+			dependencies: [
+				"5F569C12C073D21C"
+				"4F91818C9A64AD6C"
+			]
+			id: "42627F1704E0BDCA"
+			tasks: [{
+				id: "34E442C040260C12"
+				type: "item"
+				item: "mekanism:ingot_steel"
+			}]
+		}
+		{
+			icon: "immersiveengineering:blast_furnace"
+			x: 17.5d
+			y: 0.0d
+			dependencies: ["1C9397A1CA80F30D"]
+			id: "4F91818C9A64AD6C"
+			tasks: [{
+				id: "1E3328DABB015962"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+		}
+		{
+			x: 14.5d
+			y: 1.5d
+			dependencies: ["277B67812ECAFB08"]
+			id: "7A46BA87E01078E0"
+			tasks: [{
+				id: "28B2CFDE160CFAB1"
+				type: "item"
+				item: "astralsorcery:liquid_starlight_bucket"
+			}]
+		}
+		{
+			x: 20.5d
+			y: 1.5d
+			dependencies: ["1C9397A1CA80F30D"]
+			id: "03E9F23C45EA61DA"
+			tasks: [{
+				id: "0B025384A19B5852"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+				count: 8L
+			}]
+		}
+		{
+			x: 20.5d
+			y: 0.0d
+			dependencies: [
+				"03E9F23C45EA61DA"
+				"2957DF2781D9E0E1"
+			]
+			id: "11EE60FFEA17B8AE"
+			tasks: [{
+				id: "7AF65C804ACEAEC9"
+				type: "item"
+				item: "contenttweaker:venuium_ingot"
+			}]
+		}
+		{
+			x: 20.5d
+			y: -3.0d
+			dependencies: ["0EDB7676D50BCF83"]
+			id: "3CB882DE5E449880"
+			tasks: [{
+				id: "7C4021A1247D2A2E"
+				type: "item"
+				item: "powder_power:ingot_trilium"
+			}]
+		}
+		{
+			x: 20.5d
+			y: -1.5d
+			dependencies: ["3CB882DE5E449880"]
+			id: "6776FE159F468286"
+			tasks: [{
+				id: "63B113B0AA5E4706"
+				type: "item"
+				item: "botania:manasteel_ingot"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -3.0d
+			dependencies: ["42627F1704E0BDCA"]
+			id: "484C681DE81F85B9"
+			tasks: [{
+				id: "50B10E5AB53929F5"
+				type: "item"
+				item: {
+					id: "powder_power:wand_alchemist"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: 4.5d
+			dependencies: ["646EA17B9405DB84"]
+			id: "1C9397A1CA80F30D"
+			tasks: [{
+				id: "287C400C552835D4"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 3.0d
+			dependencies: [
+				"7A46BA87E01078E0"
+				"40907A952C2FABA2"
+			]
+			id: "3E45D74D03223FD0"
+			tasks: [{
+				id: "4FA58DEA68AE8C37"
+				type: "item"
+				item: "astralsorcery:infused_wood"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 3.0d
+			dependencies: ["5F4341F3D9FF4DF0"]
+			id: "40907A952C2FABA2"
+			tasks: [{
+				id: "2C32BF35D727DF55"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+			}]
+		}
+		{
+			x: 26.5d
+			y: 1.5d
+			dependencies: ["3E23B5895F9BA5ED"]
+			id: "77D2468756EED995"
+			tasks: [
+				{
+					id: "10009A58DA5D0350"
+					type: "item"
+					item: "alchemistry:fission_controller"
+				}
+				{
+					id: "28A05CD0F952EEED"
+					type: "item"
+					item: "alchemistry:fission_casing"
+				}
+				{
+					id: "7C3CBB6A21650C07"
+					type: "item"
+					item: "alchemistry:fission_core"
+				}
+			]
+		}
+		{
+			x: 25.0d
+			y: 1.5d
+			dependencies: ["2EB7F35645696EE7"]
+			id: "3E23B5895F9BA5ED"
+			tasks: [{
+				id: "77C5B66113FC535A"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -1.5d
+			dependencies: [
+				"68E96FCD37748C06"
+				"789DA48F96F2FC4D"
+			]
+			id: "1A99E5914055D4CB"
+			tasks: [
+				{
+					id: "379D5F288B4B2B88"
+					type: "item"
+					item: "alchemistry:atomizer"
+				}
+				{
+					id: "64B05FB065449E43"
+					type: "item"
+					item: "alchemistry:liquifier"
+				}
+				{
+					id: "0C735CCAADB35C06"
+					type: "item"
+					item: "alchemistry:evaporator"
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: 0.0d
+			dependencies: ["12BE04156012ED31"]
+			id: "2E8EB3230BA4DBDE"
+			tasks: [{
+				id: "78F7FA15514E4113"
+				type: "item"
+				item: "alchemistry:chemical_combiner"
+			}]
+		}
+		{
+			x: 18.511904761904766d
+			y: -1.5595238095238173d
+			dependencies: ["6776FE159F468286"]
+			size: 2.0d
+			id: "68E96FCD37748C06"
+			tasks: [{
+				id: "3E74BEBAEAD6EE7A"
+				type: "item"
+				item: "botania:mana_fluxfield"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.0d
+			dependencies: ["56D5C2123AAB453E"]
+			id: "7F623C7CF87BF73F"
+			tasks: [{
+				id: "5F4A13186BAE85D0"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			dependencies: [
+				"7F623C7CF87BF73F"
+				"524A7B6F17F6557E"
+			]
+			id: "4E171C581F770AC2"
+			tasks: [{
+				id: "67E9A20DBA0EE082"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 0.0d
+			dependencies: ["2E8EB3230BA4DBDE"]
+			id: "098FB911F3A0D53B"
+			tasks: [{
+				id: "49A8799EBCEA85A6"
+				type: "item"
+				item: "astralsorcery:rock_crystal_ore"
+			}]
+		}
+		{
+			icon: "immersiveengineering:coke_oven"
+			x: 16.0d
+			y: 3.0d
+			dependencies: ["1C9397A1CA80F30D"]
+			id: "5F4341F3D9FF4DF0"
+			tasks: [{
+				id: "7BC8B5327C6261E7"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+		}
+		{
+			x: 28.0d
+			y: -1.5d
+			dependencies: ["02ACBA620A798388"]
+			id: "323CA59B2C8E658F"
+			tasks: [{
+				id: "14F2FEFFB30F6FB1"
+				type: "item"
+				item: "astralsorcery:starmetal_ingot"
+			}]
+		}
+		{
+			x: 26.5d
+			y: -1.5d
+			dependencies: ["55CC71D6D0F1E132"]
+			id: "02ACBA620A798388"
+			tasks: [{
+				id: "400E6808F928B656"
+				type: "item"
+				item: "extendedcrafting:ender_star"
+			}]
+		}
+		{
+			icon: "extendedcrafting:ender_crafter"
+			x: 25.0d
+			y: 0.0d
+			dependencies: [
+				"393A902FC4FC9976"
+				"77D2468756EED995"
+			]
+			id: "37CD9BC341C5BCD6"
+			tasks: [
+				{
+					id: "797D2F6D47D5D370"
+					type: "item"
+					item: "extendedcrafting:ender_alternator"
+				}
+				{
+					id: "095A93E86826BA00"
+					type: "item"
+					item: "extendedcrafting:ender_crafter"
+				}
+				{
+					id: "56056C28E24482F6"
+					type: "item"
+					item: "contenttweaker:marsium_ingot"
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 4.5d
+			dependencies: ["09EAB07549058097"]
+			id: "646EA17B9405DB84"
+			tasks: [{
+				id: "63B82DF0A04DBEEB"
+				type: "item"
+				item: "minecraft:clay_ball"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 4.5d
+			dependencies: [
+				"3DD8A6B2C478CD1C"
+				"289C8C572700EE1B"
+			]
+			id: "23656CF0CECDCCDF"
+			tasks: [{
+				id: "6FBD509870AC9117"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 4.5d
+			dependencies: ["16ABFB115A484706"]
+			id: "09EAB07549058097"
+			tasks: [{
+				id: "3895BBD316C6EF02"
+				type: "item"
+				item: "botania:clayconia"
+			}]
+		}
+		{
+			icon: "minecraft:water_bucket"
+			x: 2.5d
+			y: 4.5d
+			dependencies: ["6F4D43A8CC76E45F"]
+			id: "25BE516CC20A1489"
+			tasks: [
+				{
+					id: "524E2858817362EA"
+					type: "item"
+					item: "minecraft:glass_bottle"
+				}
+				{
+					id: "2956FBE971D277F8"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+				{
+					id: "5F6770C3ADA1A125"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 4.5d
+			dependencies: ["7839D6B995E8A00A"]
+			id: "6EBB6EE7BA70EB5C"
+			tasks: [{
+				id: "23A8FC4B41DDE463"
+				type: "item"
+				item: "botania:alchemy_catalyst"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 4.5d
+			dependencies: ["23656CF0CECDCCDF"]
+			id: "16ABFB115A484706"
+			tasks: [
+				{
+					id: "5AAAFFFFE961F4DF"
+					type: "item"
+					item: "minecraft:brown_mushroom"
+				}
+				{
+					id: "6EB9BF6748C3226D"
+					type: "item"
+					item: "minecraft:red_mushroom"
+				}
+			]
+		}
+		{
+			icon: "minecraft:prismarine_shard"
+			x: 8.5d
+			y: 4.5d
+			shape: "circle"
+			dependencies: ["6EBB6EE7BA70EB5C"]
+			id: "289C8C572700EE1B"
+			tasks: [
+				{
+					id: "67267AA1644B8A0D"
+					type: "item"
+					item: "minecraft:prismarine_shard"
+				}
+				{
+					id: "24839B44A696C8F7"
+					type: "item"
+					item: "rftoolsbase:dimensionalshard"
+				}
+				{
+					id: "3A628A1B695F167A"
+					type: "item"
+					item: "botania:mana_diamond"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 4.5d
+			dependencies: [
+				"14A4C07AF7C01FE5"
+				"6F4D43A8CC76E45F"
+			]
+			id: "7839D6B995E8A00A"
+			tasks: [{
+				id: "15A9D55C72077A84"
+				type: "item"
+				item: "astralsorcery:nocturnal_powder"
+			}]
+		}
+		{
+			x: 26.0d
+			y: -4.0d
+			dependencies: ["11EE60FFEA17B8AE"]
+			size: 2.0d
+			id: "1A9172ED9BC19068"
+			tasks: [{
+				id: "2ABCD422EBDE4230"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			id: "3D05E3324DB2FB1F"
+			tasks: [{
+				id: "5359642449C54E25"
+				type: "item"
+				item: "botania:living_root"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			dependencies: ["2D19D4FE59977E1F"]
+			id: "6F4D43A8CC76E45F"
+			tasks: [{
+				id: "43B2F052BDC2F135"
+				type: "kill"
+				entity: "minecraft:witch"
+				value: 1L
+			}]
+		}
+		{
+			icon: "minecraft:lava_bucket"
+			x: 13.0d
+			y: 1.5d
+			dependencies: ["277B67812ECAFB08"]
+			id: "703626D7164BB753"
+			tasks: [
+				{
+					id: "2E12BC18069CC7F6"
+					type: "item"
+					item: "minecraft:magma_block"
+				}
+				{
+					id: "7578C41147B43EF2"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: -1.5d
+			dependencies: ["1A99E5914055D4CB"]
+			id: "12BE04156012ED31"
+			tasks: [{
+				id: "30B7C1D0B40AC927"
+				type: "item"
+				item: "alchemistry:chemical_dissolver"
+			}]
+		}
+		{
+			x: 20.5d
+			y: -6.0d
+			dependencies: ["6A682152EC143F63"]
+			id: "2C659D436A46A319"
+			tasks: [{
+				id: "6817217F81073B20"
+				type: "item"
+				item: "naturesaura:offering_table"
+			}]
+		}
+		{
+			x: 22.0d
+			y: -6.0d
+			dependencies: ["22335C4BF50FD1D3"]
+			id: "6A682152EC143F63"
+			tasks: [{
+				id: "517B22F660128159"
+				type: "item"
+				item: "extendedcrafting:basic_table"
+			}]
+		}
+		{
+			title: "Tier 1 Blood Altar"
+			x: 23.5d
+			y: -6.0d
+			dependencies: ["1A9172ED9BC19068"]
+			id: "22335C4BF50FD1D3"
+			tasks: [{
+				id: "685BF1D1AC7542B1"
+				type: "item"
+				item: "bloodmagic:blankslate"
+			}]
+		}
+		{
+			title: "Tier 1 Orb"
+			x: 19.0d
+			y: -6.0d
+			dependencies: ["2C659D436A46A319"]
+			id: "34583AD5AC193175"
+			tasks: [{
+				id: "7E1270A651B66472"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+		}
+		{
+			x: 23.0d
+			y: 1.0d
+			dependencies: [
+				"58241EB7B324EAAE"
+				"3C717E5C4B33A4F5"
+			]
+			size: 2.0d
+			id: "2EB7F35645696EE7"
+			tasks: [{
+				id: "36B6D098C580AD3F"
+				type: "item"
+				item: "botania:terra_plate"
+			}]
+		}
+		{
+			x: 22.0d
+			y: -1.5d
+			shape: "gear"
+			dependencies: ["393A902FC4FC9976"]
+			id: "58241EB7B324EAAE"
+			tasks: [{
+				id: "4E9C1096FE0DEA81"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+		}
+		{
+			x: 29.5d
+			y: 0.0d
+			dependencies: ["323CA59B2C8E658F"]
+			id: "411C3A4140105EB9"
+			tasks: [
+				{
+					id: "7FEC9C2072201E77"
+					type: "item"
+					item: "alchemistry:fusion_controller"
+				}
+				{
+					id: "421772F3F383DE76"
+					type: "item"
+					item: "alchemistry:fusion_casing"
+				}
+				{
+					id: "164C879255BA95F0"
+					type: "item"
+					item: "alchemistry:fusion_core"
+				}
+			]
+		}
+		{
+			x: 22.0d
+			y: -3.0d
+			dependencies: ["3CB882DE5E449880"]
+			id: "393A902FC4FC9976"
+			tasks: [
+				{
+					id: "349B99E93A0CE5D4"
+					type: "item"
+					item: "cucurbita:hollowed_pumpkin"
+				}
+				{
+					id: "3C8A91E21D329708"
+					type: "item"
+					item: {
+						id: "cucurbita:spoon"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "immersiveengineering:metal_press"
+			x: 19.0d
+			y: 0.0d
+			dependencies: ["68E96FCD37748C06"]
+			id: "2957DF2781D9E0E1"
+			tasks: [
+				{
+					id: "1FB7AEA5B95F3AC1"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 2L
+				}
+				{
+					id: "14DC0C91BF82EFDE"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 2L
+				}
+				{
+					id: "0BE0E40EA34F55E0"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+				}
+				{
+					id: "5B0C439540CF9AAF"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "13CF61EB1191B297"
+					type: "item"
+					item: "minecraft:piston"
+				}
+			]
+		}
+		{
+			x: 32.5d
+			y: -1.5d
+			dependencies: ["411C3A4140105EB9"]
+			id: "4A1001FF5F6386DB"
+			tasks: [{
+				id: "0319A669E252295C"
+				type: "item"
+				item: "contenttweaker:jupitum_ingot"
+			}]
+		}
+		{
+			x: 32.5d
+			y: 0.0d
+			dependencies: [
+				"4A1001FF5F6386DB"
+				"175BC5F4BF7812C7"
+				"40E3DF0DF3848906"
+				"323CA59B2C8E658F"
+			]
+			id: "4E6CE3957A5BCF98"
+			tasks: [{
+				id: "6FB014F5C11EF4A2"
+				type: "item"
+				item: "astralsorcery:altar_constellation"
+			}]
+		}
+		{
+			x: 31.0d
+			y: 1.5d
+			dependencies: ["18E383933C7F969B"]
+			id: "2D287501E33B93E2"
+			tasks: [{
+				id: "65765FCDE678E7BE"
+				type: "item"
+				item: "minecraft:sponge"
+			}]
+		}
+		{
+			x: 29.5d
+			y: 1.5d
+			dependencies: ["47DA408FAC1BEF57"]
+			id: "18E383933C7F969B"
+			tasks: [{
+				id: "51CE661CA848CA33"
+				type: "kill"
+				entity: "minecraft:elder_guardian"
+				value: 1L
+			}]
+		}
+		{
+			x: 28.0d
+			y: 1.5d
+			dependencies: ["37CD9BC341C5BCD6"]
+			id: "47DA408FAC1BEF57"
+			tasks: [{
+				id: "2124D2B0D031D672"
+				type: "item"
+				item: "naturesaura:animal_spawner"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -6.0d
+			dependencies: ["34583AD5AC193175"]
+			id: "02D9F458156F0F4B"
+			tasks: [{
+				id: "09B908A28BF93BF3"
+				type: "item"
+				item: "bloodmagic:blankrune"
+			}]
+		}
+		{
+			title: "Tier 2 Blood Altar"
+			x: 17.5d
+			y: -7.5d
+			dependencies: ["02D9F458156F0F4B"]
+			id: "35159DEC9439EEB5"
+			tasks: [{
+				id: "54B2EF4381F53F95"
+				type: "item"
+				item: "bloodmagic:reinforcedslate"
+			}]
+		}
+		{
+			x: 25.0d
+			y: -1.5d
+			dependencies: ["37CD9BC341C5BCD6"]
+			id: "55CC71D6D0F1E132"
+			tasks: [{
+				id: "682B9EE50A43E710"
+				type: "item"
+				item: "botania:goddess_charm"
+			}]
+		}
+		{
+			x: 31.0d
+			y: 0.0d
+			dependencies: [
+				"2D287501E33B93E2"
+				"432B6AC7E80A5700"
+			]
+			id: "289285840B2A8283"
+			tasks: [{
+				id: "22B92655C7A3A884"
+				type: "item"
+				item: "extendedcrafting:elite_table"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -6.0d
+			dependencies: ["6CB31583022A3783"]
+			id: "4575EA694D74697E"
+			tasks: [{
+				id: "0C83EF32F64AB1F3"
+				type: "item"
+				item: "extendedcrafting:luminessence"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -6.0d
+			dependencies: ["14A4C07AF7C01FE5"]
+			id: "6CB31583022A3783"
+			tasks: [{
+				id: "40E3E69CC8EB88B0"
+				type: "item"
+				item: "astralsorcery:illumination_powder"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -6.0d
+			dependencies: [
+				"4575EA694D74697E"
+				"02D9F458156F0F4B"
+			]
+			id: "6A8897F7AA4C817E"
+			tasks: [{
+				id: "389BB84C49C2FC50"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -10.5d
+			dependencies: ["3CDF32EB63C071E4"]
+			id: "1635ED17C8F037F9"
+			tasks: [{
+				id: "5D86E1B863ED7B9C"
+				type: "item"
+				item: "naturesaura:conversion_catalyst"
+			}]
+		}
+		{
+			title: "Tier 2 Orb"
+			x: 16.0d
+			y: -12.0d
+			dependencies: ["1635ED17C8F037F9"]
+			id: "00E9466C583D7457"
+			tasks: [{
+				id: "40F30AD4F74BC36B"
+				type: "item"
+				item: "bloodmagic:apprenticebloodorb"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -7.5d
+			dependencies: ["6A8897F7AA4C817E"]
+			id: "6AF0FF4BAF19393E"
+			tasks: [{
+				id: "1B342147DCC324F4"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -9.0d
+			dependencies: ["6AF0FF4BAF19393E"]
+			id: "3CDF32EB63C071E4"
+			tasks: [{
+				id: "4BC1A143970C2AD1"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 23.5d
+			y: -9.0d
+			dependencies: [
+				"783DAABB8F6FFAE9"
+				"3AE0BD23E9F97DB1"
+			]
+			id: "40E3DF0DF3848906"
+			tasks: [{
+				id: "483F87A879BB5E21"
+				type: "item"
+				item: "bloodmagic:incensealtar"
+			}]
+		}
+		{
+			x: 22.0d
+			y: -7.5d
+			dependencies: ["2C659D436A46A319"]
+			id: "783DAABB8F6FFAE9"
+			tasks: [{
+				id: "225D779B51588B61"
+				type: "item"
+				item: "astralsorcery:altar_attunement"
+			}]
+		}
+		{
+			title: "Tier 3 Altar"
+			x: 17.5d
+			y: -10.5d
+			dependencies: ["5A4E3F6B4FAA4D02"]
+			id: "4462A4A7F1DA50A6"
+			tasks: [{
+				id: "40ECA3DD4C7ED7F1"
+				type: "item"
+				item: {
+					id: "botania:terra_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: -12.0d
+			dependencies: ["4462A4A7F1DA50A6"]
+			id: "1118A05235FA993E"
+			tasks: [{
+				id: "374151C4E3F7CD94"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+		}
+		{
+			title: "Tier 3 Blood Altar"
+			x: 17.5d
+			y: -9.0d
+			dependencies: ["35159DEC9439EEB5"]
+			id: "5A4E3F6B4FAA4D02"
+			tasks: [{
+				id: "24B870EF03F3B613"
+				type: "item"
+				item: "bloodmagic:infusedslate"
+			}]
+		}
+		{
+			x: 20.5d
+			y: -9.0d
+			dependencies: ["7E0F44A1BFCB9791"]
+			id: "31C6C5DCB5ECDF81"
+			tasks: [{
+				id: "20E8EAF999C07A24"
+				type: "item"
+				item: "bloodmagic:alchemicalreactionchamber"
+			}]
+		}
+		{
+			x: 20.5d
+			y: -10.5d
+			dependencies: ["133695FE325A6B11"]
+			id: "76067BD204F6B74C"
+			tasks: [{
+				id: "284866280C98A5E0"
+				type: "item"
+				item: "bloodmagic:weakbloodshard"
+			}]
+		}
+		{
+			title: "Tier 3 Orb"
+			x: 19.0d
+			y: -9.0d
+			dependencies: [
+				"5A4E3F6B4FAA4D02"
+				"7CD5B6772E522D19"
+			]
+			id: "7E0F44A1BFCB9791"
+			tasks: [{
+				id: "11DBEA48F3693818"
+				type: "item"
+				item: "bloodmagic:magicianbloodorb"
+			}]
+		}
+		{
+			x: 22.0d
+			y: -10.5d
+			dependencies: ["7EC8BB82DCE8F389"]
+			id: "133695FE325A6B11"
+			tasks: [{
+				id: "48B74BFD8F3FE8A9"
+				type: "item"
+				item: "botania:alfheim_portal"
+			}]
+		}
+		{
+			title: "Tier 4 Altar"
+			x: 23.5d
+			y: -10.5d
+			dependencies: ["214CC882CEE670BE"]
+			id: "0ADDF9BDB7EFE0A3"
+			tasks: [{
+				id: "35CA825621DC0C66"
+				type: "item"
+				item: "bloodmagic:demonslate"
+			}]
+		}
+		{
+			x: 22.0d
+			y: -12.0d
+			dependencies: ["76067BD204F6B74C"]
+			id: "214CC882CEE670BE"
+			tasks: [{
+				id: "68F0156B1A02A81E"
+				type: "item"
+				item: "bloodmagic:largebloodstonebrick"
+			}]
+		}
+		{
+			x: 19.0d
+			y: -3.0d
+			dependencies: ["484C681DE81F85B9"]
+			id: "0EDB7676D50BCF83"
+			tasks: [{
+				id: "1DF27DF43F5C0E87"
+				type: "item"
+				item: "powder_power:blend_trilium"
+				count: 2L
+			}]
+		}
+		{
+			x: 34.0d
+			y: 0.0d
+			dependencies: ["58E1DB220E424833"]
+			id: "175BC5F4BF7812C7"
+			tasks: [{
+				id: "5D272EEB6C9DAC29"
+				type: "item"
+				item: "minecraft:gilded_blackstone"
+			}]
+		}
+		{
+			icon: "immersiveengineering:crusher"
+			x: 22.0d
+			y: 3.0d
+			shape: "gear"
+			id: "3C717E5C4B33A4F5"
+			tasks: [
+				{
+					id: "1504F243600DC654"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 10L
+				}
+				{
+					id: "646971F946666BDD"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "37578286B70249C4"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "01DED8600AE2DB67"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 8L
+				}
+				{
+					id: "2D718DE176E778AB"
+					type: "item"
+					item: "minecraft:hopper"
+					count: 9L
+				}
+			]
+		}
+		{
+			icon: "occultism:otherstone"
+			x: 23.5d
+			y: -12.0d
+			dependencies: ["214CC882CEE670BE"]
+			id: "32CE5927F97B8FF5"
+			tasks: [
+				{
+					id: "5A6E5A89E96DE27E"
+					type: "item"
+					item: "occultism:otherstone"
+				}
+				{
+					id: "7BAEA64E7B1B4D31"
+					type: "item"
+					item: "occultism:otherstone_natural"
+				}
+			]
+		}
+		{
+			x: 24.0d
+			y: -7.5d
+			dependencies: [
+				"783DAABB8F6FFAE9"
+				"2E838608645D844C"
+			]
+			id: "10187052C942D86A"
+			tasks: [{
+				id: "620917A7BAF89298"
+				type: "item"
+				item: {
+					id: "astralsorcery:lens"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:purity"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+								]
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 28.0d
+			y: -7.5d
+			dependencies: ["5B6F719E12CEB61E"]
+			id: "341D0D68DC626046"
+			tasks: [{
+				id: "23BB60FC6861889D"
+				type: "item"
+				item: "astralsorcery:starmetal_ore"
+			}]
+		}
+		{
+			icon: "occultism:iesnium_ore"
+			x: 30.233333333333334d
+			y: -7.788095238095238d
+			dependencies: ["341D0D68DC626046"]
+			size: 2.0d
+			id: "432B6AC7E80A5700"
+			tasks: [{
+				id: "5C6F66EF7D4B984A"
+				type: "item"
+				item: "occultism:iesnium_ore"
+			}]
+		}
+		{
+			x: 27.0d
+			y: -9.0d
+			shape: "gear"
+			dependencies: ["5EB5E61C661BBD3C"]
+			id: "2E838608645D844C"
+			tasks: [{
+				id: "0F4734CEBF9CE7DD"
+				type: "item"
+				item: "astralsorcery:stardust"
+			}]
+		}
+		{
+			title: "Tier 4 Orb"
+			x: 20.5d
+			y: -12.0d
+			dependencies: ["76067BD204F6B74C"]
+			id: "42EE11A9392A1CCA"
+			tasks: [{
+				id: "2CED568AD4252C2A"
+				type: "item"
+				item: "bloodmagic:masterbloodorb"
+			}]
+		}
+		{
+			x: 34.0d
+			y: 1.5d
+			shape: "gear"
+			id: "58E1DB220E424833"
+			tasks: [{
+				id: "561567B6C878ECB5"
+				type: "item"
+				item: "naturesaura:conversion_catalyst"
+			}]
+		}
+		{
+			x: 29.5d
+			y: -9.0d
+			dependencies: ["213DBD8C7CD92C83"]
+			id: "5EB5E61C661BBD3C"
+			tasks: [{
+				id: "009548B318C5002F"
+				type: "item"
+				item: {
+					id: "astralsorcery:chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 28.0d
+			y: -3.0d
+			dependencies: ["393A902FC4FC9976"]
+			id: "213DBD8C7CD92C83"
+			tasks: [{
+				id: "413ACC43AD13D6AF"
+				type: "item"
+				item: "powder_power:powder_gold"
+			}]
+		}
+		{
+			x: 22.0d
+			y: -9.0d
+			dependencies: ["31C6C5DCB5ECDF81"]
+			id: "7EC8BB82DCE8F389"
+			tasks: [{
+				id: "5787F337360278AD"
+				type: "item"
+				item: "botania:glimmering_livingwood"
+			}]
+		}
+		{
+			x: 25.0d
+			y: -10.5d
+			dependencies: [
+				"0ADDF9BDB7EFE0A3"
+				"7AE47D1C5215B114"
+			]
+			id: "3AE0BD23E9F97DB1"
+			tasks: [{
+				id: "0DCE1B6F4C3E6F16"
+				type: "item"
+				item: "powder_power:powder_iron"
+			}]
+		}
+		{
+			x: 25.0d
+			y: -6.0d
+			dependencies: [
+				"10187052C942D86A"
+				"1945C343F9F2AD75"
+			]
+			id: "5B6F719E12CEB61E"
+			tasks: [{
+				id: "5D08003AA32CA614"
+				type: "item"
+				item: {
+					id: "astralsorcery:rock_collector_crystal"
+					Count: 1b
+					tag: {
+						astralsorcery: {
+							constellation: "astralsorcery:discidia"
+							crystalProperties: {
+								attributes: [
+									{
+										property: "astralsorcery:size"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:purity"
+										pLevel: 2
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:shape"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:collector.rate"
+										pLevel: 3
+										discovered: 1b
+									}
+									{
+										property: "astralsorcery:constellation.discidia"
+										pLevel: 2
+										discovered: 1b
+									}
+								]
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 28.0d
+			y: -6.0d
+			dependencies: [
+				"37CD9BC341C5BCD6"
+				"0ADDF9BDB7EFE0A3"
+			]
+			id: "1945C343F9F2AD75"
+			tasks: [{
+				id: "1B9AFBAA9908A489"
+				type: "item"
+				item: "astralsorcery:infuser"
+			}]
+		}
+		{
+			x: 19.0d
+			y: -10.5d
+			dependencies: ["3F414F95D65C71CF"]
+			id: "7CD5B6772E522D19"
+			tasks: [{
+				id: "64D0B35F76ACBB2D"
+				type: "item"
+				item: "mekanism:osmium_compressor"
+			}]
+		}
+		{
+			x: 19.0d
+			y: -12.0d
+			dependencies: ["0CE2F5CCDFA72414"]
+			id: "3F414F95D65C71CF"
+			tasks: [{
+				id: "79A54475425D1D9C"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+		}
+		{
+			x: 19.0d
+			y: -13.5d
+			dependencies: ["75C72C9CB2EC1E95"]
+			id: "0CE2F5CCDFA72414"
+			tasks: [{
+				id: "04784401759A98BF"
+				type: "item"
+				item: "mekanism:steel_casing"
+			}]
+		}
+		{
+			icon: "immersiveengineering:crusher"
+			x: 17.5d
+			y: -13.5d
+			shape: "gear"
+			id: "75C72C9CB2EC1E95"
+			tasks: [
+				{
+					id: "43E011A9A9D879A6"
+					type: "item"
+					item: "minecraft:hopper"
+					count: 9L
+				}
+				{
+					id: "19A6D93B7EBC0D96"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 8L
+				}
+				{
+					id: "749AC8103FC3E559"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "6933D67C7443CBAD"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "0DBDF3BCED4640D2"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 10L
+				}
+			]
+		}
+		{
+			x: 26.5d
+			y: 0.0d
+			dependencies: ["37CD9BC341C5BCD6"]
+			id: "7681D8ECBF577C03"
+			tasks: [{
+				id: "52CC1E51C84BC182"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+		}
+		{
+			x: 32.5d
+			y: 1.5d
+			dependencies: [
+				"289285840B2A8283"
+				"4E6CE3957A5BCF98"
+			]
+			id: "50E30B8C1F5E1A24"
+			tasks: [{
+				id: "67CFD83FCC23A76E"
+				type: "item"
+				item: "mekanism:dirty_netherite_scrap"
+			}]
+		}
+		{
+			x: 32.5d
+			y: 3.0d
+			dependencies: ["50E30B8C1F5E1A24"]
+			id: "73EB6383C47E9CE1"
+			tasks: [{
+				id: "7A8F9DF77D754848"
+				type: "item"
+				item: "mekanismgenerators:fission_reactor_casing"
+			}]
+		}
+		{
+			x: 34.0d
+			y: 3.0d
+			dependencies: ["73EB6383C47E9CE1"]
+			id: "5D412124B3B0243C"
+			tasks: [{
+				id: "7E190CD9200FF7F8"
+				type: "item"
+				item: "mekanism:dust_netherite"
+			}]
+		}
+		{
+			x: 35.5d
+			y: 3.0d
+			dependencies: ["5D412124B3B0243C"]
+			id: "21057B237EAF912F"
+			tasks: [{
+				id: "588C31F4782B9548"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+		}
+		{
+			x: 35.5d
+			y: 0.0d
+			dependencies: ["05BC10C87843C38E"]
+			id: "124614B09D684BEA"
+			tasks: [{
+				id: "69DCA0D2487FA407"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+		}
+		{
+			x: 35.5d
+			y: 1.5d
+			dependencies: ["21057B237EAF912F"]
+			id: "05BC10C87843C38E"
+			tasks: [{
+				id: "59EF0BDA74696269"
+				type: "item"
+				item: "mekanism:reprocessed_fissile_fragment"
+			}]
+		}
+		{
+			x: 34.0d
+			y: -1.5d
+			dependencies: ["51939C65941F6542"]
+			id: "30C66C697F974E71"
+			tasks: [{
+				id: "1328BD9B196840A5"
+				type: "item"
+				item: "minecraft:netherite_ingot"
+			}]
+		}
+		{
+			x: 35.5d
+			y: -1.5d
+			dependencies: ["124614B09D684BEA"]
+			id: "51939C65941F6542"
+			tasks: [{
+				id: "7F893FE225282C22"
+				type: "item"
+				item: "astralsorcery:altar_radiance"
+			}]
+		}
+		{
+			x: 35.5d
+			y: -3.0d
+			dependencies: ["30C66C697F974E71"]
+			id: "40DFC39ADB7A71E5"
+			tasks: [{
+				id: "42EBAC1CD2ADE2C3"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
+		}
+		{
+			x: 34.0d
+			y: -3.0d
+			dependencies: ["40DFC39ADB7A71E5"]
+			size: 2.0d
+			id: "1FCF8332E02F37F9"
+			tasks: [{
+				id: "45CF9EBC26948C90"
+				type: "item"
+				item: "minecraft:beacon"
+			}]
+		}
+		{
+			x: 32.5d
+			y: -3.0d
+			dependencies: [
+				"1FCF8332E02F37F9"
+				"5541D8EAE3DFDA74"
+			]
+			id: "1F02EC6F1CCC1470"
+			tasks: [{
+				id: "3377D5DBA2D93186"
+				type: "item"
+				item: "bloodmagic:etherealslate"
+			}]
+		}
+		{
+			x: 31.0d
+			y: -4.5d
+			dependencies: ["7F519E1602BB2009"]
+			id: "1AC55B8635098470"
+			tasks: [{
+				id: "1731CDA271FF9631"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+			}]
+		}
+		{
+			x: 31.0d
+			y: -6.0d
+			dependencies: ["1AC55B8635098470"]
+			id: "77E372704F154ED7"
+			tasks: [{
+				id: "3F14B1BB80736BA6"
+				type: "item"
+				item: "powder_power:blend_quadrilium"
+			}]
+		}
+		{
+			x: 32.3952380952381d
+			y: -9.851190476190489d
+			dependencies: ["15DB752288A63AB9"]
+			size: 2.0d
+			id: "2B7E782A5F18BAFC"
+			tasks: [{
+				id: "01062D0D89D3F027"
+				type: "item"
+				item: "mythicbotany:kvasir_mead"
+			}]
+		}
+		{
+			x: 32.5d
+			y: -6.0d
+			dependencies: ["77E372704F154ED7"]
+			id: "23DA1E10F8FF3CF7"
+			tasks: [{
+				id: "09DE980759FAD81D"
+				type: "item"
+				item: "mythicbotany:alfsteel_ingot"
+			}]
+		}
+		{
+			x: 32.5d
+			y: -4.5d
+			shape: "gear"
+			id: "5541D8EAE3DFDA74"
+			tasks: [{
+				id: "4307C2E35DA5E0A9"
+				type: "item"
+				item: "powder_power:powder_iron"
+			}]
+		}
+		{
+			x: 31.0d
+			y: -3.0d
+			dependencies: [
+				"1F02EC6F1CCC1470"
+				"31B2983A016D9AC7"
+			]
+			id: "7F519E1602BB2009"
+			tasks: [{
+				id: "30EE6DCFE7CCFC14"
+				type: "item"
+				item: "mekanism:sps_port"
+			}]
+		}
+		{
+			x: 31.0d
+			y: 3.0d
+			dependencies: ["50E30B8C1F5E1A24"]
+			id: "6FD65C8D638C766F"
+			tasks: [{
+				id: "0E8B801384CB9AC8"
+				type: "item"
+				item: {
+					id: "exnihilosequentia:mesh_string"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.5d
+			dependencies: ["14A4C07AF7C01FE5"]
+			id: "47C0B20499FD7686"
+			tasks: [{
+				id: "06210066E19EA50C"
+				type: "item"
+				item: "integrateddynamics:menril_sapling"
+			}]
+		}
+		{
+			x: 29.5d
+			y: 3.0d
+			dependencies: ["2D287501E33B93E2"]
+			id: "734721DD4A40C125"
+			tasks: [{
+				id: "5C520E2EC15FB70E"
+				type: "item"
+				item: "minecraft:spawner"
+			}]
+		}
+		{
+			x: 32.5d
+			y: -7.5d
+			dependencies: [
+				"23DA1E10F8FF3CF7"
+				"00BA816E3226205B"
+			]
+			id: "15DB752288A63AB9"
+			tasks: [{
+				id: "4CD21517699CCEE5"
+				type: "item"
+				item: "mythicbotany:kvasir_blood"
+			}]
+		}
+		{
+			x: 34.0d
+			y: -7.5d
+			dependencies: ["0C8FDEAA7F371B4C"]
+			id: "00BA816E3226205B"
+			tasks: [{
+				id: "0AFF88910292CBB8"
+				type: "item"
+				item: "mythicbotany:alfsteel_pylon"
+			}]
+		}
+		{
+			x: 35.5d
+			y: -6.0d
+			dependencies: ["0793CB132D5BFFF4"]
+			id: "0A776A23623D6359"
+			tasks: [{
+				id: "517AC3A5889C2271"
+				type: "item"
+				item: "botania:gaia_pylon"
+			}]
+		}
+		{
+			x: 34.0d
+			y: -6.0d
+			dependencies: ["4EDE36742983EB33"]
+			id: "0793CB132D5BFFF4"
+			tasks: [{
+				id: "1924806B30945174"
+				type: "item"
+				item: "botania:natura_pylon"
+			}]
+		}
+		{
+			x: 34.0d
+			y: -4.5d
+			dependencies: ["2136FBB05C0FBA03"]
+			id: "4EDE36742983EB33"
+			tasks: [{
+				id: "71A8843512EAC428"
+				type: "item"
+				item: "botania:mana_pylon"
+			}]
+		}
+		{
+			x: 35.5d
+			y: -4.5d
+			shape: "gear"
+			id: "2136FBB05C0FBA03"
+			tasks: [{
+				id: "7219BF0900688CF3"
+				type: "item"
+				item: "botania:mana_diamond"
+			}]
+		}
+		{
+			x: 31.0d
+			y: 4.5d
+			dependencies: ["6FD65C8D638C766F"]
+			id: "75226726EBE8FCB2"
+			tasks: [{
+				id: "0841DBE5BED05F4C"
+				type: "item"
+				item: "exnihilosequentia:mesh_flint"
+			}]
+		}
+		{
+			x: 29.5d
+			y: 4.5d
+			dependencies: ["75226726EBE8FCB2"]
+			id: "11481A1C6569CA3E"
+			tasks: [{
+				id: "5A5C8422D7DDD14C"
+				type: "item"
+				item: "exnihilosequentia:mesh_iron"
+			}]
+		}
+		{
+			x: 28.0d
+			y: 4.5d
+			dependencies: ["11481A1C6569CA3E"]
+			id: "36CF87CA0FD285F2"
+			tasks: [{
+				id: "651B8A33AFFB80BD"
+				type: "item"
+				item: "exnihilosequentia:mesh_diamond"
+			}]
+		}
+		{
+			x: 26.5d
+			y: 4.5d
+			dependencies: ["36CF87CA0FD285F2"]
+			id: "3374F5D26BE27A6B"
+			tasks: [{
+				id: "506061ECFD9BFCEC"
+				type: "item"
+				item: "exnihilosequentia:mesh_emerald"
+			}]
+		}
+		{
+			x: 25.0d
+			y: 4.5d
+			dependencies: ["3374F5D26BE27A6B"]
+			id: "739C57D5384FD109"
+			tasks: [{
+				id: "338E0DEAEB1A42A0"
+				type: "item"
+				item: "exnihilosequentia:mesh_netherite"
+			}]
+		}
+		{
+			x: 31.0d
+			y: 6.0d
+			shape: "gear"
+			dependencies: ["75226726EBE8FCB2"]
+			id: "771F5930A47AF417"
+			tasks: [{
+				id: "2CA1E398AF9B470C"
+				type: "item"
+				item: "appliedenergistics2:sky_dust"
+			}]
+		}
+		{
+			title: "Ex Nihilo Barrel"
+			x: 22.0d
+			y: 0.0d
+			dependencies: ["6776FE159F468286"]
+			id: "2AD10E09BDDA9F8C"
+			tasks: [
+				{
+					id: "10E1610C264D41AC"
+					type: "item"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "exnihilosequentia:barrels"
+						}
+					}
+				}
+				{
+					id: "22BF7E898E04D23F"
+					type: "item"
+					item: "exnihilosequentia:barrel_stone"
+				}
+			]
+		}
+		{
+			x: 32.5d
+			y: 4.5d
+			dependencies: ["771F5930A47AF417"]
+			id: "18B6543AB354F256"
+			tasks: [{
+				id: "368D04A425D24E32"
+				type: "item"
+				item: "appliedenergistics2:silicon_press"
+			}]
+		}
+		{
+			x: 32.5d
+			y: 6.0d
+			dependencies: ["771F5930A47AF417"]
+			id: "2DAB00DB26D11207"
+			tasks: [{
+				id: "546B5340A18C6077"
+				type: "item"
+				item: "appliedenergistics2:logic_processor_press"
+			}]
+		}
+		{
+			x: 32.5d
+			y: 7.5d
+			dependencies: ["771F5930A47AF417"]
+			id: "341230D3903CF5ED"
+			tasks: [{
+				id: "55A4F3566A1F783A"
+				type: "item"
+				item: "appliedenergistics2:engineering_processor_press"
+			}]
+		}
+		{
+			x: 31.0d
+			y: 7.5d
+			dependencies: ["771F5930A47AF417"]
+			id: "1E260C33D7C589A4"
+			tasks: [{
+				id: "719EB7D1BFADBF38"
+				type: "item"
+				item: "appliedenergistics2:calculation_processor_press"
+			}]
+		}
+		{
+			x: 29.5d
+			y: 7.5d
+			dependencies: ["771F5930A47AF417"]
+			id: "03F5E64D94D5C8A0"
+			tasks: [{
+				id: "5086FB3FC52F057D"
+				type: "item"
+				item: "appliedenergistics2:energy_acceptor"
+			}]
+		}
+		{
+			x: 35.5d
+			y: -7.5d
+			dependencies: ["0A776A23623D6359"]
+			id: "0C8FDEAA7F371B4C"
+			tasks: [{
+				id: "25F3A95044F16589"
+				type: "item"
+				item: "botania:life_essence"
+			}]
+		}
+		{
+			x: 29.5d
+			y: 6.0d
+			dependencies: ["03F5E64D94D5C8A0"]
+			id: "3A30F8F28873DCAD"
+			tasks: [{
+				id: "2D53AEE4F4AD09E4"
+				type: "item"
+				item: "appliedenergistics2:controller"
+			}]
+		}
+		{
+			x: 27.5d
+			y: -10.5d
+			dependencies: ["3AE0BD23E9F97DB1"]
+			id: "31B2983A016D9AC7"
+			tasks: [{
+				id: "030C7FE97C12D9B2"
+				type: "item"
+				item: "bloodmagic:etherealslate"
+			}]
+		}
+		{
+			title: "Mekasuit"
+			icon: {
+				id: "mekanism:mekasuit_bodyarmor"
+				Count: 1b
+				tag: {
+					HideFlags: 2
+				}
+			}
+			x: 36.0d
+			y: -12.0d
+			dependencies: ["2B7E782A5F18BAFC"]
+			size: 4.0d
+			id: "5D413C1D0E0368C5"
+			tasks: [
+				{
+					id: "0BF90E236CB45A71"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_helmet"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "5FB73D97328E2228"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_bodyarmor"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "2FEDD71D472683F1"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_pants"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "48557631029CC14C"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_boots"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "77CA7F25810B70F8"
+					type: "item"
+					item: {
+						id: "mekanism:meka_tool"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 20.5d
+			y: -7.5d
+			dependencies: ["31C6C5DCB5ECDF81"]
+			id: "27EE9C870191EB6E"
+			tasks: [{
+				id: "6BE47788AE22EA31"
+				type: "item"
+				item: "appliedenergistics2:sky_dust"
+			}]
+		}
+		{
+			x: 25.0d
+			y: -12.0d
+			shape: "gear"
+			id: "7AE47D1C5215B114"
+			tasks: [{
+				id: "5367A6BB0CE91AC1"
+				type: "item"
+				item: {
+					id: "powder_power:wand_alchemist"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

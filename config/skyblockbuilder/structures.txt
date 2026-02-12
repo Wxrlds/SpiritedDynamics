@@ -19,5 +19,5 @@ minecraft:bastion_remnant
 astralsorcery:ancient_shrine
 astralsorcery:desert_shrine
 astralsorcery:small_shrine
-appliedenergistics2:meteorite
 mythicbotany:andwari_cave
+appliedenergistics2:meteorite

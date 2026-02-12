@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": {
+      "text": "Iron Powder"
+    },
+    "description": {
+      "text": "Does this even contain iron?"
+    },
+    "icon": {
+      "item": "powder_power:powder_iron"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ironpowder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "powder_power:powder_iron"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "spiriteddynamics:terraplate"
+}

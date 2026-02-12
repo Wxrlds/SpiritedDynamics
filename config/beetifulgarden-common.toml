@@ -1,0 +1,182 @@
+
+#Configs for the Beetiful Fruits
+[Beetiful]
+
+	[Beetiful.Cloudy]
+		#Nutrition value for Cloudy Beetiful
+		#Range: 0 ~ 20
+		cloudyNutrition = 1
+		#Saturation value for Cloudy Beetiful
+		#Range: 0.0 ~ 20.0
+		cloudySaturation = 0.6
+		#Effects of Cloudy Beetiful
+		#Can be empty string to disable effects ""
+		#Effects separated by pipe (|)
+		#modID:effectID:durationInTicks:amplifier|modID:effectID:durationInTicks:amplifier
+		cloudyEffects = "minecraft:speed:6000:1|minecraft:weakness:1800:0"
+		#Which block the Cloudy Beetiful is plantable on
+		#Can be empty string to disable planting ""
+		#modID:blockID
+		cloudyPlantableOn = "minecraft:blue_ice"
+
+	[Beetiful.Eminence]
+		#Nutrition value for Eminence Beetiful
+		#Range: 0 ~ 20
+		eminenceNutrition = 1
+		#Saturation value for Eminence Beetiful
+		#Range: 0.0 ~ 20.0
+		eminenceSaturation = 0.6
+		#Effects of Eminence Beetiful
+		#Can be empty string to disable effects ""
+		#Effects separated by pipe (|)
+		#modID:effectID:durationInTicks:amplifier|modID:effectID:durationInTicks:amplifier
+		eminenceEffects = "minecraft:fire_resistance:6000:0|minecraft:poison:1800:0"
+		#Which block the Eminence Beetiful is plantable on
+		#Can be empty string to disable planting ""
+		#modID:blockID
+		eminencePlantableOn = "minecraft:crying_obsidian"
+
+	[Beetiful.Marine]
+		#Nutrition value for Marine Beetiful
+		#Range: 0 ~ 20
+		marineNutrition = 1
+		#Saturation value for Marine Beetiful
+		#Range: 0.0 ~ 20.0
+		marineSaturation = 0.6
+		#Effects of Marine Beetiful
+		#Can be empty string to disable effects ""
+		#Effects separated by pipe (|)
+		#modID:effectID:durationInTicks:amplifier|modID:effectID:durationInTicks:amplifier
+		marineEffects = "minecraft:resistance:6000:3|minecraft:blindness:300:0|minecraft:slowness:1200:1|minecraft:bad_omen:20:4"
+		#Which block the Marine Beetiful is plantable on
+		#Can be empty string to disable planting ""
+		#modID:blockID
+		marinePlantableOn = "minecraft:blue_glazed_terracotta"
+
+	[Beetiful.Olive]
+		#Nutrition value for Olive Beetiful
+		#Range: 0 ~ 20
+		oliveNutrition = 1
+		#Saturation value for Olive Beetiful
+		#Range: 0.0 ~ 20.0
+		oliveSaturation = 0.6
+		#Effects of Olive Beetiful
+		#Can be empty string to disable effects ""
+		#Effects separated by pipe (|)
+		#modID:effectID:durationInTicks:amplifier|modID:effectID:durationInTicks:amplifier
+		oliveEffects = "minecraft:saturation:6000:0|minecraft:instant_damage:20:0"
+		#Which block the Olive Beetiful is plantable on
+		#Can be empty string to disable planting ""
+		#modID:blockID
+		olivePlantableOn = "minecraft:hay_block"
+
+	[Beetiful.Pistachio]
+		#Nutrition value for Pistachio Beetiful
+		#Range: 0 ~ 20
+		pistachioNutrition = 1
+		#Saturation value for Pistachio Beetiful
+		#Range: 0.0 ~ 20.0
+		pistachioSaturation = 0.6
+		#Effects of Pistachio Beetiful
+		#Can be empty string to disable effects ""
+		#Effects separated by pipe (|)
+		#modID:effectID:durationInTicks:amplifier|modID:effectID:durationInTicks:amplifier
+		pistachioEffects = "minecraft:strength:6000:2|minecraft:slowness:1200:3"
+		#Which block the Pistachio Beetiful is plantable on
+		#Can be empty string to disable planting ""
+		#modID:blockID
+		pistachioPlantableOn = "minecraft:wet_sponge"
+
+	[Beetiful.Pixie]
+		#Nutrition value for Pixie Beetiful
+		#Range: 0 ~ 20
+		pixieNutrition = 1
+		#Saturation value for Pixie Beetiful
+		#Range: 0.0 ~ 20.0
+		pixieSaturation = 0.6
+		#Effects of Pixie Beetiful
+		#Can be empty string to disable effects ""
+		#Effects separated by pipe (|)
+		#modID:effectID:durationInTicks:amplifier|modID:effectID:durationInTicks:amplifier
+		pixieEffects = "minecraft:regeneration:6000:0|minecraft:hunger:600:5"
+		#Which block the Pixie Beetiful is plantable on
+		#Can be empty string to disable planting ""
+		#modID:blockID
+		pixiePlantableOn = "minecraft:melon"
+
+	[Beetiful.Sienna]
+		#Nutrition value for Sienna Beetiful
+		#Range: 0 ~ 20
+		siennaNutrition = 1
+		#Saturation value for Sienna Beetiful
+		#Range: 0.0 ~ 20.0
+		siennaSaturation = 0.6
+		#Effects of Sienna Beetiful
+		#Can be empty string to disable effects ""
+		#Effects separated by pipe (|)
+		#modID:effectID:durationInTicks:amplifier|modID:effectID:durationInTicks:amplifier
+		siennaEffects = "minecraft:slow_falling:6000:0|minecraft:slowness:600:1"
+		#Which block the Sienna Beetiful is plantable on
+		#Can be empty string to disable planting ""
+		#modID:blockID
+		siennaPlantableOn = "minecraft:honeycomb_block"
+
+	[Beetiful.Velvet]
+		#Nutrition value for Velvet Beetiful
+		#Range: 0 ~ 20
+		velvetNutrition = 1
+		#Saturation value for Velvet Beetiful
+		#Range: 0.0 ~ 20.0
+		velvetSaturation = 0.6
+		#Effects of Velvet Beetiful
+		#Can be empty string to disable effects ""
+		#Effects separated by pipe (|)
+		#modID:effectID:durationInTicks:amplifier|modID:effectID:durationInTicks:amplifier
+		velvetEffects = "minecraft:night_vision:6000:0|minecraft:invisibility:4500:0|minecraft:blindness:600:0"
+		#Which block the Velvet Beetiful is plantable on
+		#Can be empty string to disable planting ""
+		#modID:blockID
+		velvetPlantableOn = "minecraft:bubble_coral_block"
+
+	[Beetiful.Verdant]
+		#Nutrition value for Verdant Beetiful
+		#Range: 0 ~ 20
+		verdantNutrition = 1
+		#Saturation value for Verdant Beetiful
+		#Range: 0.0 ~ 20.0
+		verdantSaturation = 0.6
+		#Effects of Verdant Beetiful
+		#Can be empty string to disable effects ""
+		#Effects separated by pipe (|)
+		#modID:effectID:durationInTicks:amplifier|modID:effectID:durationInTicks:amplifier
+		verdantEffects = "minecraft:jump_boost:6000:2|minecraft:nausea:1200:1"
+		#Which block the Verdant Beetiful is plantable on
+		#Can be empty string to disable planting ""
+		#modID:blockID
+		verdantPlantableOn = "minecraft:slime_block"
+
+	[Beetiful.Verdigris]
+		#Nutrition value for Verdigris Beetiful
+		#Range: 0 ~ 20
+		verdigrisNutrition = 1
+		#Saturation value for Verdigris Beetiful
+		#Range: 0.0 ~ 20.0
+		verdigrisSaturation = 0.6
+		#Effects of Verdigris Beetiful
+		#Can be empty string to disable effects ""
+		#Effects separated by pipe (|)
+		#modID:effectID:durationInTicks:amplifier|modID:effectID:durationInTicks:amplifier
+		verdigrisEffects = "minecraft:water_breathing:6000:0|minecraft:mining_fatigue:3000:0"
+		#Which block the Verdigris Beetiful is plantable on
+		#Can be empty string to disable planting ""
+		#modID:blockID
+		verdigrisPlantableOn = "minecraft:sea_lantern"
+
+#Configs for the Beetzza
+[Beetzza]
+	#Which effects the Beetzza removes when in the inventory
+	#Can be empty string to disable removing effects ""
+	#Effects separated by pipe (|)
+	#modID:effectID|modID:effectID
+	beetzzaNegatesEffects = "minecraft:wither"
+

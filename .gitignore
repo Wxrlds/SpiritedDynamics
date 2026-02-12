@@ -1,5 +1,10 @@
 pakku.jar
 build/**
 
-config/jei/bookmarks.ini
 kubejs/exported
+config/MouseTweaks.cfg
+config/invtweaks-client.toml
+config/jei/bookmarks.ini
+config/jei_mekanism_multiblocks-saved_data.nbt
+config/konkrete
+defaultconfigs/ftbultimine

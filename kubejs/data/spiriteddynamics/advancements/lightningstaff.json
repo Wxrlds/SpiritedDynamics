@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": {
+      "text": "Lightning Staff"
+    },
+    "description": {
+      "text": "Not quiet Thor just yet..."
+    },
+    "icon": {
+      "item": "contenttweaker:lightning_staff"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lightningstaff": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "contenttweaker:lightning_staff"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "spiriteddynamics:terraplate"
+}

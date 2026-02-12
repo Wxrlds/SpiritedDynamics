@@ -9,7 +9,7 @@ customization-meta {
 }
 
 customization {
-  path = config/fancymenu/assets/BH_SD_ASSETS/background.png
+  path = config/fancymenu/assets/background.png
   action = texturizebackground
 }
 
@@ -36,7 +36,7 @@ customization {
 customization {
   identifier = %id=400322%
   action = setbuttonlabel
-  value = 
+  value =
 }
 
 customization {
@@ -44,8 +44,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config\fancymenu\assets\BH_SD_ASSETS\multiplayerhover.png
-  backgroundnormal = config\fancymenu\assets\BH_SD_ASSETS\multiplayer.png
+  backgroundhovered = config\fancymenu\assets\multiplayerhover.png
+  backgroundnormal = config\fancymenu\assets\multiplayer.png
 }
 
 customization {
@@ -66,7 +66,7 @@ customization {
 customization {
   identifier = %id=604382%
   action = setbuttonlabel
-  value = 
+  value =
 }
 
 customization {
@@ -74,8 +74,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config\fancymenu\assets\BH_SD_ASSETS\accessibilityhover.png
-  backgroundnormal = config\fancymenu\assets\BH_SD_ASSETS\accessibility.png
+  backgroundhovered = config\fancymenu\assets\accessibilityhover.png
+  backgroundnormal = config\fancymenu\assets\accessibility.png
 }
 
 customization {
@@ -96,7 +96,7 @@ customization {
 customization {
   identifier = %id=400382%
   action = setbuttonlabel
-  value = 
+  value =
 }
 
 customization {
@@ -104,8 +104,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config\fancymenu\assets\BH_SD_ASSETS\optionshover.png
-  backgroundnormal = config\fancymenu\assets\BH_SD_ASSETS\options.png
+  backgroundhovered = config\fancymenu\assets\optionshover.png
+  backgroundnormal = config\fancymenu\assets\options.png
 }
 
 customization {
@@ -126,7 +126,7 @@ customization {
 customization {
   identifier = %id=502382%
   action = setbuttonlabel
-  value = 
+  value =
 }
 
 customization {
@@ -134,8 +134,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config\fancymenu\assets\BH_SD_ASSETS\quitgamehover.png
-  backgroundnormal = config\fancymenu\assets\BH_SD_ASSETS\quitgame.png
+  backgroundhovered = config\fancymenu\assets\quitgamehover.png
+  backgroundnormal = config\fancymenu\assets\quitgame.png
 }
 
 customization {
@@ -156,7 +156,7 @@ customization {
 customization {
   identifier = %id=376382%
   action = setbuttonlabel
-  value = 
+  value =
 }
 
 customization {
@@ -164,8 +164,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config\fancymenu\assets\BH_SD_ASSETS\languagehover.png
-  backgroundnormal = config\fancymenu\assets\BH_SD_ASSETS\language.png
+  backgroundhovered = config\fancymenu\assets\languagehover.png
+  backgroundnormal = config\fancymenu\assets\language.png
 }
 
 customization {
@@ -186,7 +186,7 @@ customization {
 customization {
   identifier = %id=400298%
   action = setbuttonlabel
-  value = 
+  value =
 }
 
 customization {
@@ -194,8 +194,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config\fancymenu\assets\BH_SD_ASSETS\singleplayerhover.png
-  backgroundnormal = config\fancymenu\assets\BH_SD_ASSETS\singleplayer.png
+  backgroundhovered = config\fancymenu\assets\singleplayerhover.png
+  backgroundnormal = config\fancymenu\assets\singleplayer.png
 }
 
 customization {
@@ -216,7 +216,7 @@ customization {
 customization {
   identifier = %id=400346%
   action = setbuttonlabel
-  value = 
+  value =
 }
 
 customization {
@@ -224,8 +224,8 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = config\fancymenu\assets\BH_SD_ASSETS\modshover.png
-  backgroundnormal = config\fancymenu\assets\BH_SD_ASSETS\mods.png
+  backgroundhovered = config\fancymenu\assets\modshover.png
+  backgroundnormal = config\fancymenu\assets\mods.png
 }
 
 customization {
@@ -237,15 +237,15 @@ customization {
   orientation = mid-centered
   restartbackgroundanimations = true
   buttonaction = openlink
-  backgroundhovered = config\fancymenu\assets\BH_SD_ASSETS\discordhover.png
-  label = 
+  backgroundhovered = config\fancymenu\assets\discordhover.png
+  label =
   loopbackgroundanimations = true
   x = -151
   width = 140
   actionid = 46516311-aa99-42e4-8769-2481c2842dbb1635949159044
   action = addbutton
   y = 47
-  backgroundnormal = config\fancymenu\assets\BH_SD_ASSETS\discord.png
+  backgroundnormal = config\fancymenu\assets\discord.png
   value = https://discord.gg/hsae7DJ
   height = 48
 }
@@ -254,16 +254,15 @@ customization {
   orientation = mid-centered
   restartbackgroundanimations = true
   buttonaction = openlink
-  backgroundhovered = config\fancymenu\assets\BH_SD_ASSETS\serverhover.png
-  label = 
+  backgroundhovered = config\fancymenu\assets\serverhover.png
+  label =
   loopbackgroundanimations = true
   x = 12
   width = 140
   actionid = 6f6b4c49-8f14-4e45-8231-e2e29c97e54c1635949469492
   action = addbutton
   y = 47
-  backgroundnormal = config\fancymenu\assets\BH_SD_ASSETS\server.png
+  backgroundnormal = config\fancymenu\assets\server.png
   value = https://bisecthosting.com/wxrlds
   height = 48
 }
-

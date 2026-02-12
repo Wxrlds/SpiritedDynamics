@@ -1,147 +1,147 @@
 {
-	"type": "mythicbotany:rune_ritual",
-	"group": "rune_rituals",
-	"center": {
-		"item": "travel_anchors:travel_anchor"
-	},
-	"runes": [
-		{
-			"rune": {
-				"item": "mythicbotany:elementium_ore"
-			},
-			"x": 0,
-			"z": 2,
-			"consume": true
-		},
-		{
-			"rune": {
-				"item": "mythicbotany:gold_ore"
-			},
-			"x": -1,
-			"z": 2,
-			"consume": true
-		},
-		{
-			"rune": {
-				"item": "mythicbotany:dragonstone_ore"
-			},
-			"x": -2,
-			"z": 1,
-			"consume": true
-		},
-		{
-			"rune": {
-				"item": "mythicbotany:dream_cherry"
-			},
-			"x": -3,
-			"z": 0,
-			"consume": true
-		},
-		{
-			"rune": {
-				"item": "mythicbotany:alfsteel_armor_upgrade"
-			},
-			"x": -3,
-			"z": -1,
-			"consume": true
-		},
-		{
-			"rune": {
-				"item": "botania:gaia_ingot"
-			},
-			"x": -2,
-			"z": -2,
-			"consume": true
-		},
-		{
-			"rune": {
-				"item": "integrateddynamics:logic_director"
-			},
-			"x": -1,
-			"z": -2,
-			"consume": true
-		},
-		{
-			"rune": {
-				"item": "occultism:iesnium_dust"
-			},
-			"x": 0,
-			"z": -2,
-			"consume": true
-		},
-		{
-			"rune": {
-				"item": "dimstorage:solid_dim_core"
-			},
-			"x": 1,
-			"z": -2,
-			"consume": true
-		},
-		{
-			"rune": {
-				"item": "naturesaura:token_terror"
-			},
-			"x": 2,
-			"z": -2,
-			"consume": true
-		},
-		{
-			"rune": {
-				"item": "appliedenergistics2:singularity"
-			},
-			"x": 3,
-			"z": -1,
-			"consume": true
-		},
-		{
-			"rune": {
-				"item": "immersiveengineering:fluorescent_tube"
-			},
-			"x": 3,
-			"z": 0,
-			"consume": true
-		},
-		{
-			"rune": {
-				"item": "chemlib:ingot_tennessine"
-			},
-			"x": 3,
-			"z": 1,
-			"consume": true
-		},
-		{
-			"rune": {
-				"item": "bloodmagic:etherealslate"
-			},
-			"x": 2,
-			"z": 2,
-			"consume": true
-		},
-		{
-			"rune": {
-				"item": "minecraft:dragon_egg"
-			},
-			"x": 1,
-			"z": 2,
-			"consume": true
-		}
-	],
-	"mana": 4000000,
-	"ticks": 2400,
-	"inputs": [
-		{
-			"item": "contenttweaker:venuium_ingot"
-		},
-		{
-			"item": "contenttweaker:marsium_ingot"
-		},
-		{
-			"item": "contenttweaker:jupitum_ingot"
-		}
-	],
-	"outputs": [
-		{
-			"item": "contenttweaker:saturium_ingot"
-		}
-	]
+  "type": "mythicbotany:rune_ritual",
+  "group": "rune_rituals",
+  "center": {
+    "item": "travel_anchors:travel_anchor"
+  },
+  "runes": [
+    {
+      "rune": {
+        "item": "mythicbotany:elementium_ore"
+      },
+      "x": 0,
+      "z": 2,
+      "consume": true
+    },
+    {
+      "rune": {
+        "item": "mythicbotany:gold_ore"
+      },
+      "x": -1,
+      "z": 2,
+      "consume": true
+    },
+    {
+      "rune": {
+        "item": "mythicbotany:dragonstone_ore"
+      },
+      "x": -2,
+      "z": 1,
+      "consume": true
+    },
+    {
+      "rune": {
+        "item": "mythicbotany:dream_cherry"
+      },
+      "x": -3,
+      "z": 0,
+      "consume": true
+    },
+    {
+      "rune": {
+        "item": "mythicbotany:alfsteel_armor_upgrade"
+      },
+      "x": -3,
+      "z": -1,
+      "consume": true
+    },
+    {
+      "rune": {
+        "item": "botania:gaia_ingot"
+      },
+      "x": -2,
+      "z": -2,
+      "consume": true
+    },
+    {
+      "rune": {
+        "item": "integrateddynamics:logic_director"
+      },
+      "x": -1,
+      "z": -2,
+      "consume": true
+    },
+    {
+      "rune": {
+        "item": "occultism:iesnium_dust"
+      },
+      "x": 0,
+      "z": -2,
+      "consume": true
+    },
+    {
+      "rune": {
+        "item": "minecraft:ender_eye"
+      },
+      "x": 1,
+      "z": -2,
+      "consume": true
+    },
+    {
+      "rune": {
+        "item": "naturesaura:token_terror"
+      },
+      "x": 2,
+      "z": -2,
+      "consume": true
+    },
+    {
+      "rune": {
+        "item": "appliedenergistics2:singularity"
+      },
+      "x": 3,
+      "z": -1,
+      "consume": true
+    },
+    {
+      "rune": {
+        "item": "immersiveengineering:fluorescent_tube"
+      },
+      "x": 3,
+      "z": 0,
+      "consume": true
+    },
+    {
+      "rune": {
+        "item": "chemlib:ingot_tennessine"
+      },
+      "x": 3,
+      "z": 1,
+      "consume": true
+    },
+    {
+      "rune": {
+        "item": "bloodmagic:etherealslate"
+      },
+      "x": 2,
+      "z": 2,
+      "consume": true
+    },
+    {
+      "rune": {
+        "item": "minecraft:dragon_egg"
+      },
+      "x": 1,
+      "z": 2,
+      "consume": true
+    }
+  ],
+  "mana": 4000000,
+  "ticks": 2400,
+  "inputs": [
+    {
+      "item": "contenttweaker:venuium_ingot"
+    },
+    {
+      "item": "contenttweaker:marsium_ingot"
+    },
+    {
+      "item": "contenttweaker:jupitum_ingot"
+    }
+  ],
+  "outputs": [
+    {
+      "item": "contenttweaker:saturium_ingot"
+    }
+  ]
 }

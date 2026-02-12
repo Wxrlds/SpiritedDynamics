@@ -1,18 +1,15 @@
 import crafttweaker.api.item.IItemStack;
 
-//Hide by item id
+// Hide by item id
 val hideJEI as IItemStack[]=[
-	<item:appliedenergistics2:creative_energy_cell>,
-	<item:appliedenergistics2:creative_storage_cell>,
-	<item:appliedenergistics2:facade>
+    <item:appliedenergistics2:creative_energy_cell>,
+    <item:appliedenergistics2:creative_storage_cell>,
+    <item:appliedenergistics2:facade>
 ];
 
 for item in hideJEI {
-	mods.jei.JEI.hideItem(item);
+    mods.jei.JEI.hideItem(item);
 }
 
-//ME Controller
-mods.jei.JEI.addInfo(<item:appliedenergistics2:controller>, ["Consumes 5.000.000 Mana to craft (1 Mana Pool = 1.000.000 Mana)"]);
-
-//Charged Certus Quartz
+// Charged Certus Quartz
 mods.jei.JEI.addInfo(<item:appliedenergistics2:charged_certus_quartz_crystal>, ["Strike Certus Quartz Crystals with lightning to craft"]);

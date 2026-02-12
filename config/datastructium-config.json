@@ -1,0 +1,16 @@
+{
+  "Disable All Mixins": false,
+  "Canonicalize Quads": false,
+  "Cache Shader Uniforms": true,
+  "Compound Tag Internal Reconstruct Threshold": 5,
+  "Number Tag Cache starts at (inclusive)": -2048,
+  "Number Tag Cache ends at (exclusive)": 2048,
+  "Cache Number Tag": true,
+  "Prevent the server from `awarding` recipe data to player recipe book": true,
+  "Optimize simple model": true,
+  "Replace hashing algorithm of Vec3i to reduce hash collision": true,
+  "Faster chunk section iterating": true,
+  "Deduplicate Item Ingredient": false,
+  "MasterfulMachinery structure check interval (in ticks, set to 0 or less to disable this feature)": 5,
+  "FTBQuests item requirement check interval (in ticks, set to 0 or less to disable)": 20
+}
