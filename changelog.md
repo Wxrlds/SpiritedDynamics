@@ -1,6 +1,38 @@
 # Spirited Dynamics Changelogs
 
+## v0.3.1
+
+[Click here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/compare/beta/v0.3.0...beta/v0.3.1)
+
+### Added
+
+- Quest for Clayconia
+- Quest for Soul Campfire
+
+### Changed
+
+- Hidden all normally unobtainable ores
+
+### Recipes
+
+- Wheat Seeds
+- Grass
+- Withered Bone to Coal
+- Runic Altar
+- Chemical Dissolver
+- Chemical Combiner
+- Certus Quartz Ore
+- Added Mekanism Salt to the Chemical Dissolver
+- Added (almost) all Ores to the Chemical Dissolver
+- Nether Quartz in Chemical Combiner
+
+### Disabled
+
+- Ender Hopper
+
 ## v0.3.0
+
+[Click here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/compare/beta/v0.2.0...beta/v0.3.0)
 
 This version has a breaking update with the Chiseled mod, causing breaking issues with existing worlds. If you want to upgrade your world and it has lots of blocks from Chiseled used, consider downgrading the Chiseled mod to version [0.4.3](https://www.curseforge.com/minecraft/mc-mods/chiseled/files/3325822)
 

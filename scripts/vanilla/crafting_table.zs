@@ -314,3 +314,14 @@ craftingTable.addShaped("vanilla/crafting_table/glowstone2", <item:minecraft:glo
 craftingTable.addShapeless("vanilla/crafting_table/netherite/scrap/clear_nbt", <item:minecraft:netherite_scrap>,
 	[<item:minecraft:netherite_scrap>]
 );
+
+// Wheat Seeds (in case the user breaks all grass in the beginning)
+craftingTable.addShaped("vanilla/crafting_table/seeds/wheat", <item:minecraft:wheat_seeds>, [
+	[<tag:items:botania:mystical_flowers>, <tag:items:botania:mystical_flowers>, <tag:items:botania:mystical_flowers>],
+	[<tag:items:botania:mystical_flowers>, <item:minecraft:bone_block>, <tag:items:botania:mystical_flowers>],
+	[<tag:items:botania:mystical_flowers>, <tag:items:botania:mystical_flowers>, <tag:items:botania:mystical_flowers>]]);
+
+// Coal from Withered Bone
+craftingTable.addShapeless("vanilla/crafting_table/coal/from_withered_bone", <item:minecraft:coal>,
+	[<item:architects_palette:withered_bone>, <item:architects_palette:withered_bone>, <item:architects_palette:withered_bone>]
+);

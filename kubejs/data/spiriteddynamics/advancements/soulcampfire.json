@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": {
+      "text": "Soul Campfire"
+    },
+    "description": {
+      "text": "Soul Sand conversion!"
+    },
+    "icon": {
+      "item": "minecraft:soul_campfire"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "soulcampfire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:soul_campfire"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "spiriteddynamics:luminousaltar"
+}

@@ -1,5 +1,23 @@
 # Spirited Dynamics Mod Changelogs
 
+## v0.3.1
+
+### Projects
+
+#### Added
+
+- MaFgLib
+- Mod Name Tooltip
+- Rock'n Roller
+
+#### Removed
+
+- Mouse Tweaks
+
+#### Updated
+
+- beetifulgarden-1.16.5-1.1.0.jar -> beetifulgarden-1.16.5-1.2.0.jar
+
 ## v0.3.0
 
 ### Loaders

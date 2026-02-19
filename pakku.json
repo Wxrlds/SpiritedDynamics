@@ -1,120 +1,129 @@
 {
-    "name": "Spirited Dynamics",
-    "version": "0.3.0",
-    "description": "Spirited Dynamics - A light 1.16.5 expert Skyblock Modpack",
-    "author": "wxrlds_",
-    "overrides": [
-        "config",
-        "defaultconfigs",
-        "kubejs",
-        "scripts",
-        "!kubejs/exported",
-        "!config/*-client.toml",
-        "!config/Mekanism/client.toml",
-        "!config/MouseTweaks.cfg",
-        "!config/defaultoptions",
-        "!config/entityculling.json",
-        "!config/equipmentcompare-common.toml",
-        "!config/fancymenu",
-        "!config/ftbquests",
-        "!config/jei/bookmarks.ini",
-        "!config/jei_mekanism_multiblocks-saved_data.nbt",
-        "!config/konkrete",
-        "!config/moreoverlays.toml",
-        "!config/roadrunner/client.toml"
-    ],
-    "server_overrides": [
-        "install_server.sh",
-        "install_server.bat",
-        "start.sh",
-        "start.bat",
-        "server-icon.png"
-    ],
-    "client_overrides": [
-        "!config/invtweaks-client.toml",
-        "config/*-client.toml",
-        "config/Mekanism/client.toml",
-        "config/defaultoptions",
-        "config/entityculling.json",
-        "config/equipmentcompare-common.toml",
-        "config/fancymenu",
-        "config/moreoverlays.toml",
-        "config/roadrunner/client.toml",
-        "icon.png"
-    ],
-    "projects": {
-        "entityculling": {
-            "side": "CLIENT"
-        },
-        "default-options": {
-            "side": "CLIENT"
-        },
-        "rebind-narrator": {
-            "side": "CLIENT"
-        },
-        "no-chat-restrictions": {
-            "side": "CLIENT"
-        },
-        "toast-control": {
-            "side": "CLIENT"
-        },
-        "cleanview": {
-            "side": "CLIENT"
-        },
-        "no-nv-flash": {
-            "side": "CLIENT"
-        },
-        "shutup-experimental-settings": {
-            "side": "CLIENT"
-        },
-        "mouse-tweaks": {
-            "side": "CLIENT"
-        },
-        "just-enough-professions-jep": {
-            "side": "CLIENT"
-        },
-        "more-overlays-updated": {
-            "side": "CLIENT"
-        },
-        "justenoughbreeding": {
-            "side": "CLIENT"
-        },
-        "just-enough-mekanism-multiblocks": {
-            "side": "CLIENT"
-        },
-        "clear-skies-forge-port": {
-            "side": "CLIENT",
-            "update_strategy": "NONE"
-        },
-        "bisecthosting-server-integration-menu-forge": {
-            "side": "CLIENT"
-        },
-        "entity-collision-fps-fix": {
-            "side": "CLIENT"
-        },
-        "extreme-sound-muffler": {
-            "side": "CLIENT"
-        },
-        "jei-integration": {
-            "side": "CLIENT"
-        },
-        "ctm": {
-            "side": "CLIENT"
-        },
-        "controlling": {
-            "side": "CLIENT"
-        },
-        "equipment-compare": {
-            "side": "CLIENT"
-        },
-        "iceberg": {
-            "side": "CLIENT"
-        },
-        "fancymenu": {
-            "side": "CLIENT"
-        },
-        "simple-discord-rich-presence": {
-            "side": "CLIENT"
-        }
+  "name": "Spirited Dynamics",
+  "version": "0.3.1",
+  "description": "Spirited Dynamics - A light 1.16.5 expert Skyblock Modpack",
+  "author": "wxrlds_",
+  "overrides": [
+    "config",
+    "defaultconfigs",
+    "kubejs",
+    "scripts",
+    "!kubejs/exported",
+    "!config/*-client.toml",
+    "!config/Mekanism/client.toml",
+    "!config/defaultoptions",
+    "!config/entityculling.json",
+    "!config/equipmentcompare-common.toml",
+    "!config/fancymenu",
+    "!config/ftbquests",
+    "!config/jei/bookmarks.ini",
+    "!config/jei_mekanism_multiblocks-saved_data.nbt",
+    "!config/konkrete",
+    "!config/mafglib.json",
+    "!config/moreoverlays.toml",
+    "!config/roadrunner/client.toml",
+    "!config/rocknroller.json"
+  ],
+  "server_overrides": [
+    "install_server.sh",
+    "install_server.bat",
+    "start.sh",
+    "start.bat",
+    "server-icon.png"
+  ],
+  "client_overrides": [
+    "!config/invtweaks-client.toml",
+    "config/*-client.toml",
+    "config/Mekanism/client.toml",
+    "config/defaultoptions",
+    "config/entityculling.json",
+    "config/equipmentcompare-common.toml",
+    "config/fancymenu",
+    "config/mafglib.json",
+    "config/moreoverlays.toml",
+    "config/roadrunner/client.toml",
+    "config/rocknroller.json",
+    "icon.png"
+  ],
+  "projects": {
+    "entityculling": {
+      "side": "CLIENT"
+    },
+    "default-options": {
+      "side": "CLIENT"
+    },
+    "rebind-narrator": {
+      "side": "CLIENT"
+    },
+    "no-chat-restrictions": {
+      "side": "CLIENT"
+    },
+    "toast-control": {
+      "side": "CLIENT"
+    },
+    "cleanview": {
+      "side": "CLIENT"
+    },
+    "no-nv-flash": {
+      "side": "CLIENT"
+    },
+    "shutup-experimental-settings": {
+      "side": "CLIENT"
+    },
+    "rockn-roller": {
+      "side": "CLIENT"
+    },
+    "mafglib": {
+      "side": "CLIENT"
+    },
+    "just-enough-professions-jep": {
+      "side": "CLIENT"
+    },
+    "more-overlays-updated": {
+      "side": "CLIENT"
+    },
+    "justenoughbreeding": {
+      "side": "CLIENT"
+    },
+    "just-enough-mekanism-multiblocks": {
+      "side": "CLIENT"
+    },
+    "clear-skies-forge-port": {
+      "side": "CLIENT",
+      "update_strategy": "NONE"
+    },
+    "bisecthosting-server-integration-menu-forge": {
+      "side": "CLIENT"
+    },
+    "entity-collision-fps-fix": {
+      "side": "CLIENT"
+    },
+    "extreme-sound-muffler": {
+      "side": "CLIENT"
+    },
+    "jei-integration": {
+      "side": "CLIENT"
+    },
+    "ctm": {
+      "side": "CLIENT"
+    },
+    "controlling": {
+      "side": "CLIENT"
+    },
+    "equipment-compare": {
+      "side": "CLIENT"
+    },
+    "iceberg": {
+      "side": "CLIENT"
+    },
+    "fancymenu": {
+      "side": "CLIENT"
+    },
+    "mod-name-tooltip": {
+      "side": "CLIENT"
+    },
+    "simple-discord-rich-presence": {
+      "side": "CLIENT"
     }
+  }
 }

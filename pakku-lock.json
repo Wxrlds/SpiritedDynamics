@@ -514,24 +514,24 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "beetifulgarden-1.16.5-1.1.0.jar",
+                    "file_name": "beetifulgarden-1.16.5-1.2.0.jar",
                     "mc_versions": [
                         "1.16.5"
                     ],
                     "loaders": [
                         "forge"
                     ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/6697/342/beetifulgarden-1.16.5-1.1.0.jar",
-                    "id": "6697342",
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7645/332/beetifulgarden-1.16.5-1.2.0.jar",
+                    "id": "7645332",
                     "parent_id": "627559",
                     "hashes": {
-                        "sha1": "cb0650ef5dbdfd2fc293ad91b825cd330346499d",
-                        "md5": "41f3d63f99d6745ff8ed83e3a54de5f2"
+                        "sha1": "550ce57c72244fc7aebc31ec28d065d89b35f22d",
+                        "md5": "823116e1ed53ad4fa525901d360b80bb"
                     },
                     "required_dependencies": [],
-                    "size": 174437,
-                    "date_published": "2025-06-26T09:58:02.470Z"
+                    "size": 147764,
+                    "date_published": "2026-02-18T19:20:47.440Z"
                 }
             ]
         },
@@ -4500,6 +4500,44 @@
             ]
         },
         {
+            "pakku_id": "87rtAVndUhnH3u1Y",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "mafglib"
+            },
+            "name": {
+                "curseforge": "MaFgLib"
+            },
+            "id": {
+                "curseforge": "910766"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "MaFgLib-0.1.15-mc1.16.5.jar",
+                    "mc_versions": [
+                        "1.16.5",
+                        "1.16.4"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5579/422/MaFgLib-0.1.15-mc1.16.5.jar",
+                    "id": "5579422",
+                    "parent_id": "910766",
+                    "hashes": {
+                        "sha1": "9601f38300bf99558b0c41658592f63e3ecdd5ef",
+                        "md5": "6883b48385a96270efe26fbdd991e5ea"
+                    },
+                    "required_dependencies": [],
+                    "size": 473301,
+                    "date_published": "2024-07-30T03:25:15.387Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "luxkZfUBkQTvf9VZ",
             "type": "MOD",
             "slug": {
@@ -4769,6 +4807,43 @@
             ]
         },
         {
+            "pakku_id": "LLLmTgB7z4QhFviE",
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "mod-name-tooltip"
+            },
+            "name": {
+                "curseforge": "Mod Name Tooltip"
+            },
+            "id": {
+                "curseforge": "238747"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "modnametooltip_1.16.2-1.15.0.jar",
+                    "mc_versions": [
+                        "1.16.3",
+                        "1.16.5",
+                        "1.16.4",
+                        "1.16.2"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/3038/982/modnametooltip_1.16.2-1.15.0.jar",
+                    "id": "3038982",
+                    "parent_id": "238747",
+                    "hashes": {
+                        "sha1": "7f45be46b5671508ad37c986588f45dd75be6e2b",
+                        "md5": "0786fa0d926ebf6fdba6053937bed914"
+                    },
+                    "required_dependencies": [],
+                    "size": 10221,
+                    "date_published": "2020-08-21T23:57:00.707Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "FF3O9WPDHnRQx0qC",
             "type": "MOD",
             "slug": {
@@ -4919,46 +4994,6 @@
                     ],
                     "size": 32615,
                     "date_published": "2021-02-02T18:04:59.360Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "LeulzErc0pQHyi1t",
-            "type": "MOD",
-            "side": "CLIENT",
-            "slug": {
-                "curseforge": "mouse-tweaks"
-            },
-            "name": {
-                "curseforge": "Mouse Tweaks"
-            },
-            "id": {
-                "curseforge": "60089"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "MouseTweaks-2.14-mc1.16.2.jar",
-                    "mc_versions": [
-                        "1.16.3",
-                        "1.16.5",
-                        "1.16.4",
-                        "1.16.2"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/3202/662/MouseTweaks-2.14-mc1.16.2.jar",
-                    "id": "3202662",
-                    "parent_id": "60089",
-                    "hashes": {
-                        "sha1": "5f2366c650c102c71e98c9445f86a266ba20e1e4",
-                        "md5": "3b4e04a9a79094149306457c7db838d5"
-                    },
-                    "required_dependencies": [],
-                    "size": 58249,
-                    "date_published": "2021-02-13T16:42:27.547Z"
                 }
             ]
         },
@@ -5644,6 +5679,49 @@
                     "required_dependencies": [],
                     "size": 393531,
                     "date_published": "2024-09-17T00:58:51.640Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "DMXdPTsPWpCm319N",
+            "pakku_links": [
+                "87rtAVndUhnH3u1Y"
+            ],
+            "type": "MOD",
+            "side": "CLIENT",
+            "slug": {
+                "curseforge": "rockn-roller"
+            },
+            "name": {
+                "curseforge": "Rock'n Roller"
+            },
+            "id": {
+                "curseforge": "916852"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "RocknRoller-0.1.4-mc1.16.5.jar",
+                    "mc_versions": [
+                        "1.16.5",
+                        "1.16.4"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5375/61/RocknRoller-0.1.4-mc1.16.5.jar",
+                    "id": "5375061",
+                    "parent_id": "916852",
+                    "hashes": {
+                        "sha1": "68aee05fe085fa70de03d21b58af481bd1b84f29",
+                        "md5": "3bbe988f2bb2cb270f57324d69550c32"
+                    },
+                    "required_dependencies": [
+                        "910766"
+                    ],
+                    "size": 156454,
+                    "date_published": "2024-05-27T02:14:12.813Z"
                 }
             ]
         },

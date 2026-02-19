@@ -1,13 +1,13 @@
-//Aluminium
+// Aluminium
 <tag:items:forge:ingots/aluminum>.remove(<item:chemlib:ingot_aluminum>);
 <tag:items:forge:ingots/aluminum>.remove(<item:exnihilosequentia:ingot_aluminum>);
 <tag:items:forge:ingots>.remove(<item:exnihilosequentia:ingot_aluminum>);
 
-//Coal
+// Coal
 <tag:items:forge:dusts/coal>.remove(<item:bloodmagic:coalsand>);
 <tag:items:forge:dusts>.remove(<item:bloodmagic:coalsand>);
 
-//Copper
+// Copper
 <tag:blocks:forge:ores/copper>.remove(<block:immersiveengineering:ore_copper>);
 <tag:blocks:forge:ores/copper>.remove(<block:occultism:copper_ore>);
 <tag:blocks:forge:ores>.remove(<block:immersiveengineering:ore_copper>);
@@ -41,7 +41,7 @@
 <tag:items:forge:storage_blocks>.remove(<item:immersiveengineering:storage_copper>);
 <tag:items:forge:storage_blocks>.remove(<item:occultism:copper_block>);
 
-//Gold
+// Gold
 <tag:items:bloodmagic:fragments/gold>.remove(<item:bloodmagic:goldfragment>);
 <tag:items:bloodmagic:gravels/gold>.remove(<item:bloodmagic:goldgravel>);
 <tag:items:forge:dusts/gold>.remove(<item:appliedenergistics2:gold_dust>);
@@ -53,7 +53,7 @@
 <tag:items:forge:dusts>.remove(<item:immersiveengineering:dust_gold>);
 <tag:items:forge:dusts>.remove(<item:occultism:gold_dust>);
 
-//Iron
+// Iron
 <tag:items:bloodmagic:fragments/iron>.remove(<item:bloodmagic:ironfragment>);
 <tag:items:bloodmagic:gravels/iron>.remove(<item:bloodmagic:irongravel>);
 <tag:items:forge:dusts/iron>.remove(<item:appliedenergistics2:iron_dust>);
@@ -65,7 +65,7 @@
 <tag:items:forge:dusts>.remove(<item:immersiveengineering:dust_iron>);
 <tag:items:forge:dusts>.remove(<item:occultism:iron_dust>);
 
-//Lead
+// Lead
 <tag:blocks:forge:ores/lead>.remove(<block:immersiveengineering:ore_lead>);
 <tag:blocks:forge:ores>.remove(<block:immersiveengineering:ore_lead>);
 <tag:blocks:forge:storage_blocks/lead>.remove(<block:immersiveengineering:storage_lead>);
@@ -85,29 +85,29 @@
 <tag:items:forge:storage_blocks/lead>.remove(<item:immersiveengineering:storage_lead>);
 <tag:items:forge:storage_blocks>.remove(<item:immersiveengineering:storage_lead>);
 
-//Netherite
+// Netherite
 <tag:items:bloodmagic:fragments/netherite_scrap>.remove(<item:bloodmagic:fragment_netherite_scrap>);
 <tag:items:bloodmagic:gravels/netherite_scrap>.remove(<item:bloodmagic:gravel_netherite_scrap>);
 <tag:items:forge:dusts/netherite_scrap>.remove(<item:bloodmagic:sand_netherite>);
 
-//Nickel
+// Nickel
 <tag:items:forge:ingots/nickel>.remove(<item:chemlib:ingot_nickel>);
 <tag:items:forge:ingots/nickel>.remove(<item:exnihilosequentia:ingot_nickel>);
 <tag:items:forge:ingots>.remove(<item:exnihilosequentia:ingot_nickel>);
 
-//Obsidian
+// Obsidian
 <tag:items:forge:dusts/obsidian>.remove(<item:occultism:obsidian_dust>);
 <tag:items:forge:dusts>.remove(<item:occultism:obsidian_dust>);
 
-//Osmium
+// Osmium
 <tag:items:forge:ingots/osmium>.remove(<item:chemlib:ingot_osmium>);
 
-//Quartz
+// Quartz
 <tag:items:appliedenergistics2:dusts/quartz>.remove(<item:mekanism:dust_quartz>);
 <tag:items:forge:dusts/quartz>.remove(<item:mekanism:dust_quartz>);
 <tag:items:forge:dusts>.remove(<item:mekanism:dust_quartz>);
 
-//Silver
+// Silver
 <tag:blocks:forge:ores/silver>.remove(<block:occultism:silver_ore>);
 <tag:blocks:forge:ores>.remove(<block:occultism:silver_ore>);
 <tag:blocks:forge:storage_blocks/silver>.remove(<block:occultism:silver_block>);
@@ -124,7 +124,7 @@
 <tag:items:forge:ores>.remove(<item:occultism:silver_ore>);
 <tag:items:forge:storage_blocks/silver>.remove(<item:occultism:silver_block>);
 
-//Steel
+// Steel
 <tag:blocks:forge:storage_blocks/steel>.remove(<block:immersiveengineering:storage_steel>);
 <tag:blocks:forge:storage_blocks>.remove(<block:immersiveengineering:storage_steel>);
 <tag:items:forge:dusts/steel>.remove(<item:immersiveengineering:dust_steel>);
@@ -136,18 +136,18 @@
 <tag:items:forge:storage_blocks/steel>.remove(<item:immersiveengineering:storage_steel>);
 <tag:items:forge:storage_blocks>.remove(<item:immersiveengineering:storage_steel>);
 
-//Sulfur
+// Sulfur
 <tag:items:forge:dusts/sulfur>.remove(<item:bloodmagic:sulfur>);
 <tag:items:forge:dusts/sulfur>.remove(<item:immersiveengineering:dust_sulfur>);
 <tag:items:forge:dusts>.remove(<item:bloodmagic:sulfur>);
 <tag:items:forge:dusts>.remove(<item:immersiveengineering:dust_sulfur>);
 
-//Tin
+// Tin
 <tag:items:forge:ingots/tin>.remove(<item:chemlib:ingot_tin>);
 <tag:items:forge:ingots/tin>.remove(<item:exnihilosequentia:ingot_tin>);
 <tag:items:forge:ingots>.remove(<item:exnihilosequentia:ingot_tin>);
 
-//Uranium
+// Uranium
 <tag:blocks:forge:ores/uranium>.remove(<block:immersiveengineering:ore_uranium>);
 <tag:blocks:forge:ores>.remove(<block:immersiveengineering:ore_uranium>);
 <tag:blocks:forge:storage_blocks/uranium>.remove(<block:immersiveengineering:storage_uranium>);
@@ -167,7 +167,7 @@
 <tag:items:forge:storage_blocks/uranium>.remove(<item:immersiveengineering:storage_uranium>);
 <tag:items:forge:storage_blocks>.remove(<item:immersiveengineering:storage_uranium>);
 
-//Wood Dust
+// Wood Dust
 <tag:items:forge:dusts/wood>.remove(<item:excompressum:wood_chippings>);
 <tag:items:forge:dusts>.remove(<item:excompressum:wood_chippings>);
 <tag:items:forge:sawdust>.remove(<item:excompressum:wood_chippings>);
@@ -175,11 +175,15 @@
 <tag:items:forge:dusts>.remove(<item:immersiveengineering:dust_wood>);
 <tag:items:forge:sawdust>.remove(<item:immersiveengineering:dust_wood>);
 
-//Yellow Dye
+// Yellow Dye
 <tag:items:forge:dyes/yellow>.remove(<item:mekanism:dust_sulfur>);
 <tag:items:forge:dyes>.remove(<item:mekanism:dust_sulfur>);
 
-//Salt
+// Salt
 <tag:items:forge:salt/salt>.add(<item:mekanism:salt>);
+<tag:items:forge:salt/salt>.add(<item:alchemistry:mineral_salt>);
+<tag:items:forge:dusts/salt>.add(<item:alchemistry:mineral_salt>);
+<tag:items:forge:salt>.add(<item:alchemistry:mineral_salt>);
+<tag:items:forge:dusts>.add(<item:alchemistry:mineral_salt>);
 <tag:items:forge:salt/salt>.remove(<item:pamhc2foodcore:saltitem>);
 <tag:items:forge:salt>.remove(<item:pamhc2foodcore:saltitem>);

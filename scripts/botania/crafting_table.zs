@@ -39,11 +39,11 @@ craftingTable.removeRecipe(<item:botania:alfheim_portal>);
 
 //Fel Pumpkin
 craftingTable.removeRecipe(<item:botania:fel_pumpkin>);
-craftingTable.addShapeless("botania/crafting_table/fel_pumpkin", <item:botania:fel_pumpkin>, 
+craftingTable.addShapeless("botania/crafting_table/fel_pumpkin", <item:botania:fel_pumpkin>,
 	[<item:minecraft:gunpowder>, <item:minecraft:bone>, <item:minecraft:carved_pumpkin>, <item:minecraft:string>, <item:architects_palette:rotten_flesh_block>]
 );
 
-//Gaia Spirit Ingot
+// Gaia Spirit Ingot
 craftingTable.removeRecipe(<item:botania:gaia_ingot>);
 craftingTable.addShaped("botania/crafting_table/gaia_spirit_ingot", <item:botania:gaia_ingot>, [
 	[<item:botania:terrasteel_ingot>, <item:botania:life_essence>, <item:botania:terrasteel_ingot>],
@@ -59,6 +59,13 @@ craftingTable.addShaped("botania/crafting_table/overgrowth_seed", <item:botania:
 ]);
 
 //Enchanted Soil
-craftingTable.addShapeless("botania/crafting_table/enchanted_soil", <item:botania:enchanted_soil>, 
+craftingTable.addShapeless("botania/crafting_table/enchanted_soil", <item:botania:enchanted_soil>,
 	[<item:botania:overgrowth_seed>, <item:botania:overgrowth_seed>, <item:botania:overgrowth_seed>, <item:botania:overgrowth_seed>, <item:naturesaura:nether_grass>, <item:botania:overgrowth_seed>, <item:botania:overgrowth_seed>, <item:botania:overgrowth_seed>, <item:botania:overgrowth_seed>]
 );
+
+// Runic Altar
+craftingTable.removeRecipe(<item:botania:runic_altar>);
+craftingTable.addShaped("botania/crafting_table/runic_altar", <item:botania:runic_altar>, [
+	[<tag:items:botania:livingrock>, <tag:items:botania:livingrock>, <tag:items:botania:livingrock>],
+	[<tag:items:botania:livingrock>, <tag:items:rftoolsbase:shards>, <tag:items:botania:livingrock>]
+]);

@@ -2439,5 +2439,16 @@
 				}
 			}]
 		}
+		{
+			x: 14.5d
+			y: 6.0d
+			dependencies: ["646EA17B9405DB84"]
+			id: "69668D62CF639875"
+			tasks: [{
+				id: "6274B20BDAC2692C"
+				type: "item"
+				item: "botanypots:botany_pot"
+			}]
+		}
 	]
 }

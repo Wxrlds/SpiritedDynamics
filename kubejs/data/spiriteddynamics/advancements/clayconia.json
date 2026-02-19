@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": {
+      "text": "Clayconia"
+    },
+    "description": {
+      "text": "Very True Clay"
+    },
+    "icon": {
+      "item": "botania:clayconia"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "clayconia": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "botania:clayconia"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "spiriteddynamics:luminousaltar"
+}
