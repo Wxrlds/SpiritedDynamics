@@ -3922,32 +3922,32 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "itemcollectors-1.1.11-forge-mc1.16.jar",
+                    "file_name": "itemcollectors-1.1.12-forge-mc1.16.jar",
                     "mc_versions": [
                         "1.16.3",
                         "1.16.1",
                         "1.16",
                         "1.16.5",
-                        "1.16.4",
-                        "1.16.2"
+                        "1.16.2",
+                        "1.16.4"
                     ],
                     "loaders": [
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6803/829/itemcollectors-1.1.11-forge-mc1.16.jar",
-                    "id": "6803829",
+                    "url": "https://edge.forgecdn.net/files/7658/605/itemcollectors-1.1.12-forge-mc1.16.jar",
+                    "id": "7658605",
                     "parent_id": "395620",
                     "hashes": {
-                        "sha1": "1c4bb35ddc653b434281e98938c4eadf4bf8d04a",
-                        "md5": "ca9c80abac2c93030bf02c5df918468e"
+                        "sha1": "a2584ae127ffbabcf1b3a08391a88cefe6396636",
+                        "md5": "6d6524477cead60c66c91e8c6d65ff35"
                     },
                     "required_dependencies": [
                         "438332",
                         "454372"
                     ],
-                    "size": 100648,
-                    "date_published": "2025-07-23T17:54:16.680Z"
+                    "size": 99093,
+                    "date_published": "2026-02-21T15:39:30.107Z"
                 }
             ]
         },

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "title": {
+      "text": "The Everlasting Guilty Pool"
+    },
+    "description": {
+      "text": "Don't tell Alphheim that you made this"
+    },
+    "icon": {
+      "item": "botania:creative_pool"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "creative_mana": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "botania:creative_pool"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "spiriteddynamics:alfheim"
+}

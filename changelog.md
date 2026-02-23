@@ -1,5 +1,34 @@
 # Spirited Dynamics Changelogs
 
+## v0.3.2
+
+[Click here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/compare/beta/v0.3.1...beta/v0.3.2)
+
+### Added
+
+- The Everlasting Guity Pool quest
+- AE2 Facade to JEI
+
+### Changed
+
+- Morph o Tool can now hold Storage Drawer Keys
+- Hide items using KubeJS instead of CraftTweaker. This fixes items sometimes not being hidden on servers
+
+### Recipes
+
+- (Almost) all ores and Mekanism Salt can now actually be used in the Chemical Dissolver
+- Travel Anchor
+- Netherite Dust in Arc Furnace
+
+### Disabled
+
+- Eye of the Pillager
+- Eye of the Blaze
+- Hidden Creative Mana Pool from JEI
+- Hidden Solid Compact Machine Wall from JEI
+- Hidden Creative Energy Cube from JEI
+- Hidden Creative Storage Upgrade from JEI
+
 ## v0.3.1
 
 [Click here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/compare/beta/v0.3.0...beta/v0.3.1)
@@ -23,7 +52,7 @@
 - Chemical Combiner
 - Certus Quartz Ore
 - Added Mekanism Salt to the Chemical Dissolver
-- Added (almost) all Ores to the Chemical Dissolver
+- Added (almost) all ores to the Chemical Dissolver
 - Nether Quartz in Chemical Combiner
 
 ### Disabled

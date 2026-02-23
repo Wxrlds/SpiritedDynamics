@@ -139,5 +139,3 @@ craftingTable.addShaped("contenttweaker/recipes/time_staff", <item:contenttweake
     }
 });
 
-//Spirited Dynamics
-mods.jei.JEI.hideItem(<item:contenttweaker:spirited_dynamics>);
