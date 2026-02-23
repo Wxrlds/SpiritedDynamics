@@ -1,13 +1,5 @@
 # Spirited Dynamics Mod Changelogs
 
-## v0.3.2
-
-### Projects
-
-#### Updated
-
-- itemcollectors-1.1.11-forge-mc1.16.jar -> itemcollectors-1.1.12-forge-mc1.16.jar
-
 ## v0.3.1
 
 ### Projects
