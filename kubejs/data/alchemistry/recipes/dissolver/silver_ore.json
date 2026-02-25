@@ -2,7 +2,7 @@
   "type": "alchemistry:dissolver",
   "group": "minecraft:misc",
   "input": {
-    "tag": "forge:ores/copper"
+    "tag": "forge:ores/silver"
   },
   "output": {
     "rolls": 1,
@@ -12,7 +12,7 @@
         "probability": 1.0,
         "stacks": [
           {
-            "item": "chemlib:element_copper",
+            "item": "chemlib:element_silver",
             "count": 32
           }
         ]

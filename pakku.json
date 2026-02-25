@@ -1,13 +1,13 @@
 {
     "name": "Spirited Dynamics",
-    "version": "0.3.2",
+    "version": "0.3.3",
     "description": "Spirited Dynamics - A light 1.16.5 expert Skyblock Modpack",
     "author": "wxrlds_",
     "overrides": [
         "config",
         "defaultconfigs",
-        "kubejs",
         "scripts",
+        "kubejs",
         "!kubejs/exported",
         "!config/*-client.toml",
         "!config/Mekanism/client.toml",
@@ -16,13 +16,12 @@
         "!config/equipmentcompare-common.toml",
         "!config/fancymenu",
         "!config/ftbquests",
+        "!config/inventoryprofilesnext",
         "!config/jei/bookmarks.ini",
         "!config/jei_mekanism_multiblocks-saved_data.nbt",
         "!config/konkrete",
-        "!config/mafglib.json",
         "!config/moreoverlays.toml",
-        "!config/roadrunner/client.toml",
-        "!config/rocknroller.json"
+        "!config/roadrunner/client.toml"
     ],
     "server_overrides": [
         "install_server.sh",
@@ -32,17 +31,15 @@
         "server-icon.png"
     ],
     "client_overrides": [
-        "!config/invtweaks-client.toml",
         "config/*-client.toml",
         "config/Mekanism/client.toml",
         "config/defaultoptions",
         "config/entityculling.json",
         "config/equipmentcompare-common.toml",
         "config/fancymenu",
-        "config/mafglib.json",
+        "config/inventoryprofilesnext/inventoryprofiles.json",
         "config/moreoverlays.toml",
         "config/roadrunner/client.toml",
-        "config/rocknroller.json",
         "icon.png"
     ],
     "projects": {
@@ -68,12 +65,6 @@
             "side": "CLIENT"
         },
         "shutup-experimental-settings": {
-            "side": "CLIENT"
-        },
-        "rockn-roller": {
-            "side": "CLIENT"
-        },
-        "mafglib": {
             "side": "CLIENT"
         },
         "just-enough-professions-jep": {
@@ -123,6 +114,9 @@
             "side": "CLIENT"
         },
         "simple-discord-rich-presence": {
+            "side": "CLIENT"
+        },
+        "inventory-profiles-next": {
             "side": "CLIENT"
         }
     }

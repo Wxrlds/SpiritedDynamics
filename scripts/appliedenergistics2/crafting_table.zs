@@ -41,3 +41,6 @@ craftingTable.addShaped("appliedenergistics2/crafting_table/wireless_receiver", 
     [<item:appliedenergistics2:fluix_pearl>, <item:xnet:antenna>, <item:appliedenergistics2:fluix_pearl>],
     [<item:appliedenergistics2:quartz_fiber>, <item:xnet:antenna_base>, <item:appliedenergistics2:quartz_fiber>]
 ]);
+
+// Wooden Gear
+craftingTable.removeRecipe(<item:appliedenergistics2:wooden_gear>);

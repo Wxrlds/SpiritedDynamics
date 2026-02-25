@@ -187,3 +187,8 @@
 <tag:items:forge:dusts>.add(<item:alchemistry:mineral_salt>);
 <tag:items:forge:salt/salt>.remove(<item:pamhc2foodcore:saltitem>);
 <tag:items:forge:salt>.remove(<item:pamhc2foodcore:saltitem>);
+
+// Ancient Wood
+<tag:items:minecraft:wooden_slabs>.add(<item:naturesaura:ancient_slab>);
+<tag:items:minecraft:wooden_stairs>.add(<item:naturesaura:ancient_stairs>);
+<tag:items:minecraft:saplings>.add(<item:naturesaura:ancient_sapling>);

@@ -2,7 +2,7 @@
   "type": "alchemistry:dissolver",
   "group": "minecraft:misc",
   "input": {
-    "tag": "forge:ores/copper"
+    "item": "exnihilosequentia:chunk_iron"
   },
   "output": {
     "rolls": 1,
@@ -12,7 +12,7 @@
         "probability": 1.0,
         "stacks": [
           {
-            "item": "chemlib:element_copper",
+            "item": "chemlib:element_iron",
             "count": 32
           }
         ]

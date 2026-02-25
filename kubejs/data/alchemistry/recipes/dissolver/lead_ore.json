@@ -2,7 +2,7 @@
   "type": "alchemistry:dissolver",
   "group": "minecraft:misc",
   "input": {
-    "item": "mekanism:lead_ore"
+    "tag": "forge:ores/lead"
   },
   "output": {
     "rolls": 1,

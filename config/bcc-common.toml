@@ -1,0 +1,14 @@
+
+#General settings
+[general]
+	#The CurseForge project ID for the modpack
+	#Range: > 0
+	modpackProjectID = 456892
+	#The name of the modpack
+	modpackName = "Spirited Dynamics"
+	#The version of the modpack
+	modpackVersion = "0.3.3"
+	#Use the metadata.json to determine the modpack version
+	#ONLY ENABLE THIS IF YOU KNOW WHAT YOU ARE DOING
+	useMetadata = false
+

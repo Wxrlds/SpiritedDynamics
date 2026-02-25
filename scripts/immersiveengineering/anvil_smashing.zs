@@ -13,11 +13,11 @@
                     "item": "immersiveengineering:plate_lead",
                     "count": 3
                 },
-                "weight": 1
+                "weight": 4
             }
         ],
         "rolls": 2,
-        "empty_weight": 4
+        "empty_weight": 1
     },
     "damage": 0.05
 });
@@ -37,11 +37,11 @@
                     "item": "immersiveengineering:plate_copper",
                     "count": 3
                 },
-                "weight": 1
+                "weight": 4
             }
         ],
         "rolls": 2,
-        "empty_weight": 4
+        "empty_weight": 1
     },
     "damage": 0.05
 });
@@ -61,11 +61,11 @@
                     "item": "immersiveengineering:plate_aluminum",
                     "count": 3
                 },
-                "weight": 1
+                "weight": 4
             }
         ],
         "rolls": 2,
-        "empty_weight": 4
+        "empty_weight": 1
     },
     "damage": 0.05
 });
@@ -85,11 +85,11 @@
                     "item": "immersiveengineering:plate_silver",
                     "count": 3
                 },
-                "weight": 1
+                "weight": 4
             }
         ],
         "rolls": 2,
-        "empty_weight": 4
+        "empty_weight": 1
     },
     "damage": 0.05
 });
@@ -109,11 +109,11 @@
                     "item": "immersiveengineering:plate_nickel",
                     "count": 3
                 },
-                "weight": 1
+                "weight": 4
             }
         ],
         "rolls": 2,
-        "empty_weight": 4
+        "empty_weight": 1
     },
     "damage": 0.05
 });
@@ -133,11 +133,11 @@
                     "item": "immersiveengineering:plate_uranium",
                     "count": 3
                 },
-                "weight": 1
+                "weight": 4
             }
         ],
         "rolls": 2,
-        "empty_weight": 4
+        "empty_weight": 1
     },
     "damage": 0.05
 });
@@ -157,11 +157,11 @@
                     "item": "immersiveengineering:plate_constantan",
                     "count": 3
                 },
-                "weight": 1
+                "weight": 4
             }
         ],
         "rolls": 2,
-        "empty_weight": 4
+        "empty_weight": 1
     },
     "damage": 0.05
 });
@@ -181,11 +181,11 @@
                     "item": "immersiveengineering:plate_electrum",
                     "count": 3
                 },
-                "weight": 1
+                "weight": 4
             }
         ],
         "rolls": 2,
-        "empty_weight": 4
+        "empty_weight": 1
     },
     "damage": 0.05
 });
@@ -205,11 +205,11 @@
                     "item": "immersiveengineering:plate_steel",
                     "count": 3
                 },
-                "weight": 1
+                "weight": 4
             }
         ],
         "rolls": 2,
-        "empty_weight": 4
+        "empty_weight": 1
     },
     "damage": 0.05
 });
@@ -229,11 +229,11 @@
                     "item": "immersiveengineering:plate_iron",
                     "count": 3
                 },
-                "weight": 1
+                "weight": 4
             }
         ],
         "rolls": 2,
-        "empty_weight": 4
+        "empty_weight": 1
     },
     "damage": 0.05
 });
@@ -253,11 +253,11 @@
                     "item": "immersiveengineering:plate_gold",
                     "count": 3
                 },
-                "weight": 1
+                "weight": 4
             }
         ],
         "rolls": 2,
-        "empty_weight": 4
+        "empty_weight": 1
     },
     "damage": 0.05
 });

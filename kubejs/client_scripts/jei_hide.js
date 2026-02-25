@@ -8,9 +8,10 @@ onEvent("jei.hide.items", (event) => {
     "appliedenergistics2:gold_dust",
     "appliedenergistics2:grindstone",
     "appliedenergistics2:iron_dust",
+    "appliedenergistics2:wooden_gear",
+    "astralsorcery:celestial_collector_crysta",
     "bloodmagic:activationcrystalcreative",
     "bloodmagic:coalsand",
-    "ftblibrary:fluid_container",
     "bloodmagic:crystalline_resonator",
     "bloodmagic:fragment_netherite_scrap",
     "bloodmagic:goldfragment",
@@ -163,6 +164,7 @@ onEvent("jei.hide.items", (event) => {
     "extendedcrafting:the_ultimate_nugget",
     "extendedcrafting:ultimate_catalyst",
     "extendedcrafting:ultimate_component",
+    "ftblibrary:fluid_container",
     "immersiveengineering:capacitor_creative",
     "immersiveengineering:cloche",
     "immersiveengineering:dust_copper",
@@ -177,6 +179,10 @@ onEvent("jei.hide.items", (event) => {
     "immersiveengineering:ingot_lead",
     "immersiveengineering:ingot_steel",
     "immersiveengineering:ingot_uranium",
+    "immersiveengineering:mold_gear",
+    "immersiveengineering:mold_packing_4",
+    "immersiveengineering:mold_packing_9",
+    "immersiveengineering:mold_unpacking",
     "immersiveengineering:nugget_copper",
     "immersiveengineering:nugget_lead",
     "immersiveengineering:nugget_steel",
@@ -384,112 +390,14 @@ onEvent("jei.hide.items", (event) => {
   });
 
   // Hide items with specific NBT Tags
-  [
-    Item.of("botania:mana_tablet", "{mana: 500000, creative: 1}"),
-    Item.of(
-      "astralsorcery:rock_collector_crystal",
-      '{astralsorcery:{constellation:"astralsorcery:discidia",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.discidia",pLevel:2,discovered:1b}]}}}',
-    ),
-    Item.of(
-      "astralsorcery:rock_collector_crystal",
-      '{astralsorcery:{constellation:"astralsorcery:armara",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.armara",pLevel:2,discovered:1b}]}}}',
-    ),
-    Item.of(
-      "astralsorcery:rock_collector_crystal",
-      '{astralsorcery:{constellation:"astralsorcery:vicio",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.vicio",pLevel:2,discovered:1b}]}}}',
-    ),
-    Item.of(
-      "astralsorcery:rock_collector_crystal",
-      '{astralsorcery:{constellation:"astralsorcery:aevitas",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.aevitas",pLevel:2,discovered:1b}]}}}',
-    ),
-    Item.of(
-      "astralsorcery:rock_collector_crystal",
-      '{astralsorcery:{constellation:"astralsorcery:evorsio",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.evorsio",pLevel:2,discovered:1b}]}}}',
-    ),
-    Item.of(
-      "astralsorcery:rock_collector_crystal",
-      '{astralsorcery:{constellation:"astralsorcery:lucerna",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.lucerna",pLevel:2,discovered:1b}]}}}',
-    ),
-    Item.of(
-      "astralsorcery:rock_collector_crystal",
-      '{astralsorcery:{constellation:"astralsorcery:horologium",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.horologium",pLevel:2,discovered:1b}]}}}',
-    ),
-    Item.of(
-      "astralsorcery:rock_collector_crystal",
-      '{astralsorcery:{constellation:"astralsorcery:mineralis",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.mineralis",pLevel:2,discovered:1b}]}}}',
-    ),
-    Item.of(
-      "astralsorcery:rock_collector_crystal",
-      '{astralsorcery:{constellation:"astralsorcery:octans",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.octans",pLevel:2,discovered:1b}]}}}',
-    ),
-    Item.of(
-      "astralsorcery:rock_collector_crystal",
-      '{astralsorcery:{constellation:"astralsorcery:bootes",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.bootes",pLevel:2,discovered:1b}]}}}',
-    ),
-    Item.of(
-      "astralsorcery:rock_collector_crystal",
-      '{astralsorcery:{constellation:"astralsorcery:fornax",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.fornax",pLevel:2,discovered:1b}]}}}',
-    ),
-    Item.of(
-      "astralsorcery:rock_collector_crystal",
-      '{astralsorcery:{constellation:"astralsorcery:pelotrio",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.pelotrio",pLevel:2,discovered:1b}]}}}',
-    ),
-    Item.of(
-      "astralsorcery:celestial_collector_crystal",
-      '{astralsorcery:{constellation:"astralsorcery:discidia",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.discidia",pLevel:2,discovered:1b}]}}}',
-    ),
-    Item.of(
-      "astralsorcery:celestial_collector_crystal",
-      '{astralsorcery:{constellation:"astralsorcery:armara",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.armara",pLevel:2,discovered:1b}]}}}',
-    ),
-    Item.of(
-      "astralsorcery:celestial_collector_crystal",
-      '{astralsorcery:{constellation:"astralsorcery:vicio",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.vicio",pLevel:2,discovered:1b}]}}}',
-    ),
-    Item.of(
-      "astralsorcery:celestial_collector_crystal",
-      '{astralsorcery:{constellation:"astralsorcery:aevitas",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.aevitas",pLevel:2,discovered:1b}]}}}',
-    ),
-    Item.of(
-      "astralsorcery:celestial_collector_crystal",
-      '{astralsorcery:{constellation:"astralsorcery:evorsio",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.evorsio",pLevel:2,discovered:1b}]}}}',
-    ),
-    Item.of(
-      "astralsorcery:celestial_collector_crystal",
-      '{astralsorcery:{constellation:"astralsorcery:lucerna",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.lucerna",pLevel:2,discovered:1b}]}}}',
-    ),
-    Item.of(
-      "astralsorcery:celestial_collector_crystal",
-      '{astralsorcery:{constellation:"astralsorcery:mineralis",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.mineralis",pLevel:2,discovered:1b}]}}}',
-    ),
-    Item.of(
-      "astralsorcery:celestial_collector_crystal",
-      '{astralsorcery:{constellation:"astralsorcery:horologium",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.horologium",pLevel:2,discovered:1b}]}}}',
-    ),
-    Item.of(
-      "astralsorcery:celestial_collector_crystal",
-      '{astralsorcery:{constellation:"astralsorcery:octans",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.octans",pLevel:2,discovered:1b}]}}}',
-    ),
-    Item.of(
-      "astralsorcery:celestial_collector_crystal",
-      '{astralsorcery:{constellation:"astralsorcery:bootes",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.bootes",pLevel:2,discovered:1b}]}}}',
-    ),
-    Item.of(
-      "astralsorcery:celestial_collector_crystal",
-      '{astralsorcery:{constellation:"astralsorcery:fornax",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.fornax",pLevel:2,discovered:1b}]}}}',
-    ),
-    Item.of(
-      "astralsorcery:celestial_collector_crystal",
-      '{astralsorcery:{constellation:"astralsorcery:pelotrio",crystalProperties:{attributes:[{property:"astralsorcery:size",pLevel:3,discovered:1b},{property:"astralsorcery:purity",pLevel:2,discovered:1b},{property:"astralsorcery:shape",pLevel:3,discovered:1b},{property:"astralsorcery:collector.rate",pLevel:3,discovered:1b},{property:"astralsorcery:constellation.pelotrio",pLevel:2,discovered:1b}]}}}',
-    ),
-  ].forEach((item_to_hide_nbt) => {
-    event.hide(item_to_hide_nbt);
-  });
+  [Item.of("botania:mana_tablet", "{mana: 500000, creative: 1}")].forEach(
+    (item_to_hide_nbt) => {
+      event.hide(item_to_hide_nbt);
+    },
+  );
 });
 
 onEvent("jei.remove.categories", (event) => {
-  console.log("Hello hello hello");
-  console.log(event.categoryIds);
   ["excompressum:craft_chicken_stick"].forEach((category_to_hide) => {
     event.remove(category_to_hide);
   });

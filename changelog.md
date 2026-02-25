@@ -1,5 +1,50 @@
 # Spirited Dynamics Changelogs
 
+## v0.3.3
+
+[Click here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/compare/beta/v0.3.2...beta/v0.3.3)
+
+### Added
+
+- Lang file for Chisels and Bits Wrench
+- Ancient Wood Slabs, Stairs, Saplings to wooden slabs, stairs and saplings tags
+
+### Changed
+
+- Terrasteel Armour and Tools now copy the NBT of their Netherite counterpart
+- Most Curios can now go into any slot
+- All ores in the Chemical Dissolver now use Tags
+- Morph o Tool can now hold Labeller
+- Morph o Tool can now hold Melan Wand
+- Morph o Tool can now hold Pumpkin Wand
+- Nutritional Balance is now more generous with nutritional ranges
+- Use Corpse Complex to set hunger after death
+- Completely replaced JEI Tweaker with KubeJS
+- Blood Magic anti cheese message now says how long to wait
+- Blood Magic anti cheese now uses KubeJS to prevent usage
+
+### Recipes
+
+- Removed Aquamarine from Elements
+- Terrasteel Armour and Tools
+- Anvil Smashing Plates are now more common
+- Silver Ore can now be used in Chemical Dissolver
+- Sacrificial Knife
+- Fixed Basalt Tile Slabs to Basalt Tiles recipe giving wrong variant
+- Conversion recipe World Item Importer/Exporter -> World Block Importer/Exporter
+- Ink Sack inside Chemical Combiner
+- Infused Alloy
+- Basic Control Circuit can now be made from Osmium Block
+- Beetiful Seeds
+
+### Disabled
+
+- Wooden Gear
+- Metal Press Mold: Gear
+- Metal Press Mold: Packing 2x2
+- Metal Press Mold: Packing 3x3
+- Metal Press Mold: Unpacking
+
 ## v0.3.2
 
 [Click here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/compare/beta/v0.3.1...beta/v0.3.2)
@@ -24,7 +69,7 @@
 
 - Eye of the Pillager
 - Eye of the Blaze
-- Hidden Creative Mana Pool from JEI
+- Hidden Creative Mana Tablet from JEI
 - Hidden Solid Compact Machine Wall from JEI
 - Hidden Creative Energy Cube from JEI
 - Hidden Creative Storage Upgrade from JEI

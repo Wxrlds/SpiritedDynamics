@@ -2,7 +2,7 @@
   "type": "alchemistry:dissolver",
   "group": "minecraft:misc",
   "input": {
-    "item": "mekanism:osmium_ore"
+    "tag": "forge:ores/osmium"
   },
   "output": {
     "rolls": 1,

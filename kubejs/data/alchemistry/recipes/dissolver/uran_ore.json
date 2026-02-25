@@ -2,7 +2,7 @@
   "type": "alchemistry:dissolver",
   "group": "minecraft:misc",
   "input": {
-    "item": "mekanism:uranium_ore"
+    "tag": "forge:ores/uranium"
   },
   "output": {
     "rolls": 1,
