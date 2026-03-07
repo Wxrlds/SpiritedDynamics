@@ -1,5 +1,29 @@
 # Spirited Dynamics Mod Changelogs
 
+## v0.3.3
+
+### Projects
+
+#### Added
+
+- Better Compatibility Checker
+- Corpse Complex
+- Inventory Profiles Next
+- Kotlin for Forge
+- PackagedAstral
+- PackagedAuto
+- libIPN
+
+#### Removed
+
+- JEITweaker
+- MaFgLib
+- Rock'n Roller
+
+#### Updated
+
+- supermartijn642corelib-1.1.20-forge-mc1.16.jar -> supermartijn642corelib-1.1.20a-forge-mc1.16.jar
+
 ## v0.3.2
 
 ### Projects
