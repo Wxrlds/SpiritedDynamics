@@ -1,0 +1,16 @@
+{
+  "type": "botania:elven_trade",
+  "ingredients": [
+    {
+      "tag": "forge:ingots/elementium"
+    },
+    {
+      "item": "botania:mana_spreader"
+    }
+  ],
+  "output": [
+    {
+      "item": "botania:elven_spreader"
+    }
+  ]
+}

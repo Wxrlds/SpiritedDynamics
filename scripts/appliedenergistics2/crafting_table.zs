@@ -44,3 +44,6 @@ craftingTable.addShaped("appliedenergistics2/crafting_table/wireless_receiver", 
 
 // Wooden Gear
 craftingTable.removeRecipe(<item:appliedenergistics2:wooden_gear>);
+
+// Meteorite Compass
+craftingTable.removeRecipe(<item:appliedenergistics2:sky_compass>);

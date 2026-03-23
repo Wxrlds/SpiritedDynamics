@@ -82,7 +82,6 @@
         "count": 1
     }
 });
-<item:contenttweaker:lightning_staff>.addTooltip("Right click to summon a lightning bolt");
 
 //Time Staff
 craftingTable.addShaped("contenttweaker/recipes/time_staff", <item:contenttweaker:time_staff>, [
@@ -90,7 +89,6 @@ craftingTable.addShaped("contenttweaker/recipes/time_staff", <item:contenttweake
     [<item:botania:quartz_dark>, <item:minecraft:clock>, <item:botania:quartz_dark>],
     [<item:powder_power:blend_redium>, <item:botania:quartz_dark>, <item:powder_power:blend_redium>]
 ]);
-<item:contenttweaker:time_staff>.addTooltip("Right click to advance time by 1500 ticks");
 
 //Enriched Iron Block
 <recipetype:mekanism:metallurgic_infusing>.addJSONRecipe("contenttweaker/recipes/enriched_iron_block",{

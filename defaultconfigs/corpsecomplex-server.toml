@@ -185,7 +185,7 @@
 	#Set to true to allow enchanting Soulbinding on books
 	allowedOnBooks = false
 	#Set to true to allow enchanting Soulbinding at the enchantment table
-	canApplyEnchantingTable = false
+	canApplyEnchantingTable = true
 	#Maximum level of the enchantment
 	#Range: 1 ~ 5
 	maxSoulbindingLevel = 1

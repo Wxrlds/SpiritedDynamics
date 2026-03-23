@@ -1146,21 +1146,21 @@
             ]
         },
         {
-            "pakku_id": "XGaCIiEChju1OfiT",
+            "pakku_id": "5ErtGWy2BtFnSWM2",
             "type": "MOD",
             "slug": {
-                "curseforge": "client-crafting"
+                "curseforge": "clickable-advancements"
             },
             "name": {
-                "curseforge": "Client Crafting"
+                "curseforge": "Clickable advancements[Forge/Fabric]"
             },
             "id": {
-                "curseforge": "888790"
+                "curseforge": "511733"
             },
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "clientcrafting-1.16.5-1.6.jar",
+                    "file_name": "clickadv-2.3.jar",
                     "mc_versions": [
                         "1.16.5"
                     ],
@@ -1168,16 +1168,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/4644/400/clientcrafting-1.16.5-1.6.jar",
-                    "id": "4644400",
-                    "parent_id": "888790",
+                    "url": "https://edge.forgecdn.net/files/3649/28/clickadv-2.3.jar",
+                    "id": "3649028",
+                    "parent_id": "511733",
                     "hashes": {
-                        "sha1": "8ce862aea22787ad9ab6ffc315d1f2dabef668e7",
-                        "md5": "1eb1731676299c8a404d94843fd46625"
+                        "sha1": "b18b89bc323cc56feebb6bf0dd594a5fbbce1d4e",
+                        "md5": "7c9451e86c22be4393df54eea16c4228"
                     },
                     "required_dependencies": [],
-                    "size": 9907,
-                    "date_published": "2023-07-14T21:40:20.933Z"
+                    "size": 15314,
+                    "date_published": "2022-02-15T15:29:35.450Z"
                 }
             ]
         },
@@ -3950,6 +3950,7 @@
                 "dTySAspvgTRs3ScI"
             ],
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
                 "curseforge": "inventory-profiles-next"
             },
@@ -3986,40 +3987,6 @@
                     ],
                     "size": 1411684,
                     "date_published": "2025-01-16T17:19:34.233Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "o3eX5HnkAtpPAHGx",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "inventory-tweaks-renewed"
-            },
-            "name": {
-                "curseforge": "Inventory Tweaks Renewed"
-            },
-            "id": {
-                "curseforge": "383070"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "invtweaks-1.16.4-1.0.1.jar",
-                    "mc_versions": [
-                        "1.16.5",
-                        "1.16.4"
-                    ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/3102/237/invtweaks-1.16.4-1.0.1.jar",
-                    "id": "3102237",
-                    "parent_id": "383070",
-                    "hashes": {
-                        "sha1": "41843818ea8de899a382142acad34cf2d7b8d2b5",
-                        "md5": "a54b1b1241d4643abefc1d42c6e95feb"
-                    },
-                    "required_dependencies": [],
-                    "size": 69906,
-                    "date_published": "2020-11-04T18:20:25.500Z"
                 }
             ]
         },
@@ -6307,7 +6274,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "supermartijn642corelib-1.1.20a-forge-mc1.16.jar",
+                    "file_name": "supermartijn642corelib-1.1.21-forge-mc1.16.jar",
                     "mc_versions": [
                         "1.16.3",
                         "1.16.1",
@@ -6320,16 +6287,16 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7687/270/supermartijn642corelib-1.1.20a-forge-mc1.16.jar",
-                    "id": "7687270",
+                    "url": "https://edge.forgecdn.net/files/7783/303/supermartijn642corelib-1.1.21-forge-mc1.16.jar",
+                    "id": "7783303",
                     "parent_id": "454372",
                     "hashes": {
-                        "sha1": "b3e19b3c3835000155ccc843a36b57a1215b461b",
-                        "md5": "48f3a85b85eaebc985d57571108f4aa7"
+                        "sha1": "e598c0da20620aecf02e6395755ccb8bb33e5f8c",
+                        "md5": "9d3190510072b6ca03a13b8d37949cea"
                     },
                     "required_dependencies": [],
-                    "size": 541719,
-                    "date_published": "2026-02-27T19:18:52.133Z"
+                    "size": 541853,
+                    "date_published": "2026-03-20T03:26:51.320Z"
                 }
             ]
         },

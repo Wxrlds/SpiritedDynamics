@@ -43,4 +43,12 @@ onEvent("jei.information", (event) => {
   event.add("occultism:otherstone", [
     "To craft, search for the Occultism Andesite recipe",
   ]);
+  event.add("bloodmagic:weak_tau", [
+    "Can be found by performing the Blood Magic ritual 'Edge of the Hidden Realm'.",
+    "Check the 'Sanguine Scientiem' for more information",
+  ]);
+  event.add("bloodmagic:strong_tau", [
+    "Obtained by growing normal Tau while having mobs nearby.",
+    "Check the 'Sanguine Scientiem' for more information",
+  ]);
 });

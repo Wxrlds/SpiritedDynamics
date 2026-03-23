@@ -8,8 +8,10 @@ onEvent("jei.hide.items", (event) => {
     "appliedenergistics2:gold_dust",
     "appliedenergistics2:grindstone",
     "appliedenergistics2:iron_dust",
+    "appliedenergistics2:sky_compass",
     "appliedenergistics2:wooden_gear",
-    "astralsorcery:celestial_collector_crysta",
+    "astralsorcery:celestial_collector_crystal",
+    "astralsorcery:rock_collector_crystal",
     "bloodmagic:activationcrystalcreative",
     "bloodmagic:coalsand",
     "bloodmagic:crystalline_resonator",
@@ -237,6 +239,8 @@ onEvent("jei.hide.items", (event) => {
     "minecraft:infested_stone",
     "minecraft:infested_stone_bricks",
     "minecraft:petrified_oak_slab",
+    "mythicbotany:feysythia",
+    "mythicbotany:feysythia_floating",
     "naturesaura:fortress_finder",
     "naturesaura:outpost_finder",
     "occultism:copper_dust",
@@ -390,7 +394,7 @@ onEvent("jei.hide.items", (event) => {
   });
 
   // Hide items with specific NBT Tags
-  [Item.of("botania:mana_tablet", "{mana: 500000, creative: 1}")].forEach(
+  [Item.of("botania:mana_tablet", "{mana:500000,creative:1b}")].forEach(
     (item_to_hide_nbt) => {
       event.hide(item_to_hide_nbt);
     },

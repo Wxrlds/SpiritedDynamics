@@ -67,3 +67,6 @@
         "count": 9
     }
 });
+
+// Netherite Dust (recipe in KubeJS/data/mekanism/recipes/arcfurnace)
+<recipetype:mekanism:metallurgic_infusing>.removeByName("mekanism:processing/netherite/scrap_to_dust");

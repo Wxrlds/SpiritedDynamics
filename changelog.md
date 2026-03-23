@@ -1,5 +1,46 @@
 # Spirited Dynamics Changelogs
 
+## v0.3.4
+
+[Click here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/compare/beta/v0.3.3...beta/v0.3.4)
+
+### Added
+
+- JEI Info text to Blood Magic Tau
+- Lang file for Inversion Pillar
+- Lang file for Hidden Realm dimension
+
+### Changed
+
+- The modpacks advancement screen is now advertised when first joining a world
+- Capped Soul Speed enchantment at level 3
+- Capped Depth Strider enchantment at level 3
+- Capped Splitting enchantment at level 5
+- Capped Lure enchantment at level 5
+- Allowed applying Soulbinding to items
+- XNet no longer consumes power to work
+- Hidden Creative Mana Tablet (again)
+- Hidden All but two Astral Sorcery Collector Crystals (again)
+- Hidden Feysythis (is uncraftable anyway)
+- Fixed Charged Certus Quartz dupe bug
+- Moved all Tooltips to KubeJS so that they also work on servers
+- Textures of Time and Lightning Staff (Thanks to https://github.com/d3f0k0/farland1ng-texture (Licensed under "Sprites that I will never use, take them and do whatever"))
+
+### Recipes
+
+- End Stone gives more Thorium in Chemical Dissolver
+- Basic Item Collector
+- Mekasuit
+- Elven Gateway core is now more common
+- Netherite Dust requires Arc Furnace
+
+### Disabled
+
+- Enchanted Golden Apple recipe from Cucurbita
+- Player Head recipe from Cucurbita
+- Meteorite Compass (useless anyway)
+- AOE mining from Apotheosis (old items continue to exist)
+
 ## v0.3.3
 
 [Click here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/compare/beta/v0.3.2...beta/v0.3.3)
