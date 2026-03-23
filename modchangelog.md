@@ -1,5 +1,22 @@
 # Spirited Dynamics Mod Changelogs
 
+## v0.3.4
+
+### Projects
+
+#### Added
+
+- Clickable advancements[Forge/Fabric]
+
+#### Removed
+
+- Client Crafting
+- Inventory Tweaks Renewed
+
+#### Updated
+
+- supermartijn642corelib-1.1.20a-forge-mc1.16.jar -> supermartijn642corelib-1.1.21-forge-mc1.16.jar
+
 ## v0.3.3
 
 ### Projects
