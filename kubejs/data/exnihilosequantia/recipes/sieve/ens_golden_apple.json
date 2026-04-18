@@ -1,0 +1,35 @@
+{
+  "type": "exnihilosequentia:sieve",
+  "rolls": [
+    {
+      "chance": 0.001,
+      "mesh": "string"
+    },
+    {
+      "chance": 0.002,
+      "mesh": "flint"
+    },
+    {
+      "chance": 0.003,
+      "mesh": "iron"
+    },
+    {
+      "chance": 0.004,
+      "mesh": "diamond"
+    },
+    {
+      "chance": 0.005,
+      "mesh": "emerald"
+    },
+    {
+      "chance": 0.006,
+      "mesh": "netherite"
+    }
+  ],
+  "input": {
+    "tag": "minecraft:leaves"
+  },
+  "result": {
+    "item": "minecraft:golden_apple"
+  }
+}

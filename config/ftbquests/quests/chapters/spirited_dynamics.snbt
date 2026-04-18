@@ -1,0 +1,275 @@
+{
+	id: "3A67DB02EC5B114B"
+	group: ""
+	order_index: 1
+	filename: "spirited_dynamics"
+	title: "Spirited Dynamics"
+	icon: "contenttweaker:spirited_dynamics"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -2.0d
+			id: "3D3639EB5B253AF0"
+			tasks: [{
+				id: "7326F9AFE9BFA5B8"
+				type: "item"
+				item: "botania:orechid"
+			}]
+			rewards: [{
+				id: "49D5C02648214A74"
+				type: "item"
+				item: "minecraft:stone"
+				count: 64
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			dependencies: ["3D3639EB5B253AF0"]
+			id: "317918461AA96CAA"
+			tasks: [{
+				id: "26F2841936B66656"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+			rewards: [{
+				id: "7AA20445DAF3340F"
+				type: "item"
+				item: "minecraft:blackstone"
+				count: 8
+			}]
+		}
+		{
+			icon: "botania:mana_fluxfield"
+			x: 2.0d
+			y: -2.0d
+			dependencies: ["317918461AA96CAA"]
+			id: "339FA1D6B5A7F58B"
+			tasks: [
+				{
+					id: "1718960133494B2D"
+					type: "item"
+					item: "botania:mana_fluxfield"
+				}
+				{
+					id: "7B5E273CA7CEBF86"
+					type: "item"
+					item: "botania:clayconia"
+				}
+				{
+					id: "028FB0B2DF503946"
+					type: "item"
+					item: {
+						id: "contenttweaker:time_staff"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5C4966EE326F5F13"
+					type: "item"
+					item: "minecraft:soul_campfire"
+				}
+			]
+			rewards: [{
+				id: "54EAFD1D83E3DCB1"
+				type: "item"
+				item: "botania:manasteel_ingot"
+				count: 4
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			dependencies: ["5493BCE86811C67D"]
+			id: "0FBFF5FB03464010"
+			tasks: [{
+				id: "7D84CDAC40BD3F46"
+				type: "item"
+				item: "botania:terra_plate"
+			}]
+			rewards: [{
+				id: "68C51B6E0E7D24C2"
+				type: "item"
+				item: "rftoolsbase:infused_diamond"
+				count: 4
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			dependencies: ["339FA1D6B5A7F58B"]
+			id: "5493BCE86811C67D"
+			tasks: [{
+				id: "4F0B89A36B110CAC"
+				type: "item"
+				item: "bloodmagic:altar"
+			}]
+			rewards: [{
+				id: "79C60AABFCAD7FD0"
+				type: "item"
+				item: "naturesaura:infused_stone"
+				count: 16
+			}]
+		}
+		{
+			icon: "powder_power:powder_iron"
+			x: 8.0d
+			y: -2.0d
+			dependencies: ["0FBFF5FB03464010"]
+			id: "3E84B7BD3BFF0823"
+			tasks: [
+				{
+					id: "17641644E7EE43DC"
+					type: "item"
+					item: "powder_power:powder_iron"
+				}
+				{
+					id: "3D8CF18985A62C4D"
+					type: "item"
+					item: {
+						id: "contenttweaker:lightning_staff"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4C1A3FC0FE4DB359"
+				type: "item"
+				item: "bloodmagic:largebloodstonebrick"
+				count: 4
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.0d
+			dependencies: ["3E84B7BD3BFF0823"]
+			id: "66CB804CE389E91A"
+			tasks: [{
+				id: "566B0A5F19BB0454"
+				type: "item"
+				item: "occultism:iesnium_ore"
+			}]
+			rewards: [{
+				id: "55F4A0FF18812828"
+				type: "item"
+				item: "astralsorcery:rock_crystal_ore"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -2.0d
+			dependencies: ["66CB804CE389E91A"]
+			id: "39B258E1D4CAD863"
+			tasks: [{
+				id: "35CAF1359C680962"
+				type: "item"
+				item: "minecraft:beacon"
+			}]
+			rewards: [{
+				id: "305F67ADEFBBABF1"
+				type: "item"
+				item: "chemlib:ingot_einsteinium"
+				count: 8
+			}]
+		}
+		{
+			x: 14.0d
+			y: -2.0d
+			dependencies: ["39B258E1D4CAD863"]
+			id: "3742C05C36EFE068"
+			tasks: [{
+				id: "18425EF98D97D06F"
+				type: "item"
+				item: "mythicbotany:kvasir_mead"
+			}]
+			rewards: [{
+				id: "1D8C4EB7299741DF"
+				type: "item"
+				item: "mythicbotany:alfsteel_ingot"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -3.0d
+			dependencies: ["3742C05C36EFE068"]
+			id: "5D987F861021DEF3"
+			tasks: [{
+				id: "065108220F4FDAA2"
+				type: "item"
+				item: "botania:creative_pool"
+			}]
+		}
+		{
+			title: "Meka-Suit"
+			x: 16.0d
+			y: -1.0d
+			dependencies: ["3742C05C36EFE068"]
+			id: "0E929E26AB6CCA95"
+			tasks: [
+				{
+					id: "3526E220908B3F78"
+					type: "item"
+					item: {
+						id: "mekanism:meka_tool"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "4AFBEC83F77C278B"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_helmet"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "21D37F2FF0E5D406"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_bodyarmor"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "0BF7848F8AA8455F"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_pants"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+				{
+					id: "1CAE4F96EC9A16C4"
+					type: "item"
+					item: {
+						id: "mekanism:mekasuit_boots"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,5 +1,52 @@
 # Spirited Dynamics Changelogs
 
+## v0.4.0
+
+[Click here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/compare/beta/v0.3.4...beta/v0.3.5)
+
+This version now crafts Ex Nihilo Ore Pieces into normal Ores, instead of Ore Chunks. If you have an automation setup for these recipes, these ones will break and will have to be adjusted.
+The next update removes uses from the Ore Chunks, so you should process them in this version while you still can.
+
+### Added
+
+- Lang files for some Occultism Advancements
+- JEI description to Elytra
+- Advancement Text of Beacons
+- JEI info text to Otherstone
+- Loot Tables when mining Packaged Astral Blocks
+- Quest Book
+
+### Changed
+
+- Client assets are no longer included in the serverpack
+- Ex Compressum now rolls loot tables 10x instead of 7x
+- Increased XNet transfer rate for gasses
+- Fixed some more missing Lang files
+- JEI info text of Stardust
+- Fixed type in Everlasting Manapool quest
+
+### Recipes
+
+- Dissolving Blank Runes always gives Tungsten
+- Increased chance for Otherstone
+- Ex Nihilo Ore Pieces now craft into normal Ores, instead of Ore Chunks
+- Coal Coke can be crushed in Mekanism Crusher
+- Stardust from Starmetal Ingot + Cutting Tool
+- Ultimate Pressurized Tube
+- Reduced amount of Power and Pollonium required for Anti-Matter
+- Enriched Iron Block -> Enriched Iron
+- Chemical Injection Chamber
+- Magic Feather
+- Antimatter Pellet
+- Netherite Ingots
+- Emerald and Netherite Sieves now grant more output
+- Ultimate Pipe Upgrade
+
+### Disabled
+
+- Mekanism Stone Generator Upgrade
+- Mekanism Radiation
+
 ## v0.3.4
 
 [Click here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/compare/beta/v0.3.3...beta/v0.3.4)
@@ -19,6 +66,7 @@
 - Capped Lure enchantment at level 5
 - Allowed applying Soulbinding to items
 - XNet no longer consumes power to work
+- Increased XNet transfer rate for power, fluids and items
 - Hidden Creative Mana Tablet (again)
 - Hidden All but two Astral Sorcery Collector Crystals (again)
 - Hidden Feysythis (is uncraftable anyway)

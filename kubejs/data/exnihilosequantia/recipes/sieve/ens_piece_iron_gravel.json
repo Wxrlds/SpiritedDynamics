@@ -1,0 +1,31 @@
+{
+  "type": "exnihilosequentia:sieve",
+  "rolls": [
+    {
+      "chance": 0.1,
+      "mesh": "flint"
+    },
+    {
+      "chance": 0.15,
+      "mesh": "iron"
+    },
+    {
+      "chance": 0.25,
+      "mesh": "diamond"
+    },
+    {
+      "chance": 0.3,
+      "mesh": "emerald"
+    },
+    {
+      "chance": 0.35,
+      "mesh": "netherite"
+    }
+  ],
+  "input": {
+    "item": "minecraft:gravel"
+  },
+  "result": {
+    "item": "exnihilosequentia:piece_iron"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "exnihilosequentia:sieve",
+  "rolls": [
+    {
+      "chance": 0.02,
+      "mesh": "diamond"
+    },
+    {
+      "chance": 0.05,
+      "mesh": "emerald"
+    },
+    {
+      "chance": 0.1,
+      "mesh": "netherite"
+    }
+  ],
+  "input": {
+    "item": "minecraft:soul_sand"
+  },
+  "result": {
+    "item": "minecraft:ghast_tear"
+  }
+}

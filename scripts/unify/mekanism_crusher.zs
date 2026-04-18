@@ -1,99 +1,125 @@
-//Aluminium Dust
+// Aluminium Dust
 <recipetype:mekanism:crushing>.addJSONRecipe("unify/mekanism_crusher/aluminium/dust",{
-	"type": "mekanism:crushing",
-	"input": {
-		"ingredient": {
-			"tag": "forge:ingots/aluminum"
-		}
-	},
-	"output": {
-		"item": "immersiveengineering:dust_aluminum",
-		"count": 1
-	}
+    "type": "mekanism:crushing",
+    "input": {
+        "ingredient": {
+            "tag": "forge:ingots/aluminum"
+        }
+    },
+    "output": {
+        "item": "immersiveengineering:dust_aluminum",
+        "count": 1
+    }
 });
 
-//Silver Dust
+// Silver Dust
 <recipetype:mekanism:crushing>.addJSONRecipe("unify/mekanism_crusher/silver/dust",{
-	"type": "mekanism:crushing",
-	"input": {
-		"ingredient": {
-			"tag": "forge:ingots/silver"
-		}
-	},
-	"output": {
-		"item": "immersiveengineering:dust_silver",
-		"count": 1
-	}
+    "type": "mekanism:crushing",
+    "input": {
+        "ingredient": {
+            "tag": "forge:ingots/silver"
+        }
+    },
+    "output": {
+        "item": "immersiveengineering:dust_silver",
+        "count": 1
+    }
 });
 
-//Nickel Dust
+// Nickel Dust
 <recipetype:mekanism:crushing>.addJSONRecipe("unify/mekanism_crusher/nickel/dust",{
-	"type": "mekanism:crushing",
-	"input": {
-		"ingredient": {
-			"tag": "forge:ingots/nickel"
-		}
-	},
-	"output": {
-		"item": "immersiveengineering:dust_nickel",
-		"count": 1
-	}
+    "type": "mekanism:crushing",
+    "input": {
+        "ingredient": {
+            "tag": "forge:ingots/nickel"
+        }
+    },
+    "output": {
+        "item": "immersiveengineering:dust_nickel",
+        "count": 1
+    }
 });
 
-//Constantan Dust
+// Constantan Dust
 <recipetype:mekanism:crushing>.addJSONRecipe("unify/mekanism_crusher/constantan/dust",{
-	"type": "mekanism:crushing",
-	"input": {
-		"ingredient": {
-			"tag": "forge:ingots/constantan"
-		}
-	},
-	"output": {
-		"item": "immersiveengineering:dust_constantan",
-		"count": 1
-	}
+    "type": "mekanism:crushing",
+    "input": {
+        "ingredient": {
+            "tag": "forge:ingots/constantan"
+        }
+    },
+    "output": {
+        "item": "immersiveengineering:dust_constantan",
+        "count": 1
+    }
 });
 
-//Electrum Dust
+// Electrum Dust
 <recipetype:mekanism:crushing>.addJSONRecipe("unify/mekanism_crusher/electrum/dust",{
-	"type": "mekanism:crushing",
-	"input": {
-		"ingredient": {
-			"tag": "forge:ingots/electrum"
-		}
-	},
-	"output": {
-		"item": "immersiveengineering:dust_electrum",
-		"count": 1
-	}
+    "type": "mekanism:crushing",
+    "input": {
+        "ingredient": {
+            "tag": "forge:ingots/electrum"
+        }
+    },
+    "output": {
+        "item": "immersiveengineering:dust_electrum",
+        "count": 1
+    }
 });
 
-//Certus Quartz Dust
+// Certus Quartz Dust
 <recipetype:mekanism:crushing>.removeByName("mekanism:compat/appliedenergistics2/certus_crystal_to_dust");
 <recipetype:mekanism:crushing>.addJSONRecipe("unify/mekanism_crusher/certusquartz/dust",{
-	"type": "mekanism:crushing",
-	"input": {
-		"ingredient": {
-			"item": "appliedenergistics2:certus_quartz_crystal"
-		}
-	},
-	"output": {
-		"item": "appliedenergistics2:certus_quartz_dust",
-		"count": 1
-	}
+    "type": "mekanism:crushing",
+    "input": {
+        "ingredient": {
+            "item": "appliedenergistics2:certus_quartz_crystal"
+        }
+    },
+    "output": {
+        "item": "appliedenergistics2:certus_quartz_dust",
+        "count": 1
+    }
 });
 
-//Quartz Dust
+// Quartz Dust
 <recipetype:mekanism:crushing>.removeByName("mekanism:processing/quartz/to_dust");
 <recipetype:mekanism:crushing>.addJSONRecipe("unify/mekanism_crusher/quartz/dust",{
-	"type": "mekanism:crushing",
-	"input": {
-		"ingredient": {
-			"tag": "forge:gems/quartz"
-		}
-	},
-	"output": {
-		"item": "appliedenergistics2:nether_quartz_dust",
-		"count": 1
-	}
+    "type": "mekanism:crushing",
+    "input": {
+        "ingredient": {
+            "tag": "forge:gems/quartz"
+        }
+    },
+    "output": {
+        "item": "appliedenergistics2:nether_quartz_dust",
+        "count": 1
+    }
+});
+
+// Coal Coke Dust
+<recipetype:mekanism:crushing>.addJSONRecipe("unify/mekanism_crusher/dust/coke/from_block",{
+    "type": "mekanism:crushing",
+    "input": {
+        "ingredient": {
+            "tag": "forge:storage_blocks/coal_coke"
+        }
+    },
+    "output": {
+        "item": "immersiveengineering:dust_coke",
+        "count": 9
+    }
+});
+<recipetype:mekanism:crushing>.addJSONRecipe("unify/mekanism_crusher/dust/coke/from_coal",{
+    "type": "mekanism:crushing",
+    "input": {
+        "ingredient": {
+            "tag": "forge:coal_coke"
+        }
+    },
+    "output": {
+        "item": "immersiveengineering:dust_coke",
+        "count": 1
+    }
 });

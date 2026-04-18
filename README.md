@@ -25,7 +25,7 @@ Eventually you become desperate, you start pouring your blood over stones, somet
 Your body stopped healing itself, you need to find another way to regenerate.</br>
 Those blue trees that you created seem to have item transportation abilities.
 
-Use Antimatter, the power of the stars to reach Alfheim and harvest their resources to make the Meka-Suit?
+Use Antimatter, the power of the stars to reach Alfheim and harvest their resources to make the Meka-Suit!
 
 Contains a custom advancements tab to help you a little.
 
@@ -34,7 +34,7 @@ Contains a custom advancements tab to help you a little.
 [![Modlist](https://www.bisecthosting.com/images/CF/Spirited_Dynamics/BH_SD_MODLIST.png)](https://legacy.curseforge.com/minecraft/modpacks/spirited-dynamics/files/7615234)
 [Click the picture for the modlist ;)](https://legacy.curseforge.com/minecraft/modpacks/spirited-dynamics/files/7615234)
 
-Thanks to [SnowyChickens](https://legacy.curseforge.com/members/snowychickens/followers) for the custom item textures
+Thanks to [SnowyChickens](https://legacy.curseforge.com/members/snowychickens/followers) for the custom ingot textures and [d3f0k0](https://github.com/d3f0k0/farland1ng-texture) for the custom staff textures
 
 [![Discord](https://i.imgur.com/PIXNNlJ.png)](https://discord.gg/hsae7DJ)
 

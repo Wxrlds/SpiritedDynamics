@@ -3040,6 +3040,53 @@
             ]
         },
         {
+            "pakku_id": "FALYj6SdLMVsqSBV",
+            "pakku_links": [
+                "h2xwyBFo3vc22vur",
+                "KkvEtXvZXdyLt5de",
+                "cuawR3MHAwD3NLKq",
+                "BFIA06IwtjkA05ul"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "ftb-quests-forge"
+            },
+            "name": {
+                "curseforge": "FTB Quests (NeoForge)"
+            },
+            "id": {
+                "curseforge": "289412"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "ftb-quests-forge-1605.3.7-build.165.jar",
+                    "mc_versions": [
+                        "1.16.5"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4297/999/ftb-quests-forge-1605.3.7-build.165.jar",
+                    "id": "4297999",
+                    "parent_id": "289412",
+                    "hashes": {
+                        "sha1": "4f472855366391cbd5ac467f68f74e3938fb66a1",
+                        "md5": "27b560d2862ce959435dfedeebcf741e"
+                    },
+                    "required_dependencies": [
+                        "309674",
+                        "404465",
+                        "404468",
+                        "419699"
+                    ],
+                    "size": 953257,
+                    "date_published": "2023-01-04T15:50:15.057Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "cuawR3MHAwD3NLKq",
             "pakku_links": [
                 "BFIA06IwtjkA05ul"
@@ -4038,6 +4085,48 @@
             ]
         },
         {
+            "pakku_id": "h2xwyBFo3vc22vur",
+            "pakku_links": [
+                "BFIA06IwtjkA05ul"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "item-filters"
+            },
+            "name": {
+                "curseforge": "Item Filters"
+            },
+            "id": {
+                "curseforge": "309674"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "item-filters-forge-1605.2.5-build.9.jar",
+                    "mc_versions": [
+                        "1.16.5",
+                        "1.16.4"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/3376/819/item-filters-forge-1605.2.5-build.9.jar",
+                    "id": "3376819",
+                    "parent_id": "309674",
+                    "hashes": {
+                        "sha1": "52c14355c8e416d30f92eb2a2544f397f4693c34",
+                        "md5": "6e81a16049d7f2a6996cd1b0e97a3b03"
+                    },
+                    "required_dependencies": [
+                        "419699"
+                    ],
+                    "size": 106801,
+                    "date_published": "2021-07-05T00:30:35.130Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "PdsYom3cRGTuzOGW",
             "type": "MOD",
             "side": "CLIENT",
@@ -4255,7 +4344,7 @@
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "JustEnoughMekanismMultiblocks-1.16.5-1.9.jar",
+                    "file_name": "JustEnoughMekanismMultiblocks-1.16.5-1.11.jar",
                     "mc_versions": [
                         "1.16.5"
                     ],
@@ -4263,19 +4352,19 @@
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6972/949/JustEnoughMekanismMultiblocks-1.16.5-1.9.jar",
-                    "id": "6972949",
+                    "url": "https://edge.forgecdn.net/files/7921/230/JustEnoughMekanismMultiblocks-1.16.5-1.11.jar",
+                    "id": "7921230",
                     "parent_id": "898746",
                     "hashes": {
-                        "sha1": "9563e1c2d55c38f85c30739934affa6fff4b8579",
-                        "md5": "37679ff282be78083552b9275fbb185d"
+                        "sha1": "9f2a4dbce92a369428904e6a70728ee5c7d56e71",
+                        "md5": "0881368c172c500a897dcc2d4db3d15a"
                     },
                     "required_dependencies": [
-                        "238222",
-                        "268560"
+                        "268560",
+                        "238222"
                     ],
-                    "size": 149157,
-                    "date_published": "2025-09-07T14:55:14.083Z"
+                    "size": 167945,
+                    "date_published": "2026-04-13T15:01:57.503Z"
                 }
             ]
         },

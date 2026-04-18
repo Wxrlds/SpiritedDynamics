@@ -3,7 +3,7 @@ onEvent("jei.information", (event) => {
     "Strike Certus Quartz Crystals with lightning to craft",
   ]);
   event.add("astralsorcery:stardust", [
-    "To craft, throw a Starmetal Ingot on the ground and hit it with a Starmetal Cutting Tool",
+    "Can also be crafted, by throwing a Starmetal Ingot on the ground and hitting it with a Starmetal Cutting Tool",
   ]);
   event.add("botania:blaze_block", [
     "Summon a Fel Blaze with a Fel Pumpkin and two Iron Bars to obtain Blaze Powder",
@@ -41,7 +41,7 @@ onEvent("jei.information", (event) => {
     "To craft, search for the Occultism Netherrack recipe",
   ]);
   event.add("occultism:otherstone", [
-    "To craft, search for the Occultism Andesite recipe",
+    "To craft, search for the Occultism Andesite recipe. Can also be obtained from the Otherstone Trader",
   ]);
   event.add("bloodmagic:weak_tau", [
     "Can be found by performing the Blood Magic ritual 'Edge of the Hidden Realm'.",
@@ -51,4 +51,6 @@ onEvent("jei.information", (event) => {
     "Obtained by growing normal Tau while having mobs nearby.",
     "Check the 'Sanguine Scientiem' for more information",
   ]);
+  event.add("minecraft:elytra", ["Can be attached to a chestplate."]);
+  event.add("mekanism:hdpe_elytra", ["Can be attached to a chestplate."]);
 });

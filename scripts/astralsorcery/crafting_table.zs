@@ -1,6 +1,11 @@
-//Luminous Crafting Table
+// Luminous Crafting Table
 craftingTable.addShaped("astralsorcery/crafting_table/luminous_crafting_table", <item:astralsorcery:altar_discovery>, [
     [<item:astralsorcery:marble_raw>, <item:minecraft:enchanting_table>, <item:astralsorcery:marble_raw>],
     [<item:astralsorcery:black_marble_raw>, <item:naturesaura:ancient_log>, <item:astralsorcery:black_marble_raw>],
     [<item:naturesaura:ancient_log>, <item:naturesaura:ancient_log>, <item:naturesaura:ancient_log>]
 ]);
+
+// Stardust
+craftingTable.addShapeless("astralsorcery/crafting_table/stardust", <item:astralsorcery:stardust>,
+    [<item:astralsorcery:starmetal_ingot>, <item:astralsorcery:chisel>.anyDamage().transformDamage(1)]
+);

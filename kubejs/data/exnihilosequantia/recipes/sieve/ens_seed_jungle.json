@@ -1,0 +1,35 @@
+{
+  "type": "exnihilosequentia:sieve",
+  "rolls": [
+    {
+      "chance": 0.05,
+      "mesh": "string"
+    },
+    {
+      "chance": 0.07,
+      "mesh": "flint"
+    },
+    {
+      "chance": 0.09,
+      "mesh": "iron"
+    },
+    {
+      "chance": 0.11,
+      "mesh": "diamond"
+    },
+    {
+      "chance": 0.13,
+      "mesh": "emerald"
+    },
+    {
+      "chance": 0.15,
+      "mesh": "netherite"
+    }
+  ],
+  "input": {
+    "item": "minecraft:dirt"
+  },
+  "result": {
+    "item": "exnihilosequentia:seed_jungle"
+  }
+}

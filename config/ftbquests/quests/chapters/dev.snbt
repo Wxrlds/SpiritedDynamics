@@ -2,9 +2,10 @@
 	id: "578998E261DF9D60"
 	group: ""
 	order_index: 0
-	filename: "guided_mode"
-	title: "Progression Help"
+	filename: "dev"
+	title: "Dev"
 	icon: "botania:pure_daisy"
+	always_invisible: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

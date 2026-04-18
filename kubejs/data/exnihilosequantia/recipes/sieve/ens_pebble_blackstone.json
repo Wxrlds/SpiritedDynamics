@@ -1,0 +1,39 @@
+{
+  "type": "exnihilosequentia:sieve",
+  "rolls": [
+    {
+      "chance": 0.5,
+      "mesh": "string"
+    },
+    {
+      "chance": 0.1,
+      "mesh": "string"
+    },
+    {
+      "chance": 0.12,
+      "mesh": "flint"
+    },
+    {
+      "chance": 0.15,
+      "mesh": "iron"
+    },
+    {
+      "chance": 0.2,
+      "mesh": "diamond"
+    },
+    {
+      "chance": 0.21,
+      "mesh": "emerald"
+    },
+    {
+      "chance": 0.23,
+      "mesh": "netherite"
+    }
+  ],
+  "input": {
+    "item": "minecraft:dirt"
+  },
+  "result": {
+    "item": "exnihilosequentia:pebble_blackstone"
+  }
+}

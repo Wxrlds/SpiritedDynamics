@@ -1,21 +1,22 @@
 {
-	"type": "alchemistry:dissolver",
-	"group": "minecraft:misc",
-	"input": {
-		"item": "bloodmagic:blankrune"
-	},
-	"output": {
-		"rolls": 1,
-		"relativeProbability": false,
-		"groups": [
-			{
-				"probability": 65.0,
-				"stacks": [
-					{
-						"item": "chemlib:element_tungsten"
-					}
-				]
-			}
-		]
-	}
+  "type": "alchemistry:dissolver",
+  "group": "minecraft:misc",
+  "input": {
+    "item": "bloodmagic:blankrune"
+  },
+  "output": {
+    "rolls": 1,
+    "relativeProbability": false,
+    "groups": [
+      {
+        "probability": 100.0,
+        "stacks": [
+          {
+            "item": "chemlib:element_tungsten",
+            "count": 16
+          }
+        ]
+      }
+    ]
+  }
 }
