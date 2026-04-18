@@ -1,5 +1,18 @@
 # Spirited Dynamics Mod Changelogs
 
+## v0.4.0
+
+### Projects
+
+#### Added
+
+- FTB Quests (NeoForge)
+- Item Filters
+
+#### Updated
+
+- JustEnoughMekanismMultiblocks-1.16.5-1.9.jar -> JustEnoughMekanismMultiblocks-1.16.5-1.11.jar
+
 ## v0.3.4
 
 ### Projects
