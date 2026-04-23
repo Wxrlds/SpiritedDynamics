@@ -1,5 +1,8 @@
 # Spirited Dynamics Mod Changelogs
 
+## v1.0.0
+
+
 ## v0.4.0
 
 ### Projects
