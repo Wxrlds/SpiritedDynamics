@@ -75,5 +75,5 @@ craftingTable.addShaped("mekanism/crafting_table/condiut/gas/ultimate", <item:me
 
 // Enriched Iron
 craftingTable.addShapeless("mekanism/crafting_table/enriched/iron", <item:mekanism:enriched_iron> * 9,
-	[<item:contenttweaker:enriched_iron_block>]
+    [<item:contenttweaker:enriched_iron_block>]
 );

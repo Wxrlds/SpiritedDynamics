@@ -21,3 +21,4 @@
 <tag:items:mythicbotany:ritua_runes>.add(<item:naturesaura:token_terror>);
 <tag:items:mythicbotany:ritua_runes>.add(<item:occultism:iesnium_dust>);
 <tag:items:mythicbotany:ritua_runes>.add(<item:travel_anchors:travel_anchor>);
+<tag:items:mythicbotany:ritua_runes>.add(<item:beetifulgarden:beetzza>);

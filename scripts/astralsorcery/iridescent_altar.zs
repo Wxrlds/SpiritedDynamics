@@ -78,7 +78,7 @@ blastFurnace.removeRecipe(<item:minecraft:netherite_ingot>);
 <recipetype:astralsorcery:altar>.addJSONRecipe("astralsorcery/iridescent_altar/netherite/ingot",{
     "type": "astralsorcery:altar",
     "altar_type": 3,
-    "duration": 600,
+    "duration": 60,
     "starlight": 4000,
     "pattern": [
         "DXNZD",
@@ -122,7 +122,7 @@ blastFurnace.removeRecipe(<item:minecraft:netherite_ingot>);
     "output": [
         {
             "item": "minecraft:netherite_ingot",
-            "count": 2
+            "count": 6
         }
     ],
     "relay_inputs": [

@@ -27,7 +27,7 @@ Those blue trees that you created seem to have item transportation abilities.
 
 Use Antimatter, the power of the stars to reach Alfheim and harvest their resources to make the Meka-Suit!
 
-Contains a custom advancements tab to help you a little.
+Contains a questbook and custom advancement tab to help you a little.
 
 </center>
 

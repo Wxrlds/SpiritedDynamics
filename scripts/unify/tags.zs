@@ -3,9 +3,12 @@
 import crafttweaker.api.item.IItemStack;
 
 // Aluminium
+<tag:items:apotheosis:boon_drops>.remove(<item:exnihilosequentia:chunk_aluminum>);
 <tag:items:forge:ingots/aluminum>.remove(<item:chemlib:ingot_aluminum>);
 <tag:items:forge:ingots/aluminum>.remove(<item:exnihilosequentia:ingot_aluminum>);
 <tag:items:forge:ingots>.remove(<item:exnihilosequentia:ingot_aluminum>);
+<tag:items:forge:ores/aluminum>.remove(<item:exnihilosequentia:chunk_aluminum>);
+<tag:items:forge:ores>.remove(<item:exnihilosequentia:chunk_aluminum>);
 
 // Coal
 <tag:items:forge:dusts/coal>.remove(<item:bloodmagic:coalsand>);
@@ -22,6 +25,7 @@ import crafttweaker.api.item.IItemStack;
 <tag:blocks:forge:storage_blocks>.remove(<block:occultism:copper_block>);
 <tag:blocks:mekanism:atomic_disassembler_ore>.remove(<block:immersiveengineering:ore_copper>);
 <tag:blocks:mekanism:atomic_disassembler_ore>.remove(<block:occultism:copper_ore>);
+<tag:items:apotheosis:boon_drops>.remove(<item:exnihilosequentia:chunk_copper>);
 <tag:items:forge:dusts/copper>.remove(<item:immersiveengineering:dust_copper>);
 <tag:items:forge:dusts/copper>.remove(<item:occultism:copper_dust>);
 <tag:items:forge:dusts>.remove(<item:immersiveengineering:dust_copper>);
@@ -36,8 +40,10 @@ import crafttweaker.api.item.IItemStack;
 <tag:items:forge:nuggets/copper>.remove(<item:immersiveengineering:nugget_copper>);
 <tag:items:forge:nuggets/copper>.remove(<item:occultism:copper_nugget>);
 <tag:items:forge:nuggets>.remove(<item:immersiveengineering:nugget_copper>);
+<tag:items:forge:ores/copper>.remove(<item:exnihilosequentia:chunk_copper>);
 <tag:items:forge:ores/copper>.remove(<item:immersiveengineering:ore_copper>);
 <tag:items:forge:ores/copper>.remove(<item:occultism:copper_ore>);
+<tag:items:forge:ores>.remove(<item:exnihilosequentia:chunk_copper>);
 <tag:items:forge:ores>.remove(<item:immersiveengineering:ore_copper>);
 <tag:items:forge:ores>.remove(<item:occultism:copper_ore>);
 <tag:items:forge:storage_blocks/copper>.remove(<item:immersiveengineering:storage_copper>);
@@ -46,6 +52,7 @@ import crafttweaker.api.item.IItemStack;
 <tag:items:forge:storage_blocks>.remove(<item:occultism:copper_block>);
 
 // Gold
+<tag:items:apotheosis:boon_drops>.remove(<item:exnihilosequentia:chunk_gold>);
 <tag:items:bloodmagic:fragments/gold>.remove(<item:bloodmagic:goldfragment>);
 <tag:items:bloodmagic:gravels/gold>.remove(<item:bloodmagic:goldgravel>);
 <tag:items:forge:dusts/gold>.remove(<item:appliedenergistics2:gold_dust>);
@@ -56,8 +63,11 @@ import crafttweaker.api.item.IItemStack;
 <tag:items:forge:dusts>.remove(<item:bloodmagic:goldsand>);
 <tag:items:forge:dusts>.remove(<item:immersiveengineering:dust_gold>);
 <tag:items:forge:dusts>.remove(<item:occultism:gold_dust>);
+<tag:items:forge:ores/gold>.remove(<item:exnihilosequentia:chunk_gold>);
+<tag:items:forge:ores>.remove(<item:exnihilosequentia:chunk_gold>);
 
 // Iron
+<tag:items:apotheosis:boon_drops>.remove(<item:exnihilosequentia:chunk_iron>);
 <tag:items:bloodmagic:fragments/iron>.remove(<item:bloodmagic:ironfragment>);
 <tag:items:bloodmagic:gravels/iron>.remove(<item:bloodmagic:irongravel>);
 <tag:items:forge:dusts/iron>.remove(<item:appliedenergistics2:iron_dust>);
@@ -68,6 +78,8 @@ import crafttweaker.api.item.IItemStack;
 <tag:items:forge:dusts>.remove(<item:bloodmagic:ironsand>);
 <tag:items:forge:dusts>.remove(<item:immersiveengineering:dust_iron>);
 <tag:items:forge:dusts>.remove(<item:occultism:iron_dust>);
+<tag:items:forge:ores/iron>.remove(<item:exnihilosequentia:chunk_iron>);
+<tag:items:forge:ores>.remove(<item:exnihilosequentia:chunk_iron>);
 
 // Lead
 <tag:blocks:forge:ores/lead>.remove(<block:immersiveengineering:ore_lead>);
@@ -75,6 +87,7 @@ import crafttweaker.api.item.IItemStack;
 <tag:blocks:forge:storage_blocks/lead>.remove(<block:immersiveengineering:storage_lead>);
 <tag:blocks:forge:storage_blocks>.remove(<block:immersiveengineering:storage_lead>);
 <tag:blocks:mekanism:atomic_disassembler_ore>.remove(<block:immersiveengineering:ore_lead>);
+<tag:items:apotheosis:boon_drops>.remove(<item:exnihilosequentia:chunk_lead>);
 <tag:items:forge:dusts/lead>.remove(<item:immersiveengineering:dust_lead>);
 <tag:items:forge:dusts>.remove(<item:immersiveengineering:dust_lead>);
 <tag:items:forge:ingots/lead>.remove(<item:chemlib:ingot_lead>);
@@ -84,7 +97,9 @@ import crafttweaker.api.item.IItemStack;
 <tag:items:forge:ingots>.remove(<item:immersiveengineering:ingot_lead>);
 <tag:items:forge:nuggets/lead>.remove(<item:immersiveengineering:nugget_lead>);
 <tag:items:forge:nuggets>.remove(<item:immersiveengineering:nugget_lead>);
+<tag:items:forge:ores/lead>.remove(<item:exnihilosequentia:chunk_lead>);
 <tag:items:forge:ores/lead>.remove(<item:immersiveengineering:ore_lead>);
+<tag:items:forge:ores>.remove(<item:exnihilosequentia:chunk_lead>);
 <tag:items:forge:ores>.remove(<item:immersiveengineering:ore_lead>);
 <tag:items:forge:storage_blocks/lead>.remove(<item:immersiveengineering:storage_lead>);
 <tag:items:forge:storage_blocks>.remove(<item:immersiveengineering:storage_lead>);
@@ -95,16 +110,22 @@ import crafttweaker.api.item.IItemStack;
 <tag:items:forge:dusts/netherite_scrap>.remove(<item:bloodmagic:sand_netherite>);
 
 // Nickel
+<tag:items:apotheosis:boon_drops>.remove(<item:exnihilosequentia:chunk_nickel>);
 <tag:items:forge:ingots/nickel>.remove(<item:chemlib:ingot_nickel>);
 <tag:items:forge:ingots/nickel>.remove(<item:exnihilosequentia:ingot_nickel>);
 <tag:items:forge:ingots>.remove(<item:exnihilosequentia:ingot_nickel>);
+<tag:items:forge:ores/nickel>.remove(<item:exnihilosequentia:chunk_nickel>);
+<tag:items:forge:ores>.remove(<item:exnihilosequentia:chunk_nickel>);
 
 // Obsidian
 <tag:items:forge:dusts/obsidian>.remove(<item:occultism:obsidian_dust>);
 <tag:items:forge:dusts>.remove(<item:occultism:obsidian_dust>);
 
 // Osmium
+<tag:items:apotheosis:boon_drops>.remove(<item:exnihilosequentia:chunk_osmium>);
 <tag:items:forge:ingots/osmium>.remove(<item:chemlib:ingot_osmium>);
+<tag:items:forge:ores/osmium>.remove(<item:exnihilosequentia:chunk_osmium>);
+<tag:items:forge:ores>.remove(<item:exnihilosequentia:chunk_osmium>);
 
 // Quartz
 <tag:items:appliedenergistics2:dusts/quartz>.remove(<item:mekanism:dust_quartz>);
@@ -116,6 +137,7 @@ import crafttweaker.api.item.IItemStack;
 <tag:blocks:forge:ores>.remove(<block:occultism:silver_ore>);
 <tag:blocks:forge:storage_blocks/silver>.remove(<block:occultism:silver_block>);
 <tag:blocks:mekanism:atomic_disassembler_ore>.remove(<block:occultism:silver_ore>);
+<tag:items:apotheosis:boon_drops>.remove(<item:exnihilosequentia:chunk_silver>);
 <tag:items:forge:dusts/silver>.remove(<item:occultism:silver_dust>);
 <tag:items:forge:dusts>.remove(<item:occultism:silver_dust>);
 <tag:items:forge:ingots/silver>.remove(<item:chemlib:ingot_silver>);
@@ -124,7 +146,9 @@ import crafttweaker.api.item.IItemStack;
 <tag:items:forge:ingots>.remove(<item:exnihilosequentia:ingot_silver>);
 <tag:items:forge:ingots>.remove(<tag:items:forge:ingots>);
 <tag:items:forge:nuggets/silver>.remove(<item:occultism:silver_nugget>);
+<tag:items:forge:ores/silver>.remove(<item:exnihilosequentia:chunk_silver>);
 <tag:items:forge:ores/silver>.remove(<item:occultism:silver_ore>);
+<tag:items:forge:ores>.remove(<item:exnihilosequentia:chunk_silver>);
 <tag:items:forge:ores>.remove(<item:occultism:silver_ore>);
 <tag:items:forge:storage_blocks/silver>.remove(<item:occultism:silver_block>);
 
@@ -147,9 +171,12 @@ import crafttweaker.api.item.IItemStack;
 <tag:items:forge:dusts>.remove(<item:immersiveengineering:dust_sulfur>);
 
 // Tin
+<tag:items:apotheosis:boon_drops>.remove(<item:exnihilosequentia:chunk_tin>);
 <tag:items:forge:ingots/tin>.remove(<item:chemlib:ingot_tin>);
 <tag:items:forge:ingots/tin>.remove(<item:exnihilosequentia:ingot_tin>);
 <tag:items:forge:ingots>.remove(<item:exnihilosequentia:ingot_tin>);
+<tag:items:forge:ores/tin>.remove(<item:exnihilosequentia:chunk_tin>);
+<tag:items:forge:ores>.remove(<item:exnihilosequentia:chunk_tin>);
 
 // Uranium
 <tag:blocks:forge:ores/uranium>.remove(<block:immersiveengineering:ore_uranium>);
@@ -157,6 +184,7 @@ import crafttweaker.api.item.IItemStack;
 <tag:blocks:forge:storage_blocks/uranium>.remove(<block:immersiveengineering:storage_uranium>);
 <tag:blocks:forge:storage_blocks>.remove(<block:immersiveengineering:storage_uranium>);
 <tag:blocks:mekanism:atomic_disassembler_ore>.remove(<block:immersiveengineering:ore_uranium>);
+<tag:items:apotheosis:boon_drops>.remove(<item:exnihilosequentia:chunk_uranium>);
 <tag:items:forge:dusts/uranium>.remove(<item:immersiveengineering:dust_uranium>);
 <tag:items:forge:dusts>.remove(<item:immersiveengineering:dust_uranium>);
 <tag:items:forge:ingots/uranium>.remove(<item:chemlib:ingot_uranium>);
@@ -166,17 +194,19 @@ import crafttweaker.api.item.IItemStack;
 <tag:items:forge:ingots>.remove(<item:immersiveengineering:ingot_uranium>);
 <tag:items:forge:nuggets/uranium>.remove(<item:immersiveengineering:nugget_uranium>);
 <tag:items:forge:nuggets>.remove(<item:immersiveengineering:nugget_uranium>);
+<tag:items:forge:ores/uranium>.remove(<item:exnihilosequentia:chunk_uranium>);
 <tag:items:forge:ores/uranium>.remove(<item:immersiveengineering:ore_uranium>);
+<tag:items:forge:ores>.remove(<item:exnihilosequentia:chunk_uranium>);
 <tag:items:forge:ores>.remove(<item:immersiveengineering:ore_uranium>);
 <tag:items:forge:storage_blocks/uranium>.remove(<item:immersiveengineering:storage_uranium>);
 <tag:items:forge:storage_blocks>.remove(<item:immersiveengineering:storage_uranium>);
 
 // Wood Dust
 <tag:items:forge:dusts/wood>.remove(<item:excompressum:wood_chippings>);
-<tag:items:forge:dusts>.remove(<item:excompressum:wood_chippings>);
-<tag:items:forge:sawdust>.remove(<item:excompressum:wood_chippings>);
 <tag:items:forge:dusts/wood>.remove(<item:immersiveengineering:dust_wood>);
+<tag:items:forge:dusts>.remove(<item:excompressum:wood_chippings>);
 <tag:items:forge:dusts>.remove(<item:immersiveengineering:dust_wood>);
+<tag:items:forge:sawdust>.remove(<item:excompressum:wood_chippings>);
 <tag:items:forge:sawdust>.remove(<item:immersiveengineering:dust_wood>);
 
 // Yellow Dye
@@ -184,18 +214,18 @@ import crafttweaker.api.item.IItemStack;
 <tag:items:forge:dyes>.remove(<item:mekanism:dust_sulfur>);
 
 // Salt
-<tag:items:forge:salt/salt>.add(<item:mekanism:salt>);
-<tag:items:forge:salt/salt>.add(<item:alchemistry:mineral_salt>);
 <tag:items:forge:dusts/salt>.add(<item:alchemistry:mineral_salt>);
-<tag:items:forge:salt>.add(<item:alchemistry:mineral_salt>);
 <tag:items:forge:dusts>.add(<item:alchemistry:mineral_salt>);
+<tag:items:forge:salt/salt>.add(<item:alchemistry:mineral_salt>);
+<tag:items:forge:salt/salt>.add(<item:mekanism:salt>);
 <tag:items:forge:salt/salt>.remove(<item:pamhc2foodcore:saltitem>);
+<tag:items:forge:salt>.add(<item:alchemistry:mineral_salt>);
 <tag:items:forge:salt>.remove(<item:pamhc2foodcore:saltitem>);
 
 // Ancient Wood
+<tag:items:minecraft:saplings>.add(<item:naturesaura:ancient_sapling>);
 <tag:items:minecraft:wooden_slabs>.add(<item:naturesaura:ancient_slab>);
 <tag:items:minecraft:wooden_stairs>.add(<item:naturesaura:ancient_stairs>);
-<tag:items:minecraft:saplings>.add(<item:naturesaura:ancient_sapling>);
 
 // Spawn Eggs
 val addItemTag as IItemStack[]=[

@@ -229,5 +229,5 @@
 	# Effects separated by pipe (|)
 	# modID:effectID|modID:effectID
 	# Default: minecraft:wither
-	beetzzaNegatesEffects = "minecraft:wither"
+	beetzzaNegatesEffects = "minecraft:wither|minecraft:poison|minecraft:levitation"
 

@@ -3,7 +3,7 @@
     "type": "mekanism:crystallizing",
     "chemicalType": "gas",
     "input": {
-      "amount": 75,
+      "amount": 150,
       "gas": "mekanism:antimatter"
     },
     "output": {

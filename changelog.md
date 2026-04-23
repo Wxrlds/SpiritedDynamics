@@ -1,8 +1,33 @@
 # Spirited Dynamics Changelogs
 
+## v1.0.0
+
+[Click here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/compare/beta/v0.4.0...release/v1.0.0)
+
+This update disables all processing from Ex Nihilo Ore Pieces. If you want to use them, do so before you update
+
+### Changed
+
+- Beetzza now cures Wither, Poison and Levitation
+- Accelerated Occultism Rituals
+
+### Recipes
+
+- Accelerated Netherite Ingot recipe + Increased output
+- Beetzza
+- Saturium Ingot
+- MekaSuit
+- Meka-Tool
+- Ex Nihilo Meshes now keep their NBT Data when upgrading
+- Anti-Matter Pellets
+
+### Disabled
+
+- Ex Nihilo Ore Chunks
+
 ## v0.4.0
 
-[Click here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/compare/beta/v0.3.4...beta/v0.3.5)
+[Click here for a more detailed changelog](https://github.com/Wxrlds/SpiritedDynamics/compare/beta/v0.3.4...beta/v0.4.0)
 
 This version now crafts Ex Nihilo Ore Pieces into normal Ores, instead of Ore Chunks. If you have an automation setup for these recipes, these ones will break and will have to be adjusted.
 The next update removes uses from the Ore Chunks, so you should process them in this version while you still can.
@@ -78,7 +103,7 @@ The next update removes uses from the Ore Chunks, so you should process them in 
 
 - End Stone gives more Thorium in Chemical Dissolver
 - Basic Item Collector
-- Mekasuit
+- MekaSuit
 - Elven Gateway core is now more common
 - Netherite Dust requires Arc Furnace
 
@@ -213,7 +238,7 @@ Akashic Tome was replaced with Eccentric Tome. Secure your books!
 ### Recipes
 
 - All Anvil Smashing Plate recipes now only damage the Anvil 5% of the time
-- Fixed Mekasuit Armour requiring input items with specific NBT
+- Fixed MekaSuit Armour requiring input items with specific NBT
 - Removed all The One Probe recipes
 - Saturium Ingot
 - Ender Chest
@@ -426,10 +451,10 @@ Curseforge broke the exported file, this is the fix. See below for changes
 - Item Pipe
 - Jetpack Unit
 - Meka-Tool
-- Mekasuit Bodyarmour
-- Mekasuit Boots
-- Mekasuit Helmet
-- Mekasuit Pants
+- MekaSuit Bodyarmour
+- MekaSuit Boots
+- MekaSuit Helmet
+- MekaSuit Pants
 - Mjöllnir
 - Netherite Scrap
 - Pewter Inlay

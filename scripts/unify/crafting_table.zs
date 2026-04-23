@@ -92,7 +92,8 @@ val removeName=[
     "immersiveengineering:crafting/ingot_lead_to_storage_lead",
     "immersiveengineering:crafting/ingot_steel_to_storage_steel",
     "immersiveengineering:crafting/ingot_uranium_to_storage_uranium",
-    "mekanism:paper"
+    "mekanism:paper",
+    "minecraft:ens_gilded_blackstone"
 ];
 
 for item in removeName {
